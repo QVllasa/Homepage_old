@@ -1,16 +1,14 @@
-
-
-
-
-
-
-
-
-
-
 .bg-dark{
 
   background: rgba(0,0,0 , 0.5) !important;
 
+}
+
+.container {
+  width: 100%;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
