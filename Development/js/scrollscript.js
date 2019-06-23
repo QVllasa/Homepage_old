@@ -1,3 +1,5 @@
+
+
 window.onscroll = function() {scrollFunctionResize(), scrollFunctionOpacity()};
 
 
@@ -27,6 +29,7 @@ function scrollFunctionOpacity () {
 
     }
 }
+
 
 
 
