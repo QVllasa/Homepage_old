@@ -19,40 +19,33 @@
 }
 
 #logoQ {
-  padding: 0px;
+  opacity: 0;
+  padding: 0;
   margin-top: -30px;
   margin-bottom: -30px;
 
 }
 
 #logoV {
-  padding: 0px;
+  opacity: 0;
+  padding: 0;
   margin-left: 20px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
 }
 
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0rem;
-  padding-bottom: 0rem;
-  margin-right: 0rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
   font-size: 1.25rem;
 
   white-space: nowrap;
 }
 
 @media (max-width: 767.98px) {
-  .navbar-expand-md > .container,
-  .navbar-expand-md > .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
-    margin-left:0;
-    margin-right: 0;
-
-  }
-
   #logoV{
     transition: 1s;
     margin-left: -15px;
@@ -62,7 +55,7 @@
 
 @media (max-width: 628px){
   #brandWidth{
-    width: 300px;
+    width: 150px;
     padding-right: 0;
     padding-left: 0;
     margin-left:0;
@@ -74,18 +67,16 @@
 
 @media (min-width: 768px) {
   #logoV{
-    transition: 1s;
+    transition: 0.3s;
     margin-left: 20px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0rem;
-    padding-left: 0rem;
+    padding-right: 0;
+    padding-left: 0;
     margin-left: 10px;
     margin-right: 10px;
-
-
-
   }
+
 }
 
 
@@ -105,7 +96,276 @@
 
 }
 
+li a {
+  white-space: nowrap;
+}
 
 
+/*Slide show style */
+
+
+video {
+  object-fit: cover;
+  object-position: center;
+  max-height: 700px;
+
+}
+
+
+.carousel-inner:hover {
+  border-top: 6px solid white;
+  border-right: 6px solid white;
+  border-left: 6px solid white;
+  transition: 1s;
+}
+
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 30%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+  text-align: center;
+  border: 3px solid white;
+}
+
+.carousel-caption.name-caption {
+  position: absolute;
+  right: 15%;
+  top: 30%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+  border: none;
+
+}
+
+#name-home {
+  font-size: 400%;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  #name-home {
+    font-size: 300%;
+    transition: 0.3s;
+
+
+  }
+
+  .carousel-caption.properties a {
+    font-size: 90% !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  #name-home {
+    font-size: 200%;
+    transition: 0.3s;
+
+
+  }
+
+  .carousel-caption.properties a {
+    font-size: 75% !important;
+  }
+
+  .carousel-caption {
+    bottom: 10%;
+  }
+}
+
+@media (max-width: 630px) {
+  #name-home {
+    font-size: 200%;
+    transition: 0.3s;
+
+
+  }
+
+  .carousel-caption.name-caption {
+    top: 40%;
+  }
+
+  .carousel-caption.properties a {
+    font-size: 25% !important;
+  }
+
+  .carousel-caption {
+    padding: 5px;
+    left: 20%;
+    right: 20%;
+
+
+  }
+}
+
+.navbar-toggler:hover {
+  border: 1px solid white;
+}
+
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  text-align: inherit;
+  white-space: nowrap;
+  color: rgba(0, 0, 0, 0.9);
+  border: 0;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: black;
+  background-color: white;
+}
+
+.dropdown-toggle::after {
+  display: none;
+
+}
+
+#name-home::before {
+  content: "Das bin ich.";
+  display: block;
+  background: none;
+  font-size: 75%;
+
+}
+
+
+.container.icon-container {
+  text-align: center;
+  display: flex;
+  background-color: darkgray;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+}
+
+
+.section-title h1 {
+  display: inline-block;
+  position: relative;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.section-title h1:before,
+.section-title h1:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #0f0f0f;
+  top: 50%;
+  width: 30px;
+}
+
+
+.section-title h1:before {
+  right: 100%;
+  margin-right: 15px;
+}
+
+
+.section-title h1:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+
+.bg-me {
+  display: inline-block;
+  background-color: #898C96;
+  padding: 10px;
+  color: white !important;
+  border-radius: 10px;
+}
+
+.name-img-title {
+  width: 100%;
+  background-color: #474D5D;
+  margin-top: -35px;
+  position: relative;
+  padding: 15px;
+}
+
+.name-img-title h3, h5 {
+  color: white;
+  text-align: center;
+}
+
+
+.best-in-section {
+  height: 200px;
+  background-color: white;
+}
+
+.portfolio-section {
+  height: 700px;
+  background-color: #474D5D !important;
+}
+
+
+.skill-section {
+  height: 700px;
+  background-color: beige !important;
+}
+
+#image-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 300%;
+  margin-top: -50%;
+}
+
+.quote-style {
+  margin: 10px 0 0 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 125%;
+}
 
 
