@@ -339,7 +339,6 @@ video {
 
 
 .portfolio-section {
-  height: 700px;
   background-color: #474D5D !important;
 }
 
@@ -383,3 +382,112 @@ video {
 .best-in-text-size {
   font-size: 75%;
 }
+
+
+/* portfolio container zoom */
+
+.port-item:hover .overlay {
+  transform: scale(1);
+}
+
+.port-item {
+  padding: 0;
+  margin: 0;
+}
+
+
+#portfolio-images img {
+  width: 100%;
+  height: auto;
+}
+
+
+.text-center {
+  text-align: center
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+  margin: 0;
+  padding: 2px;
+  opacity: 0.5;
+}
+
+
+.img-hover-zoom {
+  overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+}
+
+.img-hover-zoom img {
+  transition: transform 1s ease;
+}
+
+/* [3] Finally, transforming the image when container gets hovered */
+.img-hover-zoom:hover img {
+  transform: scale(2) rotate(15deg);
+
+
+}
+
+.border-customized {
+  border: 2px solid transparent;
+}
+
+.port-filter {
+  margin: 0;
+  padding: 0;
+  left: 0;
+}
+
+.port-filter ul {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+}
+
+.port-filter ul li {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  color: white;
+  font-weight: lighter;
+}
+
+
+.port-filter ul li a::after {
+  content: "/";
+  position: relative;
+  margin: 10px;
+
+}
+
+.port-filter ul li:last-child a::after {
+  content: "";
+  position: relative;
+  margin: 10px;
+
+}
+
+
+
