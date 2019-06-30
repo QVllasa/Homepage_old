@@ -337,10 +337,6 @@ video {
 }
 
 
-.best-in-section {
-  height: 200px;
-  background-color: white;
-}
 
 .portfolio-section {
   height: 700px;
@@ -369,3 +365,21 @@ video {
 }
 
 
+.keyfact-container {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.font-color-grey {
+  color: #595858;
+
+}
+
+.font-style-thin {
+  font-weight: lighter;
+}
+
+
+.best-in-text-size {
+  font-size: 75%;
+}
