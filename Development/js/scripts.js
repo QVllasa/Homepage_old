@@ -60,7 +60,7 @@ $('a[href*="#"]').on('click', function (e) {
 
 
 //show prev/next button on hover
-var hovering = $(".carousel-inner");
+var hovering = $("#video-carousel-header");
 
 hovering.mouseenter(
   function () {
@@ -86,7 +86,7 @@ hovering.mouseleave(
 $(document).ready(function () {
   $(window).on('load scroll', function () {
     var scrolled = $(this).scrollTop();
-    $('.carousel-item').css('transform', 'translate3d(0, ' + (scrolled * 0.25) + 'px, 0)');
+    $('.carousel-item.video-carousel-item').css('transform', 'translate3d(0, ' + (scrolled * 0.25) + 'px, 0)');
     $('.carousel-caption.properties').css('transform', 'translate3d(0, ' + (scrolled * (-0.5)) + 'px, 0)');// parallax (25% scroll rate)
     $('.carousel-caption.name-caption').css('transform', 'translate3d(0, ' + (scrolled * (-0.5)) + 'px, 0)');// parallax (25% scroll rate)
   });
@@ -155,3 +155,45 @@ window.onload = function () {
 };
 
 
+$("#latest-projects-link").click(function () {
+  $('.portfolio-slideshow').carousel(0);
+});
+
+$("#upcoming-projects-link").click(function () {
+  $('.portfolio-slideshow').carousel(1);
+});
+
+$("#archived-projects-link").click(function () {
+  $('.portfolio-slideshow').carousel(2);
+});
+
+
+var bar = new ProgressBar.Circle(container, {
+  color: '#595858',
+  trailColor: '#FFFFFF',
+  trailWidth: 6,
+  duration: 1400,
+  easing: 'bounce',
+  strokeWidth: 6,
+
+  from: {color: '#595858', a: 0},
+  to: {color: '#595858', a: 1},
+
+  // Set default step function for all animate calls
+  step: function (state, circle) {
+    circle.path.setAttribute('stroke', state.color);
+
+    var value = Math.round(circle.value() * 100);
+    if (value === 0) {
+      circle.setText('');
+    } else {
+      circle.setText(value + '%');
+    }
+  }
+});
+
+bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+bar.text.style.fontSize = '3rem';
+bar.text.style.color = '#595858';
+
+bar.animate(.7);  // Number from 0.0 to 1.0

@@ -35,6 +35,10 @@
   <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:300i&display=swap" rel="stylesheet">
   <!-- google fonts -->
 
+  <!-- progressbars-->
+  <script src="progressbars/js/progressbar.min.js"></script>
+  <!-- progressbars -->
+
 
 </head>
 
@@ -107,7 +111,7 @@
   <!--/.Indicators-->
   <!--Slides-->
 
-  <div class="carousel-inner " role="listbox" id="video-carousel-header">
+  <div class="carousel-inner" role="listbox" id="video-carousel-header">
 
     <div class="carousel-caption name-caption">
       <h1 id="name-home">Qendrim Vllasa</h1>
@@ -118,19 +122,19 @@
         <span class="wrap"></span>
       </a>
     </div>
-    <div class="carousel-item active">
+    <div class="carousel-item video-carousel-item active">
       <video class="video-fluid d-block w-100 " autoplay loop muted>
         <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4"/>
       </video>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item video-carousel-item">
       <div>
         <video class="video-fluid d-block w-100 " autoplay loop muted>
           <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4"/>
         </video>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item video-carousel-item">
       <video class="video-fluid d-block w-100 " autoplay loop muted>
         <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4"/>
       </video>
@@ -165,7 +169,7 @@
         <!-- self portrait -->
         <div class="col-md-4" style="padding-left: 0">
           <div class="container" style="margin: 10px 0 0 0;">
-            <img class="img-fluid" src="img/portrait.jpeg" style="opacity: 0.5;" alt="Portrait">
+            <img class="img-fluid self-portrait" src="img/portrait.jpeg" style="opacity: 0.5;" alt="Portrait">
             <span id="image-placeholder">Placeholder</span>
             <div class="container name-img-title">
               <h3>Qendrim Vllasa</h3>
@@ -405,19 +409,13 @@
         <div class="port-filter">
           <ul>
             <li>
-              <a>Link1</a>
+              <a id="latest-projects-link"><span>Letzte Projekte</span></a>
             </li>
             <li>
-              <a>Link2</a>
+              <a id="upcoming-projects-link"><span>Künftige Projekte</span></a>
             </li>
             <li>
-              <a>Link3</a>
-            </li>
-            <li>
-              <a>Link4</a>
-            </li>
-            <li>
-              <a>Link5</a>
+              <a id="archived-projects-link"><span>Archivierte Projekte</span></a>
             </li>
           </ul>
         </div>
@@ -426,97 +424,272 @@
 
     <!-- Portfolio -->
     <div class="container mt-2">
-      <div class="row justify-content-center" id="portfolio-images">
+      <div class="carousel slide portfolio-slideshow" data-ride="carousel" data-interval="false"
+           id="carouselExampleSlidesOnly">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center portfolio-images" id="latest-projects">
 
-        <div class="col-md-4 port-item border-customized" id="portfolio-images1">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images2">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">2</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images3">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">3</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images4">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">4</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images5">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">5</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images6">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">6</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images7">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">7</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images8">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">8</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 port-item  border-customized" id="portfolio-images9">
-          <div class="img-hover-zoom">
-            <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
-            <div class="overlay">
-              <div class="text">9</div>
-            </div>
-          </div>
-        </div>
+              <div class="col-md-4 port-item border-customized" id="portfolio-images1">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
+                  <div class="overlay ">
+                    <div class="text ">1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images2">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images3">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">3</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images4">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">4</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images5">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images6">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">6</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images7">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">7</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images8">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">8</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images9">
+                <div class="img-hover-zoom">
+                  <img src="img/Abstract%20Shapes%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">9</div>
+                  </div>
+                </div>
+              </div>
 
 
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center portfolio-images" id="upcoming-projects">
+
+              <div class="col-md-4 port-item border-customized" id="portfolio-images10">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%201.jpg" class="img-fluid">
+                  <div class="overlay ">
+                    <div class="text ">1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images11">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images12">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%203.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">3</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images13">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%203.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">4</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images14">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images15">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">6</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images16">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%203.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">7</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images17">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">8</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images18">
+                <div class="img-hover-zoom">
+                  <img src="img/Color%20Burst%202.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">9</div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center portfolio-images" id="archived-projects">
+
+              <div class="col-md-4 port-item border-customized" id="portfolio-images19">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay ">
+                    <div class="text ">1</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images20">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">2</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images21">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">3</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images22">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">4</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images23">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">5</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images24">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">6</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images25">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">7</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images26">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">8</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 port-item  border-customized" id="portfolio-images27">
+                <div class="img-hover-zoom">
+                  <img src="img/Chroma%201.jpg" class="img-fluid">
+                  <div class="overlay">
+                    <div class="text">9</div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
       </div>
+
+
     </div>
-  </div>
+
 
   </div>
 
   <div class="container-fluid skill-section pt-5" id="my-skills-section">
+
+    <!-- icon -->
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center" id="skills-icon">
         <div class="container icon-container align-items-center justify-content-center">
           <i class="fas fa-dumbbell fa-2x" style="color:white"></i>
         </div>
       </div>
       <div class="row justify-content-center mt-4 section-title">
         <h1 style="color:darkgrey">Meine<span class="bg-me ml-2 p-2">Skills</span></h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row justify-content-center">
+        <div id="container"></div>
       </div>
     </div>
 
