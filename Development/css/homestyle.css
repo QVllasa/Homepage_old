@@ -512,7 +512,7 @@ video {
   filter: grayscale(100%);
 }
 
-#container {
+.progress-container {
   margin: 20px;
   width: 150px;
   height: 150px;

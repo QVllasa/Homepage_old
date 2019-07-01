@@ -162,7 +162,6 @@ for (var i = 0; i < btns.length; i++) {
     console.log(current);
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
-
   });
 }
 
@@ -181,7 +180,7 @@ $("#archived-projects-link").click(function () {
 
 
 //progress bar
-var bar = new ProgressBar.Circle(container, {
+var settings = {
   color: '#595858',
   trailColor: '#FFFFFF',
   trailWidth: 6,
@@ -203,7 +202,10 @@ var bar = new ProgressBar.Circle(container, {
       circle.setText(value + '%');
     }
   }
-});
+};
+
+
+var bar = new ProgressBar.Circle('.progress-container', settings);
 
 bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
 bar.text.style.fontSize = '3rem';
