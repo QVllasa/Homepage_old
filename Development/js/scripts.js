@@ -154,6 +154,18 @@ window.onload = function () {
   document.body.appendChild(css);
 };
 
+//carousel-links
+var btns = document.getElementsByClassName('link-element');
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("link-element active");
+    console.log(current);
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+
+  });
+}
+
 
 $("#latest-projects-link").click(function () {
   $('.portfolio-slideshow').carousel(0);
@@ -168,6 +180,7 @@ $("#archived-projects-link").click(function () {
 });
 
 
+//progress bar
 var bar = new ProgressBar.Circle(container, {
   color: '#595858',
   trailColor: '#FFFFFF',
