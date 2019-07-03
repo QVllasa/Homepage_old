@@ -543,5 +543,27 @@ video {
 }
 
 
+#resume-lists {
+  height: 700px;
+  width: auto;
+}
 
+#resume-lists ul {
+  list-style: none;
+}
 
+#resume-lists li {
+  list-style: none;
+}
+
+.resume-section.present {
+  text-align: center;
+}
+
+.section-left-side {
+  text-align: left;
+}
+
+.section-right-side {
+  text-align: right;
+}

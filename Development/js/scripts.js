@@ -24,7 +24,7 @@ $(document).ready(function () {
     $('#background-dark').css("background", 'rgba(0,0,0,' + (s) + ')');
     $('#logoQ').css("opacity", -0.5 + s);
     $('#logoV').css("opacity", -0.5 + s);
-    console.log(s)
+
   })
 });
 
@@ -236,7 +236,7 @@ var normalbarsettings = {
   strokeWidth: 7,
   easing: 'bounce',
   duration: 1400,
-  color: '#8e8e8e',
+  color: '#595858',
   trailColor: '#e0e0e0',
   trailWidth: 7,
   svgStyle: {width: '100%', height: '100%'},
@@ -278,4 +278,13 @@ createNormalBars(nbar5, 0.9);
 createNormalBars(nbar6, 0.9);
 
 
+//canvas
+var c = document.getElementById("work-canvas");
+var width = c.getAttribute('width');
+var height = c.getAttribute('height');
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(width / 2, 0);
+ctx.lineTo(width / 2, height);
+ctx.stroke();
 
