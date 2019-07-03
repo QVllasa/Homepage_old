@@ -179,7 +179,7 @@ $("#archived-projects-link").click(function () {
 });
 
 
-//progress bar
+//circle progress bar
 var settings = {
   color: '#595858',
   trailColor: '#FFFFFF',
@@ -188,8 +188,9 @@ var settings = {
   easing: 'bounce',
   strokeWidth: 6,
 
+
   from: {color: '#595858', a: 0},
-  to: {color: '#595858', a: 1},
+  to: {color: '#595858', a: .7},
 
   // Set default step function for all animate calls
   step: function (state, circle) {
@@ -204,11 +205,32 @@ var settings = {
   }
 };
 
+var bar1 = new ProgressBar.Circle('#prog1', settings);
+var bar2 = new ProgressBar.Circle('#prog2', settings);
+var bar3 = new ProgressBar.Circle('#prog3', settings);
+var bar4 = new ProgressBar.Circle('#prog4', settings);
+var bar5 = new ProgressBar.Circle('#prog5', settings);
+var bar6 = new ProgressBar.Circle('#prog6', settings);
 
-var bar = new ProgressBar.Circle('.progress-container', settings);
 
-bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-bar.text.style.fontSize = '3rem';
-bar.text.style.color = '#595858';
+function createBar(bar, percentage) {
+  bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+  bar.text.style.fontSize = '2rem';
+  bar.text.style.color = '#595858';
+  bar.path.style.strokeLinecap = 'round';
+  bar.animate(percentage);
+}
 
-bar.animate(.7);  // Number from 0.0 to 1.0
+createBar(bar1, 0.9);
+createBar(bar2, 0.8);
+createBar(bar3, 0.7);
+createBar(bar4, 0.6);
+createBar(bar5, 0.5);
+createBar(bar6, 0.4);
+
+
+//normal progress bar
+
+
+
+

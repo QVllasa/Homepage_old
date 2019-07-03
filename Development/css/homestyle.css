@@ -345,8 +345,8 @@ video {
 
 
 .skill-section {
-  height: 700px;
-  background-color: beige !important;
+  height: auto;
+  background-color: white !important;
 }
 
 #image-placeholder {
@@ -362,6 +362,7 @@ video {
   margin: 10px 0 0 15px;
   font-family: 'Open Sans', sans-serif;
   font-size: 125%;
+
 }
 
 
@@ -513,7 +514,34 @@ video {
 }
 
 .progress-container {
-  margin: 20px;
+  margin: auto;
   width: 150px;
-  height: 150px;
+  height: auto;
 }
+
+.progress-inner .col-lg-2 {
+  margin: auto;
+  float: left;
+}
+
+.col-lg-12 .row.text-center {
+  font-size: 10pt;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#horizontal-progress-bar .col-lg-12 .col-lg-6 {
+  margin: auto;
+  float: left
+}
+
+.normal-progress-bar {
+  margin: 15px;
+  width: 400px;
+  height: auto;
+  position: relative;
+}
+
+
+
+
