@@ -232,5 +232,50 @@ createBar(bar6, 0.4);
 //normal progress bar
 
 
+var normalbarsettings = {
+  strokeWidth: 7,
+  easing: 'bounce',
+  duration: 1400,
+  color: '#8e8e8e',
+  trailColor: '#e0e0e0',
+  trailWidth: 7,
+  svgStyle: {width: '100%', height: '100%'},
+
+  from: {color: '#FFEA82'},
+  to: {color: '#ED6A5A'},
+  step: (state, bar) => {
+    var value = Math.round(bar.value() * 100);
+    if (value === 0) {
+      bar.setText('');
+    } else {
+      bar.setText(value + '%');
+    }
+  }
+};
+
+var nbar1 = new ProgressBar.Line('#npb1', normalbarsettings);
+var nbar2 = new ProgressBar.Line('#npb2', normalbarsettings);
+var nbar3 = new ProgressBar.Line('#npb3', normalbarsettings);
+var nbar4 = new ProgressBar.Line('#npb4', normalbarsettings);
+var nbar5 = new ProgressBar.Line('#npb5', normalbarsettings);
+var nbar6 = new ProgressBar.Line('#npb6', normalbarsettings);
+
+function createNormalBars(bar, percentage) {
+  bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+  bar.text.style.fontSize = '12pt';
+  bar.text.style.fontWeight = 'bold';
+  bar.text.style.color = '#FFFFFF';
+  bar.text.style.left = '10%';
+  bar.text.style.padding = '10%';
+  bar.animate(percentage);
+}
+
+createNormalBars(nbar1, 0.9);
+createNormalBars(nbar2, 0.9);
+createNormalBars(nbar3, 0.9);
+createNormalBars(nbar4, 0.9);
+createNormalBars(nbar5, 0.9);
+createNormalBars(nbar6, 0.9);
+
 
 
