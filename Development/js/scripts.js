@@ -183,14 +183,14 @@ $("#archived-projects-link").click(function () {
 var settings = {
   color: '#595858',
   trailColor: '#FFFFFF',
-  trailWidth: 6,
+  trailWidth: 10,
   duration: 1400,
   easing: 'bounce',
-  strokeWidth: 6,
+  strokeWidth: 10,
 
 
   from: {color: '#595858', a: 0},
-  to: {color: '#595858', a: .7},
+  to: {color: '#595858', a: 1},
 
   // Set default step function for all animate calls
   step: function (state, circle) {
@@ -279,12 +279,5 @@ createNormalBars(nbar6, 0.9);
 
 
 //canvas
-var c = document.getElementById("work-canvas");
-var width = c.getAttribute('width');
-var height = c.getAttribute('height');
-var ctx = c.getContext("2d");
-ctx.beginPath();
-ctx.moveTo(width / 2, 0);
-ctx.lineTo(width / 2, height);
-ctx.stroke();
+
 

@@ -285,6 +285,17 @@ video {
 
 }
 
+.row.icon-container {
+  text-align: center;
+  display: flex;
+  background-color: darkgray;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+
+}
+
+
 
 .section-title h1 {
   display: inline-block;
@@ -515,7 +526,7 @@ video {
 
 .progress-container {
   margin: auto;
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
@@ -543,8 +554,9 @@ video {
 }
 
 
+/* resume */
 #resume-lists {
-  height: 700px;
+
   width: auto;
 }
 
@@ -556,14 +568,100 @@ video {
   list-style: none;
 }
 
-.resume-section.present {
-  text-align: center;
-}
-
 .section-left-side {
   text-align: left;
+  background-color: lightgray;
+  border: 5px solid lightgray;
+  border-radius: 5px;
 }
 
 .section-right-side {
   text-align: right;
+  background-color: lightgray;
+  border: 5px solid lightgray;
+  border-radius: 5px;
+}
+
+
+#resume-lists {
+  background-image: url('../img/line.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat-y;
+  height: 1000px;
+}
+
+.present {
+  height: 75px;
+  padding: 10px;
+  margin: 0 40% 0 42%;
+  background-color: deepskyblue;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+#zgk {
+  text-align: center;
+  right: 0 !important;
+  transform: translateY(310px);
+
+}
+
+#uni-kn {
+  transform: translateY(250px);
+}
+
+#KIT {
+
+}
+
+
+#start-icon {
+  transform: translateX(10px);
+  background-image: url('../img/line.png');
+  background-size: auto;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+
+#my-resume-section {
+  background-color: #FFFFFF !important;
+}
+
+
+#siemens-plm {
+  transform: translateY(-70px);
+}
+
+#ve-internship {
+  transform: translateY(-90px);
+}
+
+#siemens-ag {
+  transform: translateY(-120px);
+}
+
+#maus {
+  transform: translateY(-150px);
+}
+
+#internship {
+  transform: translateY(-150px);
+}
+
+.bubble-arrow-left {
+  float: right;
+  margin: -15% -17px 0 0;
+  color: #D3D3D3;
+}
+
+.bubble-arrow-right {
+  float: left;
+  margin: -15% 0 0 -17px;
+  color: #D3D3D3;
+  transform: rotate(180deg);
 }
