@@ -570,16 +570,13 @@ video {
 
 .section-left-side {
   text-align: left;
-  background-color: lightgray;
-  border: 5px solid lightgray;
-  border-radius: 5px;
+  padding: 4px;
+
 }
 
 .section-right-side {
   text-align: right;
-  background-color: lightgray;
-  border: 5px solid lightgray;
-  border-radius: 5px;
+  padding: 4px;
 }
 
 
@@ -591,7 +588,7 @@ video {
   height: 1000px;
 }
 
-.present {
+.my-present {
   height: 75px;
   padding: 10px;
   margin: 0 40% 0 42%;
@@ -602,21 +599,74 @@ video {
   text-transform: uppercase;
 }
 
-#zgk {
-  text-align: center;
-  right: 0 !important;
+.my-education {
+  height: 75px;
+  padding: 10px;
+  background-color: deepskyblue;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.my-work {
+  height: 75px;
+  padding: 10px;
+  background-color: deepskyblue;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+
+#left3 {
+  text-align: left;
+  left: 0 !important;
   transform: translateY(310px);
 
 }
 
-#uni-kn {
+#left2 {
   transform: translateY(250px);
 }
 
-#KIT {
-
+#left1:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
 }
 
+
+#left2:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+
+#left3:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#left1:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#left2:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#left3:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
 
 #start-icon {
   transform: translateX(10px);
@@ -633,23 +683,85 @@ video {
 }
 
 
-#siemens-plm {
-  transform: translateY(-70px);
+#right1:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
 }
 
-#ve-internship {
+#right2:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right3:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right4:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right4:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right5:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right1:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right2:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right3:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right4:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right5:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right1 {
+  transform: translateY(-70px);
+
+}
+
+#right2 {
   transform: translateY(-90px);
 }
 
-#siemens-ag {
+#right3 {
   transform: translateY(-120px);
 }
 
-#maus {
+#right4 {
   transform: translateY(-150px);
 }
 
-#internship {
+#right5 {
   transform: translateY(-150px);
 }
 
@@ -657,6 +769,7 @@ video {
   float: right;
   margin: -15% -17px 0 0;
   color: #D3D3D3;
+  opacity: 0;
 }
 
 .bubble-arrow-right {
@@ -664,4 +777,13 @@ video {
   margin: -15% 0 0 -17px;
   color: #D3D3D3;
   transform: rotate(180deg);
+  opacity: 0;
+}
+
+.left-column:hover {
+  background: #1c7430;
+}
+
+.right-column:hover {
+  background: whitesmoke;
 }
