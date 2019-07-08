@@ -399,7 +399,7 @@ video {
 
 /* portfolio container zoom */
 
-.port-item:hover .overlay {
+.element-item:hover .overlay {
   transform: scale(1);
 }
 
@@ -516,7 +516,7 @@ video {
   color: #3c3c3c;
   background-color: white;
   border-radius: 3px;
-  padding: 1px;
+  padding: 4px;
 }
 
 
