@@ -1,0 +1,250 @@
+/* resume */
+#resume-lists {
+
+  width: auto;
+}
+
+#resume-lists ul {
+  list-style: none;
+}
+
+#resume-lists li {
+  list-style: none;
+}
+
+.section-left-side {
+  text-align: left;
+  padding: 4px;
+
+}
+
+.section-right-side {
+  text-align: right;
+  padding: 4px;
+}
+
+
+#resume-lists {
+  background-image: url('../img/line.png');
+  background-size: auto;
+  background-position: center;
+  background-repeat: repeat-y;
+
+}
+
+.my-present {
+  height: 75px;
+  padding: 10px;
+  margin: 0 40% 0 42%;
+  background-color: deepskyblue;
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.my-education {
+  height: 75px;
+  width: 180px;
+  padding: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: sticky;
+  background-color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 10px;
+
+}
+
+.my-work {
+  position: sticky;
+  height: 75px;
+  width: 180px;
+  padding: 10px;
+  font-size: 200%;
+  text-transform: uppercase;
+  opacity: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  background-color: whitesmoke;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+
+/*#left3 {
+  text-align: left;
+  left: 0 !important;
+  transform: translateY(310px);
+
+}
+
+#left2 {
+  transform: translateY(250px);
+}*/
+
+#left1:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+
+#left2:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+
+#left3:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#left1:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#left2:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#left3:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#start-icon {
+  transform: translateX(10px);
+  background-image: url('../img/line.png');
+  background-size: auto;
+  margin-top: 0;
+  background-position: center;
+  background-repeat: repeat-y;
+}
+
+
+#my-resume-section {
+  background-color: #FFFFFF !important;
+}
+
+
+#right1:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right2:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right3:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right4:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right4:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right5:hover {
+  background-color: lightgray;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+#right1:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right2:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right3:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right4:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#right5:hover .bubble-arrow-right {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+/*#right1 {
+  transform: translateY(-70px);
+
+}
+
+#right2 {
+  transform: translateY(-90px);
+}
+
+#right3 {
+  transform: translateY(-120px);
+}
+
+#right4 {
+  transform: translateY(-150px);
+}
+
+#right5 {
+  transform: translateY(-150px);
+}*/
+
+.bubble-arrow-left {
+  float: right;
+  margin: -15% -17px 0 0;
+  color: #D3D3D3;
+  opacity: 0;
+}
+
+.bubble-arrow-right {
+  float: left;
+  margin: -15% 0 0 -17px;
+  color: #D3D3D3;
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+.left-column:hover .my-education {
+  opacity: 1;
+  transition: 0.3s;
+
+}
+
+
+.right-column:hover .my-work {
+  opacity: 1;
+  transition: 0.3s;
+}
+
