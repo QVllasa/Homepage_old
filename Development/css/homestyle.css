@@ -360,14 +360,7 @@ video {
   background-color: #EFEFEF !important;
 }
 
-#image-placeholder {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 300%;
-  margin-top: -50%;
-}
+
 
 .quote-style {
   margin: 10px 0 0 15px;
@@ -407,14 +400,6 @@ video {
   padding: 0;
   margin: 0;
 }
-
-
-.portfolio-images img {
-  width: 100%;
-  height: auto;
-  filter: grayscale(100%);
-}
-
 
 .text-center {
   text-align: center
@@ -507,8 +492,6 @@ video {
 .port-filter ul li:last-child::after {
   content: "";
   position: relative;
-
-
 }
 
 .port-filter ul li a.is-checked span, .port-filter ul li a:hover span {
@@ -516,8 +499,13 @@ video {
   color: #3c3c3c;
   background-color: white;
   border-radius: 3px;
+
+}
+
+.port-filter ul li a.is-checked span, .port-filter ul li a span {
   padding: 4px;
 }
+
 
 
 .progress-container {

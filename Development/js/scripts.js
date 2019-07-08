@@ -328,3 +328,7 @@ $('.button-group').each(function (i, buttonGroup) {
   });
 });
 
+//AOS - animate on scroll
+AOS.init({
+  once: true
+});
