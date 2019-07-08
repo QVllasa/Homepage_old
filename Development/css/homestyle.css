@@ -548,3 +548,9 @@ video {
   height: auto;
   position: relative;
 }
+
+
+.spacer-info {
+  height: 150px;
+  background: cornflowerblue;
+}

@@ -45,49 +45,40 @@
 
 .my-education {
   height: 75px;
-  width: 180px;
+  width: auto;
   padding: 10px;
   font-size: 200%;
   text-transform: uppercase;
+  color: white;
   opacity: 0;
   bottom: 0;
   left: 0;
   right: 0;
   position: sticky;
-  background-color: whitesmoke;
+  background-color: #474D5D;
   border: 1px solid transparent;
   border-radius: 10px;
+  font-weight: bold;
 
 }
 
 .my-work {
   position: sticky;
   height: 75px;
-  width: 180px;
+  width: auto;
   padding: 10px;
   font-size: 200%;
   text-transform: uppercase;
+  color: white;
   opacity: 0;
   bottom: 0;
   right: 0;
   left: 0;
-
-  background-color: whitesmoke;
+  background-color: #474D5D;
   border: 1px solid transparent;
   border-radius: 10px;
 }
 
-
-/*#left3 {
-  text-align: left;
-  left: 0 !important;
-  transform: translateY(310px);
-
-}
-
-#left2 {
-  transform: translateY(250px);
-}*/
 
 #left1:hover {
   background-color: lightgray;
@@ -200,26 +191,39 @@
   transition: 0.5s;
 }
 
-/*#right1 {
-  transform: translateY(-70px);
 
+#left1 {
+  margin-top: 20%;
+}
+
+#left2 {
+  margin-top: 90%;
+}
+
+#left3 {
+  margin-top: 20%;
+}
+
+#right1 {
+  margin-bottom: 20%;
 }
 
 #right2 {
-  transform: translateY(-90px);
+  margin-top: 10%;
 }
 
 #right3 {
-  transform: translateY(-120px);
+  margin-top: 10%;
 }
 
 #right4 {
-  transform: translateY(-150px);
+  margin-top: 10%;
 }
 
 #right5 {
-  transform: translateY(-150px);
-}*/
+  margin-top: 90%;
+}
+
 
 .bubble-arrow-left {
   float: right;
@@ -248,3 +252,60 @@
   transition: 0.3s;
 }
 
+
+.dot-left {
+  float: right;
+  margin: -15% -70px 0 0;
+  color: #474D5D;
+  border-radius: 50%;
+
+}
+
+.dot-right {
+  float: left;
+  margin: -15% 0 0 -50px;
+  color: #474D5D;
+  border-radius: 50%;
+
+}
+
+
+#right1:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#right2:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#right3:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#right4:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#right5:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#left1:hover .dot-left {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#left2:hover .dot-left {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+#left3:hover .dot-left {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
