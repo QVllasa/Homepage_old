@@ -44,10 +44,10 @@
 }
 
 .my-education {
-  height: 75px;
-  width: auto;
+  height: auto;
+  width: 70%;
   padding: 10px;
-  font-size: 200%;
+  font-size: 150%;
   text-transform: uppercase;
   color: white;
   opacity: 0;
@@ -58,16 +58,16 @@
   background-color: #474D5D;
   border: 1px solid transparent;
   border-radius: 10px;
-  font-weight: bold;
+
 
 }
 
 .my-work {
   position: sticky;
-  height: 75px;
-  width: auto;
+  height: auto;
+  width: 50%;
   padding: 10px;
-  font-size: 200%;
+  font-size: 150%;
   text-transform: uppercase;
   color: white;
   opacity: 0;
