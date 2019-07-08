@@ -511,7 +511,7 @@ video {
 
 }
 
-.port-filter ul li a.active span, .port-filter ul li a:hover span {
+.port-filter ul li a.is-checked span, .port-filter ul li a:hover span {
   cursor: pointer;
   color: #3c3c3c;
   background-color: white;
