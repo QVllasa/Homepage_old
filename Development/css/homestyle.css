@@ -538,8 +538,8 @@ video {
 }
 
 
-.container-fluid.freelancer {
-  margin: 15px;
+.freelancer {
   height: 250px;
-  background-color: #0f0f0f;
+  background-color: #00FF00;
+  font-size: 250%;
 }
