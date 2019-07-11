@@ -609,8 +609,8 @@ button.cv {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(-250px * 2));
+    transform: translateX(calc(-250px * 2));
   }
 }
 
@@ -620,8 +620,8 @@ button.cv {
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(calc(-250px * 7));
-    transform: translateX(calc(-250px * 7));
+    -webkit-transform: translateX(calc(-250px * 2));
+    transform: translateX(calc(-250px * 2));
   }
 }
 
@@ -657,10 +657,10 @@ button.cv {
 }
 
 .slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 10s linear infinite;
+  animation: scroll 10s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 4);
 }
 
 .slider .slide {
