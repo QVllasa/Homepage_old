@@ -548,6 +548,7 @@ video {
 .freelancer-section {
   height: auto;
   background-color: #474D5D;
+
 }
 
 #freelancer-text {
@@ -669,13 +670,13 @@ button.cv {
 
 
 #contact-section {
-  background: #062c33;
+  background: #EFEFEF;
   height: 700px;
 }
 
 
 #footer-section {
   height: 200px;
-  background: #005cbf;
+  background: #333333;
 }
 
