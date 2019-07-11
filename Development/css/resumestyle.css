@@ -1,4 +1,8 @@
 /* resume */
+#my-resume-section {
+  background-color: #FFFFFF !important;
+}
+
 #resume-lists {
 
   width: auto;
@@ -12,18 +16,6 @@
   list-style: none;
 }
 
-.section-left-side {
-  text-align: left;
-  padding: 4px;
-
-}
-
-.section-right-side {
-  text-align: right;
-  padding: 4px;
-}
-
-
 #resume-lists {
   background-image: url('../img/line.png');
   background-size: auto;
@@ -33,9 +25,8 @@
 }
 
 .my-present {
-  height: 75px;
+  display: inline;
   padding: 10px;
-  margin: 0 40% 0 42%;
   background-color: deepskyblue;
   border: 3px solid greenyellow;
   border-radius: 10px;
@@ -80,6 +71,65 @@
 }
 
 
+.section-left-side {
+  text-align: left;
+  padding: 4px;
+
+}
+
+
+.section-right-side {
+  text-align: right;
+  padding: 4px;
+}
+
+.dot-left {
+  float: right;
+  margin: -15% -43px 0 0;
+  color: #474D5D;
+  border-radius: 50%;
+
+}
+
+.dot-right {
+  float: left;
+  margin: -15% 0 0 -43px;
+  color: #474D5D;
+  border-radius: 50%;
+
+}
+
+.bubble-arrow-left {
+  float: right;
+  margin: -15% -15px 0 0;
+  color: #D3D3D3;
+  opacity: 0;
+}
+
+.bubble-arrow-right {
+  float: left;
+  margin: -15% 0 0 -15px;
+  color: #D3D3D3;
+  transform: rotate(180deg);
+  opacity: 0;
+}
+
+
+.left {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+}
+
+.left:hover .dot-left {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+.left:hover .bubble-arrow-left {
+  opacity: 1;
+  transition: 0.5s;
+}
+
 #left1:hover {
   background-color: lightgray;
   border-radius: 5px;
@@ -100,35 +150,16 @@
   transition: 0.5s;
 }
 
-#left1:hover .bubble-arrow-left {
+
+.right:hover .dot-right {
+  background-color: #474D5D;
+  transition: 0.3s;
+}
+
+.right:hover .bubble-arrow-right {
   opacity: 1;
   transition: 0.5s;
 }
-
-#left2:hover .bubble-arrow-left {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#left3:hover .bubble-arrow-left {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#start-icon {
-  transform: translateX(10px);
-  background-image: url('../img/line.png');
-  background-size: auto;
-  margin-top: 0;
-  background-position: center;
-  background-repeat: repeat-y;
-}
-
-
-#my-resume-section {
-  background-color: #FFFFFF !important;
-}
-
 
 #right1:hover {
   background-color: lightgray;
@@ -166,34 +197,18 @@
   transition: 0.5s;
 }
 
-#right1:hover .bubble-arrow-right {
-  opacity: 1;
-  transition: 0.5s;
+
+.left-column li {
+  margin-right: 15px;
 }
 
-#right2:hover .bubble-arrow-right {
-  opacity: 1;
-  transition: 0.5s;
+.right-column li {
+  margin-left: 15px;
 }
-
-#right3:hover .bubble-arrow-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#right4:hover .bubble-arrow-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
-#right5:hover .bubble-arrow-right {
-  opacity: 1;
-  transition: 0.5s;
-}
-
 
 #left1 {
   margin-top: 20%;
+
 }
 
 #left2 {
@@ -221,24 +236,11 @@
 }
 
 #right5 {
-  margin-top: 90%;
+  margin-top: 20%;
 }
 
 
-.bubble-arrow-left {
-  float: right;
-  margin: -15% -17px 0 0;
-  color: #D3D3D3;
-  opacity: 0;
-}
 
-.bubble-arrow-right {
-  float: left;
-  margin: -15% 0 0 -17px;
-  color: #D3D3D3;
-  transform: rotate(180deg);
-  opacity: 0;
-}
 
 .left-column:hover .my-education {
   opacity: 1;
@@ -253,59 +255,6 @@
 }
 
 
-.dot-left {
-  float: right;
-  margin: -15% -70px 0 0;
-  color: #474D5D;
-  border-radius: 50%;
-
-}
-
-.dot-right {
-  float: left;
-  margin: -15% 0 0 -50px;
-  color: #474D5D;
-  border-radius: 50%;
-
-}
 
 
-#right1:hover .dot-right {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
 
-#right2:hover .dot-right {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#right3:hover .dot-right {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#right4:hover .dot-right {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#right5:hover .dot-right {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#left1:hover .dot-left {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#left2:hover .dot-left {
-  background-color: #474D5D;
-  transition: 0.3s;
-}
-
-#left3:hover .dot-left {
-  background-color: #474D5D;
-  transition: 0.3s;
-}

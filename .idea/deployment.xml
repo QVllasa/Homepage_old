@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="all-inkl-kasserver" showDialogOnRemoteDnD="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="all-inkl-kasserver" deleteMissingItems="true" exclude="" showDialogOnRemoteDnD="false" autoUploadExternalChanges="true">
     <serverData>
       <paths name="all-inkl-kasserver">
         <serverdata>
