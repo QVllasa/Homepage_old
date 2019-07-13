@@ -332,3 +332,10 @@ $('.button-group').each(function (i, buttonGroup) {
 AOS.init({
   once: true
 });
+
+
+//multi item carousel
+$(document).ready(function () {
+  $('#logoSlideshow .slick').slick();
+});
+
