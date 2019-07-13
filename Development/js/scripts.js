@@ -46,8 +46,7 @@ function scrollFunctionOpacity () {
 
 
 //smooth scroll
-
-$('a[href*="#"]').on('click', function (e) {
+$('a[href*="#my"]').on('click', function (e) {
   e.preventDefault();
   var target = this.hash;
   var $target = $(target);
@@ -335,7 +334,17 @@ AOS.init({
 
 
 //multi item carousel
-$(document).ready(function () {
-  $('#logoSlideshow .slick').slick();
-});
 
+var w = window.innerWidth;
+window.onload = function () {
+  $('.slider.company-logos').slick({
+    autoplay: true,
+    autoplaySpeed: 1200,
+    arrows: true,
+    prevArrow: '<button type="button" class="slick-prev"></button>',
+    nextArrow: '<button type="button" class="slick-next"></button>',
+    centerMode: true,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  });
+};
