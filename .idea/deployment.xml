@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="all-inkl-kasserver" deleteMissingItems="true" exclude="" showDialogOnRemoteDnD="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="all-inkl-kasserver" deleteMissingItems="true" uploadOnCheckin="4063a1e3-c6d5-4bce-b457-9675992e1979" exclude="" showDialogOnRemoteDnD="false" autoUploadExternalChanges="true">
     <serverData>
       <paths name="all-inkl-kasserver">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="all-inkl-kasserver" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>

@@ -184,7 +184,7 @@ var settings = {
   color: '#595858',
   trailColor: '#FFFFFF',
   trailWidth: 10,
-  duration: 1400,
+  duration: 2500,
   easing: 'bounce',
   strokeWidth: 10,
 
@@ -235,7 +235,7 @@ createBar(bar6, 0.4);
 var normalbarsettings = {
   strokeWidth: 7,
   easing: 'bounce',
-  duration: 1400,
+  duration: 2500,
   color: '#595858',
   trailColor: '#e0e0e0',
   trailWidth: 7,
@@ -328,7 +328,8 @@ $('.button-group').each(function (i, buttonGroup) {
 
 //AOS - animate on scroll
 AOS.init({
-  once: true
+  once: true,
+  offset: 10,
 });
 
 
