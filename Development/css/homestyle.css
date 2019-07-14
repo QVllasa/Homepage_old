@@ -633,6 +633,7 @@ video {
   align-items: center;
 }
 
+
 .bg-gray {
   background-color: #5a6268;
 }
@@ -674,7 +675,48 @@ video {
   display: inline;
 }
 
+/* contact */
 
 #my-contact-section {
   background-color: #EFEFEF;
+}
+
+#feedback-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+#social-media-buttons i {
+  margin: 5px;
+}
+
+#social-media-buttons button {
+  border: none;
+  background-color: #EFEFEF;
+}
+
+#social-media-buttons button:focus {
+  outline: 0 !important;
+  -webkit-appearance: none;
+}
+
+#social-media-buttons i:hover {
+  color: #5a6268;
+}
+
+#contact-form-section label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(8px);
+  cursor: text;
+  color: #757575;
+  display: inline-block;
+  padding-left: 10px;
+}
+
+#contact-form-section textarea, #contact-form-section input {
+  border: none !important;
+  border-radius: 0 !important;
 }

@@ -181,7 +181,7 @@
         <!-- self portrait -->
         <div class="col-md-4" style="padding-left: 0">
           <div class="container" style="margin: 10px 0 0 0;">
-            <img class="img-fluid self-portrait" src="img/portraits/portrait_free.jpg" alt="Portrait">
+            <img class="img-fluid self-portrait" src="img/portraits/portrait_free_small.jpg" alt="Portrait">
             <div class="container name-img-title">
               <h3>Qendrim Vllasa</h3>
               <h5>Economics Engineer M.Sc.</h5>
@@ -858,6 +858,11 @@
     <!-- feedback -->
     <div class="container">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators mb-n5" id="feedback-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner feedback comments">
           <div class="carousel-item active">
             <i class="fas fa-quote-right"></i>
@@ -888,7 +893,7 @@
 
 
     <!-- company carousel -->
-    <div class="container" id="logo-container">
+    <div class="container mt-5 pt-5" id="logo-container">
       <div class="row">
         <div class="col-md-12">
           <div class="slider company-logos">
@@ -933,12 +938,56 @@
       </div>
     </div>
 
-    <!-- contact form -->
+    <!-- social media -->
     <div class="container">
+      <div class="row justify-content-center" id="social-media-buttons">
+        <button><i class="fab fa-facebook-square fa-3x"></i></button>
+        <button><i class="fab fa-linkedin fa-3x"></i></button>
+        <button><i class="fab fa-xing-square fa-3x"></i></button>
+        <button><i class="fab fa-instagram fa-3x"></i></button>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <div class="container mt-5" id="contact-form-section">
       <div class="row">
         <div class="col-md-12">
-
+          <!-- form -->
+          <form id="contact-form" action="mail.php" method="POST">
+            <div class="row justify-content-center m-3">
+              <div class="col-md-6 p-0">
+                <input type="text" id="name-input" class="form-control">
+                <label for="name-input">Name oder Firma</label>
+              </div>
+            </div>
+            <div class="row justify-content-center m-3">
+              <div class="col-md-6 p-0">
+                <input type="text" id="email-input" class="form-control">
+                <label for="name-input">E-Mail</label>
+              </div>
+            </div>
+            <div class="row justify-content-center m-3">
+              <div class="col-md-6 p-0">
+                <input type="text" id="phone-input" class="form-control">
+                <label for="name-input">Telefon</label>
+              </div>
+            </div>
+            <div class="row justify-content-center m-3">
+              <div class="col-md-6 p-0">
+                <input type="text" id="subject-input" class="form-control">
+                <label for="name-input">Thema</label>
+              </div>
+            </div>
+            <div class="row justify-content-center m-3">
+              <div class="col-md-6 p-0">
+                <textarea name="message" id="message-input" cols="30" rows="5" type="text"
+                          class="form-control"></textarea>
+                <label for="name-input">Nachricht</label>
+              </div>
+            </div>
+          </form>
         </div>
+
       </div>
     </div>
   </div>
