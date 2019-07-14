@@ -80,6 +80,13 @@
 
 }
 
+@media (max-width: 478px) {
+  #logo-container {
+    display: none;
+  }
+
+}
+
 
 .underlining:after {
   display: block;
@@ -665,4 +672,9 @@ video {
 
 .comment-style {
   display: inline;
+}
+
+
+#my-contact-section {
+  background-color: #EFEFEF;
 }

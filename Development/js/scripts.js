@@ -137,7 +137,7 @@ TxtType.prototype.tick = function () {
   }, delta);
 };
 
-window.onload = function () {
+function typeWriter() {
   var elements = document.getElementsByClassName('typewrite');
   for (var i = 0; i < elements.length; i++) {
     var toRotate = elements[i].getAttribute('data-type');
@@ -151,8 +151,7 @@ window.onload = function () {
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; color: white; font-size: 300%;}";
   document.body.appendChild(css);
-};
-
+}
 //carousel-links
 /*
 var btns = document.getElementsByClassName('link-element');
@@ -335,8 +334,8 @@ AOS.init({
 
 //multi item carousel
 
-var w = window.innerWidth;
-window.onload = function () {
+
+function logoSlider() {
   $('.slider.company-logos').slick({
     autoplay: true,
     autoplaySpeed: 1200,
@@ -344,7 +343,44 @@ window.onload = function () {
     prevArrow: '<button type="button" class="slick-prev"></button>',
     nextArrow: '<button type="button" class="slick-next"></button>',
     centerMode: true,
-    slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [{
+      breakpoint: 1100,
+      settings: {
+        slidesToShow: 2,
+      }
+    }, {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+      }
+    }, {
+      breakpoint: 475,
+      settings: "unslick"
+
+
+    }]
   });
+}
+
+function onloadAllFunc() {
+  logoSlider();
+  typeWriter();
+}
+
+window.onload = onloadAllFunc;
+
+window.onresize = function () {
+  if ($(".slick-initialized")[0]) {
+    void (0);
+    console.log("slick already running: void(0) does nothing")
+  } else {
+    logoSlider();
+  }
 };
+
+
+
+
+
