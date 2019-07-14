@@ -26,12 +26,15 @@
 
 .my-present {
   display: inline;
-  padding: 10px;
-  background-color: deepskyblue;
-  border: 3px solid greenyellow;
+  padding: 20px 35px 20px 35px;
+  background-color: white;
+  border: 5px solid #EFEFEF;
   border-radius: 10px;
-  font-size: 200%;
+  font-size: 140%;
   text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #595858;
 }
 
 .my-education {
@@ -202,8 +205,43 @@
   margin-right: 15px;
 }
 
+.left-column h4 {
+  font-family: Oswald, sans-serif;
+  color: #474D5D;
+
+}
+
+.left-column span {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.left-column p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #474D5D;
+}
+
+
+
 .right-column li {
   margin-left: 15px;
+}
+
+.right-column h4 {
+  font-family: Oswald, sans-serif;
+  color: #474D5D;
+}
+
+.right-column span {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
+
+.right-column p {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #474D5D;
 }
 
 #left1 {
@@ -255,6 +293,9 @@
 }
 
 
-
+#bookmark-icon {
+  border: 10px solid #EFEFEF;
+  background: transparent;
+}
 
 

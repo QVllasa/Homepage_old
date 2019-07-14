@@ -20,6 +20,8 @@
   <!--own stylsheets-->
   <link rel="stylesheet" type="text/css" href="css/homestyle.css">
   <link rel="stylesheet" href="css/resumestyle.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/fonts.css">
+
 
   <!--end own stylesheets-->
 
@@ -34,8 +36,10 @@
   <link rel="stylesheet" href="css/isotopestyle.css">
 
   <!-- google fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans:300i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+
   <!-- google fonts -->
 
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -181,10 +185,10 @@
         <!-- self portrait -->
         <div class="col-md-4" style="padding-left: 0">
           <div class="container" style="margin: 10px 0 0 0;">
-            <img class="img-fluid self-portrait" src="img/portraits/portrait_free_small.jpg" alt="Portrait">
+            <img class="img-fluid self-portrait" src="img/portraits/portrait_free.jpg" alt="Portrait">
             <div class="container name-img-title">
-              <h3>Qendrim Vllasa</h3>
-              <h5>Economics Engineer M.Sc.</h5>
+              <h2>Qendrim Vllasa</h2>
+              <h6>Economics Engineer M.Sc.</h6>
             </div>
           </div>
 
@@ -223,7 +227,7 @@
         </div>
 
         <!-- Key facts and contact -->
-        <div class="col-md-4">
+        <div class="col-md-4" id="key-facts-style">
           <!-- Address-->
           <div class="container">
             <div class="row mb-0 mt-2">
@@ -256,7 +260,7 @@
                     <i class="fas fa-code-branch fa-2x font-color-grey"></i>
                   </div>
                   <div class="row justify-content-center">
-                    <p class="keyfact-container font-color-grey mt-2">11</p>
+                    <p class="keyfact-container font-color-grey mt-2">8</p>
                   </div>
                   <div class="row justify-content-center">
                     <p class=" font-color-grey font-style-thin mt-n3">Stationen</p>
@@ -302,7 +306,7 @@
                     <p class="keyfact-container font-color-grey mt-2">5</p>
                   </div>
                   <div class="row justify-content-center">
-                    <p class="font-color-grey font-style-thin mt-n3">Programming</p>
+                    <p class="font-color-grey font-style-thin mt-n3" id="programmiersprachen">Programmiersprachen</p>
                   </div>
                 </div>
               </div>
@@ -326,7 +330,7 @@
         <div class="col-md-4">
           <div class="row">
             <div class="container">
-              <p><strong>Presentationskompetenz</strong></p>
+              <h5>Presentationskompetenz</h5>
             </div>
           </div>
           <div class="row">
@@ -351,7 +355,7 @@
         <div class="col-md-4">
           <div class="row">
             <div class="container">
-              <p><strong>Data Analysis</strong></p>
+              <h5>Data Analysis</h5>
             </div>
           </div>
           <div class="row">
@@ -365,10 +369,8 @@
                     labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et</p>
                 </div>
               </div>
-
             </div>
           </div>
-
         </div>
 
 
@@ -376,14 +378,14 @@
         <div class="col-md-4">
           <div class="row">
             <div class="container">
-              <p><strong>Kundenorientiert</strong></p>
+              <h5>Web- & Softwareentwicklung</h5>
             </div>
           </div>
           <div class="row">
             <div class="container best-in-text-size">
               <div class="row">
                 <div class="col-lg-2">
-                  <i class="fas fa-users fa-3x p-2 font-color-grey"></i>
+                  <i class="fas fa-laptop-code fa-3x p-2 font-color-grey"></i>
                 </div>
                 <div class="col-lg-10 font-color-grey">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
@@ -598,7 +600,7 @@
         </div>
       </div>
       <div class="row justify-content-center mt-4 section-title">
-        <h1 style="color:darkgrey">MEINE<span class="bg-me ml-2 p-2">SKILLS</span></h1>
+        <h1 style="color:black">MEINE<span class="bg-me ml-2 p-2">SKILLS</span></h1>
       </div>
     </div>
 
@@ -725,7 +727,7 @@
         </div>
       </div>
       <div class="row justify-content-center mt-4 section-title">
-        <h1 style="color:darkgrey">MEINE<span class="bg-me ml-2 p-2">LAUFBAHN</span></h1>
+        <h1 style="color:black">MEINE<span class="bg-me ml-2 p-2">LAUFBAHN</span></h1>
       </div>
     </div>
 
@@ -832,7 +834,7 @@
     <!-- icon -->
     <div class="row justify-content-center">
       <div class="container icon-container align-items-center justify-content-center" id="bookmark-icon">
-        <i class="fas fa-bookmark fa-2x" style="color:white"></i>
+        <i class="fas fa-bookmark fa-2x" style="color:#474D5D"></i>
 
       </div>
     </div>
@@ -856,28 +858,43 @@
     </div>
 
     <!-- feedback -->
-    <div class="container">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="container" id="feedback-container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
         <ol class="carousel-indicators mb-n5" id="feedback-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner feedback comments">
           <div class="carousel-item active">
             <i class="fas fa-quote-right"></i>
-            <h4>War super!</h4>
-            <h6>qendrim vllasa</h6>
+            <h4>Er arbeitete stets sehr effizient, zielstrebig und sorgfältig und bewies ein herausragendes
+              Organisationsgeschickt.</h4>
+            <h6>Claudia Kalde - Standortplanung- und Entwicklung - MAUS Seminare</h6>
           </div>
           <div class="carousel-item">
             <i class="fas fa-quote-right"></i>
-            <h4>War super!</h4>
-            <h6>qendrim vllasa</h6>
+            <h4>Sehr schnell, kompetent und freundlich und sogar 3 Monate Support; vielen Dank!</h4>
+            <h6>Rainer Ziegler - Kunde - Apple macOS Support</h6>
           </div>
           <div class="carousel-item">
             <i class="fas fa-quote-right"></i>
-            <h4>War super!</h4>
-            <h6>qendrim vllasa</h6>
+            <h4>Er zeigte stets ein sehr hohes Maß an Engagement und erledigte seine Aufgaben stets zu unserer vollsten
+              Zufriedenheit. Wir haben Herrn Vllasa als sehr kreativen und effizienten Mitarbeiter kennengelernt.</h4>
+            <h6>Wolfgang Himmel - Geschäftsführer - translake GmbH</h6>
+          </div>
+          <div class="carousel-item">
+            <i class="fas fa-quote-right"></i>
+            <h4>Als Semi-Profi kann ich sagen: Sie können keinen Besseren finden! Absolut top!!!</h4>
+            <h6>Stefan Freitag - Kunde - Apple macOS Support</h6>
+          </div>
+          <div class="carousel-item">
+            <i class="fas fa-quote-right"></i>
+            <h4>Sie haben ein ausgesprochen gutes Präsentationstalent, was in unserer heutigen Zeit eine wichtige
+              Kernkompetenz darstellt.</h4>
+            <h6>Prof. Dr. Dr.-Ing. Dr. h. c. Jivka Ovtcharova - Institutsleitung - IMI KIT</h6>
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -941,10 +958,10 @@
     <!-- social media -->
     <div class="container">
       <div class="row justify-content-center" id="social-media-buttons">
-        <button><i class="fab fa-facebook-square fa-3x"></i></button>
-        <button><i class="fab fa-linkedin fa-3x"></i></button>
-        <button><i class="fab fa-xing-square fa-3x"></i></button>
-        <button><i class="fab fa-instagram fa-3x"></i></button>
+        <button><i class="fab fa-facebook-square fa-2x"></i></button>
+        <button><i class="fab fa-linkedin fa-2x"></i></button>
+        <button><i class="fab fa-xing-square fa-2x"></i></button>
+        <button><i class="fab fa-instagram fa-2x"></i></button>
       </div>
     </div>
 
@@ -954,35 +971,35 @@
         <div class="col-md-12">
           <!-- form -->
           <form id="contact-form" action="mail.php" method="POST">
-            <div class="row justify-content-center m-3">
-              <div class="col-md-6 p-0">
-                <input type="text" id="name-input" class="form-control">
-                <label for="name-input">Name oder Firma</label>
+            <div class="row justify-content-center">
+              <div class="col-md-6 p-0 form-group">
+                <input type="text" id="name-input" class="form-control" placeholder="Name oder Firma">
+
               </div>
             </div>
-            <div class="row justify-content-center m-3">
-              <div class="col-md-6 p-0">
-                <input type="text" id="email-input" class="form-control">
-                <label for="name-input">E-Mail</label>
+            <div class="row justify-content-center">
+              <div class="col-md-6 p-0 form-group">
+                <input type="text" id="email-input" class="form-control" placeholder="E-Mail">
+
               </div>
             </div>
-            <div class="row justify-content-center m-3">
-              <div class="col-md-6 p-0">
-                <input type="text" id="phone-input" class="form-control">
-                <label for="name-input">Telefon</label>
+            <div class="row justify-content-center">
+              <div class="col-md-6 p-0 form-group">
+                <input type="text" id="phone-input" class="form-control" placeholder="Telefon">
+
               </div>
             </div>
-            <div class="row justify-content-center m-3">
-              <div class="col-md-6 p-0">
-                <input type="text" id="subject-input" class="form-control">
-                <label for="name-input">Thema</label>
+            <div class="row justify-content-center">
+              <div class="col-md-6 p-0 form-group">
+                <input type="text" id="subject-input" class="form-control" placeholder="Thema">
+
               </div>
             </div>
-            <div class="row justify-content-center m-3">
-              <div class="col-md-6 p-0">
+            <div class="row justify-content-center">
+              <div class="col-md-6 p-0 form-group">
                 <textarea name="message" id="message-input" cols="30" rows="5" type="text"
-                          class="form-control"></textarea>
-                <label for="name-input">Nachricht</label>
+                          class="form-control" placeholder="Nachricht"></textarea>
+
               </div>
             </div>
           </form>
