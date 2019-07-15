@@ -1,4 +1,4 @@
-//Navbar animation
+//Navbar animation--------------------------------------------------------------------
 window.onscroll = function () {
   scrollFunctionResize()
 };
@@ -28,24 +28,9 @@ $(document).ready(function () {
   })
 });
 
-/*
+//Navbar animation--------------------------------------------------------------------
 
-function scrollFunctionOpacity () {
-    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-        document.getElementById("background-dark").style.background = "rgba(0,0,0 , 1)";
-
-
-    }
-    else {
-        document.getElementById("background-dark").style.background = "rgba(0,0,0 , 0.5)";
-
-
-    }
-}
-*/
-
-
-//smooth scroll
+//smooth scroll--------------------------------------------------------------------
 $('a[href*="#my"]').on('click', function (e) {
   e.preventDefault();
   var target = this.hash;
@@ -57,8 +42,10 @@ $('a[href*="#my"]').on('click', function (e) {
   });
 });
 
+//smooth scroll--------------------------------------------------------------------
 
-//show prev/next button on hover
+
+//show prev/next button on hover ----------------------------------
 var hovering = $("#video-carousel-header");
 
 hovering.mouseenter(
@@ -79,9 +66,10 @@ hovering.mouseleave(
     $(this).children("a").remove();
   }
 );
+//show prev/next button on hover ----------------------------------
 
 
-//Parallax
+//Parallax ------------------------------------------------
 $(document).ready(function () {
   $(window).on('load scroll', function () {
     var scrolled = $(this).scrollTop();
@@ -92,7 +80,9 @@ $(document).ready(function () {
 
 });
 
-//typewrite
+//Parallax ------------------------------------------------
+
+//Typewriter ------------------------------------------------
 
 var TxtType = function (el, toRotate, period) {
   this.toRotate = toRotate;
@@ -152,45 +142,23 @@ function typeWriter() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff; color: white; font-size: 300%;}";
   document.body.appendChild(css);
 }
-//carousel-links
-/*
-var btns = document.getElementsByClassName('link-element');
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function () {
-    var current = document.getElementsByClassName("link-element active");
-    console.log(current);
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+
+//Typewriter ------------------------------------------------
 
 
-$("#latest-projects-link").click(function () {
-  $('.portfolio-slideshow').carousel(0);
-});
+//progressbar js ------------------------------------------------
 
-$("#upcoming-projects-link").click(function () {
-  $('.portfolio-slideshow').carousel(1);
-});
-
-$("#archived-projects-link").click(function () {
-  $('.portfolio-slideshow').carousel(2);
-});
-*/
-
-
-//circle progress bar
 var settings = {
-  color: '#595858',
+  color: '#838590',
   trailColor: '#FFFFFF',
   trailWidth: 10,
-  duration: 2500,
+  duration: 1500,
   easing: 'bounce',
   strokeWidth: 10,
 
 
-  from: {color: '#595858', a: 0},
-  to: {color: '#595858', a: 1},
+  from: {color: '#838590', a: 0},
+  to: {color: '#838590', a: 1},
 
   // Set default step function for all animate calls
   step: function (state, circle) {
@@ -205,6 +173,7 @@ var settings = {
   }
 };
 
+
 var bar1 = new ProgressBar.Circle('#prog1', settings);
 var bar2 = new ProgressBar.Circle('#prog2', settings);
 var bar3 = new ProgressBar.Circle('#prog3', settings);
@@ -215,28 +184,28 @@ var bar6 = new ProgressBar.Circle('#prog6', settings);
 
 function createBar(bar, percentage) {
   bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-  bar.text.style.fontSize = '2rem';
-  bar.text.style.color = '#595858';
+  bar.text.style.fontSize = '130%';
+  bar.text.style.color = '#838590';
   bar.path.style.strokeLinecap = 'round';
   bar.animate(percentage);
 }
 
-createBar(bar1, 0.9);
-createBar(bar2, 0.8);
-createBar(bar3, 0.7);
-createBar(bar4, 0.6);
-createBar(bar5, 0.5);
-createBar(bar6, 0.4);
 
+function createAllBar() {
+  createBar(bar1, 0.9);
+  createBar(bar2, 0.8);
+  createBar(bar3, 0.7);
+  createBar(bar4, 0.6);
+  createBar(bar5, 0.5);
+  createBar(bar6, 0.4);
+}
 
 //normal progress bar
-
-
 var normalbarsettings = {
   strokeWidth: 7,
   easing: 'bounce',
   duration: 2500,
-  color: '#595858',
+  color: '#474D5D',
   trailColor: '#e0e0e0',
   trailWidth: 7,
   svgStyle: {width: '100%', height: '100%'},
@@ -270,15 +239,20 @@ function createNormalBars(bar, percentage) {
   bar.animate(percentage);
 }
 
-createNormalBars(nbar1, 0.9);
-createNormalBars(nbar2, 0.9);
-createNormalBars(nbar3, 0.9);
-createNormalBars(nbar4, 0.9);
-createNormalBars(nbar5, 0.9);
-createNormalBars(nbar6, 0.9);
+
+function createAllnormal() {
+  createNormalBars(nbar1, 0.9);
+  createNormalBars(nbar2, 0.9);
+  createNormalBars(nbar3, 0.9);
+  createNormalBars(nbar4, 0.9);
+  createNormalBars(nbar5, 0.9);
+  createNormalBars(nbar6, 0.9);
+}
+
+//progressbar js ------------------------------------------------
 
 
-// init Isotope
+//Isotope--------------------------------------
 var $grid = $('.grid').isotope({
   itemSelector: '.element-item',
   layoutMode: 'fitRows',
@@ -326,14 +300,17 @@ $('.button-group').each(function (i, buttonGroup) {
   });
 });
 
-//AOS - animate on scroll
+//Isotope--------------------------------------
+
+
+//AOS--------------------------------------
 AOS.init({
   once: true,
   offset: 10,
 });
+//AOS--------------------------------------
 
-
-//multi item carousel
+//multi item carousel--------------------------------------
 
 
 function logoSlider() {
@@ -378,8 +355,82 @@ window.onresize = function () {
     logoSlider();
   }
 };
+//multi item carousel--------------------------------------
 
 
+//Init scroll Magic--------------------------------------
+$(document).ready(function () {
+
+  var controller = new ScrollMagic.Controller();
+
+  var myWork = new ScrollMagic.Scene({
+    triggerElement: '#portfolio-icon',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#portfolio-icon', 'animate-section-icon')
+    .addTo(controller);
+
+  var myWork = new ScrollMagic.Scene({
+    triggerElement: '#skills-icon',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#skills-icon', 'animate-section-icon')
+    .addTo(controller);
+
+  var myWork = new ScrollMagic.Scene({
+    triggerElement: '#resume-icon',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#resume-icon', 'animate-section-icon')
+    .addTo(controller);
+
+  var myWork = new ScrollMagic.Scene({
+    triggerElement: '#company-icon',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#company-icon', 'animate-section-icon')
+    .addTo(controller);
+
+  var myWork = new ScrollMagic.Scene({
+    triggerElement: '#contact-icon',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#contact-icon', 'animate-section-icon')
+    .addTo(controller);
 
 
+  var circleProg = new ScrollMagic.Scene({
+    triggerElement: '#circle-progressbars',
+    triggerHook: 0.9,
+    reverse: false,
 
+  })
+    .on('start', function () {
+      createAllBar();
+      console.log('circle');
+    })
+
+    .addTo(controller);
+
+
+  var normalProg = new ScrollMagic.Scene({
+    triggerElement: '#normal-progressbars',
+    triggerHook: 0.9,
+    reverse: false,
+  })
+    .on('start', function () {
+      createAllnormal();
+      console.log('normal');
+    })
+
+    .addTo(controller);
+
+});
+
+
+//Init scroll Magic--------------------------------------

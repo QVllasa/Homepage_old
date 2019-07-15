@@ -27,7 +27,6 @@
   font-weight: 300;
 
 
-
 }
 
 #logoV {
@@ -377,8 +376,6 @@ video {
 }
 
 
-
-
 .portfolio-section {
   background-color: #474D5D !important;
 }
@@ -419,6 +416,12 @@ video {
 #key-facts-style p {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
+  color: #595858;
+}
+
+#key-facts-style .link:hover {
+  text-decoration: underline;
+
 }
 
 #my-best-in-section p {
@@ -464,13 +467,7 @@ video {
   text-align: center
 }
 
-.text-end {
-  text-align: right;
-}
 
-.text-start {
-  text-align: left;
-}
 
 .text {
   color: white;
@@ -774,7 +771,6 @@ video {
 }
 
 
-
 #contact-form-section textarea, #contact-form-section input {
   border: none !important;
   border-radius: 0 !important;
@@ -806,5 +802,17 @@ video {
   display: inline-block;
 
 }
+
+.icon-section {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease-out;
+}
+
+.animate-section-icon {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 
 
