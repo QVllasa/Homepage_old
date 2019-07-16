@@ -4,32 +4,14 @@
 <head>
 
   <meta charset="utf-8">
-  <title></title>
+  <title>Qendrim Vllasa</title>
   <meta name="description" content="This is me. Qendrim Vllasa">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
+  <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <!-- Bootstrap style CDN -->
-  <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"-->
-  <!--        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-  <!-- kasserver bootstrap style -->
-  <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
-  <!--own stylsheets-->
-  <link rel="stylesheet" type="text/css" href="css/homestyle.css">
-  <link rel="stylesheet" href="css/resumestyle.css" type="text/css">
-
-
-  <!--end own stylesheets-->
-
-
   <meta name="theme-color" content="#fafefa">
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
 
 
   <link rel="stylesheet" href="css/isotopestyle.css">
@@ -325,7 +307,7 @@
   </div>
 
   <!-- best in section -->
-  <div class="container-fluid px-0 mb-3 mt-3"
+  <div class="container-fluid px-0 mb-3 mt-3 on-animate"
        id="my-best-in-section">
     <div class="container">
       <div class="row">
@@ -334,7 +316,7 @@
         <div class="col-md-4">
           <div class="row">
             <div class="container">
-              <h5>Presentationskompetenz</h5>
+              <h5>Präsentationskompetenz</h5>
             </div>
           </div>
           <div class="row">
@@ -410,7 +392,7 @@
   <div class="container-fluid portfolio-section pt-5 pb-4" id="my-portfolio-section">
 
     <!--icon-->
-    <div class="container icon-section" id="portfolio-icon">
+    <div class="container on-animate" id="portfolio-icon">
       <div class="row justify-content-center">
         <div class="container icon-container align-items-center justify-content-center">
           <i class="fas fa-briefcase fa-2x" style="color:white"></i>
@@ -423,7 +405,7 @@
     </div>
 
     <!-- sections links -->
-    <div class="container mt-5 mb-n5">
+    <div class="container mt-5 mb-n5 on-animate" id="portfolio-section-links">
       <div class="row justify-content-center">
         <div class="port-filter button-group" id="filters">
           <ul>
@@ -443,7 +425,7 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="container" id="portfolio-content">
+    <div class="container on-animate" id="portfolio-tiles">
 
     </div>
 
@@ -453,7 +435,7 @@
   <div class="container-fluid skill-section pt-5 pb-5" id="my-skills-section">
 
     <!-- icon -->
-    <div class="container mb-5 icon-section" id="skills-icon">
+    <div class="container mb-5 on-animate" id="skills-icon">
       <div class="row justify-content-center">
         <div class="container icon-container align-items-center justify-content-center"
         >
@@ -563,7 +545,7 @@
       </div>
       <div class="row justify-content-center pb-5">
         <div class="col-lg-3 text-center m-2">
-          <button class="hire-me">MICH EINSETZEN</button>
+          <button class="hire-me">ENGAGIEREN</button>
         </div>
         <div class="col-lg-3 text-center m-2">
           <button class="cv-download">
@@ -581,7 +563,7 @@
   <div class="container-fluid pt-5 mb-5" id="my-resume-section">
 
     <!-- icon -->
-    <div class="container mb-5 icon-section" id="resume-icon">
+    <div class="container mb-5 on-animate" id="resume-icon">
       <div class="row justify-content-center"
       >
         <div class="container icon-container align-items-center justify-content-center">
@@ -603,7 +585,7 @@
 
         <div class="col-lg-6 mx-auto text-center left-column">
           <ul class="resume-list-school px-0">
-            <li class="section-left-side left" id="left1" data-aos="fade-right">
+            <li class="section-left-side left on-animate-left" id="left1">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -612,7 +594,7 @@
                 <i class="far fa-circle dot-left"></i>
               </div>
             </li>
-            <li class="section-right-side left" id="left2" data-aos="fade-right">
+            <li class="section-right-side left on-animate-left" id="left2">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -621,7 +603,7 @@
                 <i class="far fa-circle dot-left"></i>
               </div>
             </li>
-            <li class="section-left-side left" id="left3" data-aos="fade-right">
+            <li class="section-left-side left on-animate-left" id="left3">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -638,7 +620,7 @@
 
         <div class="col-lg-6 mx-auto  text-center right-column">
           <ul class="resume-list-work px-0">
-            <li class="section-left-side right" id="right1" data-aos="fade-left">
+            <li class="section-left-side right on-animate-right" id="right1">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -647,7 +629,7 @@
                 <i class="far fa-circle dot-right"></i>
               </div>
             </li>
-            <li class="section-right-side right" id="right2" data-aos="fade-left">
+            <li class="section-right-side right on-animate-right" id="right2">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -656,7 +638,7 @@
                 <i class="far fa-circle dot-right"></i>
               </div>
             </li>
-            <li class="section-left-side mb-0 right" id="right3" data-aos="fade-left">
+            <li class="section-left-side mb-0 right on-animate-right" id="right3">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -665,7 +647,7 @@
                 <i class="far fa-circle dot-right"></i>
               </div>
             </li>
-            <li class="section-right-side mt-5 right" id="right4" data-aos="fade-left">
+            <li class="section-right-side mt-5 right on-animate-right" id="right4">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -674,7 +656,7 @@
                 <i class="far fa-circle dot-right"></i>
               </div>
             </li>
-            <li class="section-left-side right" id="right5" data-aos="fade-left">
+            <li class="section-left-side right on-animate-right" id="right5">
               <div>
                 <h4>Abschnitt1</h4>
                 <p>"lorem ipsum"</p>
@@ -709,7 +691,7 @@
   <div class="container-fluid pt-5 pb-5" id="my-feedback-section">
 
     <!-- icon -->
-    <div class="container mb-5 icon-section" id="company-icon">
+    <div class="container mb-5 on-animate" id="company-icon">
       <div class="row justify-content-center">
         <div class="container icon-container align-items-center justify-content-center"
         >
@@ -723,7 +705,7 @@
     </div>
 
     <!-- feedback -->
-    <div class="container" id="feedback-container">
+    <div class="container on-animate" id="feedback-container">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
         <ol class="carousel-indicators mb-n5" id="feedback-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -775,7 +757,7 @@
 
 
     <!-- company carousel -->
-    <div class="container mt-5 pt-5" id="logo-container">
+    <div class="container mt-5 pt-5 on-animate" id="logo-container">
       <div class="row">
         <div class="col-md-12">
           <div class="slider company-logos">
@@ -809,7 +791,7 @@
   <div class="container-fluid pt-5 pb-5" id="my-contact-section">
 
     <!-- icon -->
-    <div class="container mb-5 icon-section" id="contact-icon">
+    <div class="container mb-5 on-animate" id="contact-icon">
       <div class="row justify-content-center">
         <div class="container icon-container align-items-center justify-content-center"
         >
@@ -823,7 +805,7 @@
     </div>
 
     <!-- social media -->
-    <div class="container">
+    <div class="container on-animate" id="contact-social-media">
       <div class="row justify-content-center" id="social-media-buttons">
         <button><i class="fab fa-facebook-square fa-2x"></i></button>
         <button><i class="fab fa-linkedin fa-2x"></i></button>
@@ -833,7 +815,7 @@
     </div>
 
     <!-- contact form -->
-    <div class="container mt-5" id="contact-form-section">
+    <div class="container mt-5 on-animate" id="contact-form-section">
       <div class="row">
         <div class="col-md-12">
           <!-- form -->
@@ -890,48 +872,24 @@
   </div>
 </footer>
 
+<!--<script>-->
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script src="js/plugins.js"></script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<!--Bootstrap-->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<!--Bootstrap ende-->
 
-<!-- font awesome-->
 <script src="https://kit.fontawesome.com/dcc0002124.js"></script>
-<!-- font awesome-->
-
-
-<!-- isotop CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-
-<!-- isotop CDN -->
-
-<!-- progressbars CDN-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
-<!-- progressbars CDN -->
-
-<!-- AOS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<!-- AOS -->
-
-
-<!-- slick -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-
-<!-- scrollmagic-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-
-<!--own scripts-->
-<script type="text/javascript" src="js/scripts.js"></script>
-<!--end of own scripts-->
-
+<script src="js/main.js"></script>
 
 <!--<script>
-
-
   window.ga = function () {
     ga.q.push(arguments)
   };
