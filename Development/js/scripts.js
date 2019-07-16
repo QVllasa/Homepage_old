@@ -36,9 +36,9 @@ $('a[href*="#my"]').on('click', function (e) {
   var target = this.hash;
   var $target = $(target);
   $('html, body').stop().animate({
-    'scrollTop': $target.offset().top
+    'scrollTop': $target.offset().top - 75
   }, 1500, 'swing', function () {
-    window.location.hash = target;
+    window.location.hash = $target;
   });
 });
 
@@ -368,7 +368,11 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .setClassToggle('#portfolio-icon', 'animate-section-icon')
+    .on('start', function () {
+      addPortfolioContent();
+
+    })
+    .setClassToggle('#portfolio-icon', 'animate-icon-section')
     .addTo(controller);
 
   var myWork = new ScrollMagic.Scene({
@@ -376,7 +380,7 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .setClassToggle('#skills-icon', 'animate-section-icon')
+    .setClassToggle('#skills-icon', 'animate-icon-section')
     .addTo(controller);
 
   var myWork = new ScrollMagic.Scene({
@@ -384,7 +388,7 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .setClassToggle('#resume-icon', 'animate-section-icon')
+    .setClassToggle('#resume-icon', 'animate-icon-section')
     .addTo(controller);
 
   var myWork = new ScrollMagic.Scene({
@@ -392,7 +396,7 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .setClassToggle('#company-icon', 'animate-section-icon')
+    .setClassToggle('#company-icon', 'animate-icon-section')
     .addTo(controller);
 
   var myWork = new ScrollMagic.Scene({
@@ -400,7 +404,7 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .setClassToggle('#contact-icon', 'animate-section-icon')
+    .setClassToggle('#contact-icon', 'animate-icon-section')
     .addTo(controller);
 
 
@@ -434,3 +438,62 @@ $(document).ready(function () {
 
 
 //Init scroll Magic--------------------------------------
+
+
+//add Content on scroll with ScrollMagic---------------
+
+function addPortfolioContent() {
+  $('#portfolio-content').append("<div class=\"grid\">\n" +
+    "        <div class=\"element-item transition metal\" data-category=\"transition\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/Chroma1.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "        <div class=\"element-item metalloid\" data-category=\"metalloid\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/AbstractShapes.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "        <div class=\"element-item post-transition metal \" data-category=\"post-transition\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/AbstractShapes.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "        <div class=\"element-item post-transition metal \" data-category=\"post-transition\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/AbstractShapes.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "        <div class=\"element-item transition metal \" data-category=\"transition\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/AbstractShapes.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "        <div class=\"element-item alkali metal\" data-category=\"alkali\">\n" +
+    "          <div class=\"img-hover-zoom\">\n" +
+    "            <img src=\"img/AbstractShapes.jpg\" class=\"img-fluid\">\n" +
+    "            <div class=\"overlay \">\n" +
+    "              <div class=\"text \">1</div>\n" +
+    "            </div>\n" +
+    "          </div>\n" +
+    "        </div>\n" +
+    "      </div>")
+}
+
+
+//add Portfolio on scroll with ScrollMagic---------------

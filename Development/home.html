@@ -41,7 +41,7 @@
 
   <!-- google fonts -->
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
@@ -51,7 +51,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" data-offset="600">
 
 <!--Navigation-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="background-dark">
@@ -118,7 +118,7 @@
 <section id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500"
          data-wrap="true" data-pause="false">
   <!--Indicators-->
-  <ol class="carousel-indicators">
+  <ol class="carousel-indicators" id="video-carousel-indicators">
     <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
     <li data-target="#video-carousel-example" data-slide-to="1"></li>
     <li data-target="#video-carousel-example" data-slide-to="2"></li>
@@ -182,7 +182,7 @@
       <div class="row justify-content-center mt-4">
 
         <!-- self portrait -->
-        <div class="col-md-4" style="padding-left: 0">
+        <div class="col-md-4" style="padding-left: 0; filter: drop-shadow(8px 8px 10px gray)">
           <div class="container" style="margin: 10px 0 0 0;">
             <img class="img-fluid self-portrait" src="img/portraits/portrait_free.png" alt="Portrait">
             <div class="container name-img-title">
@@ -408,6 +408,7 @@
 
   <!-- portfolio section -->
   <div class="container-fluid portfolio-section pt-5 pb-4" id="my-portfolio-section">
+
     <!--icon-->
     <div class="container icon-section" id="portfolio-icon">
       <div class="row justify-content-center">
@@ -442,57 +443,8 @@
     </div>
 
     <!-- Portfolio -->
-    <div class="container">
-      <div class="grid">
-        <div class="element-item transition metal" data-category="transition">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="element-item metalloid" data-category="metalloid">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="element-item post-transition metal " data-category="post-transition">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="element-item post-transition metal " data-category="post-transition">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="element-item transition metal " data-category="transition">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-        <div class="element-item alkali metal" data-category="alkali">
-          <div class="img-hover-zoom">
-            <img src="img/AbstractShapes.jpg" class="img-fluid">
-            <div class="overlay ">
-              <div class="text ">1</div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="container" id="portfolio-content">
+
     </div>
 
   </div>
@@ -952,7 +904,7 @@
 
 
 <!-- isotop CDN -->
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 
 <!-- isotop CDN -->
 
@@ -961,7 +913,7 @@
 <!-- progressbars CDN -->
 
 <!-- AOS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <!-- AOS -->
 
 

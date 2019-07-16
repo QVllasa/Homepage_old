@@ -136,6 +136,14 @@ video {
   transition: 1s;
 }
 
+#video-carousel-indicators {
+  opacity: 0;
+}
+
+#video-carousel-example:hover #video-carousel-indicators {
+  opacity: 1;
+}
+
 
 .carousel-caption {
   position: absolute;
@@ -809,7 +817,7 @@ video {
   transition: all 1s ease-out;
 }
 
-.animate-section-icon {
+.animate-icon-section {
   transform: translateY(0);
   opacity: 1;
 }
