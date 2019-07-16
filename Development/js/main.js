@@ -1,4 +1,12 @@
+//refreshing page brings you to top ----------------------------------------------------
+window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+};
+//refreshing page brings you to top----------------------------------------------------
+
+
 //Navbar animation--------------------------------------------------------------------
+
 window.onscroll = function () {
   scrollFunctionResize()
 };
@@ -252,57 +260,6 @@ function createAllnormal() {
 //progressbar js ------------------------------------------------
 
 
-//Isotope--------------------------------------
-var $grid = $('.grid').isotope({
-  itemSelector: '.element-item',
-  layoutMode: 'fitRows',
-  getSortData: {
-    name: '.name',
-    symbol: '.symbol',
-    number: '.number parseInt',
-    category: '[data-category]',
-    weight: function (itemElem) {
-      var weight = $(itemElem).find('.weight').text();
-      return parseFloat(weight.replace(/[\(\)]/g, ''));
-    }
-  }
-});
-
-// filter functions
-var filterFns = {
-  // show if number is greater than 50
-  numberGreaterThan50: function () {
-    var number = $(this).find('.number').text();
-    return parseInt(number, 10) > 50;
-  },
-  // show if name ends with -ium
-  ium: function () {
-    var name = $(this).find('.name').text();
-    return name.match(/ium$/);
-  }
-};
-
-// bind filter button click
-$('#filters').on('click', '.link-element', function () {
-  var filterValue = $(this).attr('data-filter');
-  // use filterFn if matches value
-  filterValue = filterFns[filterValue] || filterValue;
-  $grid.isotope({filter: filterValue});
-});
-
-
-// change is-checked class on buttons
-$('.button-group').each(function (i, buttonGroup) {
-  var $buttonGroup = $(buttonGroup);
-  $buttonGroup.on('click', '.link-element', function () {
-    $buttonGroup.find('.is-checked').removeClass('is-checked');
-    $(this).addClass('is-checked');
-  });
-});
-
-//Isotope--------------------------------------
-
-
 //multi item carousel--------------------------------------
 
 
@@ -356,15 +313,19 @@ $(document).ready(function () {
 
   var controller = new ScrollMagic.Controller();
 
+  var bestIn = new ScrollMagic.Scene({
+    triggerElement: '#my-best-in-section',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#my-best-in-section', 'animate-section')
+    .addTo(controller);
+
   var portfolioIcon = new ScrollMagic.Scene({
     triggerElement: '#portfolio-icon',
     triggerHook: 0.95,
     reverse: false,
   })
-    .on('start', function () {
-      addPortfolioContent();
-
-    })
     .setClassToggle('#portfolio-icon', 'animate-section')
     .addTo(controller);
 
@@ -381,6 +342,11 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
+    .on('start', function () {
+      addPortfolioContent(allImageLoaded);
+
+
+    })
     .setClassToggle('#portfolio-tiles', 'animate-section')
     .addTo(controller);
 
@@ -400,7 +366,6 @@ $(document).ready(function () {
   })
     .on('start', function () {
       createAllBar();
-      console.log('circle');
     })
 
     .addTo(controller);
@@ -413,7 +378,6 @@ $(document).ready(function () {
   })
     .on('start', function () {
       createAllnormal();
-      console.log('normal');
     })
 
     .addTo(controller);
@@ -424,6 +388,14 @@ $(document).ready(function () {
     reverse: false,
   })
     .setClassToggle('#resume-icon', 'animate-section')
+    .addTo(controller);
+
+  var actual = new ScrollMagic.Scene({
+    triggerElement: '#actual',
+    triggerHook: 0.95,
+    reverse: false,
+  })
+    .setClassToggle('#actual', 'animate-section')
     .addTo(controller);
 
   var resumeItemsLeft1 = new ScrollMagic.Scene({
@@ -547,7 +519,22 @@ $(document).ready(function () {
 
 //add Content on scroll with ScrollMagic---------------
 
-function addPortfolioContent() {
+function allImageLoaded() {
+  function imageLoaded() {
+    loadIsotope();
+  }
+
+  $('.element-item img').each(function () {
+    if (this.complete) {
+      imageLoaded.call(this);
+    } else {
+      $(this).one('load', imageLoaded);
+    }
+  });
+}
+
+
+function addPortfolioContent(callback) {
   $('#portfolio-tiles').append("<div class=\"grid\">\n" +
     "        <div class=\"element-item transition metal\" data-category=\"transition\">\n" +
     "          <div class=\"img-hover-zoom\">\n" +
@@ -597,8 +584,66 @@ function addPortfolioContent() {
     "            </div>\n" +
     "          </div>\n" +
     "        </div>\n" +
-    "      </div>")
+    "      </div>");
+  callback();
 }
 
 
 //add Portfolio on scroll with ScrollMagic---------------
+
+//Isotope--------------------------------------
+
+function loadIsotope() {
+  var $grid = $('.grid').isotope({
+    itemSelector: '.element-item',
+    layoutMode: 'fitRows',
+    getSortData: {
+      name: '.name',
+      symbol: '.symbol',
+      number: '.number parseInt',
+      category: '[data-category]',
+      weight: function (itemElem) {
+        var weight = $(itemElem).find('.weight').text();
+        return parseFloat(weight.replace(/[\(\)]/g, ''));
+      }
+    }
+  });
+
+
+// filter functions
+  var filterFns = {
+    // show if number is greater than 50
+    numberGreaterThan50: function () {
+      var number = $(this).find('.number').text();
+      return parseInt(number, 10) > 50;
+    },
+    // show if name ends with -ium
+    ium: function () {
+      var name = $(this).find('.name').text();
+      return name.match(/ium$/);
+    }
+  };
+
+// bind filter button click
+  $('#filters').on('click', '.link-element', function () {
+    var filterValue = $(this).attr('data-filter');
+    // use filterFn if matches value
+    filterValue = filterFns[filterValue] || filterValue;
+    $grid.isotope({filter: filterValue});
+  });
+
+
+// change is-checked class on buttons
+  $('.button-group').each(function (i, buttonGroup) {
+    var $buttonGroup = $(buttonGroup);
+    $buttonGroup.on('click', '.link-element', function () {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $(this).addClass('is-checked');
+    });
+  });
+
+}
+
+//Isotope--------------------------------------
+
+

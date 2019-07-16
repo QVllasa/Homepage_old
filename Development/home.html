@@ -114,7 +114,7 @@
       <h1 id="name-home">Qendrim Vllasa</h1>
     </div>
     <div class="carousel-caption properties">
-      <a class="typewrite" data-period="2000"
+      <a class="typewrite" data-period="1000"
          data-type='[ " Economics Engineer M.Sc. ", " Technologie Enthusiast ", " Kreativer Entwickler aus Leidenschaft "]'>
         <span class="wrap"></span>
       </a>
@@ -144,7 +144,7 @@
 
 <main>
 
-  <!-- About me section -->
+  <!-- ABOUT -->
   <div class="container-fluid pt-5" id="my-about-me-section">
     <!-- icon about me section -->
     <div class="container">
@@ -306,10 +306,9 @@
 
   </div>
 
-  <!-- best in section -->
-  <div class="container-fluid px-0 mb-3 mt-3 on-animate"
-       id="my-best-in-section">
-    <div class="container">
+  <!-- BEST -->
+  <div class="container-fluid px-0 mb-3 mt-3">
+    <div class="container on-animate" id="my-best-in-section">
       <div class="row">
 
         <!-- Presentation -->
@@ -388,7 +387,7 @@
     </div>
   </div>
 
-  <!-- portfolio section -->
+  <!-- PORTFOLIO -->
   <div class="container-fluid portfolio-section pt-5 pb-4" id="my-portfolio-section">
 
     <!--icon-->
@@ -410,7 +409,7 @@
         <div class="port-filter button-group" id="filters">
           <ul>
             <li>
-              <a id="latest-projects-link" class="link-element is-checked" data-filter="*"><span>Neueste Projekte</span></a>
+              <a id="latest-projects-link" class="link-element is-checked" data-filter="*"><span id="filter-button">Neueste Projekte</span></a>
             </li>
             <li>
               <a id="upcoming-projects-link" class="link-element"
@@ -426,12 +425,13 @@
 
     <!-- Portfolio -->
     <div class="container on-animate" id="portfolio-tiles">
-
+      <div class="grid">
+      </div>
     </div>
 
   </div>
 
-  <!-- skill section -->
+  <!-- SKILLS -->
   <div class="container-fluid skill-section pt-5 pb-5" id="my-skills-section">
 
     <!-- icon -->
@@ -535,7 +535,7 @@
 
   </div>
 
-  <!-- freelancer -->
+  <!-- FREELANCER -->
   <div class="container-fluid justify-content-center align-items-center" id="my-freelancer-section">
     <div class="container">
       <div class="row">
@@ -559,7 +559,7 @@
 
   </div>
 
-  <!-- resume section -->
+  <!-- RESUME -->
   <div class="container-fluid pt-5 mb-5" id="my-resume-section">
 
     <!-- icon -->
@@ -580,7 +580,7 @@
     <div class="container mb-0">
       <div class="row" id="resume-lists">
         <div class="container text-center my-5">
-          <div class="container my-present mb-4">Aktuell</div>
+          <div class="container my-present mb-4 on-animate" id="actual">Aktuell</div>
         </div>
 
         <div class="col-lg-6 mx-auto text-center left-column">
@@ -687,7 +687,7 @@
 
   </div>
 
-  <!-- company section -->
+  <!-- COMPANY -->
   <div class="container-fluid pt-5 pb-5" id="my-feedback-section">
 
     <!-- icon -->
@@ -739,8 +739,8 @@
           </div>
           <div class="carousel-item">
             <i class="fas fa-quote-right"></i>
-            <h4>Sie haben ein ausgesprochen gutes Präsentationstalent, was in unserer heutigen Zeit eine wichtige
-              Kernkompetenz darstellt.</h4>
+            <h4>Hat Ihnen eigentlich schon einmal jemand gesagt dass Sie ein ausgesprochen gutes Präsentationstalent
+              besitzen?</h4>
             <h6>Prof. Dr. Dr.-Ing. Dr. h. c. Jivka Ovtcharova - Institutsleitung - IMI KIT</h6>
           </div>
         </div>
@@ -787,7 +787,7 @@
 
   </div>
 
-  <!-- contact section -->
+  <!-- CONTACT -->
   <div class="container-fluid pt-5 pb-5" id="my-contact-section">
 
     <!-- icon -->
@@ -880,13 +880,12 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
 <script src="https://kit.fontawesome.com/dcc0002124.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 <script src="js/main.js"></script>
 
 <!--<script>
