@@ -322,6 +322,11 @@ textarea {
     margin-left: -15px;
   }
 
+  #paddingNav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
 }
 
 @media (max-width: 628px) {
@@ -355,28 +360,29 @@ textarea {
   #logo-container {
     display: none;
   }
-
 }
 
 
-.underlining:after {
-  display: block;
-  content: '';
-  border-bottom: solid 1px #ffffff;
-  transform: scaleX(0);
-  transition: 0.3s;
-
+.underlining:after{
+  display: block !important;
+  content: '' !important;
+  border: none !important;
+  border-bottom: solid 1px #ffffff !important;
+  transform: scaleX(0) !important;
+  transition: 0.3s !important;
+  margin-left:0  !important;
+  vertical-align: 0  !important;
 }
 
-.underlining:hover:after {
-  transform: scaleX(1);
+.underlining:hover:after{
+  transform: scaleX(1) !important;
 }
 
 .underlining.active:after {
-  transform: scaleX(1);
-
-
+  transform: scaleX(1) !important;
 }
+
+
 
 li a {
   white-space: nowrap;
@@ -399,7 +405,7 @@ video {
   border-top: 6px solid white;
   border-right: 6px solid white;
   border-left: 6px solid white;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 #video-carousel-indicators {
@@ -488,6 +494,7 @@ video {
 
   .carousel-caption.properties a {
     font-size: 25% !important;
+    display: none;
   }
 
   .carousel-caption {
@@ -1094,7 +1101,6 @@ video {
 }
 
 #resume-lists {
-
   width: auto;
 }
 
@@ -1113,6 +1119,22 @@ video {
   background-repeat: repeat-y;
 
 }
+
+
+@media (max-width: 990px) {
+  .resume-list-work li, .resume-list-school li{
+    margin: 0 !important;
+  }
+
+  #resume-lists{
+    background-image: none;
+  }
+
+  .fa-play, .fa-circle{
+    display: none !important;
+  }
+}
+
 
 .my-present {
   display: inline;
@@ -1193,6 +1215,7 @@ video {
 }
 
 .bubble-arrow-left {
+
   float: right;
   margin: -15% -15px 0 0;
   color: #D3D3D3;
@@ -1200,6 +1223,7 @@ video {
 }
 
 .bubble-arrow-right {
+
   float: left;
   margin: -15% 0 0 -15px;
   color: #D3D3D3;
@@ -1211,36 +1235,37 @@ video {
 .left {
   background-color: rgba(0, 0, 0, 0);
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 .left:hover .dot-left {
   background-color: #474D5D;
-  transition: 0.3s;
+
 }
 
 .left:hover .bubble-arrow-left {
   opacity: 1;
-  transition: 0.5s;
+
 }
 
 #left1:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 
 #left2:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 
 #left3:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 
@@ -1251,43 +1276,43 @@ video {
 
 .right:hover .bubble-arrow-right {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right1:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right2:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right3:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right4:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right4:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 #right5:hover {
   background-color: lightgray;
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 

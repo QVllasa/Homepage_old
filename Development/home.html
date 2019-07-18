@@ -35,7 +35,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="600">
 
-<!--Navigation-->
+<!--NAVIGATION-->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="background-dark">
   <div class="container inner-navigation" id="paddingNav">
     <div class="container" id="brandWidth">
@@ -49,46 +49,44 @@
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav" id="menuItems">
         <li class="nav-item active">
           <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link underlining" href="#my-about-me-section">Über Mich</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-about-me-section">Über Mich</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link underlining" href="#my-portfolio-section">Arbeit</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-portfolio-section">Arbeit</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link underlining" href="#my-skills-section">Skills</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-skills-section">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link underlining" href="#my-resume-section">Laufbahn</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-resume-section">Laufbahn</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link underlining" href="#my-feedback-section">Stationen</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" href="#my-contact-section">Kontakt</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-feedback-section">Stationen</a>
         </li>
         <!--Dropdown-->
-        <li class="nav-item dropdown underlining">
-
-
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
              aria-haspopup="true" aria-expanded="false">
-            Dropdown
+            Leidenschaften
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Leidenschaft 1</a>
+            <a class="dropdown-item" href="#">Leidenschaft 1</a>
+            <a class="dropdown-item" href="#">Leidenschaft 1</a>
+            <a class="dropdown-item" href="#">Leidenschaft 1</a>
+            <a class="dropdown-item" href="#">Leidenschaft 1</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-contact-section">Kontakt</a>
         </li>
       </ul>
     </div>
@@ -96,7 +94,7 @@
 </nav>
 
 
-<!--Carousel Wrapper Video-->
+<!--VIDEO CAROUSEL-->
 <section id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500"
          data-wrap="true" data-pause="false">
   <!--Indicators-->
@@ -140,7 +138,7 @@
   <!--/.Slides-->
 
 </section>
-<!--Carousel Wrapper-->
+
 
 <main>
 
@@ -861,7 +859,7 @@
 
 
 <footer>
-  <div class="container-fluid" id="footer-section">
+  <div class="container-fluid footer" id="footer-section">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
