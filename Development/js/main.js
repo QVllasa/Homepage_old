@@ -7,27 +7,7 @@ window.onbeforeunload = function () {
 
 //Navbar animation--------------------------------------------------------------------
 
-window.onscroll = function () {
-  scrollFunctionResize()
-};
 
-
-function scrollFunctionResize() {
-  if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
-    document.getElementById("navbar-top").style.padding = "0";
-
-
-
-
-  } else {
-    document.getElementById("navbar-top").style.padding = "20px";
-
-
-
-
-
-  }
-}
 
 $(document).ready(function () {
   $(window).scroll(function () {
@@ -85,10 +65,8 @@ $(document).ready(function () {
   $(window).on('load scroll', function () {
     var scrolled = $(this).scrollTop();
     $('.carousel-item.video-carousel-item').css('transform', 'translate3d(0, ' + (scrolled * 0.25) + 'px, 0)');
-    $('.carousel-caption.properties').css('transform', 'translate3d(0, ' + (scrolled * (-0.5)) + 'px, 0)');// parallax (25% scroll rate)
-    $('.carousel-caption.name-caption').css('transform', 'translate3d(0, ' + (scrolled * (-0.5)) + 'px, 0)');// parallax (25% scroll rate)
+    $('.carousel-caption').css('top', ''+(25-scrolled/100*15)+'%' );
   });
-
 });
 
 //Parallax ------------------------------------------------
@@ -315,6 +293,17 @@ window.onresize = function () {
 $(document).ready(function () {
 
   var controller = new ScrollMagic.Controller();
+
+
+
+  var navbar = new ScrollMagic.Scene({
+    triggerElement: '#my-about-me-section',
+    triggerHook: 0.13,
+    reverse: true,
+
+  })
+      .setClassToggle('#navbar-top', 'resize')
+      .addTo(controller);
 
   var bestIn = new ScrollMagic.Scene({
     triggerElement: '#my-best-in-section',
