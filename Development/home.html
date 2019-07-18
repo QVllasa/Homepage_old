@@ -35,110 +35,115 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="600">
 
-<!--NAVIGATION-->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="background-dark">
-  <div class="container inner-navigation" id="paddingNav">
-    <div class="container" id="brandWidth">
-      <a class="navbar-brand" id="logoQ" href="#">Qendrim</a>
-      <br>
-      <div class="container">
+
+<header class="page-header">
+  <!--NAVIGATION-->
+  <div class="container-fluid fixed-top" id="navbar-top">
+    <div class="container px-0">
+      <nav class="navbar navbar-expand-md navbar-dark">
+
+        <a class="navbar-brand" id="logoQ" href="#">Qendrim</a>
+           <br>
         <a class="navbar-brand" id="logoV" href="#">Vllasa</a>
-      </div>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav" id="menuItems">
-        <li class="nav-item active">
-          <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-about-me-section">Über Mich</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-portfolio-section">Arbeit</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-skills-section">Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-resume-section">Laufbahn</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-feedback-section">Stationen</a>
-        </li>
-        <!--Dropdown-->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-             aria-haspopup="true" aria-expanded="false">
-            Leidenschaften
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-contact-section">Kontakt</a>
-        </li>
-      </ul>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav" id="menuItems">
+            <li class="nav-item active">
+              <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-about-me-section">Über&nbsp;Mich</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-portfolio-section">Arbeit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-skills-section">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-resume-section">Laufbahn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-feedback-section">Stationen</a>
+            </li>
+            <!--Dropdown-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                 aria-haspopup="true" aria-expanded="false">
+                Leidenschaften
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underlining" data-toggle="collapse" data-target=".navbar-collapse.show" href="#my-contact-section">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
   </div>
-</nav>
 
 
-<!--VIDEO CAROUSEL-->
-<section id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500"
-         data-wrap="true" data-pause="false">
-  <!--Indicators-->
-  <ol class="carousel-indicators" id="video-carousel-indicators">
-    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
-    <li data-target="#video-carousel-example" data-slide-to="1"></li>
-    <li data-target="#video-carousel-example" data-slide-to="2"></li>
-  </ol>
-  <!--/.Indicators-->
-  <!--Slides-->
 
-  <div class="carousel-inner" role="listbox" id="video-carousel-header">
 
-    <div class="carousel-caption name-caption">
-      <h1 id="name-home">Qendrim Vllasa</h1>
-    </div>
-    <div class="carousel-caption properties">
-      <a class="typewrite" data-period="1000"
-         data-type='[ " Economics Engineer M.Sc. ", " Technologie Enthusiast ", " Kreativer Entwickler aus Leidenschaft "]'>
-        <span class="wrap"></span>
-      </a>
-    </div>
-    <div class="carousel-item video-carousel-item active">
-      <video class="video-fluid d-block w-100 " autoplay loop muted>
-        <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4"/>
-      </video>
-    </div>
-    <div class="carousel-item video-carousel-item">
-      <div>
+  <!--VIDEO CAROUSEL-->
+  <section id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel" data-interval="2500"
+           data-wrap="true" data-pause="false">
+    <!--Indicators-->
+    <ol class="carousel-indicators" id="video-carousel-indicators">
+      <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+      <li data-target="#video-carousel-example" data-slide-to="1"></li>
+      <li data-target="#video-carousel-example" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+
+    <div class="carousel-inner" role="listbox" id="video-carousel-header">
+
+      <div class="carousel-caption name-caption">
+        <h1 id="name-home">Qendrim Vllasa</h1>
+      </div>
+      <div class="carousel-caption properties">
+        <a class="typewrite" data-period="1000"
+           data-type='[ " Economics Engineer M.Sc. ", " Technologie Enthusiast ", " Kreativer Entwickler aus Leidenschaft "]'>
+          <span class="wrap"></span>
+        </a>
+      </div>
+      <div class="carousel-item video-carousel-item active">
         <video class="video-fluid d-block w-100 " autoplay loop muted>
-          <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4"/>
+          <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4"/>
+        </video>
+      </div>
+      <div class="carousel-item video-carousel-item">
+        <div>
+          <video class="video-fluid d-block w-100 " autoplay loop muted>
+            <source src="https://mdbootstrap.com/img/video/forest.mp4" type="video/mp4"/>
+          </video>
+        </div>
+      </div>
+      <div class="carousel-item video-carousel-item">
+        <video class="video-fluid d-block w-100 " autoplay loop muted>
+          <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4"/>
         </video>
       </div>
     </div>
-    <div class="carousel-item video-carousel-item">
-      <video class="video-fluid d-block w-100 " autoplay loop muted>
-        <source src="https://mdbootstrap.com/img/video/Agua-natural.mp4" type="video/mp4"/>
-      </video>
-    </div>
-  </div>
-  <!--/.Slides-->
+    <!--/.Slides-->
 
-</section>
+  </section>
 
+</header>
 
 <main>
 
@@ -407,14 +412,14 @@
         <div class="port-filter button-group" id="filters">
           <ul>
             <li>
-              <a id="latest-projects-link" class="link-element is-checked" data-filter="*"><span id="filter-button">Neueste Projekte</span></a>
+              <a id="latest-projects-link" class="link-element is-checked" data-filter="*"><span id="filter-button">Neueste&nbsp;Projekte</span></a>
             </li>
             <li>
               <a id="upcoming-projects-link" class="link-element"
-                 data-filter=".transition"><span>Geplante Projekte</span></a>
+                 data-filter=".transition"><span>Geplante&nbsp;Projekte</span></a>
             </li>
             <li>
-              <a id="archived-projects-link" class="link-element" data-filter=".metal"><span>Vollendete Projekte</span></a>
+              <a id="archived-projects-link" class="link-element" data-filter=".metal"><span>Vollendete&nbsp;Projekte</span></a>
             </li>
           </ul>
         </div>

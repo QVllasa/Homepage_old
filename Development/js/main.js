@@ -14,13 +14,16 @@ window.onscroll = function () {
 
 function scrollFunctionResize() {
   if (document.body.scrollTop > 650 || document.documentElement.scrollTop > 650) {
-    document.getElementById("paddingNav").style.paddingTop = "0px";
-    document.getElementById("paddingNav").style.paddingBottom = "0px";
+    document.getElementById("navbar-top").style.padding = "0";
+
+
 
 
   } else {
-    document.getElementById("paddingNav").style.paddingTop = "20px";
-    document.getElementById("paddingNav").style.paddingBottom = "20px";
+    document.getElementById("navbar-top").style.padding = "20px";
+
+
+
 
 
   }
@@ -29,7 +32,7 @@ function scrollFunctionResize() {
 $(document).ready(function () {
   $(window).scroll(function () {
     var s = 0.5 + ($(window).scrollTop() / 500);
-    $('#background-dark').css("background", 'rgba(0,0,0,' + (s) + ')');
+    $('.container-fluid.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
     $('#logoQ').css("opacity", -0.5 + s);
     $('#logoV').css("opacity", -0.5 + s);
 
