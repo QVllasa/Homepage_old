@@ -10,6 +10,22 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="ed84a4ec-9eff-4256-86cb-84e0d31247f2" name="qendrimvllasa" url="http://www.qendrimvllasa.de">
+        <fileTransfer host="116.202.107.98" port="22" rootFolder="/home/qendrimvllasa" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="8049e5ff-c90b-4985-8713-dae329261632" name="sandbox@qendrimvllasa" url="https://sandbox.qendrimvllasa.de">
+        <fileTransfer host="116.202.107.98" port="22" rootFolder="/home/qendrimvllasa/domains/sandbox.qendrimvllasa.de/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>
