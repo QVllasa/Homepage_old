@@ -288,6 +288,13 @@ textarea {
     padding: 0 !important;
 }
 
+@media (max-width: 991.98px) {
+    .container-fluid.fixed-top {
+        padding: 0 !important;
+    }
+}
+
+
 
 /*#paddingNav {
   padding-top: 20px;
@@ -359,7 +366,9 @@ video {
 
 
 #name-home {
-    font-size: 5vw;
+
+    font-size: calc(1em + 4vw);
+
 }
 
 
@@ -367,19 +376,37 @@ video {
     content: "Das bin ich.";
     display: block;
     background: none;
-    font-size: 3.5vw;
+    font-size: calc(0.5em + 1vw);
 }
 
-
-.carousel-caption {
-    top:15%;
-    bottom:25%;
+.carousel-caption{
+    bottom: 50px;
 }
 
 .carousel-caption a{
     font-size: 1.2vw;
+}
+
+@media (min-width: 1200px){
+    #name-home{
+        font-size: 90px;
+    }
+
+    .carousel-caption a{
+        font-size: 20px;
+    }
 
 }
+
+@media (max-width:  575.98px) {
+    .typewrite {
+        display: none;
+    }
+    .carousel-caption.name-caption{
+        bottom: 1% !important;
+    }
+}
+
 
 
 .navbar-toggler:hover {
@@ -816,8 +843,12 @@ video {
     text-align: center;
     padding: 20px;
     color: white;
+}
 
-
+@media (max-width: 474.98px){
+    .slider.company-logos{
+        display: none;
+    }
 }
 
 .slider.company-logos .parent-slide {

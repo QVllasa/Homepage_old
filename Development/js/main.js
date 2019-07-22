@@ -68,7 +68,7 @@ $(document).ready(function () {
   $(window).on('load scroll', function () {
     var scrolled = $(this).scrollTop();
     $('.carousel-item.video-carousel-item').css('transform', 'translate3d(0, ' + (scrolled * 0.25) + 'px, 0)');
-    $('.carousel-caption').css('top', ''+(15-scrolled/100*15)+'%' );
+    $('.carousel-caption').css('bottom', ''+(50+scrolled)+'px' );
   });
 });
 
@@ -268,8 +268,6 @@ function logoSlider() {
     }, {
       breakpoint: 475,
       settings: "unslick"
-
-
     }]
   });
 }
