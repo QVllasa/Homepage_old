@@ -2,6 +2,9 @@
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);
 };
+
+
+
 //refreshing page brings you to top----------------------------------------------------
 
 
@@ -271,9 +274,21 @@ function logoSlider() {
   });
 }
 
+
+function scrollspyWorkaround (){
+  $('.navbar-collapse a').click(function (e) {
+    if  (window.innerWidth < 768){
+      $('.navbar-collapse').collapse('toggle');
+    }
+  });
+}
+
+
+
 function onloadAllFunc() {
   logoSlider();
   typeWriter();
+  scrollspyWorkaround();
 }
 
 window.onload = onloadAllFunc;
@@ -637,5 +652,4 @@ function loadIsotope() {
 }
 
 //Isotope--------------------------------------
-
 

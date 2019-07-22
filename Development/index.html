@@ -1,60 +1,93 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Page Not Found</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-
-    * {
-      line-height: 1.2;
-      margin: 0;
+<!DOCTYPE html>
+<html>
+<style>
+    body, html {
+        height: 100%;
+        margin: 0;
     }
 
-    html {
-      color: #888;
-      display: table;
-      font-family: sans-serif;
-      height: 100%;
-      text-align: center;
-      width: 100%;
+    .bgimg {
+        background-image: url('https://images.pexels.com/photos/158251/forest-the-sun-morning-tucholskie-158251.jpeg?cs=srgb&dl=forest-grass-nature-158251.jpg&fm=jpg');
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 25px;
     }
 
-    body {
-      display: table-cell;
-      vertical-align: middle;
-      margin: 2em auto;
+    .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
     }
 
-    h1 {
-      color: #555;
-      font-size: 2em;
-      font-weight: 400;
+    .bottomleft {
+        position: absolute;
+        bottom: 0;
+        left: 16px;
     }
 
-    p {
-      margin: 0 auto;
-      width: 280px;
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
     }
 
-    @media only screen and (max-width: 280px) {
-
-      body, p {
-        width: 95%;
-      }
-
-      h1 {
-        font-size: 1.5em;
-        margin: 0 0 0.3em;
-      }
-
+    hr {
+        margin: auto;
+        width: 40%;
     }
-
-  </style>
-</head>
+</style>
 <body>
-<h1>Page Not Found</h1>
-<p>Sorry, but the page you were trying to view does not exist.</p>
+
+<div class="bgimg">
+    <div class="topleft">
+        <p>Be patient...</p>
+    </div>
+    <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p id="demo" style="font-size:30px"></p>
+    </div>
+    <div class="bottomleft">
+        <p>The official homepage of Qendrim Vllasa</p>
+    </div>
+</div>
+
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Aug 14, 2019 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var countdownfunction = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+            + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(countdownfunction);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
+
 </body>
 </html>
-<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->

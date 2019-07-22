@@ -19,7 +19,7 @@
       <paths name="sandbox@qendrimvllasa">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/public_html" />
+            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
