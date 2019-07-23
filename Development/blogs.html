@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/blogs.css">
 
     <meta name="theme-color" content="#fafefa">
 
@@ -116,7 +117,7 @@
 <main>
 
     <!-- HOBBYS -->
-    <div class="container-fluid">
+    <div class="container-fluid height500">
         <div class="container" id="hobby-filter">
 
             <!-- Filter buttons -->
@@ -138,56 +139,55 @@
             <div class="row justify-content-start border border-dark">
                 <div class="col-md-6 border border-dark ">
                     <div class="collapse" id="collapseExample">
-                        <div class="row port-filter button-group border border-danger filters">
-                            <div class="col-sm-2">
+                        <div class="row blog-filter button-group border border-danger filters">
+                            <div class="col-sm-4">
                                 <button>
-                                    <a class="link-element is-checked" data-filter="*"><span
-                                    >Neueste&nbsp;Projekte</span></a>
+                                    <a class="link-element is-checked"
+                                       data-filter="*">Neueste&nbsp;Projekte</a>
                                 </button>
+
+
                             </div>
 
 
-                            <div class="col-sm-2 border border-dark">
-                              <button>
-                                  <a class="link-element"
-                                     data-filter=".transition"><span>Geplante&nbsp;Projekte</span></a>
-                              </button>
+                            <div class="col-sm-4 border border-dark">
+                                <button>
+                                    <a class="link-element"
+                                       data-filter=".transition">Geplante&nbsp;Projekte</a>
+                                </button>
+
+
                             </div>
 
-                            <div class="col-sm-2 border border-dark">
-                              <button>
-                                  <a class="link-element" data-filter=".metal"><span>Vollendete&nbsp;Projekte</span></a>
-                              </button>
+                            <div class="col-sm-4 border border-dark">
+                                <button>
+                                    <a class="link-element" data-filter=".metal">Vollendete&nbsp;Projekte</a>
+                                </button>
+
+
                             </div>
                         </div>
 
                     </div>
-
-
                 </div>
                 <div class="col-md-6 border border-dark ">
                     <div class="collapse " id="collapseExample2">
-                        <div class="row port-filter button-group border border-dark filters " id="">
-
-
-                            <div class="col-sm-2">
-                              <button>
-                                  <a class="link-element is-checked" data-filter="*"><span
-                                  >Neueste&nbsp;Projekte</span></a>
-                              </button>
-                            </div>
-
-
-                            <div class="col-sm-2 border border-dark">
-                               <button>
-                                   <a class="link-element"
-                                      data-filter=".transition"><span>Geplante&nbsp;Projekte</span></a>
-                               </button>
-                            </div>
-
-                            <div class="col-sm-2 border border-dark">
+                        <div class="row blog-filter button-group border border-dark filters" id="">
+                            <div class="col-sm-4">
                                 <button>
-                                    <a class="link-element" data-filter=".metal"><span>Vollendete&nbsp;Projekte</span></a>
+                                    <a class="link-element is-checked"
+                                       data-filter="*">Neueste&nbsp;Projekte</a>
+                                </button>
+                            </div>
+                            <div class="col-sm-4 border border-dark">
+                                <button>
+                                    <a class="link-element"
+                                       data-filter=".transition">Geplante&nbsp;Projekte</a>
+                                </button>
+                            </div>
+                            <div class="col-sm-4 border border-dark">
+                                <button>
+                                    <a class="link-element" data-filter=".metal">Vollendete&nbsp;Projekte</a>
                                 </button>
                             </div>
                         </div>
@@ -199,17 +199,14 @@
             </div>
 
 
-
-
-
             <!-- isotope -->
-            <div class="container border border-danger">
+            <div class="container border border-danger" id="isotope">
                 <div class="grid">
                     <div class="element-item transition metal" data-category="transition">
                         <div class="img-hover-zoom">
                             <img src="img/Chroma1.jpg" class="img-fluid">
                             <div class="overlay">
-                                <div class="text">1</div>
+                                <a class="text" >1</a>
                             </div>
                         </div>
                     </div>
@@ -247,10 +244,11 @@
                     </div>
                     <div class="element-item alkali metal" data-category="alkali">
                         <div class="img-hover-zoom">
-                            <img src="img/AbstractShapes.jpg" class="img-fluid">
-                            <div class="overlay">
+                            <img src="img/business_background.jpg" class="img-fluid">
+                            <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                                 aria-controls="collapseExample">
                                 <div class="text">1</div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -277,6 +275,13 @@
                 </div>
             </div>
         </div>-->
+
+    <div class="container" >
+        <div class="collapse" id="hallowelt">
+            <h1>Hallo Welt!</h1>
+        </div>
+
+    </div>
 
 </main>
 
