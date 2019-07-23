@@ -569,7 +569,7 @@ video {
 
 }
 
-#filters a {
+.filters a {
     font-family: Roboto, sans-serif;
     font-weight: 300;
 }
@@ -1327,6 +1327,11 @@ video {
 
 
 #header-container{
-    height: 700px;
+    height: 400px;
     background-color: #474D5D;
+}
+
+.height100{
+
+    height: 100px;
 }

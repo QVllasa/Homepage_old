@@ -630,7 +630,7 @@ function loadIsotope() {
   };
 
 // bind filter button click
-  $('#filters').on('click', '.link-element', function () {
+  $('.filters').on('click', '.link-element', function () {
     var filterValue = $(this).attr('data-filter');
     // use filterFn if matches value
     filterValue = filterFns[filterValue] || filterValue;
