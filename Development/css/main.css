@@ -399,9 +399,6 @@ video {
 }
 
 @media (max-width:  575.98px) {
-    .typewrite {
-        display: none;
-    }
     .carousel-caption.name-caption{
         bottom: 1% !important;
     }
@@ -1328,3 +1325,8 @@ video {
 }
 
 
+
+#header-container{
+    height: 700px;
+    background-color: #474D5D;
+}
