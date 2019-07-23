@@ -58,22 +58,18 @@ window.onload = function loadIsotope() {
 
 // Change background based on blog type -----------------
 
-var object = document.getElementById("header-container");
-var element = document.getElementById("isotope"); //grab the element
-element.onclick = function() { //asign a function
-changeBG();
-}
-
-function changeBG(){
-  var myElem = document.getElementById('hallowelt');
-
-  if ($(".collapse.show")[0]){
-    object.style.backgroundImage = "url('../img/business_background.jpg')";
+$('#triggerHalloWelt').click(function() {
+  var clicks = $(this).data('clicks');
+  if (clicks) {
+    $('#header-container').css({'background-image':'none', 'background-color':'#474D5D'});
   } else {
-    console.log('hallo welt ist nicht vorhanden!')
+
+    $('#header-container').css({'background-image': "url(\'../img/business_background.jpg\')" , 'transition':'all 1s ease-in-out'});
   }
+  $(this).data("clicks", !clicks);
+});
 
 
-}
+
 
 
