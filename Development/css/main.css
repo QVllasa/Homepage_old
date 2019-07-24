@@ -776,6 +776,7 @@ video {
 #my-freelancer-section {
     height: auto;
     background-color: #474D5D;
+    position: relative;
 
 }
 
@@ -791,31 +792,25 @@ video {
 
 .hire-me, .cv-download {
     padding: 10px;
-    background: none;
-    border-radius: 4px;
-    border: 3px solid white;
-    color: white;
-    font-family: Roboto, sans-serif;
-    font-weight: 500;
-}
-
-.hire-me:hover {
-    padding: 7px;
-    border: 6px solid white;
-    transition: 0.3s;
-}
-
-.cv-download {
-    background: #595858;
+    background: lightgrey;
+    background: lightgrey;
     font-family: Roboto, sans-serif;
     font-weight: 500;
 
-}
-
-.cv-download:hover {
-    background: white;
     color: #474D5D;
+
+    box-shadow: 6px 20px 47px 2px rgba(0,0,0,0.2);
+
 }
+
+.hire-me:hover, .cv-download:hover{
+    transform: translateY(-5px);
+    transition: 0.2s;
+    box-shadow: 6px 20px 47px 2px rgba(0,0,0,0.8);
+}
+
+
+
 
 
 #my-feedback-section {
@@ -1148,68 +1143,68 @@ video {
 #left1:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
 #left2:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
 #left3:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
 .right:hover .dot-right {
     background-color: #474D5D;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 .right:hover .bubble-arrow-right {
     opacity: 1;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right1:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right2:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right3:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right4:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right4:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 #right5:hover {
     background-color: lightgray;
     border-radius: 5px;
-    transition: 0.3s;
+    transition: 0.1s;
 }
 
 
@@ -1334,4 +1329,72 @@ video {
 
     border-top: 60px solid #474D5D;
 
+}
+
+
+
+#sideLogoLeft a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -10%; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 20%; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: #474D5D; /* White text color */
+    margin: 5px;
+
+}
+
+#sideLogoRight a {
+    position: absolute; /* Position them relative to the browser window */
+    right: -10%; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 20%; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: #474D5D; /* White text color */
+    margin: 5px;
+
+}
+
+#sideLogoLeft a:hover{
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+#sideLogoRight a:hover {
+    right: 0;
+}
+
+/* The about link: 20px from the top with a green background */
+#VR {
+    top: auto;
+    background-color: #D3D3D3;
+}
+
+#IOT {
+    top: 25%;
+    background-color: #D3D3D3; /* Blue */
+}
+
+#webdevelopment {
+    top: 50%;
+    background-color: #D3D3D3; /* Red */
+}
+
+
+#software {
+    top: auto;
+    background-color: #D3D3D3 /* Light Black */
+}
+
+#drones {
+    top: 25%;
+    background-color: #D3D3D3 /* Light Black */
+}
+
+#video-editing {
+    top: 50%;
+    background-color: #D3D3D3 /* Light Black */
 }
