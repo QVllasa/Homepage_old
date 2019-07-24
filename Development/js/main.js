@@ -284,9 +284,11 @@ function scrollspyWorkaround (){
 
 
 function onloadAllFunc() {
+  loadIsotope();
   logoSlider();
   typeWriter();
   scrollspyWorkaround();
+
 }
 
 window.onload = onloadAllFunc;
@@ -347,11 +349,11 @@ $(document).ready(function () {
     triggerHook: 0.95,
     reverse: false,
   })
-    .on('start', function () {
+/*    .on('start', function () {
       addPortfolioContent(allImageLoaded);
 
 
-    })
+    })*/
     .setClassToggle('#portfolio-tiles', 'animate-section')
     .addTo(controller);
 
@@ -524,7 +526,7 @@ $(document).ready(function () {
 
 //add Content on scroll with ScrollMagic---------------
 
-function allImageLoaded() {
+/*function allImageLoaded() {
   function imageLoaded() {
     loadIsotope();
   }
@@ -536,10 +538,10 @@ function allImageLoaded() {
       $(this).one('load', imageLoaded);
     }
   });
-}
+}*/
 
 
-function addPortfolioContent(callback) {
+/*function addPortfolioContent(callback) {
   $('#portfolio-tiles').append("<div class=\"grid\">\n" +
     "        <div class=\"element-item transition metal\" data-category=\"transition\">\n" +
     "          <div class=\"img-hover-zoom\">\n" +
@@ -591,7 +593,7 @@ function addPortfolioContent(callback) {
     "        </div>\n" +
     "      </div>");
   callback();
-}
+}*/
 
 
 //add Portfolio on scroll with ScrollMagic---------------

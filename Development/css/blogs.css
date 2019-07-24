@@ -1,3 +1,7 @@
+.container-fluid.fixed-top{
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+
 #logoQ, #logoV {
     opacity: 1 !important;
 }
@@ -5,8 +9,10 @@
 #header-container {
     height: 400px;
     background-color: #474D5D;
-
+    background-position: center;
+    background-size: 100%;
 }
+
 
 .height100 {
 
@@ -18,13 +24,23 @@
 }
 
 #upper-filter button {
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3) !important;
     border-radius: 0 !important;
     font-family: "Roboto", sans-serif;
     width: 100%;
     margin: 5px;
+    box-shadow: 6px 20px 25px -7px rgba(0,0,0,0.2);
+
 
 }
+
+#upper-filter button:hover,  button:hover{
+    transform: translateY(-5px);
+    box-shadow: 6px 20px 25px -7px rgba(0,0,0,0.6);
+    transition: all 0.1s;
+    background-color: white;
+}
+
+
 
 
 .filters button {
@@ -32,3 +48,19 @@
 }
 
 
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 60px solid #dfe0e1;
+}
+
+.bg-lightgray{
+    background-color: #dfe0e1;
+}
+
+.bg-lightgray-shadow{
+    background-color: #dfe0e1;
+    box-shadow: 6px 20px 25px -7px rgba(0,0,0,0.46);
+}

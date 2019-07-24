@@ -1,13 +1,4 @@
 
-$(document).ready(function () {
-  $(window).scroll(function () {
-    var s = 0.5 + ($(window).scrollTop() / 500);
-
-    $('#logoQ').css("opacity", -0.5 + s);
-    $('#logoV').css("opacity", -0.5 + s);
-
-  })
-});
 
 //Isotope--------------------------------------
 
@@ -74,7 +65,8 @@ $('#triggerHalloWelt').click(function() {
     $('#header-container').css({'background-image':'none', 'background-color':'#474D5D'});
   } else {
 
-    $('#header-container').css({'background-image': "url(\'../img/business_background.jpg\')" , 'transition':'all 1s ease-in-out'});
+    $('#header-container').css({'background-image': "url(\'../img/business_background.jpg\')" });
+
   }
   $(this).data("clicks", !clicks);
 });
