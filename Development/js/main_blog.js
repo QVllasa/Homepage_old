@@ -1,4 +1,14 @@
 
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var s = 0.5 + ($(window).scrollTop() / 500);
+
+    $('#logoQ').css("opacity", -0.5 + s);
+    $('#logoV').css("opacity", -0.5 + s);
+
+  })
+});
+
 //Isotope--------------------------------------
 
 window.onload = function loadIsotope() {

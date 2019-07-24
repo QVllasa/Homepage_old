@@ -34,7 +34,7 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="150">
+<body data-spy="scroll" data-target=".navbar" data-offset="145">
 
 
 <header class="page-header">
@@ -63,7 +63,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link underlining"
-                               href="#my-portfolio-section">Arbeit</a>
+                               href="#my-portfolio-section">Projekte</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link underlining"
@@ -107,106 +107,74 @@
 
 
     <!-- Header Background -->
-    <div class="container-fluid" id="header-container">
-
+    <div class="row align-items-end pb-5" id="header-container">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="container icon-container align-items-center justify-content-center">
+                    <i class="fas fa-briefcase fa-2x" style="color:white"></i>
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4 section-title"
+            >
+                <h1 style="color:white">MEINE<span class="bg-me ml-2 p-2">LEIDENSCHAFTEN</span>
+                </h1>
+            </div>
+        </div>
     </div>
 
 
 </header>
 
 <main>
-
     <!-- HOBBYS -->
-    <div class="container-fluid height500">
+    <div class="container-fluid bg-light">
         <div class="container" id="hobby-filter">
 
-            <!-- Filter buttons -->
-            <div class="row justify-content-around border border-dark">
-                <div class="col-md-2 border border-dark">
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" aria-expanded="false"
-                       aria-controls="collapseExample">
+            <!-- upper Filter buttons -->
+            <div class="row justify-content-around pt-3" id="upper-filter">
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-light" data-toggle="collapse" href="#collapseExample"
+                            aria-expanded="false"
+                            aria-controls="collapseExample">
                         Filter 1
-                    </a>
-                </div>
-                <div class="col-md-2 border border-dark">
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" aria-expanded="false"
-                       aria-controls="collapseExample">
-                        Filter 2
-                    </a>
+                    </button>
                 </div>
             </div>
 
-            <div class="row justify-content-start border border-dark">
-                <div class="col-md-6 border border-dark ">
+            <!-- collapsed Filter buttons -->
+            <div class="row justify-content-center pt-3 ">
+                <div class="col col-md-12">
                     <div class="collapse" id="collapseExample">
-                        <div class="row blog-filter button-group border border-danger filters">
-                            <div class="col-sm-4">
-                                <button>
-                                    <a class="link-element is-checked"
-                                       data-filter="*">Neueste&nbsp;Projekte</a>
-                                </button>
-
-
-                            </div>
-
-
-                            <div class="col-sm-4 border border-dark">
-                                <button>
-                                    <a class="link-element"
-                                       data-filter=".transition">Geplante&nbsp;Projekte</a>
-                                </button>
-
-
-                            </div>
-
-                            <div class="col-sm-4 border border-dark">
-                                <button>
-                                    <a class="link-element" data-filter=".metal">Vollendete&nbsp;Projekte</a>
-                                </button>
-
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-6 border border-dark ">
-                    <div class="collapse " id="collapseExample2">
-                        <div class="row blog-filter button-group border border-dark filters" id="">
-                            <div class="col-sm-4">
-                                <button>
-                                    <a class="link-element is-checked"
-                                       data-filter="*">Neueste&nbsp;Projekte</a>
-                                </button>
-                            </div>
-                            <div class="col-sm-4 border border-dark">
-                                <button>
-                                    <a class="link-element"
-                                       data-filter=".transition">Geplante&nbsp;Projekte</a>
-                                </button>
-                            </div>
-                            <div class="col-sm-4 border border-dark">
-                                <button>
-                                    <a class="link-element" data-filter=".metal">Vollendete&nbsp;Projekte</a>
-                                </button>
+                        <div class="container">
+                            <div class="row blog-filter button-group filters justify-content-center">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                    <button type="button" class="btn btn-secondary mx-1">
+                                        <a class="link-element is-checked"
+                                           data-filter="*">Softwareentwicklung</a>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary mx-1">
+                                        <a class="link-element"
+                                           data-filter=".transition">Webentwicklung</a>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary mx-1">
+                                        <a class="link-element" data-filter=".metal">Vollendete&nbsp;Projekte</a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
             </div>
 
 
             <!-- isotope -->
-            <div class="container border border-danger" id="isotope">
+            <div class="container  pt-3 px-0" id="isotope">
                 <div class="grid">
                     <div class="element-item transition metal" data-category="transition">
                         <div class="img-hover-zoom">
                             <img src="img/Chroma1.jpg" class="img-fluid">
                             <div class="overlay">
-                                <a class="text" >1</a>
+                                <a class="text">1</a>
                             </div>
                         </div>
                     </div>
@@ -246,7 +214,7 @@
                         <div class="img-hover-zoom">
                             <img src="img/business_background.jpg" class="img-fluid">
                             <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
-                                 aria-controls="collapseExample" id="triggerHalloWelt">
+                               aria-controls="collapseExample" id="triggerHalloWelt">
                                 <div class="text">1</div>
                             </a>
                         </div>
@@ -276,7 +244,7 @@
             </div>
         </div>-->
 
-    <div class="container" >
+    <div class="container">
         <div class="collapse" id="hallowelt">
             <h1>Hallo Welt!</h1>
         </div>

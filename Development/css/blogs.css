@@ -1,16 +1,34 @@
-#header-container{
+#logoQ, #logoV {
+    opacity: 1 !important;
+}
+
+#header-container {
     height: 400px;
     background-color: #474D5D;
 
 }
 
-.height100{
+.height100 {
 
     height: 100px;
 }
 
-.height500{
+.height500 {
     height: 500px;
 }
 
-.blog-filter
+#upper-filter button {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0 !important;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    margin: 5px;
+
+}
+
+
+.filters button {
+    border-radius: 0;
+}
+
+
