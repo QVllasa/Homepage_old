@@ -822,11 +822,11 @@ video {
     text-align: center;
 }
 
-.freelancer-text.smaller {
+.freelancer-text.bigger {
     color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 170%;
-    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-size: 240%;
+    font-weight: 700;
 
     text-align: center;
 }
@@ -854,6 +854,11 @@ video {
 .hire-me a{
     color: #474D5D;
     text-decoration: none;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
 
 }
 
