@@ -832,7 +832,8 @@ video {
 }
 
 
-.hire-me, .cv-download {
+.hire-me, .cv-download, .submit-button {
+    width: 100%;
     padding: 10px;
 
     background: lightgrey;
@@ -845,13 +846,14 @@ video {
 
 }
 
-.hire-me:hover, .cv-download:hover{
+.hire-me:hover, .cv-download:hover, .submit-button:hover{
     transform: translateY(-5px);
     transition: 0.2s;
+
     box-shadow: 6px 20px 47px 2px rgba(0,0,0,0.8);
 }
 
-.hire-me a{
+.hire-me a, .submit-button a{
     color: #474D5D;
     text-decoration: none;
     display: inline-block;
@@ -1382,6 +1384,3 @@ video {
     border-top: 60px solid #474D5D;
 
 }
-
-
-
