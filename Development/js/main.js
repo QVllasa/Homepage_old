@@ -36,6 +36,8 @@ $('a[href*="#my"]').on('click', function (e) {
   });
 });
 
+
+
 //smooth scroll--------------------------------------------------------------------
 
 
@@ -653,3 +655,28 @@ function loadIsotope() {
 
 //Isotope--------------------------------------
 
+//fadein fadeout freelancer --------------
+
+
+/*
+$( ".icon-box" ).each(function(){
+  var $element = $(this);
+  function fadeInOut () {
+    $element.fadeIn(100, function () {
+      $element.fadeOut(100, function () {
+        $element.fadeIn(100, function () {
+          setTimeout(fadeInOut, 100);
+        });
+      });
+    });
+  }
+
+  fadeInOut();
+
+});
+*/
+
+
+
+
+//fadein fadeout freelancer --------------
