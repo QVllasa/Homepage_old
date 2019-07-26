@@ -2,17 +2,10 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="On explicit save action" serverName="sandbox@qendrimvllasa" promptOnLocalOverwrite="false" uploadOnCheckin="8049e5ff-c90b-4985-8713-dae329261632" showAutoUploadSettingsWarning="false">
     <serverData>
-      <paths name="all-inkl-kasserver-FTP">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/development.qendrimvllasa.de/Development" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
       <paths name="qendrimvllasa">
         <serverdata>
           <mappings>
-            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/public_html" />
+            <mapping deploy="/public_html" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

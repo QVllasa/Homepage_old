@@ -15,7 +15,7 @@
 $(document).ready(function () {
   $(window).scroll(function () {
     var s = 0.5 + ($(window).scrollTop() / 500);
-    $('.container-fluid.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
+    $('.navbar.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
     $('#logoQ').css("opacity", -0.5 + s);
     $('#logoV').css("opacity", -0.5 + s);
 

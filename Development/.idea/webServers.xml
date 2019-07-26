@@ -2,14 +2,6 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="e9f3e49e-70a2-4c37-881a-e245da6ccd16" name="all-inkl-kasserver-FTP" url="http://development.qendrimvllasa.de/Development/">
-        <fileTransfer host="w0197b86.kasserver.com" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-          <option name="port" value="21" />
-        </fileTransfer>
-      </webServer>
       <webServer id="ed84a4ec-9eff-4256-86cb-84e0d31247f2" name="qendrimvllasa" url="http://www.qendrimvllasa.de">
         <fileTransfer host="116.202.107.98" port="22" rootFolder="/home/qendrimvllasa" accessType="SFTP">
           <advancedOptions>
