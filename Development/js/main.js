@@ -1,12 +1,12 @@
-//refreshing page brings you to top ----------------------------------------------------
-//window.onbeforeunload = function () {
- // window.scrollTo(0, 0);
-//};
+
+//loading screen -----------------
+
+$(window).on("load",function(){
+  $(".loader-wrapper").fadeOut("slow");
+});
 
 
-
-//refreshing page brings you to top----------------------------------------------------
-
+//loading screen ---------------
 
 //Navbar animation--------------------------------------------------------------------
 
@@ -32,6 +32,17 @@ $('a[href*="#my"]').on('click', function (e) {
   $('html, body').stop().animate({
     'scrollTop': $target.offset().top - 75
   }, 1500, 'swing', function () {
+    window.location.hash = $target;
+  });
+});
+
+$('a[href*="#project-description"]').on('click', function (e) {
+  e.preventDefault();
+  var target = this.hash;
+  var $target = $(target);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top - 200
+  }, 400, 'swing', function () {
     window.location.hash = $target;
   });
 });

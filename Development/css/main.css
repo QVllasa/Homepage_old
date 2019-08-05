@@ -303,6 +303,9 @@ textarea {
 
 }*/
 
+
+
+
 #logoQ {
     opacity: 0;
     padding: 0;
@@ -708,6 +711,7 @@ video {
 
 .img-hover-zoom img {
     transition: transform 1s ease;
+
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
@@ -716,6 +720,8 @@ video {
 
 
 }
+
+
 
 .border-customized {
     border: 2px solid transparent;
@@ -1384,3 +1390,65 @@ video {
     border-top: 60px solid #474D5D;
 
 }
+
+#navbar-name{
+    margin-left: 15px;
+}
+
+
+
+
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    z-index: 1100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #474d5d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border: 4px solid #Fff;
+    border-radius: 5%;
+    animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+
+    animation: loader-inner 2s infinite ease-in;
+}
+
+
+@keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+}
+
+
+
+
+
+

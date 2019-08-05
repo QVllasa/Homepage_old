@@ -37,74 +37,77 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="145">
 
 
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-0 " id="navbar-top">
+    <div class="container">
+        <div class="navbar-brand" id="navbar-name">
+            <a class="navbar-brand" id="logoQ" href="#">Qendrim</a>
+            <br>
+            <a class="navbar-brand" id="logoV" href="#">Vllasa</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav" id="menuItems">
+                <li class="nav-item active">
+                    <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-about-me-section">Über&nbsp;Mich</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-portfolio-section">Projekte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-skills-section">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-resume-section">Laufbahn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-feedback-section">Stationen</a>
+                </li>
+                <!--Dropdown-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        Leidenschaften
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                        <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                        <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                        <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                        <a class="dropdown-item" href="#">Leidenschaft 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link underlining"
+                       href="#my-contact-section">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</nav>
+
 <header id="page-header">
     <!--NAVIGATION-->
     <!--    <div class="container-fluid fixed-top" id="navbar-top">-->
     <!--        <div class="container">-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-0 " id="navbar-top">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-brand" id="logoQ" href="#">Qendrim</a>
-                <br>
-                <a class="navbar-brand" id="logoV" href="#">Vllasa</a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav" id="menuItems">
-                    <li class="nav-item active">
-                        <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-about-me-section">Über&nbsp;Mich</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-portfolio-section">Projekte</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-skills-section">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-resume-section">Laufbahn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-feedback-section">Stationen</a>
-                    </li>
-                    <!--Dropdown-->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button"
-                           data-toggle="dropdown"
-                           aria-haspopup="true" aria-expanded="false">
-                            Leidenschaften
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-                            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-                            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-                            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-                            <a class="dropdown-item" href="#">Leidenschaft 1</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link underlining"
-                           href="#my-contact-section">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </nav>
     <!--        </div>-->
     <!--    </div>-->
 
@@ -155,7 +158,7 @@
     </section>
 </header>
 
-<main>
+<main id="main-content">
 
     <!-- ABOUT -->
     <div class="container-fluid pt-5" id="my-about-me-section">
@@ -438,14 +441,14 @@
                     <ul>
                         <li>
                             <a id="latest-projects-link" class="link-element is-checked" data-filter="*"><span
-                                    id="filter-button">Neueste&nbsp;Projekte</span></a>
+                                    id="filter-button">In&nbsp;Planung</span></a>
                         </li>
                         <li>
                             <a id="upcoming-projects-link" class="link-element"
-                               data-filter=".transition"><span>Geplante&nbsp;Projekte</span></a>
+                               data-filter=".transition"><span>Aktuell</span></a>
                         </li>
                         <li>
-                            <a id="archived-projects-link" class="link-element" data-filter=".metal"><span>Vollendete&nbsp;Projekte</span></a>
+                            <a id="archived-projects-link" class="link-element" data-filter=".metal"><span>Abgeschlossen</span></a>
                         </li>
                     </ul>
                 </div>
@@ -454,68 +457,97 @@
 
         <!-- Portfolio -->
         <div class="container on-animate" id="portfolio-tiles">
-            <div class="grid">
+            <div class="grid" id="portfolio-content">
                 <div class="element-item transition metal" data-category="transition">
                     <div class="img-hover-zoom">
-                        <img src="img/Chroma1.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt1" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample">
                             <div class="text">1</div>
                         </a>
+
                     </div>
                 </div>
                 <div class="element-item metalloid" data-category="metalloid">
-                    <div class="img-hover-zoom">
-                        <img src="img/AbstractShapes.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                    <div class="img-hover-zoom ">
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt2" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample">
                             <div class="text">1</div>
                         </a>
+
                     </div>
                 </div>
                 <div class="element-item post-transition metal " data-category="post-transition">
                     <div class="img-hover-zoom">
-                        <img src="img/AbstractShapes.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt3" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample">
                             <div class="text">1</div>
                         </a>
+                        <a href="#project-description"></a>
                     </div>
                 </div>
                 <div class="element-item post-transition metal " data-category="post-transition">
                     <div class="img-hover-zoom">
-                        <img src="img/AbstractShapes.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt4" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample">
                             <div class="text">1</div>
                         </a>
+
                     </div>
                 </div>
                 <div class="element-item transition metal " data-category="transition">
                     <div class="img-hover-zoom">
-                        <img src="img/AbstractShapes.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt5" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample">
                             <div class="text">1</div>
                         </a>
+
                     </div>
                 </div>
-                <div class="element-item alkali metal" data-category="alkali">
+                <div class="element-item alkali metal" data-category="alkali" >
                     <div class="img-hover-zoom">
-                        <img src="img/business_background.jpg" class="img-fluid">
-                        <a class="overlay" data-toggle="collapse" href="#hallowelt" aria-expanded="false"
+                        <img src="https://picsum.photos/300/200/?random" class="img-fluid">
+                        <a class="overlay" data-toggle="collapse" data-target="#hallowelt6" href="#project-description" aria-expanded="false"
                            aria-controls="collapseExample" id="triggerHalloWelt">
                             <div class="text">1</div>
                         </a>
+
                     </div>
                 </div>
             </div>
         </div>
 
+
+
     </div>
 
-    <div class="container">
-        <div class="collapse" id="hallowelt">
+    <!-- PROJECT DESCRIPTIONS -->
+    <div class="container" id="project-description">
+        <div class="collapse" id="hallowelt1" data-parent="#main-content">
+            <div class="arrow-down m-auto"></div>
+            <h1>Hallo Welt!</h1>
+        </div>
+        <div class="collapse" id="hallowelt2" data-parent="#main-content">
+            <div class="arrow-down m-auto"></div>
+            <h1>Hallo Welt!</h1>
+        </div>
+        <div class="collapse" id="hallowelt3" data-parent="#main-content">
+            <div class="arrow-down m-auto"></div>
+            <h1>Hallo Welt!</h1>
+        </div>
+        <div class="collapse" id="hallowelt4" data-parent="#main-content">
+            <div class="arrow-down m-auto"></div>
+            <h1>Hallo Welt!</h1>
+        </div>
+        <div class="collapse" id="hallowelt5" data-parent="#main-content">
+            <div class="arrow-down m-auto"></div>
+            <h1>Hallo Welt!</h1>
+        </div>
+        <div class="collapse" id="hallowelt6" data-parent="#main-content">
             <div class="arrow-down m-auto"></div>
             <h1>Hallo Welt!</h1>
         </div>
@@ -961,37 +993,49 @@
     </div>
 </main>
 
-
 <footer>
-
-    <div class="row align-items-center" id="footer-section">
+    <div class="container-fluid" id="footer-section" >
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-2">
+            <div class="row align-items-center" >
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-2">
 
-                    <a href="">Impressum</a>
+                            <a href="">Impressum</a>
 
+                        </div>
+
+                        <div class="col-sm-2">
+
+
+                            <a href="">Datenschutz</a>
+
+                        </div>
+
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3">
+                            Qendrim Vllasa Copyright 2019. All Rights Reserved.
+                        </div>
+
+                    </div>
                 </div>
-
-                <div class="col-sm-2">
-
-
-                    <a href="">Datenschutz</a>
-
-                </div>
-
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-sm-3">
-                    Qendrim Vllasa Copyright 2019. All Rights Reserved.
-                </div>
-
             </div>
         </div>
+
     </div>
 
 
+
 </footer>
+
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
+
+
+
 
 <!--<script>-->
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
@@ -1008,6 +1052,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 <script src="js/main.js"></script>
+
+<script>
+
+</script>
 
 <!--<script>
   window.ga = function () {
