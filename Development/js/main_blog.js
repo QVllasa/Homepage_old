@@ -65,7 +65,7 @@ $('#triggerHalloWelt').click(function() {
     $('#header-container').css({'background-image':'none', 'background-color':'#474D5D'});
   } else {
 
-    $('#header-container').css({'background-image': "url(\'../img/business_background.jpg\')" });
+    $('#header-container').css({'background-image': "url(https://picsum.photos/300/200/?random)" });
 
   }
   $(this).data("clicks", !clicks);
