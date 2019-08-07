@@ -296,6 +296,7 @@ textarea {
 
 
 
+
 /*#paddingNav {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -571,14 +572,14 @@ video {
     color: white;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.name-img-title h6 {
+.name-img-title h5 {
     color: white;
     text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
 }
 
 
@@ -693,15 +694,19 @@ video {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
+    background-color: #fff;
     overflow: hidden;
     width: 100%;
     height: 100%;
     transform: scale(0);
-    transition: .3s ease;
+    transition: .6s ease;
     margin: 0;
     padding: 2px;
     opacity: 0.5;
+}
+
+.overlay i{
+    color: #000;
 }
 
 
@@ -747,6 +752,7 @@ video {
     color: white;
     font-weight: lighter;
     margin: 3px;
+
 
 }
 
@@ -839,8 +845,8 @@ video {
 
 
 .hire-me, .cv-download, .submit-button {
-    width: 100%;
-    padding: 10px;
+    width: auto;
+    padding: 10px 20px 10px 20px;
 
     background: lightgrey;
     font-family: Roboto, sans-serif;
@@ -931,13 +937,23 @@ video {
 
 
 #footer-section {
-    height: 400px;
+    height: 300px;
     background: #333333;
+}
+
+#footer-section a, #footer-section p {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    padding: 5px;
+
 }
 
 .carousel-inner.feedback .carousel-item {
     text-align: center;
     color: white;
+
 }
 
 .carousel-inner.feedback .carousel-item h4 {
@@ -1050,10 +1066,12 @@ video {
 /* resume */
 #my-resume-section {
     background-color: #FFFFFF !important;
+    position: relative;
 }
 
 #resume-lists {
     width: auto;
+    position: relative;
 }
 
 #resume-lists ul {
@@ -1062,6 +1080,7 @@ video {
 
 #resume-lists li {
     list-style: none;
+    cursor: pointer;
 }
 
 #resume-lists {
@@ -1449,6 +1468,92 @@ video {
 
 
 
+#project-description h1 , .sidepanels h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: #595858;
+}
+
+
+#project-description h3, .sidepanels h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: #595858;
+}
+
+#project-description p, .sidepanels p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #595858;
+}
+
+#project-description a{
+    cursor: pointer;
+    color: #474D5D;
+    text-decoration: none;
+}
 
 
 
+
+.sidepanel-left {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    bottom: 120px;
+    left: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    padding: 60px 0 0 0;
+    box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
+    border-radius: 20px;
+}
+
+.sidepanel-right {
+    height: 100%; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: absolute;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    bottom: 120px;
+    right: 0;
+    background-color: #fff; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    padding: 60px 0 0 0;
+    box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
+    border-radius: 20px;
+}
+
+#actual{
+    position: relative;
+    font-family: Oswald, sans-serif;
+    font-weight: lighter;
+
+
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+}
+
+.closebtn:hover{
+    cursor: pointer;
+}
+
+#portfolio-content h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.5;
+}

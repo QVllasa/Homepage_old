@@ -8,6 +8,48 @@ $(window).on("load",function(){
 
 //loading screen ---------------
 
+//resume blogs ---------------
+
+function openNavLeft1() {
+  document.getElementById("edu1").style.width = "100%";
+}
+function openNavLeft2() {
+  document.getElementById("edu2").style.width = "100%";
+}
+function openNavLeft3() {
+  document.getElementById("edu3").style.width = "100%";
+}
+
+function openNavRight1() {
+  document.getElementById("work1").style.width = "100%";
+}
+function openNavRight2() {
+  document.getElementById("work2").style.width = "100%";
+}
+function openNavRight3() {
+  document.getElementById("work3").style.width = "100%";
+}
+function openNavRight4() {
+  document.getElementById("work4").style.width = "100%";
+}
+function openNavRight5() {
+  document.getElementById("work5").style.width = "100%";
+}
+
+
+function closeNavLeft() {
+  $('.sidepanel-left').on('click').css({width:"0"})
+}
+
+function closeNavRight() {
+  $('.sidepanel-right').on('click').css({width:"0"})
+}
+
+
+
+
+//resume blogs ---------------
+
 //Navbar animation--------------------------------------------------------------------
 
 
@@ -47,6 +89,16 @@ $('a[href*="#project-description"]').on('click', function (e) {
   });
 });
 
+$('a[href*="#portfolio-icon"]').on('click', function (e) {
+  e.preventDefault();
+  var target = this.hash;
+  var $target = $(target);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top - 100
+  }, 400, 'swing', function () {
+    window.location.hash = $target;
+  });
+});
 
 
 //smooth scroll--------------------------------------------------------------------
