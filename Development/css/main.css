@@ -1293,6 +1293,7 @@ video {
 
 .left-column h4 {
     font-family: Oswald, sans-serif;
+    font-weight: 600;
     color: #474D5D;
 
 }
@@ -1315,6 +1316,7 @@ video {
 
 .right-column h4 {
     font-family: Oswald, sans-serif;
+    font-weight: 600;
     color: #474D5D;
 }
 
@@ -1556,4 +1558,12 @@ video {
     font-weight: 700;
     color: #000;
     line-height: 1.5;
+}
+
+#project-description img {
+    overflow: hidden;
+}
+
+#project-description .project-description-slider{
+    width: auto;
 }
