@@ -249,12 +249,12 @@ function createBar(bar, percentage) {
 
 
 function createAllBar() {
-  createBar(bar1, 0.9);
-  createBar(bar2, 0.8);
-  createBar(bar3, 0.7);
-  createBar(bar4, 0.6);
-  createBar(bar5, 0.5);
-  createBar(bar6, 0.4);
+  createBar(bar1, 0.85);
+  createBar(bar2, 0.65);
+  createBar(bar3, 0.85);
+  createBar(bar4, 0.8);
+  createBar(bar5, 0.4);
+  createBar(bar6, 0.9);
 }
 
 //normal progress bar
@@ -274,10 +274,12 @@ var normalbarsettings = {
     if (value === 0) {
       bar.setText('');
     } else {
-      bar.setText(value + '%');
+      bar.setText('');
     }
   }
 };
+
+
 
 var nbar1 = new ProgressBar.Line('#npb1', normalbarsettings);
 var nbar2 = new ProgressBar.Line('#npb2', normalbarsettings);
@@ -286,24 +288,20 @@ var nbar4 = new ProgressBar.Line('#npb4', normalbarsettings);
 var nbar5 = new ProgressBar.Line('#npb5', normalbarsettings);
 var nbar6 = new ProgressBar.Line('#npb6', normalbarsettings);
 
+
 function createNormalBars(bar, percentage) {
-  bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
-  bar.text.style.fontSize = '12pt';
-  bar.text.style.fontWeight = 'bold';
-  bar.text.style.color = '#FFFFFF';
-  bar.text.style.left = '10%';
-  bar.text.style.padding = '10%';
   bar.animate(percentage);
 }
 
 
 function createAllnormal() {
   createNormalBars(nbar1, 0.9);
-  createNormalBars(nbar2, 0.9);
+  createNormalBars(nbar2, 0.95);
   createNormalBars(nbar3, 0.9);
-  createNormalBars(nbar4, 0.9);
-  createNormalBars(nbar5, 0.9);
-  createNormalBars(nbar6, 0.9);
+  createNormalBars(nbar4, 1);
+  createNormalBars(nbar5, 0.85);
+  createNormalBars(nbar6, 0.2);
+
 }
 
 //progressbar js ------------------------------------------------
