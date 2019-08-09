@@ -989,8 +989,10 @@ video {
     border-radius: 100%;
 }
 
-#social-media-buttons i {
+#social-media-buttons a {
     margin: 5px;
+    color: inherit;
+    text-decoration: none;
 }
 
 #social-media-buttons button {
@@ -1003,7 +1005,7 @@ video {
     -webkit-appearance: none;
 }
 
-#social-media-buttons i:hover {
+#social-media-buttons a:hover {
     color: #5a6268;
 }
 
@@ -1090,6 +1092,32 @@ video {
     background-repeat: repeat-y;
 
 }
+
+#resume-lists h4{
+    font-family: Oswald, sans-serif;
+    font-weight: 600;
+    color: #474D5D;
+}
+
+#resume-lists h5{
+    font-family: Oswald, sans-serif;
+    font-weight: 400;
+    color: #474D5D;
+    letter-spacing: -0.5px;
+}
+
+#resume-lists span{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+}
+
+#resume-lists p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    color: #474D5D;
+}
+
+
 
 
 @media (max-width: 990px) {
@@ -1291,53 +1319,22 @@ video {
     margin-right: 15px;
 }
 
-.left-column h4 {
-    font-family: Oswald, sans-serif;
-    font-weight: 600;
-    color: #474D5D;
 
-}
-
-.left-column span {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-}
-
-.left-column p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    color: #474D5D;
-}
 
 
 .right-column li {
     margin-left: 15px;
 }
 
-.right-column h4 {
-    font-family: Oswald, sans-serif;
-    font-weight: 600;
-    color: #474D5D;
-}
 
-.right-column span {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-}
-
-.right-column p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
-    color: #474D5D;
-}
 
 #left1 {
-    margin-top: 20%;
+    margin-top: 10%;
 
 }
 
 #left2 {
-    margin-top: 90%;
+    margin-top: 40%;
 }
 
 #left3 {
@@ -1512,7 +1509,7 @@ video {
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
     padding: 60px 0 0 0;
     box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
-    border-radius: 20px;
+
 }
 
 .sidepanel-right {
@@ -1529,7 +1526,7 @@ video {
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
     padding: 60px 0 0 0;
     box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
-    border-radius: 20px;
+
 }
 
 #actual{
