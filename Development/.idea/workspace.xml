@@ -354,7 +354,7 @@
       <workItem from="1566562042179" duration="876000" />
       <workItem from="1566575109923" duration="377000" />
       <workItem from="1566594483228" duration="728000" />
-      <workItem from="1566652500163" duration="658000" />
+      <workItem from="1566652500163" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="working on backend">
       <created>1563457514550</created>
@@ -566,11 +566,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566652962623</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="old photos removed">
+      <created>1566653565080</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1566653565081</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115718000" />
+    <option name="totallyTimeSpent" value="115724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
