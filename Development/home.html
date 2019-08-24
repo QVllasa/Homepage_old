@@ -177,7 +177,7 @@
                 <!-- self portrait -->
                 <div class="col-md-4" style="padding-left: 0; filter: drop-shadow(8px 8px 10px gray)">
                     <div class="container" style="margin: 10px 0 0 0;">
-                        <img class="img-fluid self-portrait" src="img/portraits/portrait_free.png" alt="Portrait">
+                        <img class="img-fluid self-portrait" src="img/portraits/portrait_web_homepage.jpg" alt="Portrait">
                         <div class="container name-img-title">
                             <h2>Qendrim Vllasa</h2>
                             <h5>Economics Engineer M.Sc.</h5>
@@ -1786,6 +1786,10 @@
 <script>
     $(document).ready(function () {
         $('[data-toggle="tooltip"]').tooltip();
+    });
+
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
     });
 </script>
 
