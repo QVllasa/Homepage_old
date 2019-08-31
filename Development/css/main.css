@@ -666,6 +666,7 @@ video {
     transform: scale(1);
 }
 
+
 .port-item {
     padding: 0;
     margin: 0;
@@ -1115,14 +1116,14 @@ video {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     color: #474D5D;
-    font-size: 12px;
+    font-size: 1rem;
 }
 
 #resume-lists .read-more {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     color: #474D5D;
-    font-size: 12px;
+    font-size: 1rem;
     text-decoration: underline;
 }
 
@@ -1149,7 +1150,7 @@ video {
     background-color: white;
     border: 5px solid #EFEFEF;
     border-radius: 10px;
-    font-size: 140%;
+    font-size: 1.5rem;
     text-transform: uppercase;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 500;

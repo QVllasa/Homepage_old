@@ -666,7 +666,11 @@ $(document).ready(function () {
 function loadIsotope() {
   var $grid = $('.grid').isotope({
     itemSelector: '.element-item',
-    layoutMode: 'fitRows',
+    layoutMode: 'masonry',
+    masonry: {
+      columnWidth: 270,
+      isFitWidth: true
+    },
     getSortData: {
       name: '.name',
       symbol: '.symbol',
