@@ -51,7 +51,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav" id="menuItems">
+            <ul class="navbar-nav pl-3" id="menuItems">
                 <li class="nav-item active">
                     <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
@@ -180,7 +180,7 @@
                         <img class="img-fluid self-portrait" src="img/portraits/portrait_web_homepage.jpg" alt="Portrait">
                         <div class="container name-img-title">
                             <h2>Qendrim Vllasa</h2>
-                            <h5>Economics Engineer M.Sc.</h5>
+                            <h5 style="opacity: 0.7;">Economics Engineer M.Sc.</h5>
                         </div>
                     </div>
 
@@ -1691,16 +1691,16 @@
             <div class="row  ">
                 <div class="col-md-12  ">
                     <!-- form -->
-                    <form id="contact-form" action="mail.php" method="POST">
+                    <form id="contact-form" action="mail.php" method="GET">
                         <div class="row justify-content-center">
                             <div class="col-md-6 p-0 form-group">
-                                <input type="text" id="name-input" class="form-control" placeholder="Name oder Firma">
+                                <input type="text" id="name-input" class="form-control" placeholder="Dein Name oder Firma *" required>
 
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 p-0 form-group">
-                                <input type="text" id="email-input" class="form-control" placeholder="E-Mail">
+                                <input type="text" id="email-input" class="form-control" placeholder="Deine E-Mail *" required>
 
                             </div>
                         </div>
@@ -1712,21 +1712,21 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 p-0 form-group">
-                                <input type="text" id="subject-input" class="form-control" placeholder="Thema">
+                                <input type="text" id="subject-input" class="form-control" placeholder="Thema *" required>
 
                             </div>
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-md-6 p-0 form-group">
                 <textarea name="message" id="message-input" cols="30" rows="5" type="text"
-                          class="form-control" placeholder="Nachricht"></textarea>
+                          class="form-control" placeholder="Deine Nachricht *" required></textarea>
                             </div>
 
                         </div>
                         <div class="row justify-content-center pt-4 ">
                             <div class="col-md-2  text-center">
                                 <button type="submit" class="submit-button" role="button" id="submitbutton">
-                                    <a href="#">ABSENDEN</a>
+                                    Los geht's!
                                 </button>
                             </div>
                         </div>
@@ -1750,7 +1750,7 @@
 
                     </div>
                     <div class="row justify-content-center mt-1">
-                        <p>So viel zu mir... :)</p>
+                        <p>&copy; Qendrim Vllasa 2019</p>
                     </div>
                 </div>
             </div>
@@ -1769,7 +1769,7 @@
 
 <!--<script>-->
 <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/plugins.js"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
