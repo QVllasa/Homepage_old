@@ -904,7 +904,7 @@ video {
     color: white;
 }
 
-@media (max-width: 474.98px){
+@media (max-width: 575px){
     .slider.company-logos{
         display: none;
     }

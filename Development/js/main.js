@@ -324,12 +324,12 @@ function logoSlider() {
         slidesToShow: 2,
       }
     }, {
-      breakpoint: 700,
+      breakpoint: 900,
       settings: {
         slidesToShow: 1,
       }
     }, {
-      breakpoint: 475,
+      breakpoint: 575,
       settings: "unslick"
     }]
   });
