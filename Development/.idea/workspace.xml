@@ -4,8 +4,6 @@
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -513,8 +511,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="900" column="22" lean-forward="true" selection-start-line="900" selection-start-column="22" selection-end-line="900" selection-end-column="22" />
+            <state relative-caret-position="420">
+              <caret line="898" column="23" lean-forward="true" selection-start-line="898" selection-start-column="23" selection-end-line="898" selection-end-column="23" />
               <folding>
                 <element signature="e#156#361#0" />
                 <element signature="e#363#558#0" />
@@ -802,7 +800,7 @@
       <workItem from="1566853287847" duration="455000" />
       <workItem from="1567265637479" duration="62000" />
       <workItem from="1567267085747" duration="1356000" />
-      <workItem from="1567278869043" duration="1150000" />
+      <workItem from="1567278869043" duration="1438000" />
     </task>
     <task id="LOCAL-00001" summary="working on backend">
       <created>1563457514550</created>
@@ -1035,17 +1033,38 @@
       <option name="project" value="LOCAL" />
       <updated>1566653701967</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="decrease business background size">
+      <created>1567280621695</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1567280621695</updated>
+    </task>
+    <task id="LOCAL-00035" summary="decrease business background size">
+      <created>1567280741660</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1567280741660</updated>
+    </task>
+    <task id="LOCAL-00036" summary="decrease business background size">
+      <created>1567280759731</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1567280759731</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118940000" />
+    <option name="totallyTimeSpent" value="119228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1680" y="23" width="1680" height="1318" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23687424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23687424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1146,7 +1165,8 @@
     <MESSAGE value="new photo" />
     <MESSAGE value="old photos removed" />
     <MESSAGE value="about me text changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="about me text changes" />
+    <MESSAGE value="decrease business background size" />
+    <option name="LAST_COMMIT_MESSAGE" value="decrease business background size" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/doc/css.md">
@@ -1797,8 +1817,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="900" column="22" lean-forward="true" selection-start-line="900" selection-start-column="22" selection-end-line="900" selection-end-column="22" />
+        <state relative-caret-position="420">
+          <caret line="898" column="23" lean-forward="true" selection-start-line="898" selection-start-column="23" selection-end-line="898" selection-end-column="23" />
           <folding>
             <element signature="e#156#361#0" />
             <element signature="e#363#558#0" />
