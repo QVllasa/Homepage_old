@@ -365,13 +365,25 @@ textarea {
 video {
     -o-object-fit: cover;
     object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
     max-height: 700px;
 
 
 }
 
+.video-bottom{
+    -o-object-position: bottom !important;
+    object-position: bottom !important;
+}
+
+.video-center{
+    -o-object-position: center !important;
+    object-position: center !important;
+}
+
+.video-top{
+    -o-object-position: top  !important;
+    object-position: top !important;
+}
 
 #video-carousel-indicators {
     opacity: 0;
