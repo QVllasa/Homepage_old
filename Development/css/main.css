@@ -928,7 +928,7 @@ video {
             to(rgba(0, 0, 0, 100))),
     -webkit-gradient(linear, left top, right top, color-stop(30%, rgba(0, 0, 0, 0)),
             to(rgba(0, 0, 0, 100))),
-    url("../img/business_background_600x400.png");
+    url("../img/backgrounds/business_background_600x400.png");
     background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 90%,
     rgba(0, 0, 0, 100) 100%
     ), -o-linear-gradient(bottom, rgba(0, 0, 0, 0) 90%,
@@ -936,7 +936,7 @@ video {
             rgba(0, 0, 0, 100) 100%),
     -o-linear-gradient(left, rgba(0, 0, 0, 0) 30%,
             rgba(0, 0, 0, 100) 100%),
-    url("../img/business_background_600x400.png");
+    url("../img/backgrounds/business_background_600x400.png");
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 90%,
     rgba(0, 0, 0, 100) 100%
     ), linear-gradient(to top, rgba(0, 0, 0, 0) 90%,
@@ -944,7 +944,7 @@ video {
             rgba(0, 0, 0, 100) 100%),
     linear-gradient(to right, rgba(0, 0, 0, 0) 30%,
             rgba(0, 0, 0, 100) 100%),
-    url("../img/business_background_600x400.png");
+    url("../img/backgrounds/business_background_600x400.png");
     background-size: cover, cover, cover, cover, 1500px auto;
     -webkit-box-shadow: 0 0 8px 8px black inset;
     box-shadow: 0 0 8px 8px black inset;
@@ -1182,7 +1182,7 @@ video {
 }
 
 #resume-lists {
-    background-image: url('../img/line.png');
+    background-image: url('../img/backgrounds/line.png');
     background-size: auto;
     background-position: center;
     background-repeat: repeat-y;
@@ -1583,11 +1583,9 @@ video {
 }
 
 .loader {
-    background: url("../img/loading_animation 3.gif");
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+
+    display: inline-block;
+    position: relative;
 }
 
 

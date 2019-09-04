@@ -1,9 +1,14 @@
 
+//observer
+
+const observer = lozad();
+observer.observe();
+
 //loading screen -----------------
 
-/*$(window).on("load",function(){
+$(window).on("load",function(){
   $(".loader-wrapper").fadeOut("slow");
-});*/
+});
 
 
 //loading screen ---------------
