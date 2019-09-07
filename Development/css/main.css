@@ -1728,3 +1728,7 @@ video {
     color: #fff;
     position: absolute;
 }
+
+.blocktext{
+    text-align: justify;
+}
