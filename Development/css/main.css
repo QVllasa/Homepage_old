@@ -1004,6 +1004,11 @@ video {
     background-color: #5a6268;
 }
 
+.bg-darkblue{
+    background-color: #474D5D !important;
+}
+
+
 #contact-section {
     background: #EFEFEF;
     height: 700px;
@@ -1608,20 +1613,21 @@ video {
 #project-description h1 , .sidepanels h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    color: #595858;
+    color: white;
 }
 
 
 #project-description h3, .sidepanels h3{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
-    color: #595858;
+    color: white;
 }
 
 #project-description p, .sidepanels p{
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: #595858;
+    line-height: 1.75;
 }
 
 #project-description a{
@@ -1649,10 +1655,14 @@ video {
     -o-transition: 0.5s;
 
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-    padding: 60px 0 0 0;
+    padding: 0 !important;
     -webkit-box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
     box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
 
+}
+
+.sidepanel-left a{
+    color: white !important;
 }
 
 .sidepanel-right {
@@ -1671,7 +1681,7 @@ video {
     -o-transition: 0.5s;
 
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
-    padding: 60px 0 0 0;
+    padding: 0 !important;
     -webkit-box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
     box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
 
@@ -1691,6 +1701,7 @@ video {
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+
 
 }
 
@@ -1731,4 +1742,12 @@ video {
 
 .blocktext{
     text-align: justify;
+    overflow-x: visible;
+
+}
+
+.sidepanel-left .col-lg-8{
+    -webkit-box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
+    -moz-box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
+    box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
 }
