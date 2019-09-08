@@ -1606,7 +1606,9 @@ video {
 
 
 
+.sidepanels{
 
+}
 
 
 
@@ -1642,12 +1644,12 @@ video {
 .sidepanel-left {
     height: 100%; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
-    position: absolute;
+    position: absolute !important;
     z-index: 1; /* Stay on top */
     top: 0;
     bottom: 120px;
     left: 0;
-    background-color: #474D5D; /* Black*/
+    background-color: #474D5D; /* #474D5D;*/
     overflow-x: hidden; /* Disable horizontal scroll */
 
     -webkit-transition: 0.5s;
@@ -1698,15 +1700,7 @@ video {
 
 }
 
-.sidepanel .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 
-
-}
 
 .closebtn:hover{
     cursor: pointer;
@@ -1765,4 +1759,19 @@ video {
 
 .bg-white{
     background-color: white;
+}
+
+.sticky-button{
+    position: -webkit-sticky;
+    position: sticky;
+
+    z-index: 1260;
+
+    opacity: 1;
+    bottom: 0;
+    right:0;
+    left:0;
+
+
+
 }

@@ -16,6 +16,7 @@ $(window).on("load", function () {
 
 function openNavLeft1() {
     document.getElementById("edu1").style.width = "100%";
+    // document.getElementById("edu1close").className += " sticky-button";
     scrolltoresumetop()
 }
 
@@ -57,6 +58,7 @@ function openNavRight5() {
 
 function closeNavLeft() {
     $('.sidepanel-left').on('click').css({width: "0"})
+
 }
 
 function closeNavRight() {
