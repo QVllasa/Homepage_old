@@ -967,7 +967,7 @@ video {
 
 
 .slider.company-logos {
-    width: auto;
+    width: 100%;
     margin: 20px auto;
     text-align: center;
     padding: 20px;
