@@ -1663,7 +1663,7 @@ video {
 
 }
 
-.sidepanel-left a{
+.sidepanel-left a, .sidepanel-right a{
     color: white !important;
 }
 
@@ -1675,7 +1675,7 @@ video {
     top: 0;
     bottom: 120px;
     right: 0;
-    background-color: #fff; /* Black*/
+    background-color: #474D5D; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
 
     -webkit-transition: 0.5s;
@@ -1684,9 +1684,10 @@ video {
 
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
     padding: 0 !important;
-    -webkit-box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
-    box-shadow: inset 1px 7px 20px -1px rgba(0,0,0,0.63);
-
+    -webkit-box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.75);
+    border-radius: 20px;
 }
 
 #actual{
@@ -1749,7 +1750,7 @@ video {
 
 }
 
-.sidepanel-left .col-lg-8{
+.sidepanel-left .col-lg-8, .sidepanel-right .col-lg-8{
     -webkit-box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
     -moz-box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
     box-shadow: -15px 1px 40px -5px rgba(0,0,0,0.35);
