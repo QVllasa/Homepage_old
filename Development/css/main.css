@@ -1607,7 +1607,7 @@ video {
 
 
 .sidepanels{
-
+top:0;
 }
 
 
@@ -1772,6 +1772,8 @@ video {
     right:0;
     left:0;
 
+}
 
-
+label{
+    display: flex;
 }

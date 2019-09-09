@@ -58,11 +58,13 @@ function openNavRight5() {
 
 function closeNavLeft() {
     $('.sidepanel-left').on('click').css({width: "0"})
+    scrolltoresumetop()
 
 }
 
 function closeNavRight() {
     $('.sidepanel-right').on('click').css({width: "0"})
+    scrolltoresumetop()
 }
 
 
