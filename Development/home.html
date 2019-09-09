@@ -383,16 +383,16 @@
                 <div class="port-filter button-group filters">
                     <ul>
                         <li>
-                            <a id="latest-projects-link" class="link-element" data-filter="*"><span
+                            <a id="latest-projects-link" class="link-element is-checked" data-filter=".planning"><span
                                     id="filter-button">In&nbsp;Planung</span></a>
                         </li>
                         <li>
-                            <a id="upcoming-projects-link" class="link-element is-checked"
-                               data-filter=".transition"><span>Aktuell</span></a>
+                            <a id="upcoming-projects-link" class="link-element "
+                               data-filter=".current"><span>Aktuell</span></a>
                         </li>
                         <li>
                             <a id="archived-projects-link" class="link-element"
-                               data-filter=".metal"><span>Abgeschlossen</span></a>
+                               data-filter=".done"><span>Abgeschlossen</span></a>
                         </li>
                     </ul>
                 </div>
@@ -401,7 +401,7 @@
         <!-- Portfolio -->
         <div class="container on-animate pb-5" id="portfolio-tiles">
             <div class="grid m-auto" id="portfolio-content">
-                <div class="element-item transition metal " data-category="transition">
+                <div class="element-item planning" data-category="planning">
                     <div class="img-hover-zoom">
                         <img src="https://picsum.photos/300/200/?random" data-src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#dronegraphy" href="#project-description"
@@ -414,7 +414,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item metalloid " data-category="metalloid">
+                <div class="element-item planning" data-category="planning">
                     <div class="img-hover-zoom ">
                         <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#IoT-forum" href="#project-description"
@@ -425,7 +425,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item post-transition metal " data-category="post-transition">
+                <div class="element-item planning " data-category="planning">
                     <div class="img-hover-zoom">
                         <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#DJI-goes-MindSphere" href="#project-description"
@@ -437,9 +437,9 @@
                         <a href="#project-description"></a>
                     </div>
                 </div>
-                <div class="element-item post-transition metal " data-category="post-transition">
+                <div class="element-item current" data-category="current">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/heatpower/Logo_Nr.7-BlackRed.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#Heat&Power" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample">
@@ -448,9 +448,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item transition metal " data-category="transition">
+                <div class="element-item current " data-category="current">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/homepage/homepage.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#Homepage" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample">
@@ -459,9 +459,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/vrfactorio/vrfactorio.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#VR-Factorio" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -470,9 +470,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/virtual%20twin/VIz3.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#VirtualTwin" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -481,9 +481,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/training%20tool/tt_screenshot1.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#TrainingTool" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -492,9 +492,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/material%20generator/m_generator.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#MaterialGenerator" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -503,9 +503,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/certificate%20generator/cf_generator.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#CertificateGenerator" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -514,9 +514,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/password%20manager/pw_manager_screenshot.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#PasswordManager" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -525,9 +525,9 @@
                         </a>
                     </div>
                 </div>
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/crete/crete.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#Mexiko&Griechenland" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
@@ -537,9 +537,9 @@
                     </div>
                 </div>
 
-                <div class="element-item alkali metal " data-category="alkali">
+                <div class="element-item done " data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="https://picsum.photos/300/200/?random" class="img-fluid " alt="">
+                        <img src="img/articles/macos/macOSMojave.png" class="img-fluid " alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#macOSMojaveSupport" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample" >
