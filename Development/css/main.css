@@ -1555,9 +1555,9 @@ video {
         -ms-transform: translateX(0);
         transform: translateX(0);
         opacity: 0;
-        -webkit-transition: all 1s ease-out;
-        -o-transition: all 1s ease-out;
-        transition: all 1s ease-out;
+        -webkit-transition: all 2s ease-out;
+        -o-transition: all 2s ease-out;
+        transition: all 2s ease-out;
     }
 
     .on-animate-right {
@@ -1565,9 +1565,9 @@ video {
         -ms-transform: translateX(0);
         transform: translateX(0);
         opacity: 0;
-        -webkit-transition: all 1s ease-out;
-        -o-transition: all 1s ease-out;
-        transition: all 1s ease-out;
+        -webkit-transition: all 2s ease-out;
+        -o-transition: all 2s ease-out;
+        transition: all 2s ease-out;
     }
 }
 
