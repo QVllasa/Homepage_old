@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/password manager/pw_manager_screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/password manager/pw_manager_screenshot.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="403" column="76" lean-forward="true" selection-start-line="403" selection-start-column="76" selection-end-line="403" selection-end-column="76" />
+            <state relative-caret-position="263">
+              <caret line="467" column="24" selection-start-line="467" selection-start-column="24" selection-end-line="467" selection-end-column="24" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -167,6 +169,11 @@
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#21637#21643#0" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -547,8 +554,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="1042" selection-start-line="1042" selection-end-line="1042" />
+            <state relative-caret-position="210">
+              <caret line="768" column="12" selection-start-line="768" selection-start-column="12" selection-end-line="768" selection-end-column="12" />
               <folding>
                 <element signature="e#156#361#0" />
                 <element signature="e#363#558#0" />
@@ -588,8 +595,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="771" lean-forward="true" selection-start-line="771" selection-end-line="771" />
+            <state relative-caret-position="210">
+              <caret line="758" column="9" selection-start-line="758" selection-start-column="9" selection-end-line="758" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -615,8 +622,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>closebtn</find>
-      <find>sidepanels</find>
       <find>sidepanel</find>
       <find>sidepanel-left</find>
       <find>label</find>
@@ -643,8 +648,10 @@
       <find>cv-</find>
       <find>&lt;div class=&quot;row justify-content-end py-3</find>
       <find>&lt;div class=&quot;row justify-content-end py-3&quot;&gt;</find>
-      <find>planung</find>
       <find>triggerHalloWelt</find>
+      <find>planung</find>
+      <find>filter</find>
+      <find>filter-button</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -694,9 +701,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="649" />
+    <option name="x" value="1680" />
     <option name="y" value="23" />
-    <option name="width" value="2399" />
+    <option name="width" value="1680" />
     <option name="height" value="1318" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -714,11 +721,6 @@
             <path>
               <item name="Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="Development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Development" type="b2602c69:ProjectViewProjectNode" />
@@ -842,28 +844,7 @@
       <workItem from="1567885329153" duration="8238000" />
       <workItem from="1567968093861" duration="3437000" />
       <workItem from="1567976237367" duration="9682000" />
-      <workItem from="1568036938852" duration="14708000" />
-    </task>
-    <task id="LOCAL-00025" summary="text added">
-      <created>1565360444040</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1565360444040</updated>
-    </task>
-    <task id="LOCAL-00026" summary="working on resume texts">
-      <created>1565524022984</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1565524022984</updated>
-    </task>
-    <task id="LOCAL-00027" summary="working on resume texts">
-      <created>1565558271514</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1565558271515</updated>
+      <workItem from="1568036938852" duration="15492000" />
     </task>
     <task id="LOCAL-00028" summary="date changed">
       <created>1566405124937</created>
@@ -1187,17 +1168,38 @@
       <option name="project" value="LOCAL" />
       <updated>1568059557822</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="working on layout">
+      <created>1568061337488</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1568061337488</updated>
+    </task>
+    <task id="LOCAL-00075" summary="working on layout">
+      <created>1568061366520</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1568061366520</updated>
+    </task>
+    <task id="LOCAL-00076" summary="adding content to project container">
+      <created>1568062348010</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1568062348010</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185905000" />
+    <option name="totallyTimeSpent" value="186689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="649" y="23" width="2399" height="1318" extended-state="0" />
+    <frame x="1680" y="23" width="1680" height="1318" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14117262" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2026862" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.32952693" />
@@ -1213,7 +1215,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" weight="0.4249592" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.4249592" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32626426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1285,7 +1287,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sidepanels added" />
     <MESSAGE value="working on content" />
     <MESSAGE value="text added" />
     <MESSAGE value="working on resume texts" />
@@ -1310,7 +1311,8 @@
     <MESSAGE value="reformat main.js" />
     <MESSAGE value="fixing errors and warnings" />
     <MESSAGE value="working on layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on layout" />
+    <MESSAGE value="adding content to project container" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding content to project container" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/doc/css.md">
@@ -1508,10 +1510,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="758" column="9" selection-start-line="758" selection-start-column="9" selection-end-line="758" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="1042" selection-start-line="1042" selection-end-line="1042" />
+        <state relative-caret-position="210">
+          <caret line="768" column="12" selection-start-line="768" selection-start-column="12" selection-end-line="768" selection-end-column="12" />
           <folding>
             <element signature="e#156#361#0" />
             <element signature="e#363#558#0" />
@@ -1547,17 +1556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="771" lean-forward="true" selection-start-line="771" selection-end-line="771" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="403" column="76" lean-forward="true" selection-start-line="403" selection-start-column="76" selection-end-line="403" selection-end-column="76" />
+        <state relative-caret-position="263">
+          <caret line="467" column="24" selection-start-line="467" selection-start-column="24" selection-end-line="467" selection-end-column="24" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -1683,6 +1685,11 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#21637#21643#0" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
