@@ -731,7 +731,7 @@ video {
     transition: .6s ease;
     margin: 0;
     padding: 2px;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .overlay i{
@@ -741,6 +741,7 @@ video {
 
 .img-hover-zoom {
     overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+    height:100%;
 }
 
 .img-hover-zoom img {
@@ -748,7 +749,7 @@ video {
     transition: -webkit-transform 1s ease;
     -o-transition: transform 1s ease;
     transition: transform 1s ease, -webkit-transform 1s ease;
-    object-fit: cover;
+
 
 
 }
@@ -883,7 +884,7 @@ video {
 .hire-me, .cv-download, .submit-button {
     -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
-    -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+
     -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
     transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 
@@ -919,7 +920,7 @@ video {
 .hire-me:hover, .cv-download:hover, .submit-button:hover{
 
     color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(9, 71, 88, 0.7) 0 0px 0px 40px inset;
+    box-shadow: rgba(9, 71, 88, 0.7) 0 0 0 40px inset;
     text-decoration: none;
     -webkit-appearance: none;
 
@@ -1547,25 +1548,55 @@ video {
 }
 
 
-.on-animate-left {
-    -webkit-transform: translateX(-150px);
-    -ms-transform: translateX(-150px);
-    transform: translateX(-150px);
-    opacity: 0;
-    -webkit-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+
+@media (max-width: 990px) {
+    .on-animate-left {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 0;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
+
+    .on-animate-right {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+        opacity: 0;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
 }
 
-.on-animate-right {
-    -webkit-transform: translateX(150px);
-    -ms-transform: translateX(150px);
-    transform: translateX(150px);
-    opacity: 0;
-    -webkit-transition: all 1s ease-out;
-    -o-transition: all 1s ease-out;
-    transition: all 1s ease-out;
+
+@media (min-width: 990.98px) {
+
+    .on-animate-left {
+        -webkit-transform: translateX(-150px);
+        -ms-transform: translateX(-150px);
+        transform: translateX(-150px);
+        opacity: 0;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
+
+    .on-animate-right {
+        -webkit-transform: translateX(150px);
+        -ms-transform: translateX(150px);
+        transform: translateX(150px);
+        opacity: 0;
+        -webkit-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+    }
 }
+
+
+
 
 /*noinspection ALL*/
 .animate-section-X {
@@ -1627,18 +1658,33 @@ top:0;
 
 
 
-#project-description h1 , .sidepanels h1{
+#project-description h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: #474D5D;
 }
 
 
-#project-description h3, .sidepanels h3{
+#project-description h3{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #474D5D;
 }
+
+
+.sidepanels h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
+.sidepanels h3{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
 
 #project-description p, .sidepanels p{
     font-family: 'Source Sans Pro', sans-serif;
@@ -1797,4 +1843,22 @@ label{
 
 .element-item{
     height: 173.33px !important;
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.element-item img{
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    filter: grayscale(70%);
+    height: 100%;
+    margin: auto;
+
+}
+
+.element-item:hover img{
+    filter: grayscale(0%);
+    transition: 0.5s;
+
 }
