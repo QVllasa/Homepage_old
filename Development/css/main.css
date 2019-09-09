@@ -748,6 +748,8 @@ video {
     transition: -webkit-transform 1s ease;
     -o-transition: transform 1s ease;
     transition: transform 1s ease, -webkit-transform 1s ease;
+    object-fit: cover;
+
 
 }
 
@@ -1793,3 +1795,6 @@ label{
     display: flex;
 }
 
+.element-item{
+    height: 173.33px !important;
+}
