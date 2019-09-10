@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="ed84a4ec-9eff-4256-86cb-84e0d31247f2" name="qendrimvllasa" url="http://www.qendrimvllasa.de">
+      <webServer id="ed84a4ec-9eff-4256-86cb-84e0d31247f2" name="qendrimvllasa" url="https://www.qendrimvllasa.de">
         <fileTransfer host="116.202.107.98" port="22" rootFolder="/home/qendrimvllasa" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />

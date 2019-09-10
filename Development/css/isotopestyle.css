@@ -130,3 +130,29 @@ body {
 
 
 
+.element-item{
+  height: 173.33px !important;
+  overflow: hidden;
+  background-color: #3c3c3c;
+  -webkit-box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
+}
+
+.element-item img{
+  object-fit: fill;
+  object-position: center;
+  display: block;
+  filter: grayscale(50%);
+  height: 100%;
+  margin: auto;
+  transform: scale(0.7);
+
+
+}
+
+.element-item:hover img{
+  filter: grayscale(0%);
+  transition: 0.5s;
+
+}
