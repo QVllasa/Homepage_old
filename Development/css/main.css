@@ -1841,6 +1841,9 @@ label{
     height: 173.33px !important;
     overflow: hidden;
     background-color: darkgray;
+    -webkit-box-shadow: -1px 11px 21px 0px rgba(252,252,252,1);
+    -moz-box-shadow: -1px 11px 21px 0px rgba(252,252,252,1);
+    box-shadow: -1px 11px 21px 0px rgba(252,252,252,1);
 }
 
 .element-item img{
@@ -1850,6 +1853,8 @@ label{
     filter: grayscale(70%);
     height: 100%;
     margin: auto;
+    transform: scale(0.5);
+
 
 }
 
