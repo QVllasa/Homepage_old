@@ -4,46 +4,16 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="icons removed from thumbnails in project section">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/qendrimvllasa.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/isotopestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isotopestyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/img/articles/certificate generator/thumbnail_cf.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/computer/thumbnail_computer.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/crete/crete.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/crete/thumbnail_crete.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/heatpower/thumbnail_heat&amp;power.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/homepage/developing_website.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/homepage/thumbnail_homepage.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/iotforum/thumbnail_iotforum.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/material generator/thumbnail_mg.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/password manager/thumbnail_pm.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/thumbnail_vrfactorio.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/trading/thumbnail_trading.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/training tool/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/training tool/thumbnail_tt.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/video editing/thumbnail_videoediting.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/VIz3_sm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/thumbnail_virtualtwin.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/virtualtwin.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/vrfactorio/thumbnail_vrfactorio.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/vrfactorio/vrfactorio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgrounds/loading_animation 3.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/general/coder.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/general/webdesigner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header1_480p.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_1080p.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_480p.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_4k.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_4k.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_720p.mov" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unterschrift.afdesign" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/business_background.afphoto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/line.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/dronegraphy/thumbnail_dronegraphy.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/dronegraphy/thumbnail_dronegraphy.afdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/iotforum/.thumbnail_iotforum.afdesign.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.afdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/password manager/.thumbnail_pm.afdesign.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/training tool/.thumbnail_tt.afdesign.icloud" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -75,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="490" column="92" selection-start-line="490" selection-start-column="92" selection-end-line="490" selection-end-column="92" />
+            <state relative-caret-position="-140">
+              <caret line="428" column="22" lean-forward="true" selection-start-line="428" selection-start-column="22" selection-end-line="428" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -750,8 +720,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state relative-caret-position="496">
+              <caret line="145" column="15" lean-forward="true" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -783,10 +753,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="-2066">
               <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
@@ -892,11 +862,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="820" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="1319" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -905,7 +874,25 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -1028,14 +1015,7 @@
       <workItem from="1568157846374" duration="2454000" />
       <workItem from="1568210462534" duration="385000" />
       <workItem from="1568212817600" duration="915000" />
-      <workItem from="1568238031585" duration="22000" />
-    </task>
-    <task id="LOCAL-00031" summary="old photos removed">
-      <created>1566653565080</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1566653565081</updated>
+      <workItem from="1568238031585" duration="1127000" />
     </task>
     <task id="LOCAL-00032" summary="old photos removed">
       <created>1566653573596</created>
@@ -1373,17 +1353,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568213876151</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="icons removed from thumbnails in project section">
+      <created>1568238096445</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1568238096445</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191153000" />
+    <option name="totallyTimeSpent" value="192258000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22161172" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1715,10 +1702,45 @@
     <entry file="file://$PROJECT_DIR$/img/articles/dronegraphy/thumbnail.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="59" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blogs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="145" column="15" lean-forward="true" selection-start-line="145" selection-start-column="15" selection-end-line="145" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="490" column="92" selection-start-line="490" selection-start-column="92" selection-end-line="490" selection-end-column="92" />
+        <state relative-caret-position="-140">
+          <caret line="428" column="22" lean-forward="true" selection-start-line="428" selection-start-column="22" selection-end-line="428" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -2385,45 +2407,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="59" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="-2066">
           <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
         </state>
       </provider>
     </entry>
