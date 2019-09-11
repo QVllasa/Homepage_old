@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/articles/homepage/homepage_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/articles/crete/filming-indoors-photography-918281.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/articles/virtual twin/virtualtwin.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/isotopestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isotopestyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="469" column="86" lean-forward="true" selection-start-line="469" selection-start-column="86" selection-end-line="469" selection-end-column="86" />
+            <state relative-caret-position="70">
+              <caret line="460" column="28" lean-forward="true" selection-start-line="460" selection-start-column="28" selection-end-line="460" selection-end-column="28" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -155,8 +155,8 @@
                 <element signature="e#22044#22050#0" expanded="true" />
                 <element signature="e#24878#24884#0" expanded="true" />
                 <element signature="e#24888#24894#0" expanded="true" />
+                <element signature="e#25650#25655#0" expanded="true" />
                 <element signature="e#26344#26350#0" expanded="true" />
-                <element signature="n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -173,7 +173,6 @@
                 <element signature="n#div#2;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#6;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#7;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#8;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -491,11 +490,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
+            <state relative-caret-position="177">
+              <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -557,8 +556,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>closebtn</find>
-      <find>sidepanels</find>
       <find>sidepanel</find>
       <find>sidepanel-left</find>
       <find>label</find>
@@ -587,6 +584,8 @@
       <find>planung</find>
       <find>triggerHalloWelt</find>
       <find>heat</find>
+      <find>vr-factorio</find>
+      <find>vrfactorio</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -637,9 +636,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="663" />
+    <option name="x" value="1494" />
     <option name="y" value="23" />
-    <option name="width" value="2194" />
+    <option name="width" value="1680" />
     <option name="height" value="1319" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -685,6 +684,13 @@
               <item name="Development" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="crete" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
               <item name="heatpower" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -693,6 +699,20 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
               <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="video editing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="virtual twin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Development" type="b2602c69:ProjectViewProjectNode" />
@@ -727,11 +747,11 @@
       <recent name="$PROJECT_DIR$/img/articles/certificate generator" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/articles/virtual twin" />
+      <recent name="$PROJECT_DIR$/img/articles/video editing" />
+      <recent name="$PROJECT_DIR$/img/articles/crete" />
       <recent name="$PROJECT_DIR$/img/articles/homepage" />
       <recent name="$PROJECT_DIR$/img/general" />
-      <recent name="$PROJECT_DIR$/img/articles/heatpower" />
-      <recent name="$PROJECT_DIR$/img/backgrounds" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -823,14 +843,7 @@
       <workItem from="1567976237367" duration="9682000" />
       <workItem from="1568036938852" duration="14708000" />
       <workItem from="1568153742697" duration="603000" />
-      <workItem from="1568157846374" duration="977000" />
-    </task>
-    <task id="LOCAL-00026" summary="working on resume texts">
-      <created>1565524022984</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1565524022984</updated>
+      <workItem from="1568157846374" duration="2433000" />
     </task>
     <task id="LOCAL-00027" summary="working on resume texts">
       <created>1565558271514</created>
@@ -1168,17 +1181,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568158005149</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="working on layout">
+      <created>1568159097233</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1568159097233</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188354000" />
+    <option name="totallyTimeSpent" value="189810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="663" y="23" width="2194" height="1319" extended-state="0" />
+    <frame x="1494" y="23" width="1680" height="1319" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21933086" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21916972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1193,7 +1213,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" weight="0.15729421" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15729421" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32626426" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1541,20 +1561,13 @@
     <entry file="file://$PROJECT_DIR$/img/articles/password manager/mdsp_password_manager.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="111" column="11" selection-start-line="111" selection-start-column="11" selection-end-line="111" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/articles/homepage/developing_website.jpeg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="469" column="86" lean-forward="true" selection-start-line="469" selection-start-column="86" selection-end-line="469" selection-end-column="86" />
+        <state relative-caret-position="70">
+          <caret line="460" column="28" lean-forward="true" selection-start-line="460" selection-start-column="28" selection-end-line="460" selection-end-column="28" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -1665,8 +1678,8 @@
             <element signature="e#22044#22050#0" expanded="true" />
             <element signature="e#24878#24884#0" expanded="true" />
             <element signature="e#24888#24894#0" expanded="true" />
+            <element signature="e#25650#25655#0" expanded="true" />
             <element signature="e#26344#26350#0" expanded="true" />
-            <element signature="n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1683,7 +1696,6 @@
             <element signature="n#div#2;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#6;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#8;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1997,6 +2009,13 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="109" column="21" lean-forward="true" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
         </state>
       </provider>
     </entry>
