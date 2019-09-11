@@ -5,14 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="icons removed from thumbnails in project section">
-      <change afterPath="$PROJECT_DIR$/img/articles/dronegraphy/thumbnail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/homepage/thumbnail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/iotforum/thumbnail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/macos/macOS_image.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/qendrimvllasa.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/macos/macOSMojave.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/macos/macOSMojave_sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/certificate generator/thumbnail_cf.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/computer/thumbnail_computer.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/crete/crete.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/crete/thumbnail_crete.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/heatpower/thumbnail_heat&amp;power.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/homepage/developing_website.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/homepage/thumbnail_homepage.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/iotforum/thumbnail_iotforum.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/macos/thumbnail_macos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/material generator/thumbnail_mg.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/password manager/thumbnail_pm.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/thumbnail_vrfactorio.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/trading/thumbnail_trading.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/training tool/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/training tool/thumbnail_tt.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/video editing/thumbnail_videoediting.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/VIz3_sm.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/thumbnail_virtualtwin.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/virtualtwin.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/vrfactorio/thumbnail_vrfactorio.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/vrfactorio/vrfactorio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/backgrounds/loading_animation 3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/general/coder.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/general/webdesigner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header1_480p.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_1080p.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_480p.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_4k.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_4k.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mov/Website_Header2_720p.mov" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unterschrift.afdesign" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business_background.afphoto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/line.afdesign" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="560" column="100" lean-forward="true" selection-start-line="560" selection-start-column="100" selection-end-line="560" selection-end-column="100" />
+            <state relative-caret-position="419">
+              <caret line="490" column="92" selection-start-line="490" selection-start-column="92" selection-end-line="490" selection-end-column="92" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -861,7 +892,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="820" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
@@ -874,82 +905,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="certificate generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="crete" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="heatpower" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="homepage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="video editing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="virtual twin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -1071,21 +1027,8 @@
       <workItem from="1568153742697" duration="603000" />
       <workItem from="1568157846374" duration="2454000" />
       <workItem from="1568210462534" duration="385000" />
-      <workItem from="1568212817600" duration="429000" />
-    </task>
-    <task id="LOCAL-00029" summary="new photo">
-      <created>1566652780716</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1566652780716</updated>
-    </task>
-    <task id="LOCAL-00030" summary="old photos removed">
-      <created>1566652962623</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1566652962623</updated>
+      <workItem from="1568212817600" duration="915000" />
+      <workItem from="1568238031585" duration="22000" />
     </task>
     <task id="LOCAL-00031" summary="old photos removed">
       <created>1566653565080</created>
@@ -1416,14 +1359,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568210865419</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="icons removed from thumbnails in project section">
+      <created>1568213423977</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1568213423977</updated>
+    </task>
+    <task id="LOCAL-00079" summary="icons removed from thumbnails in project section">
+      <created>1568213876151</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1568213876151</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190645000" />
+    <option name="totallyTimeSpent" value="191153000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="820" y="23" width="1680" height="1319" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22161172" />
@@ -1441,7 +1398,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15729421" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15672515" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32599837" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1754,58 +1711,14 @@
     <entry file="file://$PROJECT_DIR$/img/articles/password manager/mdsp_password_manager.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/articles/homepage/developing_website.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="91" column="59" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/blogs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main_blog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/articles/homepage/developing_website.jpeg" />
     <entry file="file://$PROJECT_DIR$/img/articles/dronegraphy/thumbnail.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="560" column="100" lean-forward="true" selection-start-line="560" selection-start-column="100" selection-end-line="560" selection-end-column="100" />
+        <state relative-caret-position="419">
+          <caret line="490" column="92" selection-start-line="490" selection-start-column="92" selection-end-line="490" selection-end-column="92" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -2469,6 +2382,48 @@
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/isotopestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="91" column="59" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/blogs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main_blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
         </state>
       </provider>
     </entry>
