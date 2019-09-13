@@ -1907,3 +1907,7 @@ label{
         transform: rotate(360deg) scale(0.3);
     }
 }
+
+.virtualtwin_indicators .carousel-indicators li{
+    background-color: #474D5D;
+}
