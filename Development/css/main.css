@@ -1908,6 +1908,19 @@ label{
     }
 }
 
-.virtualtwin_indicators .carousel-indicators li{
+#virtualtwin_indicators .carousel-indicators li{
     background-color: #474D5D;
 }
+
+#virtualtwin_indicators .carousel-control-next-icon, #virtualtwin_indicators .carousel-control-prev-icon{
+    background-color: #474D5D;
+    border-radius: 50%;
+}
+
+#virtualtwin_indicators img{
+
+    width: auto !important;
+    height: 400px !important;
+    max-height: 400px !important;
+}
+
