@@ -41,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="643" column="75" selection-start-line="643" selection-start-column="75" selection-end-line="643" selection-end-column="75" />
+            <state relative-caret-position="204">
+              <caret line="450" column="80" selection-start-line="450" selection-start-column="80" selection-end-line="450" selection-end-column="80" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -555,7 +555,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>animate-section-x</find>
       <find>right1</find>
       <find>maus</find>
       <find>left2</find>
@@ -585,6 +584,7 @@
       <find>text/html</find>
       <find>portrai</find>
       <find>name-img-title</find>
+      <find>heatpower</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -637,7 +637,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="203" />
     <option name="y" value="30" />
     <option name="width" value="840" />
@@ -790,21 +790,7 @@
       <workItem from="1568288613950" duration="123000" />
       <workItem from="1568289375103" duration="4437000" />
       <workItem from="1568331544724" duration="6334000" />
-      <workItem from="1568389514219" duration="3223000" />
-    </task>
-    <task id="LOCAL-00059" summary="article layout changed">
-      <created>1567893098253</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1567893098253</updated>
-    </task>
-    <task id="LOCAL-00060" summary="article layout changed">
-      <created>1567900647155</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1567900647155</updated>
+      <workItem from="1568389514219" duration="3625000" />
     </task>
     <task id="LOCAL-00061" summary="article layout changed">
       <created>1567901676038</created>
@@ -1135,14 +1121,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568394548139</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="htaccess audio video added">
+      <created>1568394859992</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1568394859992</updated>
+    </task>
+    <task id="LOCAL-00109" summary="htaccess audio video added">
+      <created>1568394883585</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1568394883585</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207106000" />
+    <option name="totallyTimeSpent" value="207508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="203" y="30" width="840" height="947" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="958" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.23137973" />
@@ -1160,7 +1160,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15672515" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15473442" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32599837" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1513,8 +1513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="643" column="75" selection-start-line="643" selection-start-column="75" selection-end-line="643" selection-end-column="75" />
+        <state relative-caret-position="204">
+          <caret line="450" column="80" selection-start-line="450" selection-start-column="80" selection-end-line="450" selection-end-column="80" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
