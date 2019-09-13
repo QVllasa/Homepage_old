@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="content added to project descriptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="1505" column="18" lean-forward="true" selection-start-line="1505" selection-start-column="18" selection-end-line="1505" selection-end-column="18" />
+            <state relative-caret-position="429">
+              <caret line="711" column="22" selection-start-line="711" selection-start-column="22" selection-end-line="711" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -181,6 +182,8 @@
                 <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#p#0;n#div#0;n#div#4;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ol#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -191,8 +194,7 @@
                 <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ol#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -202,6 +204,8 @@
                 <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#3;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#4;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ol#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -211,7 +215,6 @@
                 <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ol#0;n#div#0;n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -765,9 +768,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="1680" />
     <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -916,21 +919,7 @@
       <workItem from="1568238031585" duration="1858000" />
       <workItem from="1568288613950" duration="123000" />
       <workItem from="1568289375103" duration="4437000" />
-      <workItem from="1568331544724" duration="1872000" />
-    </task>
-    <task id="LOCAL-00047" summary="changed loading animation from css to gif">
-      <created>1567631773623</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1567631773623</updated>
-    </task>
-    <task id="LOCAL-00048" summary="adding background videos">
-      <created>1567632284531</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1567632284531</updated>
+      <workItem from="1568331544724" duration="2803000" />
     </task>
     <task id="LOCAL-00049" summary="adding background videos">
       <created>1567633097120</created>
@@ -1261,14 +1250,28 @@
       <option name="project" value="LOCAL" />
       <updated>1568380442401</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="content added to project descriptions">
+      <created>1568380547598</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1568380547598</updated>
+    </task>
+    <task id="LOCAL-00097" summary="content added to project descriptions">
+      <created>1568382048768</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1568382048768</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199421000" />
+    <option name="totallyTimeSpent" value="200352000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22893773" />
@@ -1639,8 +1642,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="1505" column="18" lean-forward="true" selection-start-line="1505" selection-start-column="18" selection-end-line="1505" selection-end-column="18" />
+        <state relative-caret-position="429">
+          <caret line="711" column="22" selection-start-line="711" selection-start-column="22" selection-end-line="711" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1780,6 +1783,8 @@
             <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#p#0;n#div#0;n#div#4;n#div#0;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1790,8 +1795,7 @@
             <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#1;n#div#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1801,6 +1805,8 @@
             <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#3;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#4;n#div#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -1810,7 +1816,6 @@
             <element signature="n#img#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#img#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ol#0;n#div#0;n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#2;n#div#6;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
