@@ -3,3 +3,12 @@ RewriteCond %{HTTPS} !on
 RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Audio
+AddType audio/ogg                      oga ogg
+AddType audio/mp4                      m4a
+
+# Video
+AddType video/ogg                      ogv
+AddType video/mp4                      mp4 m4v
+AddType video/webm                     webm
