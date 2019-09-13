@@ -367,6 +367,7 @@ video {
 .video-bottom{
     -o-object-position: bottom !important;
     object-position: bottom !important;
+    bottom: 0;
 }
 
 .video-center{
