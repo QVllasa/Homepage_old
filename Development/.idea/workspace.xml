@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -464,8 +462,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#305#465#0" />
+                <element signature="e#2117#2369#0" />
+                <element signature="e#3510#4137#0" />
+                <element signature="e#5083#5849#0" />
+                <element signature="e#6647#7290#0" />
+                <element signature="e#8467#9001#0" />
+                <element signature="e#10164#10731#0" />
+                <element signature="e#10765#10927#0" />
+                <element signature="e#11424#19762#0" />
+                <element signature="e#19884#20132#0" />
+                <element signature="e#20135#22698#0" />
+                <element signature="e#22832#24542#0" />
+                <element signature="e#25055#26851#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -508,7 +521,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hire</find>
       <find>safari</find>
       <find>custom-border</find>
       <find>project-description</find>
@@ -538,6 +550,7 @@
       <find>vrfac</find>
       <find>vr-fac</find>
       <find>latest</find>
+      <find>top</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -585,9 +598,9 @@
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/css/isotopestyle.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -750,14 +763,7 @@
       <workItem from="1568331544724" duration="6334000" />
       <workItem from="1568389514219" duration="12504000" />
       <workItem from="1568425636095" duration="1787000" />
-      <workItem from="1568454997939" duration="2959000" />
-    </task>
-    <task id="LOCAL-00076" summary="working on layout">
-      <created>1568160666553</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1568160666553</updated>
+      <workItem from="1568454997939" duration="3508000" />
     </task>
     <task id="LOCAL-00077" summary="working on layout">
       <created>1568210865418</created>
@@ -1095,11 +1101,18 @@
       <option name="project" value="LOCAL" />
       <updated>1568428221523</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="working on lazy loader and overall performance">
+      <created>1568459623669</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1568459623670</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221133000" />
+    <option name="totallyTimeSpent" value="221682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
@@ -1193,7 +1206,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="about me text changes" />
     <MESSAGE value="decrease business background size" />
     <MESSAGE value="working on bugfixes" />
     <MESSAGE value="autoprefixer css" />
@@ -1218,7 +1230,8 @@
     <MESSAGE value="htaccess audio video added" />
     <MESSAGE value="project and hobby folder created" />
     <MESSAGE value="adding content to project section" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding content to project section" />
+    <MESSAGE value="working on lazy loader and overall performance" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on lazy loader and overall performance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/doc/html.md">
@@ -1901,8 +1914,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#305#465#0" />
+            <element signature="e#2117#2369#0" />
+            <element signature="e#3510#4137#0" />
+            <element signature="e#5083#5849#0" />
+            <element signature="e#6647#7290#0" />
+            <element signature="e#8467#9001#0" />
+            <element signature="e#10164#10731#0" />
+            <element signature="e#10765#10927#0" />
+            <element signature="e#11424#19762#0" />
+            <element signature="e#19884#20132#0" />
+            <element signature="e#20135#22698#0" />
+            <element signature="e#22832#24542#0" />
+            <element signature="e#25055#26851#0" />
+          </folding>
         </state>
       </provider>
     </entry>
