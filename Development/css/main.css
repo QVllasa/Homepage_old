@@ -979,6 +979,11 @@ video {
     height: auto;
 }
 
+#my-feedback-section.lazy {
+    background-image: none;
+    background-color: #F1F1FA;
+}
+
 
 .slider.company-logos {
     width: 100%;
@@ -1896,3 +1901,9 @@ label {
     -moz-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.75);
 }
+
+
+#vimeo_vrfactorio.lazy, .lazy#vimeo_movies{
+    display:none;
+}
+

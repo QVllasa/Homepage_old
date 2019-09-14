@@ -154,7 +154,7 @@
             <div class="row justify-content-center mt-4">
                 <!-- self portrait -->
                 <div class="col-lg-4" style="padding-left: 0; filter: drop-shadow(8px 8px 10px gray)">
-                    <div class="container justify-content-center" style="margin: 10px 0 0 0;">
+                    <div class="container justify-content-center text-center" style="margin: 10px 0 0 0;">
                         <img class="img-fluid self-portrait" src="img/portraits/portrait_web_homepage_lowquality.jpg"
                              alt="Portrait">
                         <div class="container name-img-title">
@@ -435,7 +435,8 @@
                 </div>
                 <div class="element-item current " data-category="current">
                     <div class="img-hover-zoom">
-                        <img src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png" class="img-fluid " alt="">
+                        <img src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png" class="img-fluid "
+                             alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#DJI-goes-MindSphere"
                            href="#project-description"
                            aria-expanded="false"
@@ -482,7 +483,8 @@
                 </div>
                 <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="img/articles/projects/virtual_twin/thumbnail_virtualtwin.png" class="img-fluid " alt="">
+                        <img src="img/articles/projects/virtual_twin/thumbnail_virtualtwin.png" class="img-fluid "
+                             alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#VirtualTwin" href="#project-description"
                            aria-expanded="false"
                            aria-controls="collapseExample">
@@ -517,7 +519,8 @@
                 </div>
                 <div class="element-item done" data-category="done">
                     <div class="img-hover-zoom">
-                        <img src="img/articles/projects/certificate_generator/thumbnail_cf.png" class=" img-fluid" alt="">
+                        <img src="img/articles/projects/certificate_generator/thumbnail_cf.png" class=" img-fluid"
+                             alt="">
                         <a class="overlay" data-toggle="collapse" data-target="#CertificateGenerator"
                            href="#project-description"
                            aria-expanded="false"
@@ -581,7 +584,8 @@
 
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img src="img/articles/projects/dronegraphy/dronegraphy.png" alt="dronegraphy" class="img-fluid">
+                    <img data-src="img/articles/projects/dronegraphy/dronegraphy.png" alt="dronegraphy"
+                         class="img-fluid lazy">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -631,7 +635,7 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img src="img/articles/projects/iotforum/iotforum.jpg" alt="iotforum_image">
+                    <img class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg" alt="iotforum_image">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -672,7 +676,8 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img class="img-fluid" src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png" alt="">
+                    <img class="img-fluid lazy" data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png"
+                         alt="">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -734,15 +739,18 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="d-block w-100" src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
+                                    <img class="d-block w-100 lazy"
+                                         data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
+                                    <img class="d-block w-100 lazy"
+                                         data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
                                          alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="d-block w-100" src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
+                                    <img class="d-block w-100 lazy"
+                                         data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png"
                                          alt="Third slide">
                                 </div>
                             </div>
@@ -807,11 +815,12 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid" src="img/articles/projects/homepage/developing_website.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/homepage/developing_website.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/homepage/homepage.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/homepage/homepage.png"
                                          alt="Second slide">
                                 </div>
 
@@ -865,10 +874,9 @@
                     <a class="fas fa-times-circle fa-2x" data-toggle="collapse" data-target="#VR-Factorio"
                        href="#portfolio-icon"></a>
                 </div>
-                <div class="row justify-content-center p-5">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/okImWn8YrLo" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="row justify-content-center p-5 lazy" id="vimeo_vrfactorio">
+                    <iframe src="https://player.vimeo.com/video/359957410" width="640" height="564" frameborder="0"
+                            allow="autoplay; fullscreen" allowfullscreen></iframe>
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -953,43 +961,44 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/MA_Thesis_cover.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/virtual_twin/MA_Thesis_cover.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/VIz1.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/VIz1.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/Viz2.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/Viz2.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/VIz3.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/VIz3.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/VIz4.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/VIz4.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/GUI1.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/GUI1.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/GUI2.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/GUI2.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/GUI3.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/GUI3.png"
                                          alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/GUI4.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/GUI4.png"
                                          alt="Third slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/virtual_twin/GUI5.png"
+                                    <img class="img-fluid lazy" data-src="img/articles/projects/virtual_twin/GUI5.png"
                                          alt="Third slide">
                                 </div>
                             </div>
@@ -1092,19 +1101,23 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img class="img-fluid" src="img/articles/projects/training_tool/tt_icon_sm.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/training_tool/tt_icon_sm.png"
                                          alt="Third slide">
                                 </div>
                                 <div class="carousel-item ">
-                                    <img class="img-fluid" src="img/articles/projects/training_tool/tt_screenshot1.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/training_tool/tt_screenshot1.png"
                                          alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/training_tool/tt_screenshot2.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/training_tool/tt_screenshot2.png"
                                          alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                    <img class="img-fluid" src="img/articles/projects/training_tool/tt_screenshot3.png"
+                                    <img class="img-fluid lazy"
+                                         data-src="img/articles/projects/training_tool/tt_screenshot3.png"
                                          alt="Third slide">
                                 </div>
 
@@ -1167,7 +1180,8 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img src="img/articles/projects/material_generator//m_generator.png" class="img-fluid" alt="">
+                    <img data-src="img/articles/projects/material_generator/m_generator.png" class="img-fluid lazy"
+                         alt="">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -1203,7 +1217,8 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img src="img/articles/projects/certificate_generator/cf_generator.png" class="img-fluid" alt="">
+                    <img data-src="img/articles/projects/certificate_generator/cf_generator.png" class="img-fluid lazy"
+                         alt="">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -1233,7 +1248,8 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center p-5">
-                    <img src="img/articles/projects/password_manager/pw_manager_screenshot.png" alt="">
+                    <img data-src="img/articles/projects/password_manager/pw_manager_screenshot.png" class="lazy"
+                         alt="">
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-6 text-center">
@@ -1270,12 +1286,11 @@
                     <a class="fas fa-times-circle fa-2x" data-toggle="collapse" data-target="#latest-movies"
                        href="#portfolio-icon"></a>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-12 text-center m-0">
+                <div class="row justify-content-center lazy" id="vimeo_movies">
+                    <div class="col-md-12 text-center m-0" >
                         <iframe src="https://player.vimeo.com/video/355854154" width="640" height="564"
                                 frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
                     </div>
-
 
 
                 </div>
@@ -1293,7 +1308,8 @@
                             online gegangen ist, habe ich diese erstmals auf Vimeo hochgeladen, da Vimeo für seinen
                             professionellen Content bekannt ist. Ich werde somit weiterhin auch künftig all meine
                             Kreationen
-                            auf Vimeo hochladen. Eines der Filme (das zu Mexiko) ist bereits über diesem Artikel zu sehen.
+                            auf Vimeo hochladen. Eines der Filme (das zu Mexiko) ist bereits über diesem Artikel zu
+                            sehen.
                             Zwar habe ich weitere Filme veröffentlicht, aber diese waren weitaus
                             kürzer
                             und in ihrem Umfang auch weniger aufwendig. Du kannst sie dir unter anderem auf meinem
@@ -1312,8 +1328,7 @@
                        href="#portfolio-icon"></a>
                 </div>
                 <div class="row justify-content-center">
-                    <img src="img/articles/projects/macos/thumbnail_macos.png" alt="">
-
+                    <img data-src="img/articles/projects/macos/thumbnail_macos.png" class="lazy" alt="">
 
 
                 </div>
@@ -2539,7 +2554,7 @@
 
     </div>
     <!-- COMPANY -->
-    <div class="container-fluid pt-5 pb-5" id="my-feedback-section">
+    <div class="container-fluid pt-5 pb-5 lazy" id="my-feedback-section">
         <!-- icon -->
         <div class="container mb-5 on-animate" id="company-icon">
             <div class="row justify-content-center">
