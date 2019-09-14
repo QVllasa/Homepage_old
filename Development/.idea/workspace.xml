@@ -6,17 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/GUI1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/GUI1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/GUI2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/GUI2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/GUI3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/GUI3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/GUI4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/GUI4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/GUI5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/GUI5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/MA_Thesis_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/MA_Thesis_cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/VIz1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/VIz1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/VIz3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/VIz3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/VIz4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/VIz4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/virtual twin/Viz2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/virtual twin/Viz2.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -496,8 +485,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="1872" column="76" lean-forward="true" selection-start-line="1872" selection-start-column="76" selection-end-line="1872" selection-end-column="76" />
+            <state relative-caret-position="236">
+              <caret line="1865" column="5" lean-forward="true" selection-start-line="1865" selection-start-column="5" selection-end-line="1865" selection-end-column="5" />
               <folding>
                 <element signature="e#156#361#0" />
                 <element signature="e#363#558#0" />
@@ -698,13 +687,6 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="articles" type="462c0819:PsiDirectoryNode" />
-              <item name="virtual twin" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -837,14 +819,7 @@
       <workItem from="1568288613950" duration="123000" />
       <workItem from="1568289375103" duration="4437000" />
       <workItem from="1568331544724" duration="6334000" />
-      <workItem from="1568389514219" duration="11050000" />
-    </task>
-    <task id="LOCAL-00067" summary="working on article layout">
-      <created>1567976689798</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1567976689799</updated>
+      <workItem from="1568389514219" duration="11227000" />
     </task>
     <task id="LOCAL-00068" summary="working on article layout">
       <created>1567977103530</created>
@@ -1182,15 +1157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568415056465</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="htaccess audio video added">
+      <created>1568416548552</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1568416548552</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214933000" />
+    <option name="totallyTimeSpent" value="215110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1979,8 +1960,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="1872" column="76" lean-forward="true" selection-start-line="1872" selection-start-column="76" selection-end-line="1872" selection-end-column="76" />
+        <state relative-caret-position="236">
+          <caret line="1865" column="5" lean-forward="true" selection-start-line="1865" selection-start-column="5" selection-end-line="1865" selection-end-column="5" />
           <folding>
             <element signature="e#156#361#0" />
             <element signature="e#363#558#0" />
