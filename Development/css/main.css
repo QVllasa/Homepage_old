@@ -305,8 +305,9 @@ textarea {
     padding: 0;
     margin-top: -30px;
     margin-bottom: -30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',"Helvetica", "Arial", sans-serif;
     font-weight: 300;
+
 
 
 }
@@ -316,7 +317,7 @@ textarea {
     padding: 0;
     margin-left: 20px;
     margin-bottom: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', "Helvetica", "Arial",sans-serif;
     font-weight: 300;
 
 }
@@ -513,7 +514,7 @@ video {
 .section-title-white h1 {
     display: inline-block;
     position: relative;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', "Helvetica", "Arial",sans-serif;
     font-weight: 700;
 }
 
@@ -543,7 +544,7 @@ video {
 .section-title-dark h1 {
     display: inline-block;
     position: relative;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', "Helvetica", "Arial",sans-serif;
     font-weight: 700;
 }
 
@@ -590,14 +591,14 @@ video {
 .name-img-title h2 {
     color: white;
     text-align: center;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 500;
 }
 
 .name-img-title h5 {
     color: white;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald", "Helvetica", "Arial", sans-serif;
     font-weight: 400;
 }
 
