@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="adding content to project section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/backgrounds/business_background_600x400.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/backgrounds/business_background_600x400.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="1215" column="79" lean-forward="true" selection-start-line="1215" selection-start-column="79" selection-end-line="1215" selection-end-column="79" />
+            <state relative-caret-position="275">
+              <caret line="637" column="42" lean-forward="true" selection-start-line="637" selection-start-column="42" selection-end-line="637" selection-end-column="42" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -466,8 +465,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="1888" column="27" lean-forward="true" selection-start-line="1888" selection-start-column="27" selection-end-line="1888" selection-end-column="27" />
+            <state relative-caret-position="425">
+              <caret line="970" column="51" lean-forward="true" selection-start-line="970" selection-start-column="51" selection-end-line="970" selection-end-column="51" />
               <folding>
                 <element signature="e#156#361#0" />
                 <element signature="e#363#558#0" />
@@ -501,7 +500,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vitae</find>
       <find>cv-download</find>
       <find>button</find>
       <find>starten</find>
@@ -529,8 +527,9 @@
       <find>iframe</find>
       <find>name-img-title</find>
       <find>certificate%20generator</find>
-      <find>cf_gene</find>
       <find>business</find>
+      <find>cf_gene</find>
+      <find>busine</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -579,8 +578,8 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/isotopestyle.css" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -763,21 +762,7 @@
       <workItem from="1568289375103" duration="4437000" />
       <workItem from="1568331544724" duration="6334000" />
       <workItem from="1568389514219" duration="12504000" />
-      <workItem from="1568425636095" duration="1106000" />
-    </task>
-    <task id="LOCAL-00073" summary="working on layout">
-      <created>1568059557822</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1568059557822</updated>
-    </task>
-    <task id="LOCAL-00074" summary="working on layout">
-      <created>1568158005149</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1568158005149</updated>
+      <workItem from="1568425636095" duration="1782000" />
     </task>
     <task id="LOCAL-00075" summary="working on layout">
       <created>1568159097233</created>
@@ -1108,11 +1093,25 @@
       <option name="project" value="LOCAL" />
       <updated>1568426661303</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="adding content to project section">
+      <created>1568426795439</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1568426795439</updated>
+    </task>
+    <task id="LOCAL-00123" summary="adding content to project section">
+      <created>1568427004776</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1568427004776</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217493000" />
+    <option name="totallyTimeSpent" value="218169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="6" />
@@ -1478,8 +1477,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="1888" column="27" lean-forward="true" selection-start-line="1888" selection-start-column="27" selection-end-line="1888" selection-end-column="27" />
+        <state relative-caret-position="425">
+          <caret line="970" column="51" lean-forward="true" selection-start-line="970" selection-start-column="51" selection-end-line="970" selection-end-column="51" />
           <folding>
             <element signature="e#156#361#0" />
             <element signature="e#363#558#0" />
@@ -1502,8 +1501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="1215" column="79" lean-forward="true" selection-start-line="1215" selection-start-column="79" selection-end-line="1215" selection-end-column="79" />
+        <state relative-caret-position="275">
+          <caret line="637" column="42" lean-forward="true" selection-start-line="637" selection-start-column="42" selection-end-line="637" selection-end-column="42" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
