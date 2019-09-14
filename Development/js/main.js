@@ -3,8 +3,7 @@ $(document).ready(function(){
     $(this).scrollTop(0);
 });
 // noinspection JSUnresolvedFunction
-const observer = lozad();
-observer.observe();
+
 
 //loading screen -----------------
 
@@ -825,6 +824,7 @@ $( ".icon-box" ).each(function(){
 
 //observer
 
+/*
 document.addEventListener("DOMContentLoaded", function() {
     var lazyloadImages;
 
@@ -875,3 +875,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 })
 
+*/
