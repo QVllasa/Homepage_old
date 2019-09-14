@@ -6,39 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/certificate generator/cf_generator.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/certificate_generator/cf_generator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/certificate generator/cf_generator_sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/certificate_generator/cf_generator_sm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/certificate generator/thumbnail_cf.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/certificate_generator/thumbnail_cf.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/certificate generator/thumbnail_cf.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/certificate_generator/thumbnail_cf.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/material generator/m_generator.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/material_generator/m_generator.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/material generator/thumbnail_mg.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/material_generator/thumbnail_mg.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/material generator/thumbnail_mg.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/material_generator/thumbnail_mg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/password manager/mdsp_password_manager.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/password_manager/mdsp_password_manager.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/password manager/pw_manager_screenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/password_manager/pw_manager_screenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/password manager/thumbnail_pm.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/password_manager/thumbnail_pm.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/password manager/thumbnail_pm.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/password_manager/thumbnail_pm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/thumbnail_tt.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/thumbnail_tt.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/thumbnail_tt.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/thumbnail_tt.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/tt_icon_sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/tt_icon_sm.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/tt_screenshot1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/tt_screenshot1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/tt_screenshot2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/tt_screenshot2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/training tool/tt_screenshot3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/training_tool/tt_screenshot3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/GUI1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/GUI1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/GUI2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/GUI2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/GUI3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/GUI3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/GUI4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/GUI4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/GUI5.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/GUI5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/MA_Thesis_cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/MA_Thesis_cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/VIz1.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/VIz1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/VIz3.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/VIz3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/VIz4.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/VIz4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/Viz2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/Viz2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/src/machinery-svgrepo-com.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/src/machinery-svgrepo-com.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/src/thumbnail_virtualtwin.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/src/thumbnail_virtualtwin.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/thumbnail_virtualtwin.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/thumbnail_virtualtwin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/projects/virtual twin/thumbnail_virtualtwin_360p.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/virtual_twin/thumbnail_virtualtwin_360p.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/projects/homepage/homepage.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/projects/homepage/homepage.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +41,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="490" column="28" lean-forward="true" selection-start-line="490" selection-start-column="28" selection-end-line="490" selection-end-column="28" />
+            <state relative-caret-position="445">
+              <caret line="429" column="23" selection-start-line="429" selection-start-column="23" selection-end-line="429" selection-end-column="23" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -199,13 +167,6 @@
                 <element signature="n#a#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#27299#27305#0" expanded="true" />
-                <element signature="e#27973#27979#0" expanded="true" />
-                <element signature="e#28657#28663#0" expanded="true" />
-                <element signature="e#29364#29370#0" expanded="true" />
-                <element signature="e#30060#30066#0" expanded="true" />
-                <element signature="e#30740#30746#0" expanded="true" />
-                <element signature="e#31430#31436#0" expanded="true" />
                 <element signature="n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#3;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -504,8 +465,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="1862" lean-forward="true" selection-start-line="1862" selection-end-line="1862" />
+            <state relative-caret-position="27165">
+              <caret line="1862" selection-start-line="1862" selection-end-line="1862" />
               <folding>
                 <element signature="e#156#361#0" />
                 <element signature="e#363#558#0" />
@@ -539,7 +500,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maus</find>
       <find>left2</find>
       <find>fa-download</find>
       <find>vitae</find>
@@ -569,6 +529,7 @@
       <find>heatpower</find>
       <find>iframe</find>
       <find>name-img-title</find>
+      <find>certificate%20generator</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -587,6 +548,7 @@
       <replace>let</replace>
       <replace>heatpower</replace>
       <replace>latest-movies</replace>
+      <replace>certificate_generator</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -624,7 +586,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="957" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -652,6 +614,21 @@
               <item name="img" type="462c0819:PsiDirectoryNode" />
               <item name="articles" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="dronegraphy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -662,7 +639,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -784,14 +761,8 @@
       <workItem from="1568288613950" duration="123000" />
       <workItem from="1568289375103" duration="4437000" />
       <workItem from="1568331544724" duration="6334000" />
-      <workItem from="1568389514219" duration="12007000" />
-    </task>
-    <task id="LOCAL-00069" summary="working on article layout">
-      <created>1567977604564</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1567977604564</updated>
+      <workItem from="1568389514219" duration="12504000" />
+      <workItem from="1568425636095" duration="4000" />
     </task>
     <task id="LOCAL-00070" summary="working on article layout">
       <created>1567977680574</created>
@@ -1129,16 +1100,24 @@
       <option name="project" value="LOCAL" />
       <updated>1568424234171</updated>
     </task>
-    <option name="localTasksCounter" value="118" />
+    <task id="LOCAL-00118" summary="project and hobby folder created">
+      <created>1568425049388</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1568425049388</updated>
+    </task>
+    <option name="localTasksCounter" value="119" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215890000" />
+    <option name="totallyTimeSpent" value="216391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="957" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23137973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23382173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1153,14 +1132,14 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15491329" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.15654206" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32599837" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32952693" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32844934" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.32722834" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.32722834" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16042781" />
@@ -1388,9 +1367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/articles/material generator/m_generator_sm.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/img/articles/material generator/m_generator_sm.png" />
     <entry file="file://$PROJECT_DIR$/img/articles/projects/password_manager/mdsp_password_manager.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1498,34 +1475,10 @@
     <entry file="file://$PROJECT_DIR$/img/articles/projects/homepage/homepage.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="1862" lean-forward="true" selection-start-line="1862" selection-end-line="1862" />
-          <folding>
-            <element signature="e#156#361#0" />
-            <element signature="e#363#558#0" />
-            <element signature="e#565#630#0" />
-            <element signature="e#632#919#0" />
-            <element signature="e#938#989#0" />
-            <element signature="e#1003#1054#0" />
-            <element signature="e#1056#1106#0" />
-            <element signature="e#1111#1233#0" />
-            <element signature="e#1235#1401#0" />
-            <element signature="e#1442#1473#0" />
-            <element signature="e#1475#1516#0" />
-            <element signature="e#1527#1576#0" />
-            <element signature="e#1578#1630#0" />
-            <element signature="e#1641#1666#0" />
-            <element signature="e#1668#1852#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="490" column="28" lean-forward="true" selection-start-line="490" selection-start-column="28" selection-end-line="490" selection-end-column="28" />
+        <state relative-caret-position="445">
+          <caret line="429" column="23" selection-start-line="429" selection-start-column="23" selection-end-line="429" selection-end-column="23" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1947,6 +1900,30 @@
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#script#12;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27165">
+          <caret line="1862" selection-start-line="1862" selection-end-line="1862" />
+          <folding>
+            <element signature="e#156#361#0" />
+            <element signature="e#363#558#0" />
+            <element signature="e#565#630#0" />
+            <element signature="e#632#919#0" />
+            <element signature="e#938#989#0" />
+            <element signature="e#1003#1054#0" />
+            <element signature="e#1056#1106#0" />
+            <element signature="e#1111#1233#0" />
+            <element signature="e#1235#1401#0" />
+            <element signature="e#1442#1473#0" />
+            <element signature="e#1475#1516#0" />
+            <element signature="e#1527#1576#0" />
+            <element signature="e#1578#1630#0" />
+            <element signature="e#1641#1666#0" />
+            <element signature="e#1668#1852#0" />
           </folding>
         </state>
       </provider>
