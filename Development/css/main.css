@@ -740,7 +740,7 @@ video {
     height: 100%;
 }
 
-.img-hover-zoom img {
+.img-hover-zoom svg {
     -webkit-transition: -webkit-transform 1s ease;
     transition: -webkit-transform 1s ease;
     -o-transition: transform 1s ease;
@@ -750,7 +750,7 @@ video {
 }
 
 /* [3] Finally, transforming the image when container gets hovered */
-.img-hover-zoom:hover img {
+.img-hover-zoom:hover svg {
     -webkit-transform: scale(2) rotate(15deg);
     -ms-transform: scale(2) rotate(15deg);
     transform: scale(2) rotate(15deg);
@@ -1908,10 +1908,18 @@ label {
     display:none;
 }
 
-.icon-height{
+.main-icon{
     height:35px;
+    fill: #595858;
 }
 
-.dark-icon path{
-    fill: #474D5D;
+.main-icon-sm{
+    width:16px;
+    fill: #595858;
+    max-height: 16px;
+
+}
+
+.main-icon-xs{
+    height:15px;
 }

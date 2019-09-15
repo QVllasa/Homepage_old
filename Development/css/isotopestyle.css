@@ -87,7 +87,7 @@ body {
   width: 260px;
   height: auto;
   margin: 5px;
-  color: #262524;
+  color: #4e4e4e;
 }
 
 .element-item > * {
@@ -133,7 +133,7 @@ body {
 .element-item{
   height: 173.33px !important;
   overflow: hidden;
-  /*background-color: #3c3c3c;*/
+  background-color: #4e4e4e;
   -webkit-box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
   box-shadow: 2px 4px 17px -1px rgba(0,0,0,0.75);
