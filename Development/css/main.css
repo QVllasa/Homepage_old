@@ -1908,3 +1908,10 @@ label {
     display:none;
 }
 
+.icon-height{
+    height:35px;
+}
+
+.dark-icon path{
+    fill: #474D5D;
+}
