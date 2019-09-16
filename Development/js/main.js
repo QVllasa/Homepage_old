@@ -1,3 +1,13 @@
+//loading screen -----------------
+
+$(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+});
+
+
+//loading screen ---------------
+
+
 //scroll to top
 $(document).ready(function(){
     $(this).scrollTop(0);
@@ -61,14 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-//loading screen -----------------
 
-$(window).on("load", function () {
-    $(".loader-wrapper").fadeOut("slow");
-});
-
-
-//loading screen ---------------
 
 
 
@@ -879,3 +882,7 @@ $( ".icon-box" ).each(function(){
 //fadein fadeout freelancer --------------
 
 
+//Uses Passive Event Listeners to Improve Scrolling Performance
+if ('ontouchstart' in document.documentElement) {
+    document.addEventListener('touchstart', onTouchStart, {passive: true});
+}
