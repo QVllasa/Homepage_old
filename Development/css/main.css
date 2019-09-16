@@ -1083,7 +1083,7 @@ video {
     -webkit-appearance: none;
 }
 
-#social-media-buttons path:hover {
+#social-media-buttons svg:hover {
     fill: black;
 }
 
@@ -1899,9 +1899,9 @@ label {
 }
 
 #MaterialGenerator img, #CertificateGenerator img {
-    -webkit-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 21px 1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0 0 21px 1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 0 21px 1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 21px 1px rgba(0, 0, 0, 0.75);
 }
 
 

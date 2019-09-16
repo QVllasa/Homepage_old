@@ -4,10 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="replacing icons">
+    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="227" column="38" lean-forward="true" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="3045" column="59" selection-start-line="3045" selection-start-column="59" selection-end-line="3045" selection-end-column="59" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -70,6 +70,41 @@
                 <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="1078" column="1" lean-forward="true" selection-start-line="1078" selection-start-column="1" selection-end-line="1078" selection-end-column="1" />
+              <folding>
+                <element signature="e#156#361#0" />
+                <element signature="e#363#558#0" />
+                <element signature="e#565#630#0" />
+                <element signature="e#632#919#0" />
+                <element signature="e#938#989#0" />
+                <element signature="e#1003#1054#0" />
+                <element signature="e#1056#1106#0" />
+                <element signature="e#1111#1233#0" />
+                <element signature="e#1235#1401#0" />
+                <element signature="e#1442#1473#0" />
+                <element signature="e#1475#1516#0" />
+                <element signature="e#1527#1576#0" />
+                <element signature="e#1578#1630#0" />
+                <element signature="e#1641#1666#0" />
+                <element signature="e#1668#1852#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -104,7 +139,6 @@
       <find>unterschrift</find>
       <find>material</find>
       <find>class=&quot;fas fa-times-circle fa-2x&quot;</find>
-      <find>/&gt;</find>
       <find>cv-download</find>
       <find>freelancer-text</find>
       <find>section-left-side</find>
@@ -116,6 +150,7 @@
       <find>bubb</find>
       <find>/&gt;&lt;/svg&gt;</find>
       <find>social-me</find>
+      <find>/&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>.navbar.fixed-top</replace>
@@ -196,8 +231,8 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="&lt;ed84a4ec-9eff-4256-86cb-84e0d31247f2&gt;/public_html/js/main.js" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -364,21 +399,7 @@
       <workItem from="1568454997939" duration="13333000" />
       <workItem from="1568551606207" duration="22776000" />
       <workItem from="1568636905486" duration="9518000" />
-      <workItem from="1568675713703" duration="1418000" />
-    </task>
-    <task id="LOCAL-00110" summary="htaccess audio video added">
-      <created>1568397091919</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1568397091919</updated>
-    </task>
-    <task id="LOCAL-00111" summary="htaccess audio video added">
-      <created>1568398092648</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1568398092648</updated>
+      <workItem from="1568675713703" duration="2099000" />
     </task>
     <task id="LOCAL-00112" summary="htaccess audio video added">
       <created>1568399160743</created>
@@ -709,17 +730,31 @@
       <option name="project" value="LOCAL" />
       <updated>1568676596282</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="hmoe.html clean up">
+      <created>1568677315761</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1568677315761</updated>
+    </task>
+    <task id="LOCAL-00160" summary="hmoe.html clean up">
+      <created>1568677430528</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1568677430528</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265219000" />
+    <option name="totallyTimeSpent" value="265900000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16361417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16361417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -734,14 +769,14 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50061053" side_tool="true" weight="0.425731" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" weight="0.28421053" />
+      <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.4993895" visible="true" weight="0.28421053" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3251462" />
-      <window_info active="true" anchor="bottom" id="Inspection Results" order="14" visible="true" weight="0.32865497" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32865497" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32844934" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.32722834" />
+      <window_info anchor="right" id="Remote Host" order="4" visible="true" weight="0.32722834" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15995117" />
@@ -813,7 +848,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding images for articles" />
     <MESSAGE value="scroll to top when resume article is open" />
     <MESSAGE value="article layout changed" />
     <MESSAGE value="removed empty lines" />
@@ -838,7 +872,8 @@
     <MESSAGE value="replacing icons with svg" />
     <MESSAGE value="jpeg 2000 and webp added" />
     <MESSAGE value="replacing icons" />
-    <option name="LAST_COMMIT_MESSAGE" value="replacing icons" />
+    <MESSAGE value="hmoe.html clean up" />
+    <option name="LAST_COMMIT_MESSAGE" value="hmoe.html clean up" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/img/icons/building_white.svg">
@@ -982,13 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1004,34 +1032,17 @@
     <entry file="file://$PROJECT_DIR$/img/icons/instagram.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="1083" column="1" lean-forward="true" selection-start-line="1083" selection-start-column="1" selection-end-line="1083" selection-end-column="1" />
-          <folding>
-            <element signature="e#156#361#0" />
-            <element signature="e#363#558#0" />
-            <element signature="e#565#630#0" />
-            <element signature="e#632#919#0" />
-            <element signature="e#938#989#0" />
-            <element signature="e#1003#1054#0" />
-            <element signature="e#1056#1106#0" />
-            <element signature="e#1111#1233#0" />
-            <element signature="e#1235#1401#0" />
-            <element signature="e#1442#1473#0" />
-            <element signature="e#1475#1516#0" />
-            <element signature="e#1527#1576#0" />
-            <element signature="e#1578#1630#0" />
-            <element signature="e#1641#1666#0" />
-            <element signature="e#1668#1852#0" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="227" column="38" lean-forward="true" selection-start-line="227" selection-start-column="38" selection-end-line="227" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="3045" column="59" selection-start-line="3045" selection-start-column="59" selection-end-line="3045" selection-end-column="59" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1057,6 +1068,30 @@
             <element signature="n#div#2;n#div#0;n#div#1;n#div#5;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#6;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#7;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="1078" column="1" lean-forward="true" selection-start-line="1078" selection-start-column="1" selection-end-line="1078" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#361#0" />
+            <element signature="e#363#558#0" />
+            <element signature="e#565#630#0" />
+            <element signature="e#632#919#0" />
+            <element signature="e#938#989#0" />
+            <element signature="e#1003#1054#0" />
+            <element signature="e#1056#1106#0" />
+            <element signature="e#1111#1233#0" />
+            <element signature="e#1235#1401#0" />
+            <element signature="e#1442#1473#0" />
+            <element signature="e#1475#1516#0" />
+            <element signature="e#1527#1576#0" />
+            <element signature="e#1578#1630#0" />
+            <element signature="e#1641#1666#0" />
+            <element signature="e#1668#1852#0" />
           </folding>
         </state>
       </provider>
