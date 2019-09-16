@@ -1083,8 +1083,8 @@ video {
     -webkit-appearance: none;
 }
 
-#social-media-buttons a:hover {
-    color: #5a6268;
+#social-media-buttons path:hover {
+    fill: black;
 }
 
 #contact-form-section input::-webkit-input-placeholder, #contact-form-section textarea::-webkit-input-placeholder {
