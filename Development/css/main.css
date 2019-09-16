@@ -1247,7 +1247,7 @@ video {
         background-image: none;
     }
 
-    .fa-play, .fa-circle {
+    .dot-right, .dot-left, .bubble-arrow-left, .bubble-arrow-right {
         display: none !important;
     }
 }
@@ -1307,14 +1307,14 @@ video {
 
 .section-left-side {
     text-align: left;
-    padding: 4px;
+    padding: 10px;
 
 }
 
 
 .section-right-side {
     text-align: right;
-    padding: 4px;
+    padding: 10px;
 }
 
 .dot-left {
@@ -1322,6 +1322,7 @@ video {
     margin: -15% -43px 0 0;
     color: #474D5D;
     border-radius: 50%;
+    transform: translateX(7px);
 
 }
 
@@ -1330,6 +1331,7 @@ video {
     margin: -15% 0 0 -43px;
     color: #474D5D;
     border-radius: 50%;
+    transform: translateX(-6px);
 
 }
 
@@ -1339,6 +1341,7 @@ video {
     margin: -15% -15px 0 0;
     color: #D3D3D3;
     opacity: 0;
+    transform: translateX(13px);
 }
 
 .bubble-arrow-right {
@@ -1348,8 +1351,9 @@ video {
     color: #D3D3D3;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
-    transform: rotate(180deg);
+    transform: rotate(180deg) translateX(13px);
     opacity: 0;
+
 }
 
 
@@ -1361,8 +1365,9 @@ video {
     transition: 0.3s;
 }
 
-.left:hover .dot-left {
+.left:hover .main-icon-md-sm {
     background-color: #474D5D;
+    border-radius: 50%;
 
 }
 
@@ -1395,14 +1400,16 @@ video {
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s;
+
 }
 
 
-.right:hover .dot-right {
+.right:hover .main-icon-md-sm {
     background-color: #474D5D;
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
     transition: 0.1s;
+    border-radius: 50%;
 }
 
 .right:hover .bubble-arrow-right {
@@ -1904,6 +1911,15 @@ label {
 
 .main-icon{
     height:35px;
+    fill: #595858;
+}
+
+.main-icon-md{
+    height: 25px;
+}
+
+.main-icon-md-sm{
+    height:20px;
     fill: #595858;
 }
 
