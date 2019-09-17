@@ -1768,6 +1768,13 @@ video {
     position: absolute;
 }
 
+@media (max-width: 575.98px) {
+    #normal-progressbars p{
+        font-size: 0.7rem;
+        padding-left: 5px;
+    }
+}
+
 .blocktext {
     text-align: justify;
     overflow-x: visible;
