@@ -3,53 +3,60 @@
 //Isotope--------------------------------------
 
 window.onload = function loadIsotope() {
-  var $grid = $('.grid').isotope({
+  // noinspection JSUnresolvedFunction
+  let $grid = $('.grid').isotope({
     itemSelector: '.element-item',
-    layoutMode: 'fitRows',
+    layoutMode: 'masonry',
+    masonry: {
+      columnWidth: 270,
+      isFitWidth: true
+    },
     getSortData: {
       name: '.name',
       symbol: '.symbol',
       number: '.number parseInt',
       category: '[data-category]',
       weight: function (itemElem) {
-        var weight = $(itemElem).find('.weight').text();
-        return parseFloat(weight.replace(/[\(\)]/g, ''));
+        let weight = $(itemElem).find('.weight').text();
+        return parseFloat(weight.replace(/[]/g, ''));
       }
     }
   });
 
 
 // filter functions
-  var filterFns = {
+  let filterFns = {
     // show if number is greater than 50
     numberGreaterThan50: function () {
-      var number = $(this).find('.number').text();
+      let number = $(this).find('.number').text();
       return parseInt(number, 10) > 50;
     },
     // show if name ends with -ium
     ium: function () {
-      var name = $(this).find('.name').text();
+      let name = $(this).find('.name').text();
       return name.match(/ium$/);
     }
   };
 
 // bind filter button click
   $('.filters').on('click', '.link-element', function () {
-    var filterValue = $(this).attr('data-filter');
+    let filterValue = $(this).attr('data-filter');
     // use filterFn if matches value
     filterValue = filterFns[filterValue] || filterValue;
+    // noinspection JSUnresolvedFunction
     $grid.isotope({filter: filterValue});
   });
 
 
 // change is-checked class on buttons
   $('.button-group').each(function (i, buttonGroup) {
-    var $buttonGroup = $(buttonGroup);
+    let $buttonGroup = $(buttonGroup);
     $buttonGroup.on('click', '.link-element', function () {
       $buttonGroup.find('.is-checked').removeClass('is-checked');
       $(this).addClass('is-checked');
     });
   });
+
 
 };
 
@@ -73,5 +80,24 @@ $('#triggerHalloWelt').click(function() {
 
 
 
+$('a[href*="#portfolio-icon"]').on('click', function (e) {
+  e.preventDefault();
+  let target = this.hash;
+  let $target = $(target);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top - 100
+  }, 400, 'swing', function () {
+    window.location.hash = $target;
+  });
+});
 
-
+$('a[href*="#project-description"]').on('click', function (e) {
+  e.preventDefault();
+  let target = this.hash;
+  let $target = $(target);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top - 200
+  }, 400, 'swing', function () {
+    window.location.hash = $target;
+  });
+});
