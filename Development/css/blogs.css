@@ -14,6 +14,7 @@
 }
 
 
+
 .height100 {
 
     height: 100px;
@@ -63,4 +64,14 @@
 .bg-lightgray-shadow{
     background-color: #dfe0e1;
     box-shadow: 6px 20px 25px -7px rgba(0,0,0,0.46);
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+
+    border-top: 60px solid #243242;
+
 }
