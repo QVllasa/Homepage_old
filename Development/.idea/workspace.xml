@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,14 +191,7 @@
       <workItem from="1570569861475" duration="172000" />
       <workItem from="1570640155893" duration="329000" />
       <workItem from="1570640606271" duration="623000" />
-      <workItem from="1570642953673" duration="388000" />
-    </task>
-    <task id="LOCAL-00118" summary="project and hobby folder created">
-      <created>1568425049388</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1568425049388</updated>
+      <workItem from="1570642953673" duration="2878000" />
     </task>
     <task id="LOCAL-00119" summary="project and hobby folder created">
       <created>1568425677770</created>
@@ -535,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570643223315</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="replacing icons">
+      <created>1570643404896</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1570643404896</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

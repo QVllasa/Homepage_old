@@ -678,8 +678,13 @@ video {
 
 .best-in-text-size {
     font-size: 75%;
+  margin-top: 15px;
+
 }
 
+.best-in-text-size p{
+  margin-top: -4px;
+}
 
 /* portfolio container zoom */
 
