@@ -193,14 +193,7 @@
       <workItem from="1570642953673" duration="3838000" />
       <workItem from="1570648084483" duration="256000" />
       <workItem from="1570648455586" duration="84000" />
-      <workItem from="1570648710627" duration="239000" />
-    </task>
-    <task id="LOCAL-00120" summary="adding content to project section">
-      <created>1568425851960</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1568425851960</updated>
+      <workItem from="1570648710627" duration="529000" />
     </task>
     <task id="LOCAL-00121" summary="adding content to project section">
       <created>1568426661303</created>
@@ -538,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570646717514</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="iframes repaired">
+      <created>1570648974982</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1570648974983</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -581,7 +581,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="article layout changed" />
     <MESSAGE value="removed empty lines" />
     <MESSAGE value="working on article layout" />
     <MESSAGE value="working on errors" />
@@ -606,6 +605,7 @@
     <MESSAGE value="hmoe.html clean up" />
     <MESSAGE value="replacing icons" />
     <MESSAGE value="working on content" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on content" />
+    <MESSAGE value="iframes repaired" />
+    <option name="LAST_COMMIT_MESSAGE" value="iframes repaired" />
   </component>
 </project>
