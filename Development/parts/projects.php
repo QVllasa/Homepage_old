@@ -256,7 +256,7 @@
       <div class="row justify-content-center p-5">
         <div class="col-12 text-center">
           <img alt="dronegraphy" class="img-fluid lazy"
-               data-src="img/articles/projects/dronegraphy/dronegraphy.png">
+               data-src="../img/articles/projects/dronegraphy/dronegraphy.png">
         </div>
 
       </div>
@@ -313,7 +313,7 @@
         <!--  -->
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="iotforum_image" class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
+        <img alt="iotforum_image" class="lazy" data-src="../img/articles/projects/iotforum/iotforum.jpg">
       </div>
       <div class="row justify-content-center">
         <div class="col-md-6 text-center">

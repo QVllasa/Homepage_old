@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cv/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mov/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/css_imports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/js_imports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -210,14 +200,7 @@
       <workItem from="1570651253408" duration="28000" />
       <workItem from="1570654812969" duration="770000" />
       <workItem from="1570666693909" duration="178000" />
-      <workItem from="1570713428811" duration="2750000" />
-    </task>
-    <task id="LOCAL-00122" summary="adding content to project section">
-      <created>1568426795439</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1568426795439</updated>
+      <workItem from="1570713428811" duration="3119000" />
     </task>
     <task id="LOCAL-00123" summary="adding content to project section">
       <created>1568427004776</created>
@@ -555,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570714693419</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="working on backend">
+      <created>1570716233858</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1570716233858</updated>
+    </task>
+    <option name="localTasksCounter" value="172" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
