@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/db.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/parts/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/db.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/db.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -257,14 +250,7 @@
       <workItem from="1570651253408" duration="28000" />
       <workItem from="1570654812969" duration="770000" />
       <workItem from="1570666693909" duration="178000" />
-      <workItem from="1570713428811" duration="8654000" />
-    </task>
-    <task id="LOCAL-00124" summary="adding content to project section">
-      <created>1568428221523</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1568428221523</updated>
+      <workItem from="1570713428811" duration="8868000" />
     </task>
     <task id="LOCAL-00125" summary="working on lazy loader and overall performance">
       <created>1568459623669</created>
@@ -602,7 +588,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570716603701</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="working on backend">
+      <created>1570723208619</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1570723208619</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
