@@ -5,24 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/best.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/company.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/freelancer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/loader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/navigation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/resume.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/skills.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cv/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mov/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/css_imports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/parts/js_imports.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datenschutz.html" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/navigation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +68,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -82,16 +76,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/icons" />
-      <recent name="$PROJECT_DIR$/img/articles/certificate generator" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/articles/hobbys/vrprogramming" />
       <recent name="$PROJECT_DIR$/img/icons" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/articles/hobbys" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$/cv" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/img/icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,14 +210,7 @@
       <workItem from="1570651253408" duration="28000" />
       <workItem from="1570654812969" duration="770000" />
       <workItem from="1570666693909" duration="178000" />
-      <workItem from="1570713428811" duration="1132000" />
-    </task>
-    <task id="LOCAL-00121" summary="adding content to project section">
-      <created>1568426661303</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1568426661303</updated>
+      <workItem from="1570713428811" duration="2750000" />
     </task>
     <task id="LOCAL-00122" summary="adding content to project section">
       <created>1568426795439</created>
@@ -558,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570648974983</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <task id="LOCAL-00170" summary="working on backend">
+      <created>1570714693419</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1570714693419</updated>
+    </task>
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -601,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed empty lines" />
     <MESSAGE value="working on article layout" />
     <MESSAGE value="working on errors" />
     <MESSAGE value="working on errors and warnings" />
@@ -626,6 +622,7 @@
     <MESSAGE value="replacing icons" />
     <MESSAGE value="working on content" />
     <MESSAGE value="iframes repaired" />
-    <option name="LAST_COMMIT_MESSAGE" value="iframes repaired" />
+    <MESSAGE value="working on backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on backend" />
   </component>
 </project>
