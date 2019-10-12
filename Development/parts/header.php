@@ -14,7 +14,7 @@
       <div class="carousel-caption name-caption">
         <h1 id="name-home">Qendrim Vllasa</h1>
         <a class="typewrite" data-period="1000"
-           data-type='[ " Technologie Enthusiast ", " Kreativer Entwickler aus Leidenschaft ", " Videograph "]'>
+           data-type='[ " Technologie Enthusiast ", " Kreativer Entwickler aus Leidenschaft ", " Videograph und Drohnenpilot "]'>
           <span class="wrap"></span>
         </a>
       </div>
