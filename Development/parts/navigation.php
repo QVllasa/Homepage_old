@@ -37,18 +37,18 @@
              href="#my-feedback-section">Stationen</a>
         </li>
         <li class="nav-item dropdown">
-          <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle underlining"
+          <a aria-expanded="false" aria-haspopup="false" class="nav-link dropdown-toggle underlining"
              data-toggle="dropdown"
-             href="../hobbys.php"
+             href="#"
              id="navbarDropdown" role="button">
             Leidenschaften
           </a>
           <div aria-labelledby="navbarDropdown" class="dropdown-menu">
-            <a class="dropdown-item" href="#">Trading</a>
-            <a class="dropdown-item" href="#">Drohnen</a>
-            <a class="dropdown-item" href="#">Videographie</a>
-            <a class="dropdown-item" href="#">Programmieren und Virtual Reality</a>
-            <a class="dropdown-item" href="#">Computerzusammenbau und -reparatur</a>
+            <a class="dropdown-item" href="../hobbys.php">Trading</a>
+            <a class="dropdown-item" href="../hobbys.php">Drohnen</a>
+            <a class="dropdown-item" href="../hobbys.php">Videographie</a>
+            <a class="dropdown-item" href="../hobbys.php">Programmieren und Virtual Reality</a>
+            <a class="dropdown-item" href="../hobbys.php">Computerzusammenbau und -reparatur</a>
           </div>
         </li>
         <li class="nav-item">

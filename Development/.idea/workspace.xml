@@ -4,7 +4,15 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="" />
+    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blogs.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hobbys.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/navigation.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,14 +233,7 @@
       <workItem from="1570666693909" duration="178000" />
       <workItem from="1570713428811" duration="10357000" />
       <workItem from="1570911942121" duration="329000" />
-      <workItem from="1571003951066" duration="576000" />
-    </task>
-    <task id="LOCAL-00130" summary="working on performance">
-      <created>1568471350309</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1568471350309</updated>
+      <workItem from="1571003951066" duration="1556000" />
     </task>
     <task id="LOCAL-00131" summary="replacing icons with svg">
       <created>1568472332220</created>
@@ -570,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571004525959</updated>
     </task>
-    <option name="localTasksCounter" value="179" />
+    <task id="LOCAL-00179" summary="working on backend">
+      <created>1571004630737</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1571004630737</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

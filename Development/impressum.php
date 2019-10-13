@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/blogs.css">
+    <link rel="stylesheet" href="css/hobbys.css">
 
     <meta name="theme-color" content="#fafefa">
 
