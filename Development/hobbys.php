@@ -550,9 +550,9 @@
             <div class="row align-items-center pt-5">
                 <div class="container  ">
                     <div class="row justify-content-center">
-                        <a href="impressum.html">Impressum</a>
+                        <a href="impressum.php">Impressum</a>
                         <a>|</a>
-                        <a href="datenschutz.html">Datenschutz</a>
+                        <a href="datenschutz.php">Datenschutz</a>
                     </div>
                     <div class="row justify-content-center mt-1">
                         <p>&copy; Qendrim Vllasa 2019</p>
