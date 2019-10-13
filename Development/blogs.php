@@ -40,7 +40,8 @@
 
 
 <!--NAVIGATION-->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-0 " id="navbar-top">
+<?php require("./parts/navigation.php")?>
+<!--<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-0 " id="navbar-top">
     <div class="container">
         <div class="navbar-brand" id="navbar-name">
             <a class="navbar-brand" id="logoQ" href="#">Qendrim</a>
@@ -77,7 +78,7 @@
                     <a class="nav-link underlining"
                        href="#my-feedback-section">Stationen</a>
                 </li>
-                <!--Dropdown-->
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle underlining" href="#" id="navbarDropdown" role="button"
                        data-toggle="dropdown"
@@ -103,7 +104,7 @@
         </div>
     </div>
 
-</nav>
+</nav>-->
 
 <header class="page-header">
 
