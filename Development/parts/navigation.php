@@ -14,7 +14,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav pl-3" id="menuItems">
         <li class="nav-item active">
-          <a class="nav-link underlining" href="#">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link underlining" href="../home.php">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
@@ -40,7 +40,7 @@
         <li class="nav-item dropdown">
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle underlining"
              data-toggle="dropdown"
-             href="#"
+             href="./blogs.php"
              id="navbarDropdown" role="button">
             Leidenschaften
           </a>
