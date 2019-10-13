@@ -36,11 +36,10 @@
           <a class="nav-link underlining"
              href="#my-feedback-section">Stationen</a>
         </li>
-        <!--Dropdown-->
         <li class="nav-item dropdown">
           <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle underlining"
              data-toggle="dropdown"
-             href="./blogs.php"
+             href="../hobbys.php"
              id="navbarDropdown" role="button">
             Leidenschaften
           </a>
