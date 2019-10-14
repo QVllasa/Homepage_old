@@ -15,7 +15,7 @@
              data-target="#computerzusammenbau"
              data-toggle="collapse" href="#project-description">
             <div class="text">
-              <h4>computerzusammenbau</h4>
+              <h4>Computerzusammenbau und -Reparatur</h4>
             </div>
           </a>
         </div>
@@ -29,7 +29,7 @@
              data-target="#trading"
              data-toggle="collapse" href="#project-description">
             <div class="text">
-              <h4>trading</h4></div>
+              <h4>Trading</h4></div>
           </a>
         </div>
       </div>
