@@ -39,7 +39,7 @@
         <li class="nav-item dropdown">
           <a aria-expanded="false" aria-haspopup="false" class="nav-link dropdown-toggle underlining"
              data-toggle="dropdown"
-             href="#"
+             href="../hobbys.php"
              id="navbarDropdown" role="button">
             Leidenschaften
           </a>
