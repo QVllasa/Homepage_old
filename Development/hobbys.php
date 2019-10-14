@@ -49,7 +49,7 @@
 
 <main id="main-content">
     <!-- HOBBYS -->
-
+  <?php require("./parts/hobby-container.php")?>
 
 
 </main>
