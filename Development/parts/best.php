@@ -5,22 +5,21 @@
       <div class="col-md-4">
         <div class="row">
           <div class="col-12">
-            <h5>Präsentationskompetenz</h5>
+            <h5>Medien- und Contentdesign</h5>
           </div>
         </div>
         <div class="row">
           <div class="container best-in-text-size">
             <div class="row">
               <div class="col-2 ">
-                <svg class="main-icon" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M193.7 271.2c8.8 0 15.5 2.7 20.3 8.1 9.6 10.9 9.8 32.7-.2 44.1-4.9 5.6-11.9 8.5-21.1 8.5h-26.9v-60.7h27.9zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm53 165.2c0 90.3-88.8 77.6-111.1 77.6V436c0 6.6-5.4 12-12 12h-30.8c-6.6 0-12-5.4-12-12V236.2c0-6.6 5.4-12 12-12h81c44.5 0 72.9 32.8 72.9 77z"></path>
+                <svg class="main-icon" fill="#595858" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M512 0C460.22 3.56 96.44 38.2 71.01 287.61c-3.09 26.66-4.84 53.44-5.99 80.24l178.87-178.69c6.25-6.25 16.4-6.25 22.65 0s6.25 16.38 0 22.63L7.04 471.03c-9.38 9.37-9.38 24.57 0 33.94 9.38 9.37 24.59 9.37 33.98 0l57.13-57.07c42.09-.14 84.15-2.53 125.96-7.36 53.48-5.44 97.02-26.47 132.58-56.54H255.74l146.79-48.88c11.25-14.89 21.37-30.71 30.45-47.12h-81.14l106.54-53.21C500.29 132.86 510.19 26.26 512 0z"/>
                 </svg>
               </div>
               <div class="col-10 font-color-grey">
-                <p>Einmal Experte in einem Gebiet, präsentiere ich gelassen aber dennoch lebendig
-                  und neige dazu eher zu viel als zu wenig zu reden. Mein Präsentationsstil
-                  richtet sich dabei nach Vorbildern wie Tim Cook und Elon Musk, wobei ich gerne
-                  mal beim präsentieren auch durch den Raum marschiere.</p>
+                <p>Das Gestalten und Erstellen von Medien ist fester Bestandteil meiner Hardskills. Meine fundierten Kenntnisse erstrecken sich vom Logodesign über Videoschnitt bis hin zum Webdesign. Ich arbeite nach dem Motto "Design ist nicht wie es aussieht, Design ist wie es funktioniert."
+                </p>
               </div>
             </div>
           </div>

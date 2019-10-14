@@ -688,6 +688,16 @@ video {
 
 /* portfolio container zoom */
 
+
+
+@media (max-width: 768px) {
+  .element-item .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
 .element-item:hover .overlay {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);

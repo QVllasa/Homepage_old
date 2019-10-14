@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/hobby-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fontawesome/svgs/solid/feather-alt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/feather-alt.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/best.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/best.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -229,14 +233,7 @@
       <workItem from="1570713428811" duration="10357000" />
       <workItem from="1570911942121" duration="329000" />
       <workItem from="1571003951066" duration="1568000" />
-      <workItem from="1571052082838" duration="1401000" />
-    </task>
-    <task id="LOCAL-00135" summary="replacing icons with svg">
-      <created>1568483175256</created>
-      <option name="number" value="00135" />
-      <option name="presentableId" value="LOCAL-00135" />
-      <option name="project" value="LOCAL" />
-      <updated>1568483175256</updated>
+      <workItem from="1571052082838" duration="4004000" />
     </task>
     <task id="LOCAL-00136" summary="replacing icons with svg">
       <created>1568484715859</created>
@@ -574,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571056996589</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <task id="LOCAL-00184" summary="fixing hobby page">
+      <created>1571057145291</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1571057145291</updated>
+    </task>
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -617,7 +621,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working on article layout" />
     <MESSAGE value="working on errors" />
     <MESSAGE value="working on errors and warnings" />
     <MESSAGE value="changed var to let" />
@@ -642,6 +645,7 @@
     <MESSAGE value="working on content" />
     <MESSAGE value="iframes repaired" />
     <MESSAGE value="working on backend" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on backend" />
+    <MESSAGE value="fixing hobby page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing hobby page" />
   </component>
 </project>
