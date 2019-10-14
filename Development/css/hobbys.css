@@ -79,3 +79,8 @@
 .arrow-down {
   border-top: 60px solid #254c2e4f;
 }
+
+.navbar.fixed-top {
+  padding: 0 !important;
+  opacity: 1!important;
+}
