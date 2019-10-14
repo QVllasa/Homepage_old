@@ -173,6 +173,18 @@ $('a[href*="#project-description"]').on('click', function (e) {
     });
 });
 
+$('a[href*="#hobby-description"]').on('click', function (e) {
+  e.preventDefault();
+  let target = this.hash;
+  let $target = $(target);
+  $('html, body').stop().animate({
+    'scrollTop': $target.offset().top - 200
+  }, 400, 'swing', function () {
+    window.location.hash = $target;
+  });
+});
+
+
 $('a[href*="#portfolio-icon"]').on('click', function (e) {
     e.preventDefault();
     let target = this.hash;
