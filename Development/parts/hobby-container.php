@@ -12,7 +12,7 @@
             onerror='this.onerror = null; this.src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.png"'
             src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
-             data-target="#computerzusammenbau"
+             data-target="#computerzusammenbau-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
               <h4>Computerzusammenbau und -Reparatur</h4>
@@ -87,11 +87,11 @@
   <div class="container" id="hobby-description">
 
 
-    <div class="collapse mb-3 custom-border bg-white" data-parent="#main-content" id="computerzusammenbau">
+    <div class="collapse computerzusammenbau-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="computerzusammenbau-blogs">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
 
-        <a data-target="#computerzusammenbau" data-toggle="collapse"
+        <a data-target="#computerzusammenbau-blogs" data-toggle="collapse"
            href="#header-container">
           <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -154,10 +154,10 @@
     </div>
 
     <!------------------------------------------------------------------------>
-    <div class="collapse mb-3 custom-border bg-white" data-parent="#main-content" id="trading">
+    <div class="collapse trading-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="trading-blogs">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
-        <a data-target="#trading" data-toggle="collapse"
+        <a data-target="#trading-blogs" data-toggle="collapse"
            href="#header-container">
           <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -218,7 +218,7 @@
 
 
     <!------------------------------------------------------------------------>
-    <div class="collapse mb-3 custom-border bg-white" data-parent="#main-content" id="vrprogramming">
+    <div class="collapse vrprogramming-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="vrprogramming">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
         <a data-target="#vrprogramming" data-toggle="collapse"
@@ -271,7 +271,7 @@
     </div>
 
     <!------------------------------------------------------------------------>
-    <div class="collapse mb-3 custom-border bg-white" data-parent="#main-content" id="drones">
+    <div class="collapse drones-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="drones">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
         <a data-target="#drones" data-toggle="collapse"
@@ -364,7 +364,7 @@
     </div>
 
     <!------------------------------------------------------------------------>
-    <div class="collapse mb-3 custom-border bg-white" data-parent="#main-content" id="videoediting">
+    <div class="collapse videoediting-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="videoediting">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
         <a data-target="#videoediting" data-toggle="collapse"

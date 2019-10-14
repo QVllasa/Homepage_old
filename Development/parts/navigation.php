@@ -18,25 +18,25 @@
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-about-me-section">Über&nbsp;Mich</a>
+             href="./home.php#my-about-me-section">Über&nbsp;Mich</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-portfolio-section">Projekte</a>
+             href="./home.php#my-portfolio-section">Projekte</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-skills-section">Skills</a>
+             href="./home.php#my-skills-section">Skills</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-resume-section">Laufbahn</a>
+             href="./home.php#my-resume-section">Laufbahn</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-feedback-section">Stationen</a>
+             href="./home.php#my-feedback-section">Stationen</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown" id="hobbys-link">
           <a aria-expanded="false" aria-haspopup="false" class="nav-link dropdown-toggle underlining"
              data-toggle="dropdown"
              href="../hobbys.php"
@@ -44,11 +44,11 @@
             Leidenschaften
           </a>
           <div aria-labelledby="navbarDropdown" class="dropdown-menu">
-            <a class="dropdown-item" href="../hobbys.php">Trading</a>
-            <a class="dropdown-item" href="../hobbys.php">Drohnen</a>
-            <a class="dropdown-item" href="../hobbys.php">Videographie</a>
-            <a class="dropdown-item" href="../hobbys.php">Programmieren und Virtual Reality</a>
-            <a class="dropdown-item" href="../hobbys.php">Computerzusammenbau und -reparatur</a>
+            <a id="trading-blogs" class="dropdown-item" href="#">Trading</a>
+            <a id="drone-blogs" class="dropdown-item" href="#">Drohnen</a>
+            <a id="video-blogs" class="dropdown-item" href="#">Videographie</a>
+            <a id="vr-blogs" class="dropdown-item" href="#">Programmieren und Virtual Reality</a>
+            <a id="computerzusammenbau-blogs" class="dropdown-item" href="#">Computerzusammenbau und -reparatur</a>
           </div>
         </li>
         <li class="nav-item">
