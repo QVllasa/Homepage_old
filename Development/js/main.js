@@ -837,6 +837,8 @@ $( ".icon-box" ).each(function(){
 
 
 //Uses Passive Event Listeners to Improve Scrolling Performance
+
+
 if ('ontouchstart' in document.documentElement) {
   document.addEventListener('touchstart', onTouchStart, {passive: true});
 }

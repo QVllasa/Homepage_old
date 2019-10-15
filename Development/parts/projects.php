@@ -261,7 +261,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-10 col-md-6 text-center">
           <h1>dronegraphy.de</h1>
           <h3>Ein Marktplatz für Drohnenaufnahmen und Drohnen-Serivces</h3>
         </div>
@@ -298,6 +298,17 @@
             Nächster Schritt: Logo-Design</p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+
+        <a data-target="#dronegraphy" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+
+
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -316,7 +327,7 @@
         <img alt="iotforum_image" class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>IoT Forum</h1>
           <h3>Kurzbeschreibung</h3>
         </div>
@@ -343,6 +354,15 @@
             goes MindSphere’ beginnen werde.</p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#IoT-forum" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+        <!--  -->
+      </div>
     </div>
 
 
@@ -362,7 +382,7 @@
              data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png">
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>DJI goes MindSphere</h1>
           <h3>Kurzbeschreibung</h3>
         </div>
@@ -399,6 +419,14 @@
             erst im Laufe der Entwicklungsphase genauer festlegen. Du kannst auf jeden Fall gespannt
             bleiben! </p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#DJI-goes-MindSphere" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -455,7 +483,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Heat & Power</h1>
           <h3>Entwicklung einer vollständigen Webpräsenz der Firma 'Heat & Power' inklusive geschäftlicher
             Beratung</h3>
@@ -480,6 +508,14 @@
             Lorem
             ipsum dolor sit amet.</p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#heatpower" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -530,7 +566,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Meine Homepage</h1>
           <h3>Verschaffe dir einen umfangreichen Überblick über mich!</h3>
         </div>
@@ -561,6 +597,14 @@
             Dieses Projekt wird wohl noch längere Zeit unter 'Aktuell' eingestuft, da ich die Seite stets erweitere und optimiere und bald auch auf Angular umsteigen werde.</p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#Homepage" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -583,7 +627,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>VR Factorio</h1>s
           <h3>Core Developer im Projekt 'VR-Factorio' im Rahmen eines Virtual Engineering Praktikum</h3>
         </div>
@@ -636,6 +680,14 @@
             handelsüblichen Spiel ein Virtual Reality Spiel geschaffen, welches nicht nur in einer CAVE
             sondern auch auf beispielsweise einer Oculus Rift spielbar wäre.</p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#VR-Factorio" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -725,7 +777,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Virtual Twin</h1>
           <h3>Kurzbeschreibung</h3>
         </div>
@@ -786,6 +838,14 @@
             Überzeugung. Eine Kopie der Masterarbeit kann auf Anfrage beim Institut für
             Informationsmanagement im Ingenieurwesen am KIT angefordert werden.</p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#VirtualTwin" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -849,7 +909,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Training Tool</h1>
           <h3>Wasserkennzeichnung, Zertifizierung und Versand in einem</h3>
         </div>
@@ -882,6 +942,14 @@
             Architektur usw. kann gerne ein Diskussionsthread in Github eröffnet werden. </p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#TrainingTool" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -904,7 +972,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Material Generator</h1>
           <h3>Zur Generierung von wassergekennzeichneten PDF Dateien</h3>
         </div>
@@ -927,6 +995,14 @@
             ersetzt wurde und zwar dem ‚Training Tool‘.</p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#MaterialGenerator" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -948,7 +1024,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Certificate Generator</h1>
           <h3>Zur Generierung von individuellen Anwesenheitszertifikaten</h3>
         </div>
@@ -962,6 +1038,14 @@
             verwendete Open Source Bibliotheken. Heut wird auch dieses Tool nicht mehr verwendet, da es
             ebenfalls vom größeren und umfangreicheren ‚Training Tool‘ ersetzt worden ist.</p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#CertificateGenerator" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -985,7 +1069,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Password Manager</h1>
           <h3>Zur Änderung von Passwörtern vieler Accounts gleichzeitig</h3>
         </div>
@@ -1010,6 +1094,14 @@
             hat. </p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#PasswordManager" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -1031,7 +1123,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>My Trip to Mexico</h1>
         </div>
       </div>
@@ -1054,6 +1146,14 @@
             Ich hoffe sie gefallen dir und reißen dich in den Bann spektakulärer Entdeckungsreisen!</p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#latest-movies" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -1073,7 +1173,7 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>macOS Support</h1>
         </div>
       </div>
@@ -1103,6 +1203,14 @@
             ich mich auch lieber in anderen Bereichen vertiefen will.
           </p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#macOSMojaveSupport" data-toggle="collapse"
+           href="#portfolio-icon">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 

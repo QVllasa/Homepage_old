@@ -83,7 +83,7 @@
   </div>
 
 
-  <!-- PROJECT DESCRIPTIONS -->
+  <!-- HOBBY DESCRIPTIONS -->
   <div class="container" id="hobby-description">
 
 
@@ -109,12 +109,12 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Computerzusammenbau und -Reparatur</h1>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
-        <div class="col-md-8  blocktext px-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Es war das Jahr 2010, als mir mein damaliger alter Packard Bell
             Laptop gestohlen wurde. Ein herber Verlust, denn ich hatte sonst keinen Computer
             und dabei hockte ich ständig vorm Computer und habe entweder gezockt und
@@ -151,6 +151,18 @@
           </p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+
+        <a data-target="#computerzusammenbau-blogs" data-toggle="collapse"
+           href="#header-container">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+
+
+      </div>
     </div>
 
     <!------------------------------------------------------------------------>
@@ -169,12 +181,12 @@
         <img alt="iotforum_image" class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Trading</h1>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
-        <div class="col-md-8  blocktext px-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Seit nunmehr fast 3 Jahre gehört das Traden von Währungen zu einer meiner Leidenschaften. Es mag sich
             spekulativ und riskant anhören, doch der Reiz hat mich schon in der frühen Jugend gepackt. Damals hatte ich
             noch keine finanziellen Mittel zu Hand, um mich an solchen Themen heranzuwagen, doch
@@ -214,6 +226,15 @@
             Euro, den US Dollar und den Schweizer Franken. </p>
         </div>
       </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#trading-blogs" data-toggle="collapse"
+           href="#header-container">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
+      </div>
     </div>
 
 
@@ -234,12 +255,12 @@
              data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png">
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Programmieren und Virtual Reality</h1>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
-        <div class="col-md-8  blocktext px-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Meine Affinität im IT-Bereich war schon seit meiner Jugend vorhanden, doch ein Studium in Informatik kam
             für mich nicht in Frage, da mir das Studium zu theoretisch vorkam. Für mich ist das Programmieren ein
             kreativer Prozess, in dem man ein Handwerk auf eine andere Art und Weise ausüben kann. Das konnte ich in den
@@ -267,6 +288,15 @@
             Webseiten zu verbessern. Das Gute an der ganzen Geschichte ist, dass egal ob etwas funktioniert oder nicht,
             man immer etwas dazu lernt und in keiner Sekunde seine Zeit verschwendet. Du kannst gespannt bleiben. :)</p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#vrprogramming-blogs" data-toggle="collapse"
+           href="#header-container">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -324,12 +354,12 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Drohnen</h1>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
-        <div class="col-md-8  blocktext px-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Im September 2017 war es endlich soweit, ich war stolzer Besitzer
             einer DJI Mavic Pro. Doch gehen wir in der Zeit ein bisschen zurück. Es gab
             eine Zeit, da war das Thema Drohnen für mich zwar präsent, aber nicht attraktiv
@@ -360,6 +390,15 @@
             einfach ein großartiges Gerät was ideal in das Portfolio eines Technologie
             Enthusiasten passt. </p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#drones-blogs" data-toggle="collapse"
+           href="#header-container">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 
@@ -411,12 +450,12 @@
 
       </div>
       <div class="row justify-content-center">
-        <div class="col-md-6 text-center">
+        <div class="col-10 col-md-6 text-center">
           <h1>Videoschnitt und Filmdreh</h1>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
-        <div class="col-md-8  blocktext px-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Das Bearbeiten und Drehen von Videos und Kurzfilmen entstand aus den beiden
             Leidenschaften Drohnen und Reisen, weshalb ich seit kurzem meine Filme auch auf Vimeo veröffentliche.
             Mit dem Einsetzen einer Drohne in meinen
@@ -445,6 +484,15 @@
 
             Weitere Kurzfilme kannst du auf meinem Instagramaccount finden. </p>
         </div>
+      </div>
+      <div class="row justify-content-end py-3 pr-5">
+        <a data-target="#videoediting-blogs" data-toggle="collapse"
+           href="#header-container">
+          <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"></path>
+          </svg>
+        </a>
       </div>
     </div>
 

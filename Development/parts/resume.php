@@ -651,7 +651,7 @@
             <div class=" col-lg-8 py-3">
               <div class="row blocktext justify-content-center just px-5">
                 <div class="col">
-                  <p>In der Division Digital Industries bin ich derzeit im global agierenden Team
+                  <p>In der Division Digital Industries bin ich derzeit im internationalen und global agierenden Team
                     der
                     MindSphere Academy, in welcher wir andere Firmen und externe Mitarbeiter in
                     der
