@@ -266,8 +266,8 @@
           <h3>Ein Marktplatz für Drohnenaufnahmen und Drohnen-Serivces</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Dieser Artikel wird fortlaufend erweitert sobald neue Informationen hinzukommen oder der
             Status sich ändert.
             <br>
@@ -321,8 +321,8 @@
           <h3>Kurzbeschreibung</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>In meinem Studium habe ich mich im Bereich der Industrie 4.0 spezialisiert und derzeit
             arbeite
             ich bei Siemens PLM Software im MindSphere Umfeld. Daher liegt es mir am Herzen meine
@@ -367,8 +367,8 @@
           <h3>Kurzbeschreibung</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Bald bin ich nun fast über ein Jahr in der MindSphere Academy, in der wir andere Unternehmen
             und
             Personen dazu befähigen MindSphere in vollem Umfang zu nutzen. Auch ich habe bis auf das
@@ -461,8 +461,8 @@
             Beratung</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
             invidunt
             ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
@@ -535,8 +535,8 @@
           <h3>Verschaffe dir einen umfangreichen Überblick über mich!</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify pb-2 mt-2">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5 mt-2">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Hi,
             Und danke erstmal, dass du meine Homepage aufgesucht hast. :)
             <br>
@@ -588,8 +588,8 @@
           <h3>Core Developer im Projekt 'VR-Factorio' im Rahmen eines Virtual Engineering Praktikum</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify mt-2">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5 mt-2">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Ziel des gesamten Praktikums war es Studenten die Technologie der Virtual Reality näher zu
             bringen und ihnen ihre Möglichkeiten aufzuzeigen. Die Vorlesung Virtual Engineering war
             schon
@@ -730,8 +730,8 @@
           <h3>Kurzbeschreibung</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5 ">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Mit dem sogenannten Virtual Twin habe ich mich im Rahmen meiner Masterarbeit in ein recht
             junges
             Forschungsgebiet bewegen, dass noch viel Potenzial aufweist. In meiner Masterarbeit mit dem
@@ -854,8 +854,8 @@
           <h3>Wasserkennzeichnung, Zertifizierung und Versand in einem</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5 ">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Mit dem ‚Training Tool’, woran ich etwas länger gearbeitet habe, ist auf Basis von Python und
             QT
             ein umfassenderes Tool entstanden, das mehrere Arbeitsprozesse innerhalb der MindSphere
@@ -909,8 +909,8 @@
           <h3>Zur Generierung von wassergekennzeichneten PDF Dateien</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5 ">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Das ‚Material Generator Tool‘ gehörte zu einem der ersten kleineren Programmieraufgaben, die
             ich
             in der MindSphere Academy hatte. Das Ziel dieses kleinen und simplen, aber dennoch
@@ -953,8 +953,8 @@
           <h3>Zur Generierung von individuellen Anwesenheitszertifikaten</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Ebenso wie das ‚Material Generator Tool‘ habe ich innerhalb kürzester Zeit auch das
             ‚Certificate
             Generator Tool‘ entwickelt, mit welchem eine Vielzahl von individuellen Zertifikaten für die
@@ -990,8 +990,8 @@
           <h3>Zur Änderung von Passwörtern vieler Accounts gleichzeitig</h3>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Der ‚Password Manager‘ hat das Ziel Passwörter für MindSphere Accounts zu ändern. Das Einzige
             was
             man im Password Manager speichern kann sind die Account-Namen, die ich selbstverständlich
@@ -1035,8 +1035,8 @@
           <h1>My Trip to Mexico</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Erst vor kurzem hatte ich einmal mehr das Verlangen nach einer kreativen Phase, um, wie ich
             so
             gerne sage, meine Reserven aufzufüllen. Daraus entstanden sind zwei Filme mit verschiedenen
@@ -1077,8 +1077,8 @@
           <h1>macOS Support</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
-        <div class="col-md-8  blocktext px-5">
+      <div class="row justify-content-center text-justify pb-5">
+        <div class="col-10 col-sm-10 col-md-8  blocktext">
           <p>Seit nun über 4 Jahren habe ich mir eine tiefe Expertise in Apples Betriebssystemen
             aufgebaut.
             Dies reicht heute soweit aus, dass ich über verschiedene Kanäle noch ab und an Aufträge

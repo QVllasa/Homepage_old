@@ -32,7 +32,9 @@
 </footer>
 
 <!--<script>-->
+
 <?php require("./parts/js_imports.php");?>
+<script src="js/progressbars.js"></script>
 <!--<script>
   window.ga = function () {
     ga.q.push(arguments)

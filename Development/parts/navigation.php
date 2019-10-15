@@ -45,9 +45,9 @@
           </a>
           <div aria-labelledby="navbarDropdown" class="dropdown-menu">
             <a id="trading-blogs" class="dropdown-item" href="#">Trading</a>
-            <a id="drone-blogs" class="dropdown-item" href="#">Drohnen</a>
-            <a id="video-blogs" class="dropdown-item" href="#">Videographie</a>
-            <a id="vr-blogs" class="dropdown-item" href="#">Programmieren und Virtual Reality</a>
+            <a id="drones-blogs" class="dropdown-item" href="#">Drohnen</a>
+            <a id="videoediting-blogs" class="dropdown-item" href="#">Videographie</a>
+            <a id="vrprogramming-blogs" class="dropdown-item" href="#">Programmieren und Virtual Reality</a>
             <a id="computerzusammenbau-blogs" class="dropdown-item" href="#">Computerzusammenbau und -reparatur</a>
           </div>
         </li>

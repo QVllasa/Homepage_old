@@ -1,9 +1,9 @@
-<div class="container-fluid pt-5" style="background-color: #254c2e4f;">
+<div class="container-fluid pt-5 pb-3" style="background-color: #254c2e4f;">
 
 
   <!-- Portfolio -->
-  <div class="container pb-5" id="portfolio-tiles">
-    <div class="grid m-auto" id="portfolio-content">
+  <div class="container pb-5" id="hobby-tiles">
+    <div class="grid m-auto" id="hobby-content">
       <div class="element-item" data-category="">
         <div class="img-hover-zoom">
           <img
@@ -27,7 +27,7 @@
                onerror='this.onerror = null; this.src="img/articles/projects/iotforum/thumbnail_iotforum.png"'
                src="img/articles/projects/iotforum/thumbnail_iotforum.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
-             data-target="#trading"
+             data-target="#trading-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
               <h4>Trading</h4></div>
@@ -42,7 +42,7 @@
                src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
              class="overlay"
-             data-target="#vrprogramming"
+             data-target="#vrprogramming-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
               <h4>Programmieren und Virtual Reality</h4></div>
@@ -56,7 +56,7 @@
                onerror='this.onerror = null; this.src="img/articles/projects/heatpower/thumbnail_heatpower.png"'
                src="img/articles/projects/heatpower/thumbnail_heatpower.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
-             data-target="#drones"
+             data-target="#drones-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
               <h4>Drohnen</h4></div>
@@ -69,7 +69,7 @@
                onerror='this.onerror = null; this.src="img/articles/projects/heatpower/thumbnail_heatpower.png"'
                src="img/articles/projects/heatpower/thumbnail_heatpower.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
-             data-target="#videoediting"
+             data-target="#videoediting-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
               <h4>Videoschnitt und Filmdreh</h4></div>
@@ -113,7 +113,7 @@
           <h1>Computerzusammenbau und -Reparatur</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
+      <div class="row justify-content-center text-justify pb-5">
         <div class="col-md-8  blocktext px-5">
           <p>Es war das Jahr 2010, als mir mein damaliger alter Packard Bell
             Laptop gestohlen wurde. Ein herber Verlust, denn ich hatte sonst keinen Computer
@@ -173,7 +173,7 @@
           <h1>Trading</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
+      <div class="row justify-content-center text-justify pb-5">
         <div class="col-md-8  blocktext px-5">
           <p>Seit nunmehr fast 3 Jahre gehört das Traden von Währungen zu einer meiner Leidenschaften. Es mag sich
             spekulativ und riskant anhören, doch der Reiz hat mich schon in der frühen Jugend gepackt. Damals hatte ich
@@ -218,10 +218,10 @@
 
 
     <!------------------------------------------------------------------------>
-    <div class="collapse vrprogramming-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="vrprogramming">
+    <div class="collapse vrprogramming-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="vrprogramming-blogs">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
-        <a data-target="#vrprogramming" data-toggle="collapse"
+        <a data-target="#vrprogramming-blogs" data-toggle="collapse"
            href="#header-container">
           <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -238,7 +238,7 @@
           <h1>Programmieren und Virtual Reality</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
+      <div class="row justify-content-center text-justify pb-5">
         <div class="col-md-8  blocktext px-5">
           <p>Meine Affinität im IT-Bereich war schon seit meiner Jugend vorhanden, doch ein Studium in Informatik kam
             für mich nicht in Frage, da mir das Studium zu theoretisch vorkam. Für mich ist das Programmieren ein
@@ -271,10 +271,10 @@
     </div>
 
     <!------------------------------------------------------------------------>
-    <div class="collapse drones-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="drones">
+    <div class="collapse drones-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="drones-blogs">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
-        <a data-target="#drones" data-toggle="collapse"
+        <a data-target="#drones-blogs" data-toggle="collapse"
            href="#header-container">
           <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -328,7 +328,7 @@
           <h1>Drohnen</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
+      <div class="row justify-content-center text-justify pb-5">
         <div class="col-md-8  blocktext px-5">
           <p>Im September 2017 war es endlich soweit, ich war stolzer Besitzer
             einer DJI Mavic Pro. Doch gehen wir in der Zeit ein bisschen zurück. Es gab
@@ -364,10 +364,10 @@
     </div>
 
     <!------------------------------------------------------------------------>
-    <div class="collapse videoediting-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="videoediting">
+    <div class="collapse videoediting-blogs mb-3 custom-border bg-white" data-parent="#main-content" id="videoediting-blogs">
       <div class="arrow-down m-auto"></div>
       <div class="row justify-content-end py-3 pr-5">
-        <a data-target="#videoediting" data-toggle="collapse"
+        <a data-target="#videoediting-blogs" data-toggle="collapse"
            href="#header-container">
           <svg class="main-icon img-fluid" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -415,7 +415,7 @@
           <h1>Videoschnitt und Filmdreh</h1>
         </div>
       </div>
-      <div class="row justify-content-center text-justify ">
+      <div class="row justify-content-center text-justify pb-5">
         <div class="col-md-8  blocktext px-5">
           <p>Das Bearbeiten und Drehen von Videos und Kurzfilmen entstand aus den beiden
             Leidenschaften Drohnen und Reisen, weshalb ich seit kurzem meine Filme auch auf Vimeo veröffentliche.

@@ -725,6 +725,8 @@ video {
     text-align: center;
 }
 
+
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -1646,14 +1648,14 @@ video {
 }
 
 
-#project-description h1 {
+#project-description h1, #hobby-description h1 {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: #474D5D;
 }
 
 
-#project-description h3 {
+#project-description h3, #hobby-description h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     color: #474D5D;
@@ -1674,14 +1676,14 @@ video {
 }
 
 
-#project-description p, .sidepanels p {
+#project-description p, .sidepanels p, #hobby-description p {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
     color: #595858;
     line-height: 1.75;
 }
 
-#project-description a {
+#project-description a, #hobby-description a {
     cursor: pointer;
     color: #474D5D;
     text-decoration: none;
@@ -1752,16 +1754,18 @@ video {
     cursor: pointer;
 }
 
-#portfolio-content h4 {
+#portfolio-content h4, #hobby-content h4 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     color: #000;
     line-height: 1.5;
 }
 
-#project-description img {
+#project-description img, #hobby-description img {
     overflow: hidden;
 }
+
+
 
 #project-description .project-description-slider {
     width: auto;
