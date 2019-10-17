@@ -1,8 +1,18 @@
-<div class="container-fluid pt-5 pb-3" style="background-color: #254c2e4f;">
+<div class="container-fluid pt-5 pb-3" style="background-color: #d9e2ec;">
 
+
+  <div class="container my-5" id="hobby-comment">
+    <div class="row justify-content-center">
+      <div class="col-10 col-sm-10 col-md-8 text-center" id="comment-box">
+        <h3 class="p-3" >
+          'Einfach' reizt mich nicht so...
+        </h3>
+      </div>
+    </div>
+  </div>
 
   <!-- Portfolio -->
-  <div class="container pb-5" id="hobby-tiles">
+  <div class="container pb-5 mt-3" id="hobby-tiles">
     <div class="grid m-auto" id="hobby-content">
       <div class="element-item" data-category="">
         <div class="img-hover-zoom">

@@ -1332,6 +1332,7 @@ video {
 .section-right-side {
     text-align: right;
     padding: 10px;
+
 }
 
 .dot-left {
@@ -1374,6 +1375,21 @@ video {
 }
 
 
+.bubble-arrow-right .main-icon-md, .bubble-arrow-left .main-icon-md{
+  height: 0;
+
+}
+
+.right:hover .bubble-arrow-right .main-icon-md{
+  height: 25px;
+  transition: 0.1s;
+}
+
+.left:hover .bubble-arrow-left .main-icon-md{
+  height: 25px;
+  transition: 0.1s;
+}
+
 .left {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 5px;
@@ -1383,8 +1399,10 @@ video {
 }
 
 .left:hover .main-icon-md-sm {
-    background-color: #474D5D;
+
     border-radius: 50%;
+    height: 10px;
+  transition: 0.5s ease;
 
 }
 
@@ -1422,11 +1440,13 @@ video {
 
 
 .right:hover .main-icon-md-sm {
-    background-color: #474D5D;
+
     -webkit-transition: 0.1s;
     -o-transition: 0.1s;
-    transition: 0.1s;
+
     border-radius: 50%;
+  height: 10px;
+  transition: 0.5s ease;
 }
 
 .right:hover .bubble-arrow-right {
@@ -1546,6 +1566,8 @@ video {
 }
 
 
+
+
 #bookmark-icon {
     border: 10px solid #EFEFEF;
     background: transparent;
@@ -1561,6 +1583,8 @@ video {
         -webkit-transition: all 2s ease-out;
         -o-transition: all 2s ease-out;
         transition: all 2s ease-out;
+
+
     }
 
     .on-animate-right {
@@ -1571,10 +1595,12 @@ video {
         -webkit-transition: all 2s ease-out;
         -o-transition: all 2s ease-out;
         transition: all 2s ease-out;
+
+
     }
 }
 
-
+/*TODO*/
 @media (min-width: 990.98px) {
 
     .on-animate-left {
@@ -1585,6 +1611,9 @@ video {
         -webkit-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         transition: all 1s ease-out;
+
+
+
     }
 
     .on-animate-right {
@@ -1595,6 +1624,9 @@ video {
         -webkit-transition: all 1s ease-out;
         -o-transition: all 1s ease-out;
         transition: all 1s ease-out;
+
+
+
     }
 }
 
@@ -1605,6 +1637,7 @@ video {
     -ms-transform: translateX(0);
     transform: translateX(0);
     opacity: 1;
+
 }
 
 
@@ -1945,8 +1978,10 @@ label {
 }
 
 .main-icon-md-sm{
-    height:20px;
-    fill: #595858;
+    height:30px;
+    fill: #ececec;
+  background-color: #ececec;
+  border-radius: 50%;
 }
 
 .main-icon-sm{

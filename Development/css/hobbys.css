@@ -57,3 +57,51 @@
   padding: 0 !important;
   opacity: 1!important;
 }
+
+@media (max-width: 500px) {
+  .section-title-white h1{
+    font-size: 1.5em !important;
+  }
+}
+
+#comment-box h3{
+  color: #595858;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+
+
+}
+
+#comment-box{
+  -webkit-box-shadow: 0px 17px 51px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 17px 51px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 17px 51px -2px rgba(0,0,0,0.75);
+  border-radius: 15px;
+  background-color: white;
+}
+
+/*
+#comment-box h3:after, #comment-box h3:before{
+  content: "";
+  position: absolute;
+  height: 20px;
+  background-color: #343434;
+  border-radius: 50%;
+  width: 20px;
+  margin-top: 10px;
+
+}
+
+#comment-box h3:before {
+  right: 90%;
+  margin-right: 15px;
+}
+
+
+#comment-box h3:after {
+  left: 90%;
+  margin-left: 15px;
+}
+*/
+
+

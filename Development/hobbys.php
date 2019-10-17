@@ -7,31 +7,9 @@
     <title>Qendrim Vllasa</title>
     <meta name="description" content="This is me. Qendrim Vllasa">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/hobbys.css">
-    <link rel="stylesheet" href="css/isotopestyle.css">
+  <?php require("./parts/css_imports.php");?>
 
-
-    <meta name="theme-color" content="#fafefa">
-
-
-
-
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
-
-    <!-- google fonts -->
-
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-
-    <link rel="stylesheet" href="css/companyLogoStyle.scss" type="text/scss">
+  <link rel="stylesheet" href="css/hobbys.css">
 
 
 </head>
@@ -41,6 +19,8 @@
 
 <!--NAVIGATION-->
 <?php require("./parts/navigation.php")?>
+
+
 
 <?php require("./parts/hobby-header.php")?>
 

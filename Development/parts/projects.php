@@ -21,7 +21,7 @@
       <div class="port-filter button-group filters">
         <ul>
           <li>
-            <a class="link-element is-checked" data-filter="*" id="all-projects-link"><span
+            <a class="link-element is-checked " data-filter="*" id="all-projects-link"><span
               >Alle</span></a>
           </li>
           <li>

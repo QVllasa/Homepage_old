@@ -1,3 +1,7 @@
+
+//popover 'HEUTE'
+$("#actual").popover({ trigger: "hover" });
+
 //loading screen -----------------
 
 $(window).on("load", function () {
@@ -213,7 +217,7 @@ $('a[href*="#my"]').on('click', function (e) {
     });
   } else {
     let target = this.hash;
-    url = "/home.php"+target;
+    url = "/index.php"+target;
     console.log(target);
     window.location = url;
   }
@@ -490,6 +494,7 @@ $(document).ready(function () {
     .setClassToggle('#portfolio-tiles', 'animate-section')
     .addTo(controller);
 
+
   // noinspection JSUnusedLocalSymbols,JSUnresolvedVariable,JSUnresolvedFunction,JSUnresolvedFunction,JSUnresolvedFunction
   let skillsIcon = new ScrollMagic.Scene({
     triggerElement: '#skills-icon',
@@ -498,6 +503,8 @@ $(document).ready(function () {
   })
     .setClassToggle('#skills-icon', 'animate-section')
     .addTo(controller);
+
+
 
   // noinspection JSUnusedLocalSymbols,JSUnresolvedVariable,JSUnresolvedFunction,JSUnresolvedFunction
   let circleProg = new ScrollMagic.Scene({

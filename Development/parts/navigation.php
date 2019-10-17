@@ -1,10 +1,9 @@
-
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="navbar-top">
   <div class="container">
     <div class="navbar-brand" id="navbar-name">
-      <a class="navbar-brand" href="#" id="logoQ">Qendrim</a>
+      <a class="navbar-brand" href="/index.php" id="logoQ">Qendrim</a>
       <br>
-      <a class="navbar-brand" href="#" id="logoV">Vllasa</a>
+      <a class="navbar-brand" href="/index.php" id="logoV">Vllasa</a>
     </div>
     <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
             class="navbar-toggler"
@@ -14,7 +13,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
       <ul class="navbar-nav pl-3" id="menuItems">
         <li class="nav-item active">
-          <a class="nav-link underlining" href="../home.php">Home<span class="sr-only">(current)</span></a>
+          <a class="nav-link underlining" href="../index.php">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
