@@ -14,6 +14,8 @@
 <body data-offset="145" data-spy="scroll" data-target=".navbar">
 
 <?php require("./parts/loader.php");?>
+
+
 <?php require("./parts/navigation.php")?>
 <?php require("./parts/header.php");?>
 

@@ -1,6 +1,5 @@
-
 //popover 'HEUTE'
-$("#actual").popover({ trigger: "hover" });
+$("#actual").popover({trigger: "hover"});
 
 //loading screen -----------------
 
@@ -136,13 +135,24 @@ function closeNavRight() {
 
 
 $(document).ready(function () {
-  $(window).scroll(function () {
-    let s = 0.5 + ($(window).scrollTop() / 500);
-    $('.navbar.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
-    $('#logoQ').css("opacity", -0.5 + s);
-    $('#logoV').css("opacity", -0.5 + s);
-
-  })
+  var width = window.innerWidth;
+  if (width >= 990) {
+    $(window).scroll(function () {
+      let s = 0.5 + ($(window).scrollTop() / 500);
+      $('.navbar.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
+      $('#logoQ').css("opacity", -0.5 + s);
+      $('#logoV').css("opacity", -0.5 + s);
+      console.log('bigger than 990px')
+    });
+  } else {
+    $('.navbar.fixed-top').css("background", 'rgba(0,0,0, 1)');
+    $(window).scroll(function () {
+      let s = 0.5 + ($(window).scrollTop() / 500);
+      $('#logoQ').css("opacity", -0.5 + s);
+      $('#logoV').css("opacity", -0.5 + s);
+      console.log('smaller than 990px')
+    });
+  }
 });
 
 //Navbar animation--------------------------------------------------------------------
@@ -158,24 +168,22 @@ $(document).ready(function () {
 $(document).ready(function () {
   $('.dropdown-item').click(function () {
     let target = this.id;
-    let $target = '#'+target;
-    $('.'+target).collapse('show');
+    let $target = '#' + target;
+    $('.' + target).collapse('show');
   })
 });
 
 
 $(document).ready(function () {
-  if(window.location.hash){
+  if (window.location.hash) {
     let $str1 = window.location.hash.substring(1);
     let str = $(window.location.hash);
 
-    $('.'+$str1).collapse('show');
+    $('.' + $str1).collapse('show');
 
     $('html, body').stop().animate({
       'scrollTop': str.offset().top - 75
     }, 1000, 'swing',);
-
-
 
 
   }
@@ -183,7 +191,7 @@ $(document).ready(function () {
 
 $('a[id*="-blogs"]').on('click', function () {
   let tartget = this.id;
-  window.location = "/hobbys.php#"+tartget;
+  window.location = "/hobbys.php#" + tartget;
 });
 
 //smooth scroll--------------------------------------------------------------------
@@ -217,7 +225,7 @@ $('a[href*="#my"]').on('click', function (e) {
     });
   } else {
     let target = this.hash;
-    url = "/index.php"+target;
+    url = "/index.php" + target;
     console.log(target);
     window.location = url;
   }
@@ -374,8 +382,6 @@ function typeWriter() {
 //Typewriter ------------------------------------------------
 
 
-
-
 //multi item carousel--------------------------------------
 
 
@@ -408,7 +414,7 @@ function logoSlider() {
 
 function scrollspyWorkaround() {
   $('.navbar-collapse a').click(function () {
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 990) {
       $('.navbar-collapse').collapse('toggle');
     }
   });
@@ -503,7 +509,6 @@ $(document).ready(function () {
   })
     .setClassToggle('#skills-icon', 'animate-section')
     .addTo(controller);
-
 
 
   // noinspection JSUnusedLocalSymbols,JSUnresolvedVariable,JSUnresolvedFunction,JSUnresolvedFunction

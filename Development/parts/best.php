@@ -2,7 +2,7 @@
   <div class="container on-animate" id="my-best-in-section">
     <div class="row">
       <!-- Presentation -->
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <div class="row">
           <div class="col-12">
             <h5>Medien- und Contentdesign</h5>
@@ -26,7 +26,7 @@
         </div>
       </div>
       <!-- Data analysis -->
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <div class="row">
           <div class="col-12">
             <h5>Data Analysis</h5>
@@ -52,7 +52,7 @@
         </div>
       </div>
       <!-- customer orientated -->
-      <div class="col-md-4">
+      <div class="col-lg-4">
         <div class="row">
           <div class="col-12">
             <h5>Web-&nbsp;&&nbsp;Softwareentwicklung</h5>

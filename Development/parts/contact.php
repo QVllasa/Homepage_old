@@ -3,7 +3,7 @@
 
 <div class="container-fluid pt-5 pb-5" id="my-contact-section">
   <!-- icon -->
-<!--  <div class="container mb-5 on-animate" id="contact-icon">
+  <div class="container mb-5 on-animate" id="contact-icon">
     <div class="row justify-content-center">
       <div class="container icon-container align-items-center justify-content-center"
       >
@@ -17,9 +17,9 @@
     >
       <h1 style="color: black">SPRICH <span class="bg-me">MICH</span> AN</h1>
     </div>
-  </div>-->
+  </div>
   <!-- social media -->
-<!--  <div class="container on-animate" id="contact-social-media">
+  <div class="container on-animate" id="contact-social-media">
     <div class="row justify-content-center" id="social-media-buttons">
       <button aria-label="facebook"><a aria-label="Open Facebook"
                                        href="https://www.facebook.com/qendrim.vllasa"
@@ -55,7 +55,7 @@
           </svg>
         </a></button>
     </div>
-  </div>-->
+  </div>
   <!-- contact form -->
   <div class="container mt-5 on-animate" id="contact-form-section">
     <div class="row  ">

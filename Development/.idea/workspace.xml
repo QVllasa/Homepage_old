@@ -5,27 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_maintenance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/hobbys.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hobbys.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index 2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_maintenance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/best.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/best.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/hobby-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/js_imports.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/js_imports.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/resume.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,13 +241,7 @@
       <workItem from="1571076624906" duration="14773000" />
       <workItem from="1571166245408" duration="6167000" />
       <workItem from="1571264770004" duration="11239000" />
-    </task>
-    <task id="LOCAL-00145" summary="replacing icons with svg">
-      <created>1568571246566</created>
-      <option name="number" value="00145" />
-      <option name="presentableId" value="LOCAL-00145" />
-      <option name="project" value="LOCAL" />
-      <updated>1568571246566</updated>
+      <workItem from="1571319472389" duration="2716000" />
     </task>
     <task id="LOCAL-00146" summary="replacing icons with svg">
       <created>1568586967077</created>
@@ -598,7 +579,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571173008914</updated>
     </task>
-    <option name="localTasksCounter" value="194" />
+    <task id="LOCAL-00194" summary="fixing hobby page">
+      <created>1571319489132</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1571319489133</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
