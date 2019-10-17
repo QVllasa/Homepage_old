@@ -20,6 +20,9 @@
 <?php require("./parts/header.php");?>
 
 <main id="main-content">
+
+
+
    <?php require ("./parts/about.php");?>
   <?php require ("./parts/best.php");?>
   <?php require ("./parts/projects.php");?>

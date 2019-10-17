@@ -20,8 +20,8 @@
   <div class="container mb-0">
     <div class="row  " id="resume-lists">
       <div class="container text-center my-5">
-        <div class="container my-present mb-4 on-animate" data-toggle="popover"
-             data-content="Hier lernen wir uns kennen!" id="actual" >HEUTE
+        <div class="container my-present mb-4 on-animate" data-toggle="tooltip"
+             title="Hier lernen wir uns kennen!" data-placement="right" id="actual" >HEUTE
         </div>
       </div>
       <div class="col-lg-6 mx-auto text-center left-column overflow-hidden">

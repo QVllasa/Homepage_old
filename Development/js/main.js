@@ -1,5 +1,7 @@
 //popover 'HEUTE'
-$("#actual").popover({trigger: "hover"});
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
 
 //loading screen -----------------
 
