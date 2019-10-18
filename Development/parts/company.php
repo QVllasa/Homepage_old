@@ -32,7 +32,7 @@
         <div class="carousel-item active">
           <i class="fas fa-quote-right"></i>
           <h4>Er arbeitete stets sehr effizient, zielstrebig und sorgfältig und bewies ein herausragendes
-            Organisationsgeschickt.</h4>
+            Organisationsgeschick.</h4>
           <h6>Claudia Kalde - Standortplanung- und Entwicklung - MAUS Seminare</h6>
         </div>
         <div class="carousel-item">

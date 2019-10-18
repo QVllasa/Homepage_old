@@ -7,6 +7,14 @@
     background-color: #474D5D;
     background-position: center;
     background-size: 100%;
+
+}
+
+@media (min-width: 991px) {
+    #page-header{
+        padding-top: 71px;
+    }
+
 }
 
 
@@ -22,13 +30,7 @@
 
 
 
-.arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
-    border-top: 60px solid #dae2ec;
-}
+
 
 .bg-lightgray{
     background-color: #dfe0e1;
@@ -45,13 +47,11 @@
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
 
-    border-top: 60px solid #243242;
+    border-top: 60px solid #dae2ec;
 
 }
 
-.arrow-down {
-  border-top: 60px solid #254c2e4f;
-}
+
 
 .navbar.fixed-top {
   padding: 0 !important;

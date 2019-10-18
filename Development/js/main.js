@@ -7,7 +7,7 @@ $(window).ready(function(){
 });
 
 $('#infoclose').click(function() {
-  $("#infobox").fadeOut("slow");
+  $("#infobox").fadeOut("fast");
 });
 
 
@@ -23,16 +23,7 @@ $(document).ready(function(){
 
 
 
-$(document).ready(function(){
- // setTimeout(showInfoBox, 10000);
 
-  $("#infobox").hide().delay(7500).fadeIn(500);
-
-});
-
-$('#infoclose').click(function() {
-  $("#infobox").fadeOut("slow");
-});
 
 //loading screen -----------------
 
@@ -169,7 +160,15 @@ function closeNavRight() {
 
 $(document).ready(function () {
   var width = window.innerWidth;
-  if (width >= 990) {
+  if ($('#header-container').length > 0) {
+    var header = 1;
+    console.log('header is there');
+  }
+  else {
+    header = 0;
+  }
+
+  if (width >= 990 && header === 0) {
     $(window).scroll(function () {
       let s = 0.5 + ($(window).scrollTop() / 500);
       $('.navbar.fixed-top').css("background", 'rgba(0,0,0,' + (s) + ')');
@@ -189,55 +188,21 @@ $(document).ready(function () {
 });
 
 //Navbar animation--------------------------------------------------------------------
-/*$(document).ready(function () {
-  if (window.location.hash || window.location.includes("-blogs") || window.location.includes("hobbys.php")) {
-    console.log('done');
-    let $target = $(window.location.hash);
-    console.log($target);
-    // $($target).collapse('show');
-  }
-});*/
 
-$(document).ready(function () {
-  $('.dropdown-item').click(function () {
-    let target = this.id;
-    let $target = '#' + target;
-    $('.' + target).collapse('show');
-  })
-});
+
 
 
 $(document).ready(function () {
   if (window.location.hash) {
-    let $str1 = window.location.hash.substring(1);
     let str = $(window.location.hash);
-
-    $('.' + $str1).collapse('show');
-
     $('html, body').stop().animate({
       'scrollTop': str.offset().top - 75
     }, 1000, 'swing',);
-
-
   }
 });
 
-$('a[id*="-blogs"]').on('click', function () {
-  let tartget = this.id;
-  window.location = "/hobbys.php#" + tartget;
-});
 
 //smooth scroll--------------------------------------------------------------------
-
-/*$(document).ready(function () {
-  if (window.location.hash) {
-    let $target = $(window.location.hash);
-    $('html, body').stop().animate({
-      'scrollTop': $target.offset().top - 75
-    }, 1500, 'swing',);
-  }
-});*/
-
 
 $('a[href*="#my"]').on('click', function (e) {
   e.preventDefault();
