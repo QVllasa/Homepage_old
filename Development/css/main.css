@@ -1990,16 +1990,16 @@ label {
 @media (max-width: 990px) {
   #page-header {
     position: relative;
-    top: 71px;
+    top: 70px;
   }
   #main-content{
     position: relative;
-    top: 71px;
+    top: 70px;
   }
 
   #footer-section{
     position: relative;
-    top: 71px;
+    top: 70px;
   }
 }
 
@@ -2008,3 +2008,39 @@ button:focus{
   outline: none;
 }
 
+.infobox{
+  height: auto;
+  width:auto;
+  background-color: #e4deca;
+  position: fixed;
+  bottom: 5px;
+  right: 0;
+  color: #474d5d;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  z-index: 2500;
+display:none;
+  border: 1px solid #474d5d;
+
+}
+
+.infoclose svg{
+  right:5px;
+  position: absolute;
+  top: 5px;
+  height: 15px;
+}
+
+.infobox p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.6rem;
+}
+
+.infobox h4{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}

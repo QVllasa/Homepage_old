@@ -1,6 +1,37 @@
+
+$(window).ready(function(){
+  // setTimeout(showInfoBox, 10000);
+
+  $("#infobox").hide().delay(7500).fadeIn(500);
+
+});
+
+$('#infoclose').click(function() {
+  $("#infobox").fadeOut("slow");
+});
+
+
 //popover 'HEUTE'
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();
+});
+
+
+//function showInfoBox(){
+ // $('.infobox').css('opacity', '0.9', 'transition', '1s ease-in')
+//}
+
+
+
+$(document).ready(function(){
+ // setTimeout(showInfoBox, 10000);
+
+  $("#infobox").hide().delay(7500).fadeIn(500);
+
+});
+
+$('#infoclose').click(function() {
+  $("#infobox").fadeOut("slow");
 });
 
 //loading screen -----------------
