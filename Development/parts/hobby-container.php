@@ -63,7 +63,7 @@
       <div class="element-item" data-category="">
         <div class="img-hover-zoom">
           <img alt="" class="img-fluid"
-               onerror='this.onerror = null; this.src="img/articles/hobbys/drones/thumbnail_drones.webp"'
+               onerror='this.onerror = null; this.src="img/articles/hobbys/drones/thumbnail_drones.png"'
                src="img/articles/hobbys/drones/thumbnail_drones.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#drones-blogs"
