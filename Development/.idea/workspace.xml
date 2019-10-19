@@ -6,9 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.afdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.afdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/trading/thumbnail_trading.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/trading/thumbnail_trading.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.afdesign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,8 +143,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parts/hobby-container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="247">
+              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
               <folding>
                 <element signature="e#1120#1126#0#HTML" expanded="true" />
                 <element signature="e#1129#1135#0#HTML" expanded="true" />
@@ -242,12 +247,41 @@
             <path>
               <item name="Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Development" type="b2602c69:ProjectViewProjectNode" />
               <item name="Development" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="hobbys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="hobbys" type="462c0819:PsiDirectoryNode" />
+              <item name="computer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
+              <item name="hobbys" type="462c0819:PsiDirectoryNode" />
+              <item name="drones" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Development" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,14 +463,7 @@
       <workItem from="1571319472389" duration="2760000" />
       <workItem from="1571327651476" duration="410000" />
       <workItem from="1571399236779" duration="14175000" />
-      <workItem from="1571524532671" duration="1773000" />
-    </task>
-    <task id="LOCAL-00150" summary="jpeg 2000 and webp added">
-      <created>1568592086179</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1568592086179</updated>
+      <workItem from="1571524532671" duration="2483000" />
     </task>
     <task id="LOCAL-00151" summary="jpeg 2000 and webp added">
       <created>1568592371372</created>
@@ -774,11 +801,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571431028438</updated>
     </task>
-    <option name="localTasksCounter" value="199" />
+    <task id="LOCAL-00199" summary="working on hobbys page">
+      <created>1571527477807</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1571527477810</updated>
+    </task>
+    <option name="localTasksCounter" value="200" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15948000" />
+    <option name="totallyTimeSpent" value="16658000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -854,7 +888,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed var to let" />
     <MESSAGE value="reformat main.js" />
     <MESSAGE value="fixing errors and warnings" />
     <MESSAGE value="working on layout" />
@@ -879,7 +912,8 @@
     <MESSAGE value="minor fixes" />
     <MESSAGE value="infobox added" />
     <MESSAGE value="working on content" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on content" />
+    <MESSAGE value="working on hobbys page" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on hobbys page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/parts/infobox.php">
@@ -972,8 +1006,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/hobby-container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="247">
+          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
           <folding>
             <element signature="e#1120#1126#0#HTML" expanded="true" />
             <element signature="e#1129#1135#0#HTML" expanded="true" />

@@ -19,8 +19,8 @@
           <img
             alt=""
             class="img-fluid "
-            onerror='this.onerror = null; this.src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.png"'
-            src="img/articles/hobbys/drones/thumbnail_drones.webp">
+            onerror='this.onerror = null; this.src="img/articles/hobbys/computer/thumbnail_computer.png"'
+            src="img/articles/hobbys/computer/thumbnail_computer.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#computerzusammenbau-blogs"
              data-toggle="collapse" href="#hobby-description">
@@ -34,8 +34,8 @@
         <div class="img-hover-zoom ">
           <img alt=""
                class="img-fluid "
-               onerror='this.onerror = null; this.src="img/articles/projects/iotforum/thumbnail_iotforum.png"'
-               src="img/articles/projects/iotforum/thumbnail_iotforum.webp">
+               onerror='this.onerror = null; this.src="img/articles/hobbys/trading/thumbnail_trading.png"'
+               src="img/articles/hobbys/trading/thumbnail_trading.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#trading-blogs"
              data-toggle="collapse" href="#hobby-description">
@@ -48,8 +48,8 @@
         <div class="img-hover-zoom">
           <img alt=""
                class="img-fluid "
-               onerror='this.onerror = null; this.src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png"'
-               src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.webp">
+               onerror='this.onerror = null; this.src="img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.png"'
+               src="img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
              class="overlay"
              data-target="#vrprogramming-blogs"
@@ -63,8 +63,8 @@
       <div class="element-item" data-category="">
         <div class="img-hover-zoom">
           <img alt="" class="img-fluid"
-               onerror='this.onerror = null; this.src="img/articles/projects/heatpower/thumbnail_heatpower.png"'
-               src="img/articles/projects/heatpower/thumbnail_heatpower.webp">
+               onerror='this.onerror = null; this.src="img/articles/hobbys/drones/thumbnail_drones.webp"'
+               src="img/articles/hobbys/drones/thumbnail_drones.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#drones-blogs"
              data-toggle="collapse" href="#hobby-description">
