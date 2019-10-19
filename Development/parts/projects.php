@@ -55,7 +55,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#dronegraphy"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>dronegraphy.de</h4>
             </div>
           </a>
@@ -70,7 +70,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#IoT-forum"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>IoT-Forum</h4></div>
           </a>
         </div>
@@ -85,7 +85,7 @@
              class="overlay"
              data-target="#DJI-goes-MindSphere"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>DJI&nbsp;goes&nbsp;MindSphere</h4></div>
           </a>
           <a aria-label="Open Project Description" href="#project-description"></a>
@@ -99,7 +99,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#heatpower"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Webdesign&nbsp;&amp;&nbsp;Consulting</h4></div>
           </a>
         </div>
@@ -112,7 +112,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#Homepage"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Webdesign&nbsp;Homepage</h4></div>
           </a>
         </div>
@@ -126,7 +126,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#VR-Factorio"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>VR&nbsp;Factorio</h4>
             </div>
           </a>
@@ -141,7 +141,7 @@
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#VirtualTwin"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Virtual&nbsp;Twin</h4></div>
           </a>
         </div>
@@ -155,7 +155,7 @@
              class="overlay"
              data-target="#TrainingTool"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Training&nbsp;Tool</h4></div>
           </a>
         </div>
@@ -170,7 +170,7 @@
              class="overlay"
              data-target="#MaterialGenerator"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Material&nbsp;Generator</h4></div>
           </a>
         </div>
@@ -185,7 +185,7 @@
              class="overlay"
              data-target="#CertificateGenerator"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Certificate&nbsp;Generator</h4></div>
           </a>
         </div>
@@ -199,7 +199,7 @@
              class="overlay"
              data-target="#PasswordManager"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Password&nbsp;Manager</h4></div>
           </a>
         </div>
@@ -213,7 +213,7 @@
              class="overlay"
              data-target="#latest-movies"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>Letzte&nbsp;Filmprojekte</h4></div>
           </a>
         </div>
@@ -227,7 +227,7 @@
              class="overlay"
              data-target="#macOSMojaveSupport"
              data-toggle="collapse" href="#project-description">
-            <div class="text">
+            <div class="text ">
               <h4>macOS&nbsp;Support</h4></div>
           </a>
         </div>

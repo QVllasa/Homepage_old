@@ -20,12 +20,12 @@
             alt=""
             class="img-fluid "
             onerror='this.onerror = null; this.src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.png"'
-            src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.webp">
+            src="img/articles/hobbys/drones/thumbnail_drones.webp">
           <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
              data-target="#computerzusammenbau-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
-              <h4>Computerzusammenbau und -Reparatur</h4>
+              <h4>Computerzusammenbau&nbsp;und&nbsp;-&nbsp;Reparatur</h4>
             </div>
           </a>
         </div>
@@ -55,7 +55,7 @@
              data-target="#vrprogramming-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
-              <h4>Programmieren und Virtual Reality</h4></div>
+              <h4>Programmieren&nbsp;und&nbsp;Virtual&nbsp;Reality</h4></div>
           </a>
           <a aria-label="Open Project Description" href="#hobby-description"></a>
         </div>
@@ -82,7 +82,7 @@
              data-target="#videoediting-blogs"
              data-toggle="collapse" href="#hobby-description">
             <div class="text">
-              <h4>Videoschnitt und Filmdreh</h4></div>
+              <h4>Videoschnitt&nbsp;und&nbsp;Filmdreh</h4></div>
           </a>
         </div>
       </div>
