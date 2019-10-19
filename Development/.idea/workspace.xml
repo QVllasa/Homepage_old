@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/computer/thumbnail_computer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/drones/thumbnail_drones.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/trading/thumbnail_trading.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/trading/thumbnail_trading.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/vrprogramming/thumbnail_vrprogramming.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="2111" lean-forward="true" selection-start-line="2111" selection-end-line="2111" />
+            <state relative-caret-position="257">
+              <caret line="2107" column="41" lean-forward="true" selection-start-line="2107" selection-start-column="41" selection-end-line="2107" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -143,18 +137,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parts/hobby-container.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-              <folding>
-                <element signature="e#1120#1126#0#HTML" expanded="true" />
-                <element signature="e#1129#1135#0#HTML" expanded="true" />
-                <element signature="e#1136#1142#0#HTML" expanded="true" />
-                <element signature="e#2504#2510#0#HTML" expanded="true" />
-                <element signature="e#2513#2519#0#HTML" expanded="true" />
-                <element signature="e#2526#2532#0#HTML" expanded="true" />
-                <element signature="e#3904#3910#0#HTML" expanded="true" />
-                <element signature="e#3913#3919#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="139">
+              <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -193,10 +177,13 @@
       <find>&quot;text&quot;</find>
       <find>text-small</find>
       <find>overlay</find>
+      <find>computerzusammenbau und -</find>
       <find>infobox</find>
+      <find>&amp;nbsp;</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;text text-small&quot;</replace>
+      <replace />
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -463,21 +450,7 @@
       <workItem from="1571319472389" duration="2760000" />
       <workItem from="1571327651476" duration="410000" />
       <workItem from="1571399236779" duration="14175000" />
-      <workItem from="1571524532671" duration="2483000" />
-    </task>
-    <task id="LOCAL-00151" summary="jpeg 2000 and webp added">
-      <created>1568592371372</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1568592371372</updated>
-    </task>
-    <task id="LOCAL-00152" summary="jpeg 2000 and webp added">
-      <created>1568592735844</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1568592735844</updated>
+      <workItem from="1571524532671" duration="3380000" />
     </task>
     <task id="LOCAL-00153" summary="jpeg 2000 and webp added">
       <created>1568592945406</created>
@@ -808,11 +781,25 @@
       <option name="project" value="LOCAL" />
       <updated>1571527477810</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="working on hobbys page">
+      <created>1571528255488</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1571528255488</updated>
+    </task>
+    <task id="LOCAL-00201" summary="working on hobbys page">
+      <created>1571528708792</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1571528708793</updated>
+    </task>
+    <option name="localTasksCounter" value="202" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16658000" />
+    <option name="totallyTimeSpent" value="17555000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -961,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parts/projects.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2809">
@@ -997,27 +977,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="2111" lean-forward="true" selection-start-line="2111" selection-end-line="2111" />
+        <state relative-caret-position="257">
+          <caret line="2107" column="41" lean-forward="true" selection-start-line="2107" selection-start-column="41" selection-end-line="2107" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parts/hobby-container.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="73" column="14" lean-forward="true" selection-start-line="73" selection-start-column="14" selection-end-line="73" selection-end-column="14" />
-          <folding>
-            <element signature="e#1120#1126#0#HTML" expanded="true" />
-            <element signature="e#1129#1135#0#HTML" expanded="true" />
-            <element signature="e#1136#1142#0#HTML" expanded="true" />
-            <element signature="e#2504#2510#0#HTML" expanded="true" />
-            <element signature="e#2513#2519#0#HTML" expanded="true" />
-            <element signature="e#2526#2532#0#HTML" expanded="true" />
-            <element signature="e#3904#3910#0#HTML" expanded="true" />
-            <element signature="e#3913#3919#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="139">
+          <caret line="22" column="71" lean-forward="true" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
         </state>
       </provider>
     </entry>

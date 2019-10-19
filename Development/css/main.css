@@ -2108,6 +2108,7 @@ display:none;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    white-space: nowrap;
   }
 
   #portfolio-content h4, #hobby-content h4{
