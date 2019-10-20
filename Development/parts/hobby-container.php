@@ -323,45 +323,8 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <div class="col text-center">
-          <div class="carousel slide hobby-description-slider" data-interval="false"
-               data-ride="carousel"
-               id="heatpower_indicators">
-            <ol class="carousel-indicators p-5">
-              <li class="active" data-slide-to="0" data-target="#heatpower_indicators"></li>
-              <li data-slide-to="1" data-target="#heatpower_indicators"></li>
-              <li data-slide-to="2" data-target="#heatpower_indicators"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img alt="First slide"
-                     class="d-block w-100 lazy"
-                     data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
-              </div>
-              <div class="carousel-item">
-                <img alt="Second slide"
-                     class="d-block w-100 lazy"
-                     data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
-              </div>
-              <div class="carousel-item">
-                <img alt="Third slide"
-                     class="d-block w-100 lazy"
-                     data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
-              </div>
-            </div>
-            <a class="carousel-control-prev" data-slide="prev" href="#heatpower_indicators"
-               role="button">
-              <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" data-slide="next" href="#heatpower_indicators"
-               role="button">
-              <span aria-hidden="true" class="carousel-control-next-icon"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
+        <img alt="" class="img-fluid lazy"
+             data-src="img/articles/hobbys/drones/drones.jpg">
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
@@ -425,39 +388,8 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <div class="col text-center">
-          <div class="carousel slide hobby-description-slider" data-interval="false"
-               data-ride="carousel"
-               id="homepage_indicator">
-            <ol class="carousel-indicators">
-              <li class="active" data-slide-to="0" data-target="#homepage_indicator"></li>
-              <li data-slide-to="1" data-target="#homepage_indicator"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img alt="First slide"
-                     class="img-fluid lazy"
-                     data-src="img/articles/projects/homepage/developing_website.png">
-              </div>
-              <div class="carousel-item">
-                <img alt="Second slide" class="img-fluid lazy"
-                     data-src="img/articles/projects/homepage/homepage.png">
-              </div>
-
-            </div>
-            <a class="carousel-control-prev" data-slide="prev" href="#homepage_indicator"
-               role="button">
-              <span aria-hidden="true" class="carousel-control-prev-icon"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" data-slide="next" href="#homepage_indicator"
-               role="button">
-              <span aria-hidden="true" class="carousel-control-next-icon"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-
+        <img alt="" class="img-fluid lazy"
+             data-src="img/articles/hobbys/videoediting/video_editing.jpg">
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
