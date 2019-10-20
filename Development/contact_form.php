@@ -1,31 +1,32 @@
 <?php
 
-require ("inc/db.inc.php");
+//require ("inc/db.inc.php");
 require ("inc/functions.inc.php");
 
-echo "Hallo Welt";
+print_r($_POST);
 
-$stmt =  $pdo -> prepare("INSERT INTO `messages` (`name`, `email`, `subject`, `text`)
-VALUE(:name, :email, :subject, :text)");
+$servername = "localhost";
+$username = "qendrimvllasa";
+$password = "Dominim123_!";
+$dbname = "qendrimvllasa";
 
-$erstens = "Max";
-$zweitens = "max@gmail.com";
-$drittens = "Nachricht!";
-$viertens = "Das ist hier die ganze Nachricht!";
+try {
+  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $sql = "INSERT INTO messages (name, email, subject, text)
+    VALUES ('John', 'sfs123fsdfsd@example.com', 'nachricht', 'hier kommt die nachricht' )";
+
+  $conn->exec($sql);
+} catch (PDOException $e) {
+  echo $sql . "<br>" . $e->getMessage();
+}
+
+$conn = null;
 
 
-
-$stmt -> bindParam(":name", $erstens, PDO::PARAM_STR);
-$stmt -> bindParam(":email", $zweitens, PDO::PARAM_STR);
-$stmt -> bindParam(":subject", $drittens, PDO::PARAM_STR);
-$stmt -> bindParam(":text", $viertens, PDO::PARAM_STR);
-
-$stmt -> exec();
-
-
-echo "Hallo Welt2";
 ?>
 
 
 
-<?php //require ("parts/contact.php");?>
+<?php require ("parts/contact.php");?>

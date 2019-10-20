@@ -58,13 +58,15 @@
   <div class="container mt-5 on-animate" id="contact-form-section">
     <div class="row  ">
       <div class="col-md-12  ">
+
+
         <!-- form -->
-        <form action="mail.php" id="contact-form" method="GET">
+        <form action="../contact_form.php" id="contact-form" method="POST">
           <div class="row justify-content-center">
             <div class="col-md-6 p-0 form-group">
               <label for="name-input">
                 <input aria-label="name" class="form-control" id="name-input"
-                       placeholder="Dein Name oder Firma *" required type="text">
+                       placeholder="Dein Name oder Firma *" required type="text" name="name">
               </label>
 
             </div>
@@ -74,7 +76,7 @@
               <label for="email-input">
                 <input aria-label="email" class="form-control" id="email-input"
                        placeholder="Deine E-Mail *"
-                       required type="text">
+                       required type="text" name="email">
               </label>
 
             </div>
@@ -84,7 +86,7 @@
               <label for="phone-input">
                 <input aria-label="phone" class="form-control" id="phone-input"
                        placeholder="Telefon"
-                       type="text">
+                       type="text" name="phone">
               </label>
 
             </div>
@@ -94,7 +96,7 @@
               <label for="subject-input">
                 <input aria-label="subject" class="form-control" id="subject-input"
                        placeholder="Thema *"
-                       required type="text">
+                       required type="text" name="subject">
               </label>
 
             </div>

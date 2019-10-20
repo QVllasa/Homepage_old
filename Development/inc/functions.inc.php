@@ -1,9 +1,9 @@
 <?php
 
 
-function e($text)
+function e($txt)
 {
-  return htmlspecialchars($text, ENT_QUOTES, "UTF-8");
+  return htmlspecialchars($txt, ENT_QUOTES, "UTF-8");
 }
 ?>
 
