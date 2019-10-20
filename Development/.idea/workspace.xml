@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_conn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact_form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/db.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/db.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -255,14 +254,7 @@
       <workItem from="1571327651476" duration="410000" />
       <workItem from="1571399236779" duration="14175000" />
       <workItem from="1571524532671" duration="4076000" />
-      <workItem from="1571599011722" duration="7273000" />
-    </task>
-    <task id="LOCAL-00165" summary="replacing icons">
-      <created>1570129743677</created>
-      <option name="number" value="00165" />
-      <option name="presentableId" value="LOCAL-00165" />
-      <option name="project" value="LOCAL" />
-      <updated>1570129743678</updated>
+      <workItem from="1571599011722" duration="8360000" />
     </task>
     <task id="LOCAL-00166" summary="replacing icons">
       <created>1570643223315</created>
@@ -600,7 +592,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571605470737</updated>
     </task>
-    <option name="localTasksCounter" value="214" />
+    <task id="LOCAL-00214" summary="working on backend">
+      <created>1571606809206</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1571606809206</updated>
+    </task>
+    <option name="localTasksCounter" value="215" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

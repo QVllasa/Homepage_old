@@ -20,7 +20,9 @@ $stmt -> bindParam(":email", $zweitens, PDO::PARAM_STR);
 $stmt -> bindParam(":subject", $drittens, PDO::PARAM_STR);
 $stmt -> bindParam(":text", $viertens, PDO::PARAM_STR);
 
-$stmt -> execute();
+$stmt -> exec();
+
+
 echo "Hallo Welt2";
 ?>
 
