@@ -113,8 +113,8 @@
       </div>
       <div class="row justify-content-center p-5">
         <div class="col-12 text-center">
-          <img alt="dronegraphy" class="img-fluid lazy"
-               data-src="img/articles/projects/dronegraphy/dronegraphy.png">
+          <img alt="computer_image" class="img-fluid lazy"
+               data-src="img/articles/hobbys/computer/computer.jpg">
         </div>
 
       </div>
@@ -188,7 +188,7 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="iotforum_image" class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
+        <img alt="trading_image" class="lazy" data-src="img/articles/hobbys/trading/trading.jpg">
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
@@ -262,7 +262,7 @@
       </div>
       <div class="row justify-content-center p-5">
         <img alt="" class="img-fluid lazy"
-             data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png">
+             data-src="img/articles/hobbys/vrprogramming/vrprogramming.jpg">
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">

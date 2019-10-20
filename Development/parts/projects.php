@@ -967,7 +967,7 @@
 
         <div class="col-12 text-center">
           <img alt="" class="img-fluid lazy"
-               data-src="img/articles/projects/material_generator/m_generator.png">
+               data-src="img/articles/projects/material_generator/m_generator.png" style="max-height: 500px">
         </div>
 
       </div>
@@ -1019,7 +1019,7 @@
       <div class="row justify-content-center p-5">
         <div class="col-12 text-center">
           <img alt="" class="img-fluid lazy"
-               data-src="img/articles/projects/certificate_generator/cf_generator.png" >
+               data-src="img/articles/projects/certificate_generator/cf_generator.png" style="max-height: 500px" >
         </div>
 
       </div>
