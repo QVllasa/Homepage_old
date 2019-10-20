@@ -457,16 +457,6 @@
                      class="d-block w-100 lazy"
                      data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
               </div>
-              <div class="carousel-item">
-                <img alt="Second slide"
-                     class="d-block w-100 lazy"
-                     data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
-              </div>
-              <div class="carousel-item">
-                <img alt="Third slide"
-                     class="d-block w-100 lazy"
-                     data-src="img/articles/projects/heatpower/Logo_Nr.7-BlackRed.png">
-              </div>
             </div>
             <a class="carousel-control-prev" data-slide="prev" href="#heatpower_indicators"
                role="button">
@@ -485,28 +475,13 @@
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Heat & Power</h1>
-          <h3>Entwicklung einer vollständigen Webpräsenz der Firma 'Heat & Power' inklusive geschäftlicher
+          <h3>Entwicklung einer vollständigen Webpräsenz der Firma 'Heat & Power' samt marketingtechnischer und geschäftlicher
             Beratung</h3>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
         <div class="col-10 col-sm-10 col-md-8  blocktext">
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-            invidunt
-            ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-            justo
-            duo
-            dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-            dolor
-            sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod
-            tempor
-            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-            accusam
-            et
-            justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem
-            ipsum dolor sit amet.</p>
+          <p>In Kürze werden hier die Ergebnisse meiner Arbeit mit der Firma 'Heat & Power', welche sich auf den innovativen und umweltfreundlichen Heizungsbau spezialisiert, veröffentlicht. Bleib gespannt!</p>
         </div>
       </div>
       <div class="row justify-content-end py-3 pr-5">
