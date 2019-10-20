@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/articles/hobbys/drones/drones.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/articles/hobbys/videoediting/video_editing.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/video editing/template.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/videoediting/template.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/video editing/thumbnail_videoediting.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/videoediting/thumbnail_videoediting.afdesign" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/video editing/video_editing.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/videoediting/video_editing.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/articles/hobbys/video editing/video_editing_sm.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/articles/hobbys/videoediting/video_editing_sm.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -245,14 +239,7 @@
       <workItem from="1571327651476" duration="410000" />
       <workItem from="1571399236779" duration="14175000" />
       <workItem from="1571524532671" duration="4076000" />
-      <workItem from="1571599011722" duration="1076000" />
-    </task>
-    <task id="LOCAL-00155" summary="jpeg 2000 and webp added">
-      <created>1568638859571</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1568638859572</updated>
+      <workItem from="1571599011722" duration="1205000" />
     </task>
     <task id="LOCAL-00156" summary="replacing icons">
       <created>1568644990226</created>
@@ -590,7 +577,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571599987553</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="working on hobbys page">
+      <created>1571600311576</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1571600311576</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

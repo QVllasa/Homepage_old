@@ -188,8 +188,12 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="trading_image" class="lazy" data-src="img/articles/hobbys/trading/trading.jpg">
+        <div class="col-12 text-center">
+          <img alt="trading_image" class="lazy" data-src="img/articles/hobbys/trading/trading.jpg">
+        </div>
+
       </div>
+
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Trading</h1>
@@ -261,9 +265,13 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="" class="img-fluid lazy"
-             data-src="img/articles/hobbys/vrprogramming/vrprogramming.jpg">
+        <div class="col-12 text-center">
+          <img alt="" class="img-fluid lazy"
+               data-src="img/articles/hobbys/vrprogramming/vrprogramming.jpg">
+        </div>
+
       </div>
+
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Programmieren und Virtual Reality</h1>
@@ -323,9 +331,13 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="" class="img-fluid lazy"
-             data-src="img/articles/hobbys/drones/drones.jpg">
+        <div class="col-12 text-center">
+          <img alt="" class="img-fluid lazy"
+               data-src="img/articles/hobbys/drones/drones.jpg">
+        </div>
+
       </div>
+
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Drohnen</h1>
@@ -388,9 +400,13 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="" class="img-fluid lazy"
-             data-src="img/articles/hobbys/videoediting/video_editing.jpg">
+        <div class="col-12 text-center">
+          <img alt="" class="img-fluid lazy"
+               data-src="img/articles/hobbys/videoediting/video_editing.jpg">
+        </div>
+
       </div>
+
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Videoschnitt und Filmdreh</h1>
