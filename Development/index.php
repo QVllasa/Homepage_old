@@ -30,7 +30,7 @@
     <?php require("./parts/freelancer.php"); ?>
     <?php require("./parts/resume.php"); ?>
     <?php require("./parts/company.php"); ?>
-    <?php require("./parts/contact.php"); ?>
+    <?php require("./contact_form.php"); ?>
 </main>
 <footer>
     <?php require("./parts/footer.php"); ?>
