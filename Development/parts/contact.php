@@ -1,5 +1,3 @@
-<?php require ("../inc/db.inc.php"); ?>
-
 
 <div class="container-fluid pt-5 pb-5" id="my-contact-section">
   <!-- icon -->
