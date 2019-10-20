@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/db.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/db.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/contact.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,13 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @qendrimvllasa.de" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="sandbox: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="qendrimvllasa: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @qendrimvllasa.de" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="sandbox: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="qendrimvllasa: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="messages: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
@@ -255,21 +255,7 @@
       <workItem from="1571327651476" duration="410000" />
       <workItem from="1571399236779" duration="14175000" />
       <workItem from="1571524532671" duration="4076000" />
-      <workItem from="1571599011722" duration="3834000" />
-    </task>
-    <task id="LOCAL-00159" summary="hmoe.html clean up">
-      <created>1568677315761</created>
-      <option name="number" value="00159" />
-      <option name="presentableId" value="LOCAL-00159" />
-      <option name="project" value="LOCAL" />
-      <updated>1568677315761</updated>
-    </task>
-    <task id="LOCAL-00160" summary="hmoe.html clean up">
-      <created>1568677430528</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1568677430528</updated>
+      <workItem from="1571599011722" duration="4670000" />
     </task>
     <task id="LOCAL-00161" summary="replacing icons">
       <created>1568677968279</created>
@@ -600,7 +586,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571601143507</updated>
     </task>
-    <option name="localTasksCounter" value="208" />
+    <task id="LOCAL-00208" summary="working on backend">
+      <created>1571603331137</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1571603331137</updated>
+    </task>
+    <task id="LOCAL-00209" summary="working on backend">
+      <created>1571603454563</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1571603454563</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -663,12 +663,12 @@
     <MESSAGE value="hmoe.html clean up" />
     <MESSAGE value="replacing icons" />
     <MESSAGE value="iframes repaired" />
-    <MESSAGE value="working on backend" />
     <MESSAGE value="fixing hobby page" />
     <MESSAGE value="minor fixes" />
     <MESSAGE value="infobox added" />
     <MESSAGE value="working on content" />
     <MESSAGE value="working on hobbys page" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on hobbys page" />
+    <MESSAGE value="working on backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on backend" />
   </component>
 </project>

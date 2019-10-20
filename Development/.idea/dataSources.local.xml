@@ -11,7 +11,7 @@
       <user-name>qendrimvllasa</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="sandbox" />
+          <node kind="schema" qname="qendrimvllasa" />
         </introspection-scope>
       </schema-mapping>
     </data-source>
