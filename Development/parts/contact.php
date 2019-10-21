@@ -61,7 +61,7 @@
 
 
         <!-- form -->
-        <form action="../contact_form.php" id="contact-form" method="POST">
+        <form action="../contact.php" id="contact-form" method="POST">
           <div class="row justify-content-center">
             <div class="col-md-6 p-0 form-group">
               <label for="name-input">
