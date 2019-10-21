@@ -193,7 +193,9 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  if (window.location.hash) {
+  let path = $(window.location.pathname);
+  if (window.location.hash && path.includes("contact=") === false) {
+    console.log(path);
     let str = $(window.location.hash);
     $('html, body').stop().animate({
       'scrollTop': str.offset().top - 75
@@ -209,7 +211,8 @@ $('a[href*="#my"]').on('click', function (e) {
   let url = window.location.pathname;
 
 
-  if (url !== "/hobbys.php") {
+  if (url !== "/hobbys.php" && path.includes("contact=") === false) {
+    console.log(path);
 
     let $target = $(this.hash);
     let target = $(this.hash);

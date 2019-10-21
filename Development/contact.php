@@ -11,6 +11,12 @@ try {
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
+  $isFormSubmitted = (!empty($_POST['name']) &&
+      !empty($_POST['email']) &&
+      !empty($_POST['subject']) &&
+      !empty($_POST['message']));
+
+if($isFormSubmitted){
   // prepare sql and bind parameters
   $stmt = $conn->prepare("INSERT INTO `messages` (`name`, `email`, `phone`, `subject`, `text`) 
     VALUES (:name, :email, :phone, :subject, :text)");
@@ -35,12 +41,13 @@ try {
 
   echo "New records created successfully";
 }
+
+}
 catch(PDOException $e)
 {
   echo "Error: " . $e->getMessage();
 }
 $conn = null;
-?>
 
-<?php// require ("parts/contact.php");?>
+header("Location: index.php?contact=success#contact-icon");
 
