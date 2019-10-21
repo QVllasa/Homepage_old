@@ -6,26 +6,13 @@ $dbname = "qendrimvllasa";
 
 
 
+
+
+
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-  $isFormSubmitted = (!empty($_POST['name']) &&
-      !empty($_POST['email']) &&
-      !empty($_POST['subject']) &&
-      !empty($_POST['message']));
-
-if($isFormSubmitted){
-  // prepare sql and bind parameters
-  $stmt = $conn->prepare("INSERT INTO `messages` (`name`, `email`, `phone`, `subject`, `text`) 
-    VALUES (:name, :email, :phone, :subject, :text)");
-  $stmt->bindParam(':name', $name);
-  $stmt->bindParam(':email', $email);
-  $stmt->bindParam(':phone', $phone);
-  $stmt->bindParam(':subject', $subject);
-  $stmt->bindParam(':text', $text);
-
 
   // insert a row
   $name = $_POST['name'];
@@ -33,6 +20,33 @@ if($isFormSubmitted){
   $phone=$_POST['phone'];
   $subject=$_POST['subject'];
   $text=$_POST['message'];
+  $timestamp = time();
+
+
+  $isFormSubmitted = (!empty($_POST['name']) &&
+      !empty($_POST['email']) &&
+      !empty($_POST['subject']) &&
+      !empty($_POST['message']));
+
+  if(empty($_POST['phone'])){
+    $phone=01;
+  }
+
+
+if($isFormSubmitted){
+  // prepare sql and bind parameters
+  $stmt = $conn->prepare("INSERT INTO `messages` (`name`, `email`, `phone`, `subject`, `text`, `timestamp`)
+    VALUES (:name, :email, :phone, :subject, :text, :timestamp )");
+  $stmt->bindParam(':name', $name);
+  $stmt->bindParam(':email', $email);
+  $stmt->bindParam(':phone', $phone);
+  $stmt->bindParam(':subject', $subject);
+  $stmt->bindParam(':text', $text);
+  $stmt->bindParam(':timestamp', $timestamp);
+
+
+
+
 
 
 
