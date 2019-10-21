@@ -81,7 +81,7 @@
                                 </svg>
                             </div>
                             <div class="col-8-sm">
-                                <p>14. August 1992</p>
+                                <p class="m-0">14. August 1992</p>
                             </div>
 
 
@@ -94,7 +94,7 @@
 
                             </div>
                             <div class="col-8-sm">
-                                <p class="p-0">+49 (0) 151 56 42 48 31</p>
+                                <p class="m-0">+49 (0) 151 56 42 48 31</p>
                             </div>
 
                         </div>
@@ -118,7 +118,7 @@
                                 </svg>
                             </div>
                             <div class="col-8-sm">
-                                <a class=" link">www.qendrimvllasa.de</a>
+                                <a class=" link" href="https://www.qendrimvllasa.de">www.qendrimvllasa.de</a>
                             </div>
 
                         </div>
