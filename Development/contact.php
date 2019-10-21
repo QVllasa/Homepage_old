@@ -44,16 +44,24 @@ if($isFormSubmitted){
   $stmt->bindParam(':text', $text);
   $stmt->bindParam(':timestamp', $timestamp);
 
-
-
-
-
-
-
   $stmt->execute();
 
 
-  echo "New records created successfully";
+  $to = "qendrimvllasa@hotmail.de";
+  $headers = 'From: '.'<'.$email.'>';
+
+
+
+
+  mail($to, $subject, $text, $headers);
+
+
+
+
+
+
+
+  echo "New records created successfully and E-Mail sent!";
 }
 
 }

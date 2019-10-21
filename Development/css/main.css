@@ -674,10 +674,12 @@ video {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   color: #595858;
+
 }
 
 #key-facts-style .link:hover {
   text-decoration: underline;
+  cursor: pointer;
 
 }
 

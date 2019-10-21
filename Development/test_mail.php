@@ -1,8 +1,15 @@
 <?php
 
 
-$to = "qendrim.vllasa@gmail.com";
-$subject="hallo";
-$text="hier kommt der text rein";
+$email="qendrim.vllasa@gmail.com";
 
-mail($to, $subject, $text);
+
+
+$to = "qendrimvllasa@hotmail.de";
+$headers = 'From:'.$email;
+
+echo $headers;
+
+$text="Versuch nummer 2";
+
+mail($to, $subject, $text, $headers);
