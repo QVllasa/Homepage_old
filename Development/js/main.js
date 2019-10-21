@@ -194,7 +194,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
 
-console.log("asdasd");
+
   if (window.location.hash) {
 
     let str = $(window.location.hash);

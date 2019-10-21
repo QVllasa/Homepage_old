@@ -4,9 +4,15 @@ RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+
+#CACHING VIA CLOUDFLARE ##########################
+
 #<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-#Header set Cache-Control "max-age=604800, public"
+#Header set Cache-Control "max-age=120, public"
 #</FilesMatch>
+
+#CACHING VIA CLOUDFLARE ##########################
+
 
 # Video
 AddType video/webm                     webm
