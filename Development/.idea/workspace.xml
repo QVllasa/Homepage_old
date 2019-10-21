@@ -73,11 +73,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="947" />
-  </component>
   <component name="ProjectId" id="1RwEWO5ewnr8dPnIxKNTSzH0ECq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -134,17 +129,7 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@256f8223" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@256f8223" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@298aec64" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -270,14 +255,7 @@
       <workItem from="1571524532671" duration="4076000" />
       <workItem from="1571599011722" duration="12128000" />
       <workItem from="1571616061022" duration="5442000" />
-      <workItem from="1571664046232" duration="757000" />
-    </task>
-    <task id="LOCAL-00173" summary="working on backend">
-      <created>1570723208619</created>
-      <option name="number" value="00173" />
-      <option name="presentableId" value="LOCAL-00173" />
-      <option name="project" value="LOCAL" />
-      <updated>1570723208619</updated>
+      <workItem from="1571664046232" duration="2140000" />
     </task>
     <task id="LOCAL-00174" summary="working on backend">
       <created>1570723475899</created>
@@ -615,7 +593,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571664331769</updated>
     </task>
-    <option name="localTasksCounter" value="222" />
+    <task id="LOCAL-00222" summary="working on contact form">
+      <created>1571664823580</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1571664823580</updated>
+    </task>
+    <option name="localTasksCounter" value="223" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
