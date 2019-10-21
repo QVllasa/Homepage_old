@@ -57,6 +57,10 @@ if($isFormSubmitted){
     $headers .= "BCC: \r\n";
 
 
+    $header[] = 'MIME-Version: 1.0';
+    $header[] = 'Content-type: text/html; charset=iso-8859-1';
+
+
 
 
   mail($to, $subject, $text, $headers);
