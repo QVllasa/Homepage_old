@@ -47,8 +47,14 @@ if($isFormSubmitted){
   $stmt->execute();
 
 
-  $to = "qendrimvllasa@hotmail.de";
-  $headers = 'From: '.'<'.$email.'>';
+  $to = "qendrim.vllasa@gmail.com";
+
+
+    $headers = "From: ".$email."\r\n";
+    $headers .= "Reply-To: \r\n";
+    $headers .= "Return-Path: \r\n";
+    $headers .= "CC: \r\n";
+    $headers .= "BCC: \r\n";
 
 
 
