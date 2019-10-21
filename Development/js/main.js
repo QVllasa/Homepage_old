@@ -35,10 +35,7 @@ $(window).on("load", function () {
 //loading screen ---------------
 
 
-//scroll to top
-$(document).ready(function () {
-  $(this).scrollTop(0);
-});
+
 
 
 // noinspection JSUnresolvedFunction
@@ -190,19 +187,18 @@ $(document).ready(function () {
 //Navbar animation--------------------------------------------------------------------
 
 
-
-
 $(document).ready(function () {
+let path = window.location.href;
 
-
-  if (window.location.hash) {
-
+  if (window.location.hash && path.includes("contact=") === false ) {
+    console.log("abgesendet!");
     let str = $(window.location.hash);
     $('html, body').stop().animate({
       'scrollTop': str.offset().top - 75
     }, 1000, 'swing',);
   }
 });
+
 
 
 //smooth scroll--------------------------------------------------------------------

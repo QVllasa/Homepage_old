@@ -17,7 +17,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="home.php#my-about-me-section">Über&nbsp;Mich</a>
+             href="#my-about-me-section">Über&nbsp;Mich</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"

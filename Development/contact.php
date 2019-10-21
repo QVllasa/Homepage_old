@@ -49,5 +49,5 @@ catch(PDOException $e)
 }
 $conn = null;
 
-header("Location: index.php?contact=success#contact-icon");
+header("Location: index.php?contact=success#my-contact-section");
 
