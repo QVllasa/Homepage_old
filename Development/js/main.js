@@ -1,3 +1,11 @@
+//collapse navbar on scroll-----------
+
+$(document).on('scroll', function () {
+  $('#navbarSupportedContent').collapse('hide');
+
+});
+
+
 
 $(window).ready(function(){
   // setTimeout(showInfoBox, 10000);
@@ -179,7 +187,7 @@ $(document).ready(function () {
       let s = 0.5 + ($(window).scrollTop() / 500);
       $('#logoQ').css("opacity", -0.5 + s);
       $('#logoV').css("opacity", -0.5 + s);
-      console.log('smaller than 990px')
+
     });
   }
 });
@@ -191,7 +199,7 @@ $(document).ready(function () {
 let path = window.location.href;
 
   if (window.location.hash && path.includes("contact=") === false ) {
-    console.log("abgesendet!");
+
     let str = $(window.location.hash);
     $('html, body').stop().animate({
       'scrollTop': str.offset().top - 75

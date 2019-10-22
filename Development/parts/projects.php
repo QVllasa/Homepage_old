@@ -272,7 +272,7 @@
             Status sich ändert.
             <br>
             <br>
-            01.09.2019 Idee: Mit Dronegraphy verfolge ich ein lang ersehntes Ziel, dass meine
+            01.09.2019 Idee: Mit Dronegraphy verfolge ich ein lang ersehntes Ziel, das meine
             Leidenschaft des Programmierens und der Drohnen miteinander kombiniert. Es soll eine Website
             entstehen, auf welcher ich meine Drohnenaufnahmen, von denen ich noch reichlich auf Lager
             habe, der Öffentlichkeit zur Verfügung gestellt werden. In unserem schnelllebigen
@@ -283,10 +283,10 @@
             Schritt entsteht dann auch die Option für jedermann sich anzumelden und eigene Aufnahmen auf
             Dronegraphy zu verkaufen. Ich werde dabei auf ein modernes und sehr nutzerfreundliches
             Design großen Wert legen, so dass die Seite in Sachen Qualität und Performance hervorsticht.
-            Ferner füge ich auch langfristig auch eine Art Marketplace hinzu, durch die Fotografen mit
+            Ferner füge ich langfristig auch eine Art Marketplace hinzu, durch die Fotografen mit
             Drohnen ihre Dienstleistungen anbieten können. Das besondere an Dronegraphy ist die
             Spezialisierung und die intensive Filterfunktion. Es geht rein um das Thema Drohnen. Es
-            werden Artikel und Newsletter erscheinen, die auf neue eine Gesetzgebung hinweisen und über
+            werden Artikel und Newsletter erscheinen, die auf neue  Gesetzgebungen hinweisen und über
             besondere Angebote informieren. Das geplante Startdatum habe ich vorerst auf Frühjahr 2020
             gelegt. Ob ich für dieses Projekt ein vorgefertigtes CMS verwendet oder das Backend
             vollständig selbst programmiere steht noch in den Sternen.
@@ -378,8 +378,11 @@
         </a>
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="" class="img-fluid lazy"
-             data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png">
+        <div class="col-12 text-center">
+          <img alt="" class="img-fluid lazy"
+               data-src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png">
+        </div>
+
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">

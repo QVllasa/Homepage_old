@@ -401,7 +401,7 @@
           <div class="row px-0">
             <div class="col-lg-4 px-0 bg-darkblue">
               <div class="row px-5 text-center justify-content-center">
-                <div class="col px-0">
+                <div class="col-8 px-0">
                   <img alt="Uni_Konstanz_Logo" class="img-fluid lazy"
                        data-src="img/logos/Universitat_Konstanz_logo.webp"
                        onerror='this.onerror = null; this.src="img/logos/Universitat_Konstanz_logo.png"'
@@ -543,7 +543,7 @@
           <div class="row px-0">
             <div class="col-lg-4 px-0 bg-darkblue">
               <div class="row px-5 text-center justify-content-center">
-                <div class="col px-0">
+                <div class="col-8 px-0">
                   <img alt="ZGK_Logo" class="img-fluid lazy"
                        data-src="img/logos/LOGO_ZGK_weiss.webp"
                        onerror='this.onerror = null; this.src="img/logos/Universitat_Konstanz_logo.png"'>
@@ -661,7 +661,7 @@
           <div class="row px-0">
             <div class="col-lg-4 px-0 bg-darkblue">
               <div class="row px-5 text-center justify-content-center">
-                <div class="col px-0">
+                <div class="col-8 px-0">
                   <img alt="Siemens PLM Logo" class="img-fluid lazy"
                        data-src="img/logos/SiemensPLM_white.webp"
                        onerror='this.onerror = null; this.src="img/logos/SiemensPLM_white.png"'>
@@ -939,7 +939,7 @@
           <div class="row px-0">
             <div class="col-lg-4 px-0 bg-darkblue">
               <div class="row px-5 text-center justify-content-center">
-                <div class="col px-0">
+                <div class="col-8 px-0">
                   <img alt="Siemens AG Logo" class="img-fluid lazy"
                        data-src="img/logos/Siemens_AG_logo.webp"
                        onerror='this.onerror = null; this.src="img/logos/Siemens_AG_logo.png"'>
@@ -1221,7 +1221,8 @@
                     Gestalten eines
                     neuen Newslettersystems und habe die Broschüre ‚Gelingende
                     Bürgerbeteiligung‘
-                    gestaltet. Auch die Wartung der Homepage gehörte zu meinen Aufgaben, wobei
+                    gestaltet. Hier geht es <a style="color: #505664 !important; text-decoration-line: underline;" target="_blank" href="http://cms.translake.org/tl_files/translake/000_allgemein/Wirken/Gelingende-Buergerbeteiligung-translake2014.pdf">zur Broschüre.</a>
+                    Auch die Wartung der Homepage gehörte zu meinen Aufgaben, wobei
                     stets
                     kurzfristig immer wieder Veranstaltungen und andere wichtigere Dinge für
                     Abwechslung

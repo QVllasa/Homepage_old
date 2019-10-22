@@ -69,8 +69,8 @@
               <div class="col-10 font-color-grey">
                 <p>Aus meiner Leidenschaft ist eines meiner wichtigsten Werkzeuge geworden, mit
                   welchem ich technischen Problemen in der Neuzeit begegne. Mit jedem Projekt
-                  hilft dieses Werkzeug den Wissensschatz auf dem laufenden zu halten kurbelt das
-                  logische Denkvermögen weiter an.</p>
+                  hilft dieses Werkzeug den Wissensschatz auf dem laufenden zu halten und kurbelt das
+                  logische Denkvermögen stetig an.</p>
               </div>
             </div>
           </div>
