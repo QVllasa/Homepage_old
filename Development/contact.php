@@ -44,34 +44,33 @@ if($isFormSubmitted){
   $stmt->bindParam(':text', $text);
   $stmt->bindParam(':timestamp', $timestamp);
 
-  $stmt->execute();
+  if($stmt->execute()){
+      $to = "qendrimvllasa@hotmail.de";
 
 
-  $to = "qendrim.vllasa@gmail.com";
+      $headers []= "From: ".$email;
+      $headers []= "Reply-To: ";
+      $headers []= "Return-Path: ";
+      $headers []= "CC: ";
+      $headers []= "BCC: ";
 
 
-    $headers = "From: ".$email."\r\n";
-    $headers .= "Reply-To: \r\n";
-    $headers .= "Return-Path: \r\n";
-    $headers .= "CC: \r\n";
-    $headers .= "BCC: \r\n";
-
-
-    $header[] = 'MIME-Version: 1.0';
-    $header[] = 'Content-type: text/html; charset=iso-8859-1';
-
-
-
-
-  mail($to, $subject, $text, $headers);
+      $header []= 'MIME-Version: 1.0';
+      $header []= 'Content-type: text/html; charset=iso-8859-1';
 
 
 
 
 
+      mail($to, $subject, $text, implode("\r\n", $headers));
+      header("Location: index.php?contact=success#my-contact-section");
+  }
 
 
   echo "New records created successfully and E-Mail sent!";
+}
+else{
+    header("Location: index.php?contact=failed#my-contact-section");
 }
 
 }
@@ -81,5 +80,5 @@ catch(PDOException $e)
 }
 $conn = null;
 
-header("Location: index.php?contact=success#my-contact-section");
+
 

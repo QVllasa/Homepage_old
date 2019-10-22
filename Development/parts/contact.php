@@ -71,6 +71,15 @@
           </div>
 
         <?php endif; ?>
+          <?php if (isset($_GET['contact']) && $_GET['contact'] == 'failed'): ?>
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>Oops!</strong> Bitte fülle alle notwendigen Felder aus!
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+
+          <?php endif; ?>
         <!-- form -->
         <form action="../contact.php" id="contact-form" method="POST">
 
