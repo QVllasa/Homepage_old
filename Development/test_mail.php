@@ -17,6 +17,7 @@ $headers [] = "BCC: ";
 $text =
 
   '
+  
 ';
 
 if(mail($to, $subject, $text, implode("\r\n", $headers))){

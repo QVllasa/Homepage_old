@@ -5,24 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_template.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/001-diet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/002-play-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/003-recipe-book.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg_6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/email_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/email_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_mail2.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_mail2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,19 +86,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$/img/icons" />
-      <recent name="$PROJECT_DIR$/img/articles/hobbys/vrprogramming" />
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/cv" />
       <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img/email" />
+      <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/img/icons" />
+      <recent name="$PROJECT_DIR$/img/articles/hobbys/vrprogramming" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,14 +257,8 @@
       <workItem from="1571667170753" duration="1198000" />
       <workItem from="1571669329201" duration="14777000" />
       <workItem from="1571698397146" duration="3867000" />
-      <workItem from="1571758135495" duration="6742000" />
-    </task>
-    <task id="LOCAL-00187" summary="fixing hobby page">
-      <created>1571073730356</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1571073730356</updated>
+      <workItem from="1571758135495" duration="11372000" />
+      <workItem from="1571782888173" duration="1234000" />
     </task>
     <task id="LOCAL-00188" summary="fixing hobby page">
       <created>1571073738723</created>
@@ -616,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571776533412</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="preparing email">
+      <created>1571777539055</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1571777539055</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
