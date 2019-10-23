@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/email_template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_mail2.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_mail2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
   </component>
   <component name="ComposerSettings">
     <execution>
-      <executable />
+      <phar pharPath="$PROJECT_DIR$/composer_2.phar" interpreterId="f09632eb-71c6-4e3b-ae18-940a54b3adbc" />
     </execution>
   </component>
   <component name="DatabaseLocalColorSettings">
@@ -258,14 +256,7 @@
       <workItem from="1571669329201" duration="14777000" />
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
-      <workItem from="1571782888173" duration="1234000" />
-    </task>
-    <task id="LOCAL-00188" summary="fixing hobby page">
-      <created>1571073738723</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1571073738723</updated>
+      <workItem from="1571782888173" duration="3028000" />
     </task>
     <task id="LOCAL-00189" summary="fixing hobby page">
       <created>1571073927923</created>
@@ -603,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571777539055</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="preparing email">
+      <created>1571784629009</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1571784629009</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

@@ -1,8 +1,14 @@
 <?php
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require '/composer.phar/vendor/autoload.php';
+
 require_once ('PHPMailer/src/PHPMailer.php');
 
-$mail = new \PHPMailer\PHPMailer\PHPMailer();
+$mail = new PHPMailer();
 
 $mail->isSMTP();
 $mail->SMTPAuth();
