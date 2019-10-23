@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/email/DSC_1726.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PHPMailer/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/email_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/email_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/email/lights.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,19 +87,19 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/email" />
+      <recent name="$PROJECT_DIR$/PHPMailer" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/plugins" />
+      <recent name="$PROJECT_DIR$/img/icons" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/PHPMailer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/cv" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PHPMailer" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img/email" />
-      <recent name="$PROJECT_DIR$/plugins" />
-      <recent name="$PROJECT_DIR$/img/icons" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,14 +260,7 @@
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
       <workItem from="1571782888173" duration="3156000" />
-      <workItem from="1571854555215" duration="976000" />
-    </task>
-    <task id="LOCAL-00191" summary="fixing hobby page">
-      <created>1571094066506</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1571094066506</updated>
+      <workItem from="1571854555215" duration="8470000" />
     </task>
     <task id="LOCAL-00192" summary="fixing hobby page">
       <created>1571171976040</created>
@@ -604,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571788937869</updated>
     </task>
-    <option name="localTasksCounter" value="240" />
+    <task id="LOCAL-00240" summary="preparing email">
+      <created>1571855596737</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1571855596737</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
