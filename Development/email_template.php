@@ -347,8 +347,9 @@
     }
 
     .email-background {
-
-      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent1.png);
+      -webkit-filter: grayscale(80%);
+      filter: grayscale(80%);
+      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent.png);
 /*      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
       background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
       background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
