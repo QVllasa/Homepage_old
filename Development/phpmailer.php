@@ -1,32 +1,5 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
-
-require '/composer.phar/vendor/autoload.php';
-
-require_once ('PHPMailer/src/PHPMailer.php');
-
-$mail = new PHPMailer();
-
-$mail->isSMTP();
-$mail->SMTPAuth();
-$mail->SMTPSecure = 'ssl';
-$mail->Host = 'smtp.gmail.com';
-$mail->Port = '465';
-$mail->isHTML();
-$mail->Username = 'qendrim.vllasa@gmail.com';
-$mail->Password = 'Dominim123.321';
-
-
-$mail->SetFrom ('hello@qendrimvllasa.de');
-$mail->Subject = 'Hello World';
-$mail->Body = 'A test mail!';
-
-$mail->AddAddress('qendrimvllasa@hotmail.de');
-
-$mail->send();
 
 
 // Import PHPMailer classes into the global namespace
@@ -45,24 +18,21 @@ try {
   //Server settings
   $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
   $mail->isSMTP();                                            // Send using SMTP
-  $mail->Host = 'smtp1.example.com';                    // Set the SMTP server to send through
+  $mail->Host = 'smtp.gmail.com';                    // Set the SMTP server to send through
   $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-  $mail->Username = 'user@example.com';                     // SMTP username
-  $mail->Password = 'secret';                               // SMTP password
+  $mail->Username = 'qendrim.vllasa@gmail.com';                     // SMTP username
+  $mail->Password = 'Dominim123.321';                               // SMTP password
   $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
   $mail->Port = 587;                                    // TCP port to connect to
 
   //Recipients
-  $mail->setFrom('from@example.com', 'Mailer');
-  $mail->addAddress('joe@example.net', 'Joe User');     // Add a recipient
-  $mail->addAddress('ellen@example.com');               // Name is optional
-  $mail->addReplyTo('info@example.com', 'Information');
-  $mail->addCC('cc@example.com');
-  $mail->addBCC('bcc@example.com');
+  $mail->setFrom('qendrim.vllasa@gmail.com', 'Mailer');
+  $mail->addAddress('qendrimvllasa@hotmail.de', 'Qendrim Vllasa');     // Add a recipient
 
-  // Attachments
-  $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-  $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
+  $mail->addReplyTo('qendrim.vllasa@gmail.com', 'Information');
+  $mail->addCC('');
+  $mail->addBCC('');
+
 
   // Content
   $mail->isHTML(true);                                  // Set email format to HTML

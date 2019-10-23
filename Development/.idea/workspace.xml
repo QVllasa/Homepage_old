@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PHPMailer/autoload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHPMailer/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.phar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
     <execution>
-      <phar pharPath="$PROJECT_DIR$/composer_2.phar" interpreterId="f09632eb-71c6-4e3b-ae18-940a54b3adbc" />
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="f09632eb-71c6-4e3b-ae18-940a54b3adbc" />
     </execution>
   </component>
   <component name="DatabaseLocalColorSettings">
@@ -256,14 +258,8 @@
       <workItem from="1571669329201" duration="14777000" />
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
-      <workItem from="1571782888173" duration="3144000" />
-    </task>
-    <task id="LOCAL-00190" summary="fixing hobby page">
-      <created>1571074849374</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1571074849374</updated>
+      <workItem from="1571782888173" duration="3156000" />
+      <workItem from="1571854555215" duration="976000" />
     </task>
     <task id="LOCAL-00191" summary="fixing hobby page">
       <created>1571094066506</created>
@@ -601,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571788826366</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="preparing email">
+      <created>1571788937869</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788937869</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
