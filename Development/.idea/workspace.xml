@@ -4,10 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="preparing email">
-      <change afterPath="$PROJECT_DIR$/img/email/lights_transparent.png" afterDir="false" />
+    <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/email/lights_transparent1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/email_template.php" beforeDir="false" afterPath="$PROJECT_DIR$/email_template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,14 +259,7 @@
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
       <workItem from="1571782888173" duration="3156000" />
-      <workItem from="1571854555215" duration="8818000" />
-    </task>
-    <task id="LOCAL-00193" summary="fixing hobby page">
-      <created>1571173008914</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1571173008914</updated>
+      <workItem from="1571854555215" duration="9302000" />
     </task>
     <task id="LOCAL-00194" summary="fixing hobby page">
       <created>1571319489132</created>
@@ -603,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571864039121</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="preparing email">
+      <created>1571864484857</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1571864484857</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

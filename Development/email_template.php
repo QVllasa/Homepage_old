@@ -217,11 +217,11 @@
     }
 
     .hero .text {
-      color: rgba(255, 255, 255, .8);
+      color: #273343;
     }
 
     .hero .text h2 {
-      color: #ffffff;
+      color: #273343;
       font-size: 30px;
       position: relative;
       line-height: normal;
@@ -347,9 +347,8 @@
     }
 
     .email-background {
-      -webkit-filter: grayscale(80%);
-      filter: grayscale(80%);
-      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent.png);
+
+      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent1.png);
 /*      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
       background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
       background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
@@ -407,7 +406,7 @@
     .bg-header {
       padding: 1em 2.5em;
       text-align: center;
-      background-color: rgb(186, 189, 196);
+      background-color:rgb(196, 201, 205);
 
     }
 

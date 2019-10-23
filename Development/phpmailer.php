@@ -23,7 +23,6 @@ $mail->isHTML(true);                                  // Set email format to HTM
 
 $mail->Subject = 'Here is the subject';
 $mail->Body    = "
-
 <!DOCTYPE html>
 <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"
       xmlns:o=\"urn:schemas-microsoft-com:office:office\">
@@ -243,11 +242,11 @@ $mail->Body    = "
     }
 
     .hero .text {
-      color: rgba(255, 255, 255, .8);
+      color: #273343;
     }
 
     .hero .text h2 {
-      color: #ffffff;
+      color: #273343;
       font-size: 30px;
       position: relative;
       line-height: normal;
@@ -375,16 +374,17 @@ $mail->Body    = "
     .email-background {
       -webkit-filter: grayscale(80%);
       filter: grayscale(80%);
-      background-image: url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgb(175, 189, 227)), color-stop(25%, rgb(172, 188, 197)), color-stop(59%, rgba(241, 111, 92, 0)), to(rgba(241, 111, 92, 0))), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -o-linear-gradient(top, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: linear-gradient(to bottom, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights.jpg);
+      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent.png);
+/*      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgb(175, 189, 227)), color-stop(25%, rgb(172, 188, 197)), color-stop(59%, rgba(241, 111, 92, 0)), to(rgba(241, 111, 92, 0))), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -o-linear-gradient(top, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: linear-gradient(to bottom, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);*/
       background-size: cover;
       height: 400px;
       background-position: center;
+      background-color: #fcfcfc;
     }
 
     /*COUNTER*/
@@ -432,7 +432,7 @@ $mail->Body    = "
     .bg-header {
       padding: 1em 2.5em;
       text-align: center;
-      background-color: rgb(186, 189, 196);
+      background-color:rgb(196, 201, 205);
 
     }
 
@@ -495,7 +495,7 @@ $mail->Body    = "
            style=\"margin: auto;\">
       <tr>
         <td class=\"bg-header logo\">
-          <h1><a href=\"#\">Hi!</a></h1>
+          <h1><a href=\"#\">hi!</a></h1>
           <div class=\"frame\">
 
           </div>
