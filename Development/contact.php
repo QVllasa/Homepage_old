@@ -71,7 +71,7 @@ if($isFormSubmitted){
 
     $mail->isHTML(true);                                  // Set email format to HTML
 
-    $mail->Subject = 'Lass und loslegen!';
+    $mail->Subject = 'Lass uns loslegen!';
     $mail->Body    = "
     <!DOCTYPE html>
 <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"
@@ -776,7 +776,7 @@ if($isFormSubmitted){
     $notification->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $notification->Port = 587;    // TCP port to connect to
 
-    $notification->setFrom('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+    $notification->setFrom('qendrim.vllasa@gmail.com', $name);
     $notification->addAddress('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');     // Add a recipient
     $notification->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
 
