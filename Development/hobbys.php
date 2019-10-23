@@ -42,18 +42,15 @@
 <!--<script>-->
 <?php require("./parts/js_imports.php");?>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150811390-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-<!--<script>
-  window.ga = function () {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('set', 'transport', 'beacon');
-  ga('send', 'pageview')
+    gtag('config', 'UA-150811390-1');
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>-->
 </body>
 
 </html>

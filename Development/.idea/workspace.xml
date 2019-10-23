@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -258,14 +258,8 @@
       <workItem from="1571758135495" duration="11372000" />
       <workItem from="1571782888173" duration="3156000" />
       <workItem from="1571854555215" duration="13818000" />
-      <workItem from="1571871776834" duration="282000" />
-    </task>
-    <task id="LOCAL-00200" summary="working on hobbys page">
-      <created>1571528255488</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1571528255488</updated>
+      <workItem from="1571871776834" duration="299000" />
+      <workItem from="1571872641993" duration="328000" />
     </task>
     <task id="LOCAL-00201" summary="working on hobbys page">
       <created>1571528708792</created>
@@ -603,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571869575549</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="adding google analytics">
+      <created>1571872202044</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1571872202045</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -647,7 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="icons removed from thumbnails in project section" />
     <MESSAGE value="htaccess created for redirect http to https" />
     <MESSAGE value="new video format added" />
     <MESSAGE value="content added to project descriptions" />
@@ -672,6 +672,7 @@
     <MESSAGE value="working on contact form" />
     <MESSAGE value="preparing email" />
     <MESSAGE value="finishing email layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing email layout" />
+    <MESSAGE value="adding google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding google analytics" />
   </component>
 </project>
