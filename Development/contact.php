@@ -45,12 +45,13 @@ if($isFormSubmitted){
   $stmt->bindParam(':timestamp', $timestamp);
 
   if($stmt->execute()){
-      $to = "qendrimvllasa@hotmail.de";
+
 
 
     require 'PHPMailer/PHPMailerAutoload.php';
 
     $mail = new PHPMailer;
+    $notification = new PHPMailer;
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
@@ -61,7 +62,7 @@ if($isFormSubmitted){
     $mail->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
     $mail->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;                                    // TCP port to connect to
+    $mail->Port = 587;
 
     $mail->setFrom('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
     $mail->addAddress($email, $name);     // Add a recipient
@@ -72,7 +73,6 @@ if($isFormSubmitted){
 
     $mail->Subject = 'Lass und loslegen!';
     $mail->Body    = "
-    
     <!DOCTYPE html>
 <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"
       xmlns:o=\"urn:schemas-microsoft-com:office:office\">
@@ -581,7 +581,7 @@ if($isFormSubmitted){
       background-repeat: no-repeat;
       -o-object-fit: contain;
       object-fit: contain;
-      background-image: url(https://qendrimvllasa.de/img/email/DSC_1726.jpeg);
+      background-image: url(https://qendrimvllasa.de/img/email/email_portrait.jpg);
       background-size: 201px;
       background-position: top;
       -webkit-box-shadow: 0px 0px 26px 7px rgba(0,0,0,0.75);
@@ -765,6 +765,29 @@ if($isFormSubmitted){
 
     $mail->send();
 
+
+
+    $notification->isSMTP();                                      // Set mailer to use SMTP
+    $notification->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
+    $notification->CharSet = 'UTF-8';
+    $notification->SMTPAuth = true;                               // Enable SMTP authentication
+    $notification->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
+    $notification->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
+    $notification->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+    $notification->Port = 587;    // TCP port to connect to
+
+    $notification->setFrom('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+    $notification->addAddress('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');     // Add a recipient
+    $notification->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+
+    $notification->isHTML(true);                                  // Set email format to HTML
+
+    $notification->Subject = $subject;
+    $notification->Body    = $text.'<br><br>Phone:'.$phone;
+
+    $notification->send();
+
+
       header("Location: index.php?contact=success#my-contact-section");
   }
 
@@ -780,7 +803,7 @@ catch(PDOException $e)
 {
   echo "Error: " . $e->getMessage();
 }
-$conn = null;
+$_POST = array();
 
 
 
