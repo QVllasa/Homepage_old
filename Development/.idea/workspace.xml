@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +14,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="f09632eb-71c6-4e3b-ae18-940a54b3adbc" />
@@ -257,14 +257,8 @@
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
       <workItem from="1571782888173" duration="3156000" />
-      <workItem from="1571854555215" duration="13794000" />
-    </task>
-    <task id="LOCAL-00199" summary="working on hobbys page">
-      <created>1571527477807</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1571527477810</updated>
+      <workItem from="1571854555215" duration="13818000" />
+      <workItem from="1571871776834" duration="282000" />
     </task>
     <task id="LOCAL-00200" summary="working on hobbys page">
       <created>1571528255488</created>
@@ -602,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571868830339</updated>
     </task>
-    <option name="localTasksCounter" value="248" />
+    <task id="LOCAL-00248" summary="finishing email layout">
+      <created>1571869575549</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1571869575549</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -646,7 +647,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="working on layout" />
     <MESSAGE value="icons removed from thumbnails in project section" />
     <MESSAGE value="htaccess created for redirect http to https" />
     <MESSAGE value="new video format added" />
@@ -671,6 +671,7 @@
     <MESSAGE value="working on backend" />
     <MESSAGE value="working on contact form" />
     <MESSAGE value="preparing email" />
-    <option name="LAST_COMMIT_MESSAGE" value="preparing email" />
+    <MESSAGE value="finishing email layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing email layout" />
   </component>
 </project>
