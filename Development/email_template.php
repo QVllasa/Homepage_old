@@ -349,16 +349,17 @@
     .email-background {
       -webkit-filter: grayscale(80%);
       filter: grayscale(80%);
-      background-image: url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgb(175, 189, 227)), color-stop(25%, rgb(172, 188, 197)), color-stop(59%, rgba(241, 111, 92, 0)), to(rgba(241, 111, 92, 0))), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: -o-linear-gradient(top, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights.jpg);
-      background-image: linear-gradient(to bottom, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights.jpg);
+      background-image: url(https://qendrimvllasa.de/img/email/lights_transparent.png);
+/*      background-image: -webkit-gradient(linear, left top, left bottom, from(#a2b6c040), to(#474d5d)), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -o-linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: linear-gradient(#a2b6c040, #474d5d), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%, rgb(175, 189, 227)), color-stop(25%, rgb(172, 188, 197)), color-stop(59%, rgba(241, 111, 92, 0)), to(rgba(241, 111, 92, 0))), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: -o-linear-gradient(top, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);
+      background-image: linear-gradient(to bottom, rgb(175, 189, 227) 2%, rgb(172, 188, 197) 25%, rgba(241, 111, 92, 0) 59%, rgba(241, 111, 92, 0) 100%), url(https://qendrimvllasa.de/img/email/lights_transparent.jpg);*/
       background-size: cover;
       height: 400px;
       background-position: center;
+      background-color: #fcfcfc;
     }
 
     /*COUNTER*/
