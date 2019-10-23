@@ -506,7 +506,7 @@
       background-repeat: no-repeat;
       -o-object-fit: contain;
       object-fit: contain;
-      background-image: url(https://qendrimvllasa.de/img/email/DSC_1726.jpeg);
+      background-image: url(https://qendrimvllasa.de/img/email/email_portrait.jpg);
       background-size: 201px;
       background-position: top;
       -webkit-box-shadow: 0px 0px 26px 7px rgba(0,0,0,0.75);
