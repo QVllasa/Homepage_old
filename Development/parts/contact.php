@@ -21,7 +21,7 @@
     <div class="row justify-content-center" id="social-media-buttons">
       <button aria-label="facebook"><a aria-label="Open Facebook"
                                        href="https://www.facebook.com/qendrim.vllasa"
-                                       target="_blank"
+                                       target="_blank" rel="noopener"
         >
           <svg class="main-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -29,7 +29,7 @@
           </svg>
         </a>
       </button>
-      <button aria-label="linkedin"><a aria-label="Open Linkedin"
+      <button aria-label="linkedin"><a aria-label="Open Linkedin" rel="noopener"
                                        href="https://www.linkedin.com/in/qendrim-vllasa/"
                                        target="_blank"
         >
@@ -40,7 +40,7 @@
         </a>
       </button>
       <button aria-label="xing"><a aria-label="Open Xing" href="https://www.xing.com/profile/Qendrim_Vllasa/"
-                                   target="_blank"
+                                   target="_blank" rel="noopener"
         >
           <svg class="main-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -49,7 +49,7 @@
         </a>
       </button>
       <button aria-label="instagram"><a aria-label="Open Instagram" href="https://www.instagram.com/qndrvll/"
-                                        target="_blank"
+                                        target="_blank" rel="noopener"
         >
           <svg class="main-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
             <path

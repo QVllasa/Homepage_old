@@ -8,6 +8,8 @@
     <meta content="This is me. Qendrim Vllasa" name="description">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
+  <meta http-equiv="Cache-control: max-age=31557600" content="public">
+
     <?php require("./parts/css_imports.php"); ?>
 
 

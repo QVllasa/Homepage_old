@@ -1221,7 +1221,7 @@
                     Gestalten eines
                     neuen Newslettersystems und habe die Broschüre ‚Gelingende
                     Bürgerbeteiligung‘
-                    gestaltet. Hier geht es <a style="color: #505664 !important; text-decoration-line: underline;" target="_blank" href="http://cms.translake.org/tl_files/translake/000_allgemein/Wirken/Gelingende-Buergerbeteiligung-translake2014.pdf">zur Broschüre.</a>
+                    gestaltet. Hier geht es <a style="color: #505664 !important; text-decoration-line: underline;" target="_blank" rel="noopener" href="http://cms.translake.org/tl_files/translake/000_allgemein/Wirken/Gelingende-Buergerbeteiligung-translake2014.pdf">zur Broschüre.</a>
                     Auch die Wartung der Homepage gehörte zu meinen Aufgaben, wobei
                     stets
                     kurzfristig immer wieder Veranstaltungen und andere wichtigere Dinge für
