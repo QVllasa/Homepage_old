@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/composer.phar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHPMailer/autoload.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/phpmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/phpmailer.php" afterDir="false" />
     </list>
@@ -76,7 +76,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PHPMailer" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -85,18 +85,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHPMailer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/cv" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PHPMailer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img/email" />
       <recent name="$PROJECT_DIR$/plugins" />
       <recent name="$PROJECT_DIR$/img/icons" />
-      <recent name="$PROJECT_DIR$/img/articles/hobbys/vrprogramming" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -256,14 +256,7 @@
       <workItem from="1571669329201" duration="14777000" />
       <workItem from="1571698397146" duration="3867000" />
       <workItem from="1571758135495" duration="11372000" />
-      <workItem from="1571782888173" duration="3028000" />
-    </task>
-    <task id="LOCAL-00189" summary="fixing hobby page">
-      <created>1571073927923</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1571073927923</updated>
+      <workItem from="1571782888173" duration="3144000" />
     </task>
     <task id="LOCAL-00190" summary="fixing hobby page">
       <created>1571074849374</created>
@@ -601,7 +594,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571784629009</updated>
     </task>
-    <option name="localTasksCounter" value="238" />
+    <task id="LOCAL-00238" summary="preparing email">
+      <created>1571788826365</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1571788826366</updated>
+    </task>
+    <option name="localTasksCounter" value="239" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
