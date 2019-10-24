@@ -32,7 +32,7 @@
         <div class="col-lg-2">
           <div class="progress-container" id="prog2"></div>
           <div class="row justify-content-center mt-4">
-            <h4>PHP</h4>
+            <h4>PHP | MySQL</h4>
           </div>
           <div class="row text-center justify-content-center">
             <p>Für das Backend meiner Seite sowie für weitere anstehende Projekte.</p>
@@ -41,7 +41,7 @@
         <div class="col-lg-2">
           <div class="progress-container" id="prog3"></div>
           <div class="row justify-content-center mt-4">
-            <h4>HTML, CSS3</h4>
+            <h4>HTML | CSS3</h4>
           </div>
           <div class="row text-center justify-content-center">
             <p>Masterthesis sowie Frontend meiner Seite und weitere anstehende Projekte.</p>

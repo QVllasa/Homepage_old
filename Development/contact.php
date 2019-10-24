@@ -783,7 +783,7 @@ if($isFormSubmitted){
     $notification->isHTML(true);                                  // Set email format to HTML
 
     $notification->Subject = $subject;
-    $notification->Body    = $text.'<br><br>Phone:'.$phone;
+    $notification->Body    = '<pre>'.$text.'</pre><br><br>Phone: '.$phone;
 
     $notification->send();
 
