@@ -1,5 +1,17 @@
 <div class="container-fluid pt-5 pb-3" style="background-color: #d9e2ec;">
 
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a style="color: #3c3c3c" href="index.php">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Leidenschaften</li>
+            </ol>
+        </nav>
+
+    </div>
+
+
+
 
   <div class="container my-5" id="hobby-comment">
     <div class="row justify-content-center">

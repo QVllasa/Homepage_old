@@ -324,12 +324,15 @@
         <!--  -->
       </div>
       <div class="row justify-content-center p-5">
-        <img alt="iotforum_image" class="lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
+          <div class="col text-center">
+              <img alt="iotforum_image" class="img-fluid lazy" data-src="img/articles/projects/iotforum/iotforum.jpg">
+          </div>
+
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>IoT Forum</h1>
-          <h3>Kurzbeschreibung</h3>
+          <h3>IoT kann auch einfach sein mit genug Unterstützung!</h3>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
@@ -387,7 +390,7 @@
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>DJI goes MindSphere</h1>
-          <h3>Kurzbeschreibung</h3>
+          <h3>Verknüpfe die Sensordaten einer Drone mit MindSphere</h3>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">
@@ -596,7 +599,7 @@
           </svg>
         </a>
       </div>
-      <div class="row justify-content-center p-5" id="vimeo_vrfactorio">
+      <div class="row justify-content-center" id="vimeo_vrfactorio">
         <div class="col-md-12 text-center m-0 embed-responsive embed-responsive-16by9 px-5">
           <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/359957410" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
@@ -606,7 +609,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
-          <h1>VR Factorio</h1>s
+          <h1>VR Factorio</h1>
           <h3>Core Developer im Projekt 'VR-Factorio' im Rahmen eines Virtual Engineering Praktikum</h3>
         </div>
       </div>
@@ -757,7 +760,7 @@
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>Virtual Twin</h1>
-          <h3>Kurzbeschreibung</h3>
+          <h3>Methodik und Implemenetierung der automatisierten Virtualisierung von Anlagen</h3>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5 ">

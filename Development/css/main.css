@@ -1971,8 +1971,13 @@ label {
 #virtualtwin_indicators img {
 
   width: auto !important;
-  height: 400px !important;
+
   max-height: 400px !important;
+}
+
+#trainingtool_indicators{
+  max-width: 500px;
+  margin: auto;
 }
 
 #MaterialGenerator img, #CertificateGenerator img {
