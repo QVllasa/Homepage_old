@@ -7,6 +7,6 @@
 
     <H4>Psssst...</H4>
     <p>
-        Diese Homepage wurde in Handarbeit programmiert!
+        Diese Homepage wurde in Handarbeit programmiert und wird von meinem eigenen Server gehostet!
     </p>
 </div>
