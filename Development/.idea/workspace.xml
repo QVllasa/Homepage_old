@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parts/header_impressum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/impressum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/header_datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header_datenschutz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/datenschutz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/impressum.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/impressum.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -273,14 +269,7 @@
       <workItem from="1571953614437" duration="17000" />
       <workItem from="1571953952604" duration="376000" />
       <workItem from="1571954426176" duration="300000" />
-      <workItem from="1572006521501" duration="1942000" />
-    </task>
-    <task id="LOCAL-00210" summary="working on backend">
-      <created>1571604265818</created>
-      <option name="number" value="00210" />
-      <option name="presentableId" value="LOCAL-00210" />
-      <option name="project" value="LOCAL" />
-      <updated>1571604265818</updated>
+      <workItem from="1572006521501" duration="2213000" />
     </task>
     <task id="LOCAL-00211" summary="working on backend">
       <created>1571604404931</created>
@@ -618,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572007642195</updated>
     </task>
-    <option name="localTasksCounter" value="259" />
+    <task id="LOCAL-00259" summary="clean up">
+      <created>1572008501073</created>
+      <option name="number" value="00259" />
+      <option name="presentableId" value="LOCAL-00259" />
+      <option name="project" value="LOCAL" />
+      <updated>1572008501073</updated>
+    </task>
+    <option name="localTasksCounter" value="260" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

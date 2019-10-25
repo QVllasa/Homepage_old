@@ -7,8 +7,8 @@
     <title>Impressum</title>
     <meta name="description" content="This is me. Qendrim Vllasa">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <?php require("./parts/css_imports.php");?>
   <meta name="author" content="Qendrim Vllasa">
+  <?php require("./parts/css_imports.php"); ?>
   <link rel="stylesheet" href="css/hobbys.css">
 
 
@@ -34,20 +34,7 @@
 </footer>
 
 <!--<script>-->
-<script src="js/vendor/modernizr-3.7.1.min.js"></script>
-<script type="text/javascript" src="js/jquery-3.4.1.js"></script>
-<script src="js/plugins.js"></script>
-
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/dcc0002124.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
-<script src="js/main_blog.js"></script>
+<?php require("./parts/js_imports.php"); ?>
 
 
 <!--<script>

@@ -1,6 +1,18 @@
 
 <div class="container-fluid">
-        <div class="container">
+
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a style="color: #3c3c3c" href="index.php">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Datenschutz</li>
+      </ol>
+    </nav>
+
+  </div>
+
+
+  <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1>Datenschutzerkl&auml;rung</h1>
