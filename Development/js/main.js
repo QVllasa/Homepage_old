@@ -216,7 +216,7 @@ $('a[href*="#my"]').on('click', function (e) {
   let url = window.location.pathname;
 
 
-  if (url !== "/hobbys.php" ) {
+  if (url !== "/hobbys.php" && url !== "/datenschutz.php" && url !== "/impressum.php") {
 
 
     let $target = $(this.hash);
