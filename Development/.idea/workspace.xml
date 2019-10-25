@@ -7,7 +7,6 @@
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,14 +268,8 @@
       <workItem from="1571953952604" duration="376000" />
       <workItem from="1571954426176" duration="300000" />
       <workItem from="1572006521501" duration="2569000" />
-      <workItem from="1572009159247" duration="21000" />
-    </task>
-    <task id="LOCAL-00212" summary="working on backend">
-      <created>1571605306478</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1571605306478</updated>
+      <workItem from="1572009159247" duration="216000" />
+      <workItem from="1572017721388" duration="120000" />
     </task>
     <task id="LOCAL-00213" summary="working on backend">
       <created>1571605470737</created>
@@ -614,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572008770735</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="clean up">
+      <created>1572009187677</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1572009187678</updated>
+    </task>
+    <option name="localTasksCounter" value="262" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
