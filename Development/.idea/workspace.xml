@@ -269,14 +269,7 @@
       <workItem from="1571954426176" duration="300000" />
       <workItem from="1572006521501" duration="2569000" />
       <workItem from="1572009159247" duration="216000" />
-      <workItem from="1572017721388" duration="120000" />
-    </task>
-    <task id="LOCAL-00213" summary="working on backend">
-      <created>1571605470737</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1571605470737</updated>
+      <workItem from="1572017721388" duration="831000" />
     </task>
     <task id="LOCAL-00214" summary="working on backend">
       <created>1571606809206</created>
@@ -614,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572009187678</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="clean up">
+      <created>1572017877394</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1572017877394</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
