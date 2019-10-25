@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/parts/datenschutz.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parts/header_datenschutz.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/datenschutz.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/infobox.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/infobox.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbys.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbys.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/header_datenschutz.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header_datenschutz.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/hobby-header.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header_hobby.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +55,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>iot</find>
-      <find>kurzbeschreibung</find>
-      <find>training too</find>
-      <find>virtual</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -278,14 +270,7 @@
       <workItem from="1571953614437" duration="17000" />
       <workItem from="1571953952604" duration="376000" />
       <workItem from="1571954426176" duration="300000" />
-      <workItem from="1572006521501" duration="616000" />
-    </task>
-    <task id="LOCAL-00208" summary="working on backend">
-      <created>1571603331137</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1571603331137</updated>
+      <workItem from="1572006521501" duration="1105000" />
     </task>
     <task id="LOCAL-00209" summary="working on backend">
       <created>1571603454563</created>
@@ -623,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572006629160</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="clean up">
+      <created>1572007178489</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1572007178490</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

@@ -23,7 +23,7 @@
 
 
 
-<?php require("./parts/hobby-header.php")?>
+<?php require("./parts/header_hobby.php") ?>
 
 
 
