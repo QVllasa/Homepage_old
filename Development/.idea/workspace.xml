@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -269,14 +269,8 @@
       <workItem from="1571954426176" duration="300000" />
       <workItem from="1572006521501" duration="2569000" />
       <workItem from="1572009159247" duration="216000" />
-      <workItem from="1572017721388" duration="831000" />
-    </task>
-    <task id="LOCAL-00214" summary="working on backend">
-      <created>1571606809206</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1571606809206</updated>
+      <workItem from="1572017721388" duration="1228000" />
+      <workItem from="1572019602670" duration="57000" />
     </task>
     <task id="LOCAL-00215" summary="working on backend">
       <created>1571607912427</created>
@@ -614,7 +608,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572017877394</updated>
     </task>
-    <option name="localTasksCounter" value="263" />
+    <task id="LOCAL-00263" summary="clean up">
+      <created>1572019221304</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1572019221304</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">

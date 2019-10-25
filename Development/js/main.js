@@ -7,12 +7,6 @@ $(document).on('scroll', function () {
 
 
 
-$(window).ready(function(){
-  // setTimeout(showInfoBox, 10000);
-
-  $("#infobox").hide().delay(7500).fadeIn(500);
-
-});
 
 $('#infoclose').click(function() {
   $("#infobox").fadeOut("fast");
@@ -37,6 +31,7 @@ $(document).ready(function(){
 
 $(window).on("load", function () {
   $(".loader-wrapper").fadeOut("slow");
+  $("#infobox").hide().delay(7500).fadeIn(500);
 });
 
 
