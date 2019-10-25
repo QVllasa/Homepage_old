@@ -4,11 +4,12 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Datenschutz</title>
+    <title>Qendrim Vllasa. Datenschutz</title>
     <meta name="description" content="This is me. Qendrim Vllasa">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Qendrim Vllasa">
   <?php require("./parts/css_imports.php"); ?>
-
+  <link rel="stylesheet" href="css/hobbys.css">
 
 </head>
 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>This is me Qendrim Vllasa</title>
+    <title>This is me. Qendrim Vllasa</title>
     <meta content="This is me. Qendrim Vllasa" name="description">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 

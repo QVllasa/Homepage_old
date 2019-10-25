@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Qendrim Vllasa</title>
+    <title>Qendrim Vllasa. Hobbys </title>
     <meta name="description" content="This is me. Qendrim Vllasa">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <?php require("./parts/css_imports.php");?>
