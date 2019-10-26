@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbde4a5a-2f8d-4a22-95ee-4555ffa6f42b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EN/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/EN/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EN/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="c7dc7dd3-65c1-447d-9789-219a99fcdfd1" name="Revert: working on scrolling" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -190,6 +191,7 @@
       <workItem from="1572091293801" duration="27000" />
       <workItem from="1572091328708" duration="30000" />
       <workItem from="1572093265849" duration="25000" />
+      <workItem from="1572094226822" duration="25000" />
     </task>
     <task id="LOCAL-00006" summary="changes on navigation">
       <created>1560897686786</created>

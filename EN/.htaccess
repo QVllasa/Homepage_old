@@ -14,9 +14,9 @@ RewriteRule ^(.*)$ https://www.qendrimvllasa.com/$1 [R,L]
 
 
 #Manual Caching#########
-#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
-#Header set Cache-Control "max-age=31557600, public"
-#</FilesMatch>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
+Header set Cache-Control "max-age=31557600, public"
+</FilesMatch>
 
 #CACHING VIA CLOUDFLARE ##########################
 
