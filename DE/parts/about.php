@@ -202,8 +202,7 @@
                                         <p class="keyfact-container font-color-grey mt-2">7</p>
                                     </div>
                                     <div class="row justify-content-center">
-                                        <p class="font-color-grey font-style-thin mt-n3" id="programmiersprachen">
-  Computersprachen</p>
+                                        <p class="font-color-grey font-style-thin mt-n3" id="programmiersprachen">Computersprachen</p>
                                     </div>
                                 </div>
                             </div>

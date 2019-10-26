@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DE/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DE/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/.idea/webServers.xml" afterDir="false" />
-    </list>
+    <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/PHPMailer/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -64,6 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572090081824</updated>
       <workItem from="1572090082992" duration="700000" />
+      <workItem from="1572091205627" duration="8000" />
     </task>
     <servers />
   </component>
@@ -75,7 +66,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
