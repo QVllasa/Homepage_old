@@ -1,17 +1,22 @@
-RewriteEngine On
-RewriteCond %{HTTPS} !on
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteEngine On
+#RewriteCond %{HTTPS} !on
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^qendrimvllasa\.com [NC]
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.qendrimvllasa.com/$1 [R,L]
 
 #CACHING VIA CLOUDFLARE ##########################
 
 
 #Manual Caching#########
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
-Header set Cache-Control "max-age=31557600, public"
-</FilesMatch>
+#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
+#Header set Cache-Control "max-age=31557600, public"
+#</FilesMatch>
 
 #CACHING VIA CLOUDFLARE ##########################
 
