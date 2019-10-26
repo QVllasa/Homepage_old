@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbde4a5a-2f8d-4a22-95ee-4555ffa6f42b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/EN/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EN/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="c7dc7dd3-65c1-447d-9789-219a99fcdfd1" name="Revert: working on scrolling" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,22 +98,23 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EN" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EN" />
+      <recent name="$PROJECT_DIR$/Development" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Development/css" />
       <recent name="$PROJECT_DIR$/Development" />
       <recent name="$PROJECT_DIR$/Development/img" />
       <recent name="$PROJECT_DIR$/Development/progressbars/js" />
       <recent name="$PROJECT_DIR$/Development/progressbars" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Development" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,6 +189,7 @@
       <workItem from="1572091250172" duration="28000" />
       <workItem from="1572091293801" duration="27000" />
       <workItem from="1572091328708" duration="30000" />
+      <workItem from="1572093265849" duration="25000" />
     </task>
     <task id="LOCAL-00006" summary="changes on navigation">
       <created>1560897686786</created>
