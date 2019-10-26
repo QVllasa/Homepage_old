@@ -17,11 +17,11 @@
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-about-me-section">Über&nbsp;Mich</a>
+             href="#my-about-me-section">About&nbsp;Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-portfolio-section">Projekte</a>
+             href="#my-portfolio-section">Projects</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
@@ -29,15 +29,15 @@
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-resume-section">Laufbahn</a>
+             href="#my-resume-section">Resume</a>
         </li>
         <li class="nav-item">
           <a class="nav-link underlining"
-             href="#my-feedback-section">Stationen</a>
+             href="#my-feedback-section">Feedback</a>
         </li>
           <li class="nav-item">
               <a class="nav-link underlining"
-                 href="./hobbys.php">Leidenschaften</a>
+                 href="./hobbys.php">Passions</a>
           </li>
     <!--    <li class="nav-item dropdown" id="hobbys-link">
           <a aria-expanded="false" aria-haspopup="false" class="nav-link dropdown-toggle underlining"
@@ -56,7 +56,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link contact-button"
-             href="#my-contact-section">Kontakt</a>
+             href="#my-contact-section">Contact</a>
         </li>
       </ul>
     </div>

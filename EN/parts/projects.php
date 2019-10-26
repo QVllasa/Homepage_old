@@ -11,7 +11,7 @@
     </div>
     <div class="row justify-content-center mt-4 section-title-white"
     >
-      <h1 style="color:white">MEINE<span class="bg-me ml-2 p-2">PROJEKTE</span></h1>
+      <h1 style="color:white">MY<span class="bg-me ml-2 p-2">PROJECTS</span></h1>
     </div>
   </div>
   <!-- sections links -->
@@ -22,19 +22,19 @@
         <ul>
           <li>
             <a class="link-element is-checked " data-filter="*" id="all-projects-link"><span
-              >Alle</span></a>
+              >All</span></a>
           </li>
           <li>
             <a class="link-element" data-filter=".planning" id="latest-projects-link"><span
-              >Demnächst</span></a>
+              >Next</span></a>
           </li>
           <li>
             <a class="link-element " data-filter=".current"
-               id="upcoming-projects-link"><span>Aktuell</span></a>
+               id="upcoming-projects-link"><span>Current</span></a>
           </li>
           <li>
             <a class="link-element" data-filter=".done"
-               id="archived-projects-link"><span>Beendet</span></a>
+               id="archived-projects-link"><span>Finished</span></a>
           </li>
         </ul>
       </div>
@@ -214,7 +214,7 @@
              data-target="#latest-movies"
              data-toggle="collapse" href="#project-description">
             <div class="text ">
-              <h4>Letzte&nbsp;Filmprojekte</h4></div>
+              <h4>Latest&nbsp;Filmmaking</h4></div>
           </a>
         </div>
       </div>

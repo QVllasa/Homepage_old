@@ -12,7 +12,7 @@
     </div>
     <div class="row justify-content-center mt-4 section-title-dark"
     >
-      <h1 style="color:black">MEINE<span class="bg-me ml-2 p-2">SKILLS</span></h1>
+      <h1 style="color:black">MY<span class="bg-me ml-2 p-2">SKILLS</span></h1>
     </div>
   </div>
   <!-- circle progress bars -->
