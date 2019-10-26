@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cc1988e4-7074-498f-ba7d-1692870ee137" name="qendrimvllasa.com" url="https://www.qendrimvllasa.com">
+        <fileTransfer host="116.202.107.98" port="22" rootFolder="/home/qendrimvllasa.com/" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
