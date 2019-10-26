@@ -390,7 +390,7 @@
       <div class="row justify-content-center">
         <div class="col-10 col-md-6 text-center">
           <h1>DJI goes MindSphere</h1>
-          <h3>Verknüpfe die Sensordaten einer Drone mit MindSphere</h3>
+          <h3>Verknüpfe die Sensordaten einer Drohne mit MindSphere</h3>
         </div>
       </div>
       <div class="row justify-content-center text-justify pb-5">

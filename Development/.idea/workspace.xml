@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="9f72855e-b2bc-47a8-af7e-d5888bad8870" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/about.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.htm" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -270,14 +273,11 @@
       <workItem from="1572006521501" duration="2569000" />
       <workItem from="1572009159247" duration="216000" />
       <workItem from="1572017721388" duration="1228000" />
-      <workItem from="1572019602670" duration="57000" />
-    </task>
-    <task id="LOCAL-00215" summary="working on backend">
-      <created>1571607912427</created>
-      <option name="number" value="00215" />
-      <option name="presentableId" value="LOCAL-00215" />
-      <option name="project" value="LOCAL" />
-      <updated>1571607912427</updated>
+      <workItem from="1572019602670" duration="892000" />
+      <workItem from="1572047614856" duration="133000" />
+      <workItem from="1572047750743" duration="1000" />
+      <workItem from="1572048476555" duration="410000" />
+      <workItem from="1572086994267" duration="266000" />
     </task>
     <task id="LOCAL-00216" summary="working on backend">
       <created>1571607963072</created>
@@ -615,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572019221304</updated>
     </task>
-    <option name="localTasksCounter" value="264" />
+    <task id="LOCAL-00264" summary="clean up">
+      <created>1572019678801</created>
+      <option name="number" value="00264" />
+      <option name="presentableId" value="LOCAL-00264" />
+      <option name="project" value="LOCAL" />
+      <updated>1572019678801</updated>
+    </task>
+    <option name="localTasksCounter" value="265" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
