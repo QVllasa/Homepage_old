@@ -422,7 +422,7 @@ video {
 
 
 #name-home::before {
-  content: "Das bin ich.";
+  content: "This is me.";
   display: block;
   background: none;
   font-size: calc(0.5em + 1vw);
