@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row mb-3">
       <div class="col-md-12 mt-5">
-        <div class="freelancer-text bigger">Lass uns ein Projekt starten!</div>
+        <div class="freelancer-text bigger">Project in mind? Let's talk!</div>
         <div class="freelancer-text">
           <div class="row justify-content-center">
             <div class="col">
@@ -27,7 +27,7 @@
     </div>
     <div class="row justify-content-center pb-5">
       <div class="col-md-2 text-center m-2 px-0">
-        <button class="hire-me"><a href="#my-contact-section">STARTEN</a></button>
+        <button class="hire-me"><a href="#my-contact-section">START</a></button>
       </div>
       <div class="col-xl-2 text-center m-2 px-0">
         <form action="../files/cv/CV_QendrimVllasa_current_DE.pdf" method="get" target="_blank">

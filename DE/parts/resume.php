@@ -120,7 +120,7 @@
                 MindSphere Academy, in welcher wir andere Firmen und externe Mitarbeiter in der
                 Verwendung der offenen IoT Plattform MindSphere von Siemens schulen und befähigen
                 Maschinen mit MindSphere zu verbinden. <a class="read-more">Erfahre mehr...</a></p>
-              <span>10/2018 - 02/2020</span>
+              <span>10/2018 - HEUTE</span>
               <i class="bubble-arrow-right">
                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                   <path

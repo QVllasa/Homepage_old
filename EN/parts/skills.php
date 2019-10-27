@@ -25,8 +25,7 @@
             <h4>Python</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Treuer Allrounder in allen Bereichen dank Frameworks wie PyQt, numpy, lxml, selenium,
-              reportlab, flask, uvm.</p>
+            <p>Loyal all-rounder in all areas thanks to frameworks such as PyQt, numpy, lxml, selenium, reportlab, flask, etc.</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -35,7 +34,7 @@
             <h4>PHP | MySQL</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Für das Backend meiner Seite sowie für weitere anstehende Projekte.</p>
+            <p>For the backend of my site as well as for other upcoming projects.</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -44,7 +43,7 @@
             <h4>HTML | CSS3</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Masterthesis sowie Frontend meiner Seite und weitere anstehende Projekte.</p>
+            <p>Masterthesis as well as frontend of my site and other upcoming projects.</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -53,7 +52,7 @@
             <h4>JavaScript</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Ich stehe auf Animationen und logische Herausforderungen.</p>
+            <p>I like animations and logical challenges.</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -62,7 +61,7 @@
             <h4>C#</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Verwendet um Workflows unter Windows zu optimieren.</p>
+            <p>Used to optimize workflows under Windows.</p>
           </div>
         </div>
         <div class="col-lg-2">
@@ -71,7 +70,7 @@
             <h4>Final Cut Pro X</h4>
           </div>
           <div class="row text-center justify-content-center">
-            <p>Setzt meiner Kreativität keine Grenzen.</p>
+            <p>It doesn't limit my creativity.</p>
           </div>
         </div>
       </div>
@@ -83,24 +82,24 @@
       <div class="col-lg-12">
         <div class="col-lg-6">
           <div class="row normal-progress-bar align-items-center" id="npb1">
-            <p>Kreativität&nbsp;&&nbsp;Eigeninitiative</p>
+            <p>Creativity&nbsp;&&nbsp;Personal&nbsp;Initiative</p>
           </div>
           <div class="row normal-progress-bar align-items-center" id="npb2">
-            <p>Teamwork&nbsp;&&nbsp;Kommunikation</p>
+            <p>Teamwork&nbsp;&&nbsp;Communication</p>
           </div>
           <div class="row normal-progress-bar align-items-center" id="npb3">
-            <p>Auffassungsgabe&nbsp;&&nbsp;Verantwortungsbereitschaft</p>
+            <p>Apprehension&nbsp;&&nbsp;Responsibility</p>
           </div>
         </div>
         <div class="col-lg-6">
           <div class="row normal-progress-bar align-items-center" id="npb4">
-            <p>Deutsch&nbsp;&&nbsp;Albanisch</p>
+            <p>German&nbsp;&&nbsp;Albanian</p>
           </div>
           <div class="row normal-progress-bar align-items-center" id="npb5">
-            <p>Englisch</p>
+            <p>English</p>
           </div>
           <div class="row normal-progress-bar align-items-center" id="npb6">
-            <p>Spanisch</p>
+            <p>Spanish</p>
           </div>
         </div>
       </div>

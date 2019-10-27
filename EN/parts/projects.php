@@ -268,33 +268,26 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>This article will be continuously updated as new information is added or as new information
-                        becomes available.
-                        Status changes.
+                    <p>This article will be continuously updated as new information is added or the status changes.
                         <br>
                         <br>
-                        01.09.2019 Idea: With Dronegraphy I am pursuing a long-awaited goal, which my
-                        Passion of programming and drones combined with each other. It should be a website
-                        on which I will make my drone recordings, of which I still have plenty in stock.
-                        be made available to the public. In our fast-paced
-                        information age, videos belong to a medium that is becoming more and more powerful, by which
-                        information more authentically. Be it in the teaching of marketing or otherwise
-                        another area. Exactly here I connect with Dronegraphy and create a platform,
-                        who's beginning to offer only my drone recordings for sale. In another
-                        step, there is also the option for everyone to register and make their own recordings on the
-                        Dronegraphy for sale. I am going to be looking at a modern and very user-friendly
-                        design, so that the site stands out in terms of quality and performance.
-                        In the long run, I will also add a kind of Marketplace where photographers can
-                        drones can offer their services. The special thing about Dronegraphy is the
-                        specialization and the intensive filter function. It's all about drones. It
-                        articles and newsletters will appear, which point to new legislations and provide information
-                        about
-                        special offers. I have the planned start date for the time being on spring 2020.
-                        in the first place. Whether I am using a ready-made CMS for this project or the backend
-                        completely self-programming is still in the stars.
-                        But you can definitely stay curious. However, it is important to me that this project is
-                        is within a timeframe that allows me to work on it in an insignificant way.
-                        Once started, it's just a matter of simple maintenance and support.
+                        01.09.2019 Idea: With Dronegraphy I'm pursuing a long-awaited goal that combines my passion for
+                        programming and drones. I want to create a website on which my drone recordings, which I still
+                        have a lot of in stock, will be made available to the public. In our fast-paced information age,
+                        videos are an increasingly powerful medium for delivering information more authentically. Be it
+                        in teaching in marketing or any other field. Exactly here I tie up with Dronegraphy and create a
+                        platform, which initially begins to offer only my drone recordings for sale. In a further step I
+                        create the option for everyone to register and sell their own recordings on Dronegraphy. I will
+                        attach great importance to a modern and very user-friendly design, so that the site stands out
+                        in terms of quality and performance. I'm also adding a long-term Art Marketplace that allows
+                        photographers with drones to offer their services. The special thing about Dronegraphy is the
+                        specialization and the intensive filter function. It's all about drones. Articles and
+                        newsletters will appear, which point out new legislations and inform about special offers. For
+                        the time being, I have set the planned start date for spring 2020. Whether I use a prefabricated
+                        CMS for this project or program the backend completely by myself is still in the stars. But you
+                        can definitely stay excited. However, it is important to me that this project is within a
+                        timeframe that allows me to work on it in a marginal way. Once started, it's just a matter of
+                        simple maintenance and support.
                         <br>
                         <br>
                         Next step: Logo design
@@ -342,26 +335,16 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>In my studies I have specialized in the field of industry 4.0 and currently
-                        work
-                        at Siemens PLM Software in the MindSphere environment. That's why it's so important to me to
-                        have my
-                        to share experience and knowledge in this area and use cases as well as the further
-                        development with other interested parties. For this purpose, however, I will present a modern
-                        IoT
-                        forum, with which engineers can exchange ideas and experience with each other, and to
-                        projects
-                        and discuss current topics. What I miss in current forums are
-                        Instructions for
-                        IoT projects that can be easily replicated. A domain for this does not yet exist
-                        solid,
-                        because I won't start this project until after Dronegraphy. Also an exact range of functions
-                        is
-                        is not yet defined. What is certain, however, is that the main focus is on the design and the
-                        range
-                        and I will be with the first thread and instructions with my project 'DJI
-                        goes MindSphere' will begin.
-
+                    <p>During my studies I specialized in the field of industry 4.0 and currently I work at Siemens PLM
+                        Software in the MindSphere environment. Therefore it is close to my heart to share my experience
+                        and knowledge in this area and to discuss use cases and further development with other
+                        interested parties. For this purpose I will develop a modern IoT forum where engineers can
+                        exchange ideas and discuss their projects and current topics. What I miss in current forums are
+                        instructions for IoT projects that can be easily rebuilt. A domain for this is not fixed yet,
+                        because I will start this project after Dronegraphy. Also an exact function range is not yet
+                        defined. What is certain, however, is that great importance is attached above all to the design
+                        and the range and I will begin with the first thread and/or guidance with my project 'DJI goes
+                        MindSphere'.
                     </p>
                 </div>
             </div>
@@ -403,37 +386,20 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>Soon I am now almost over a year in the MindSphere Academy, where we have other companies
-                        and
-                        Enable people to use MindSphere to its full extent. I too have, except for the
-                        Edge
-                        Analytics' Training now attends all trainings and wants to actively use the knowledge I have
-                        gained in the
-                        IoT
-                        environment with my first project in MindSphere. To do this, use how you can almost guess
-                        could,
-                        my drone, just so packed with sensors. With it I want also at the same time
-                        show,
-                        that you can now use almost every sensor installed elsewhere with MindSphere in some way.
-                        can link. In my opinion my Mavic Pro from DJI is best suited for this
-                        project, because as an employee I already have free access to a MindSphere Tenant
-                        I have. At the same time I also use this own project to make myself lighter than 'IoT
-                        application
-                        Developer' and 'Cloud Solution Architect' and try to certify my time in
-                        that
-                        Academy as optimally as possible after the Master's and not just as a transition phase.
-                        For
-                        the project I will use the MindConnect IoT extension as well as MQTT. What I'm going to do now
-                        by
-                        of my site, is an iOS app, with which all the data from the
-                        DJI
-                        GO App and can be read via MQTT and the integrated IoT Extension.
-                        app
-                        from MindSphere to the cloud. What happens to the data afterwards, I will do
-                        probable
-                        only in the course of the development phase. In any case, you can be curious about
-                        stay!
-
+                    <p>Soon I will be in the MindSphere Academy for almost a year, where we will enable other companies
+                        and individuals to use MindSphere to its full potential. I also attended all trainings except
+                        the 'Edge Analytics' training and want to actively apply my knowledge in the IoT environment
+                        with my first project in MindSphere. As you could almost guess, use my drone, which is packed
+                        with sensors. At the same time I want to show that you can connect almost any sensor with
+                        MindSphere. In my opinion my Mavic Pro from DJI is very suitable for this project, as I already
+                        have free access to a MindSphere Tenant as an employee. At the same time I use this own project
+                        to get certified as 'IoT Application Developer' and 'Cloud Solution Architect' easier and try to
+                        use my time in the Academy after the Master as best as possible and not only as a transition
+                        phase. For the project I will use the MindConnect IoT Extension and MQTT. What I still have to
+                        develop is an iOS App, with which all data can be read out of the DJI GO App and loaded into the
+                        cloud via MQTT and the integrated IoT Extension App from MindSphere. What will happen with the
+                        data afterwards, I will probably define in more detail in the course of the development phase.
+                        You can stay curious in any case!
                     </p>
                 </div>
             </div>
@@ -492,14 +458,14 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Heat & Power</h1>
-                    <h3>Development of a complete website for the company 'Heat & Power' including marketing and business advice</h3>
+                    <h3>Development of a complete website for the company 'Heat & Power' including marketing and
+                        business advice</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>Soon the results of my work with the company 'Heat & Power' will be published here.
-                        the innovative and environmentally friendly heating construction. Stay
-                        Excited!</p>
+                    <p>The results of my work with the company 'Heat & Power', which specialises in innovative and
+                        environmentally friendly heating systems, will be published here shortly. Stay tuned!</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -560,35 +526,31 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
-                    <h1>Meine Homepage</h1>
+                    <h1>My Homepage</h1>
                     <h3>Get a comprehensive overview of me!</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 mt-2">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>Hi,
-                        and thank you for visiting my homepage. :)
+                    <p>Hi, and thanks for visiting my homepage. :)
                         <br>
                         <br>
-                        In today's world, online marketing plays an increasingly important role and I spread
-                        on all channels. Meanwhile I wonder when a peak has been reached here or when
-                        if anyone can be reached at all?! Nevertheless, this is an unstoppable train,
-                        which, however, interests me less. I am particularly interested in the following technologies
-                        behind it. Therefore I also make now with a completely self-developed homepage a
-                        another big step into web development and marketed something with it, namely Mich. With
-                        I mean my skills and competences, which I have now developed in my career.
-                        and does not want to deprive anyone, because in today's world we are showing the way
-                        quality makes all the difference. With my own homepage, which is based on my own
-                        server is running in Falkenstein, I would like to focus on, among other things, also the quality and the
-                        to call my attention to diligence. For the website I have the Bootstrap 4 Framework
-                        CSS3, JavaScript and PHP. Unfortunately I got the idea quite late
-                        SCSS, which would have saved me a lot of time. Still, I'm happy,
-                        that maybe you'll browse my homepage even further and we'll, if I can get you
-                        I've convinced myself will soon be working together successfully.
+                        In today's world online marketing plays an increasingly important role and I am spreading
+                        rapidly on all channels. I wonder now when a peak has been reached here or if one can be reached
+                        at all! Nevertheless, this is an unstoppable train, which I am less interested in. I am
+                        particularly interested in the technologies behind it. That's why I'm now taking another big
+                        step into web development with a completely self-developed homepage and marketing something with
+                        it, namely Mich. By 'me' I mean my skills and competences, which I have now accumulated in my
+                        career and do not want to withhold from anyone, because in today's world quality makes the
+                        difference. With my own homepage, which runs on my own server in Falkenstein, I would like to
+                        draw your attention to the quality and diligence of mine. For the website I used the Bootstrap 4
+                        Framework, CSS3, JavaScript and PHP. Unfortunately I had the idea to use SCSS quite late, which
+                        would have saved me a lot of time. Nevertheless, I am glad that you are now perhaps still
+                        further on my homepage rumbs and we, if I have convinced you, soon successfully cooperate.
                         <br>
                         <br>
-                        This project will probably be classified under 'Current' for a longer time, because I always want to keep the site up to date.
-                        and will soon switch to Angular as well.</p>
+                        This project will probably be classified as 'Current' for a longer time, because I am always
+                        expanding and optimizing the site and will soon switch to Angular.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -628,51 +590,34 @@
             </div>
             <div class="row justify-content-center text-justify pb-5 mt-2">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>The aim of the entire internship was to give students a better understanding of the technology of Virtual Reality.
-                        and show them their possibilities. The lecture Virtual Engineering was
-                        already
-                        unbelievably interesting, but without being able to apply the knowledge, such knowledge
-                        in the long run quickly into the background. I therefore wanted to combine theory with practice
-                        add
-                        and so I was fascinated by the technology of the virtual reality in the context of a
-                        Virtual Reality or Virtual Engineering Internship applied to the project 'VR Factorio
-                        and
-                        successfully worked as a Core Developer for several months in the field of VR
-                        hollow
-                        and apply them in a targeted manner. I was also interested in my programming knowledge
-                        on
-                        to advance my specialization on the industry 4.0 a stable foundation.
-                        too
-                        ...and I'll give you a little more. The game Factorio deals with the topic production structure and the defense against
-                        Attackers on a foreign planet. With a player that you can control with the keyboard
-                        resources had to be collected and used to build production facilities, which could be used to
-                        finally formed entire production lines including transport routes.
-                        Due to
-                        of the extensive topic, our entire team consisted of eight people, four of whom were responsible for the
-                        Modeling of the assets and four others, including myself, for the communication between
-                        that
-                        game and the VR interface 'PolyVR' developed by the institute.
-                        Goal
-                        of the entire project was to run the game 'Factorio' in the backend and to
-                        control
-                        or the playability of the game in the frontend under 'PolyVR'. To my
-                        The main tasks included the programming of the control system, the playable level and the
-                        all camera perspectives and the assignment of keystrokes. In addition, I took care of
-                        that
-                        I took care of the project video. From my point of view a very successful project, which is exactly what I wanted to do.
-                        I think he's got a good taste for it. We were allowed to carry out all test runs in a so-called CAVE (CAVE
-                        Automated Virtual Environment), in which you can find yourself virtually in the middle of the virtual
-                        scene
-                        but collaboration with other colleagues takes place simultaneously without any problems.
-                        as several people could be in one CAVE. I particularly enjoyed
-                        me
-                        the lively discussions in which one could actively express one's suggestions and suggestions,
-                        but also criticized the way other team members worked at the same time.
-                        All
-                        in all, however, it was a very exciting and experiential time, in which I once again
-                        I was able to refine my skills. In the end, we were able to create a project that was a
-                        a Virtual Reality game, which is not only available in a CAVE
-                        but could also be played on an Oculus Rift, for example.</p>
+                    <p>The aim of the entire internship was to introduce students to the technology of Virtual Reality
+                        and to show them its possibilities. The lecture Virtual Engineering was already incredibly
+                        interesting, but without being able to apply the knowledge, such knowledge quickly fades into
+                        the background in the long run. Therefore I wanted to complement the theory with practice and so
+                        I was fascinated by the technology of virtual reality in the context of a Virtual Reality or
+                        Virtual Engineering internship on the project 'VR Factorio' and applied successfully as a core
+                        developer for several months to deepen my knowledge in the field of VR and apply this
+                        specifically. I was also interested in advancing my programming skills in order to give my
+                        specialization in industry 4.0 a solid foundation. The game Factorio deals with the topic
+                        production structure and the defense of attackers on a foreign planet. With a player that you
+                        could control with the keyboard, you had to collect resources and build production facilities
+                        from them, which eventually formed entire production lines including transport routes. Due to
+                        the extensive subject matter, our entire team consisted of eight people, four of whom were
+                        responsible for modelling the assets and four others, including myself, for communication
+                        between the game and the VR interface 'PolyVR' specially developed at the institute. The goal of
+                        the whole project was to run the game 'Factorio' in the backend and to manage the control and
+                        playability of the game in the frontend under 'PolyVR'. My main tasks were the programming of
+                        the controls, the playable level as well as all camera perspectives and the assignment of the
+                        keyboard inputs. I also took care of the project video. From my point of view a very successful
+                        project, which exactly met my taste. We were allowed to carry out all test runs in a so-called
+                        CAVE (CAVE Automated Virtual Environment), in which you were virtually in the middle of the
+                        virtual scene, but collaboration with other colleagues could take place simultaneously without
+                        any problems, since several people could be in a CAVE. I particularly enjoyed the lively
+                        discussions, in which one could actively express one's suggestions and suggestions, but at the
+                        same time criticize the working methods of other team members. All in all, however, it was a
+                        very exciting and experiential time in which I was able to refine my skills once again. In the
+                        end we created a virtual reality game out of a commercial game, which would not only be playable
+                        in a CAVE but also on an Oculus Rift.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -778,59 +723,35 @@
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>With the so called Virtual Twin I have integrated myself in the context of my master thesis in a quite
-                        young
-                        research area that still has a lot of potential. In my master thesis with the
-                        Topic 'Automated virtualization of plants by combining ECAD, MCAD and
-                        Programming' I have developed a new software for the Institute for Information Management in Engineering.
-                        completely new field of research, whereby I have to add that the original
-                        title from the tender was different, because it is common for the tasks to be performed in
-                        such
-                        rapidly expand dynamic projects. For this reason, the official
-                        title
-                        in my graduation documents slightly different from the title under which my work was submitted and
-                        was published. The aim of the work was to develop an existing product development process for
-                        virtualize and thus move from digital engineering to virtual engineering.
-                        As
-                        The exit was served by an extruder of the company Gabler Engineering GmbH. I have
-                        first all mechanical and electrical CAD data as well as the entire programming
-                        and then the VR interface 'PolyVR' is used to store this data in a
-                        virtual
-                        Reality environment with each other. The special thing about this topic was that
-                        that
-                        Machine in its entirety also works under the Virtual Reality environment
-                        made
-                        was. This means that the model of the extruder can now be used in Virtual Reality, quasi
-                        and could switch on and operate, since all electronics, mechanics and the programming
-                        were intertwined. The usual digital engineering process requires that the
-                        machine
-                        must first be built in order to initiate validation steps, but with my
-                        developed
-                        methodology, this may no longer be necessary in the future. The advantage is also due to my
-                        work
-                        in that existing construction and development processes are not fundamentally altered
-                        which will save time and money. In addition, the sensor data could be read out in order to
-                        subject
-                        IoT to cover. My work also served as a use case for the technology of the
-                        virtual
-                        Reality. For example, Gabler could use my program to remotely
-                        virtual mapping in a virtual environment to a virtual environment.
-                        hers
-                        own company premises. For the development of my methodology I have used the
-                        programming language Python is used to process the data in the VR interface and to
-                        C#,
-                        to develop an export interface from TIA Portal and EPLAN. JavaScript and HTML
-                        me
-                        for the Graphical User Interface within the virtual scene. All in all
-                        has
-                        the project is a lot of fun for me, because not only have I learned a lot, but I've also
-                        also gained deep insights into the product development process. What's more, I have
-                        with
-                        a topic perfectly tailored to my work, that has a high degree of
-                        potential for problem-solving competence. I am proud of the result and I am the
-                        solid
-                        Conviction. A copy of the Master's thesis can be obtained on request from the Institute for
-                        Information Management in Engineering at KIT.</p>
+                    <p>With the so-called Virtual Twin, I have moved into a rather young field of research within the
+                        scope of my master thesis, which still has a lot of potential. In my master thesis with the
+                        topic 'Automated virtualization of systems by combining ECAD, MCAD and programming' I opened up
+                        a completely new field of research for the Institute for Information Management in Engineering.
+                        I must add that the original title from the call for proposals was different, because it is
+                        common for tasks to expand rapidly in such dynamic projects. For this reason, the official title
+                        in my final documents differs slightly from the title under which my work was submitted and
+                        published. The goal was to virtualize an existing product development process and move from
+                        digital engineering to virtual engineering. The starting point was an extruder of the company
+                        Gabler Engineering GmbH. I first analyzed all mechanical and electrical CAD data as well as the
+                        entire programming and then used the VR interface 'PolyVR' to link these data in a virtual
+                        reality environment. The special thing about this topic was that the machine in its entirety was
+                        also made functional under the virtual reality environment. This means that the model of the
+                        extruder could be switched on and operated in virtual reality, since all electronics, mechanics
+                        and programming were interlocked. The usual digital engineering process requires the machine to
+                        be built first in order to initiate validation steps, but with my developed methodology this may
+                        not be necessary in the future. Another advantage of my work is that existing design and
+                        development processes do not have to be fundamentally changed, which saves time and money.
+                        Furthermore, the sensor data could be read out to cover the topic of IoT. My work also served as
+                        a use case for virtual reality technology. For example, Gabler could remotely monitor the
+                        machine using my program, as they have a realistic virtual representation in a virtual
+                        environment on their own premises. For the development of my methodology I used the programming
+                        language Python to process the data in the VR interface and C# to develop an export interface
+                        from TIA Portal and EPLAN. I used JavaScript and HTML for the Graphical User Interface within
+                        the virtual scene. All in all, the project was great fun for me, as I not only learned a lot,
+                        but also gained deep insights into the product development process. What's more, my work dealt
+                        with a topic that was perfectly tailored to my needs and required a high potential of
+                        problem-solving competence. I am proud of the result and firmly convinced. A copy of the master
+                        thesis can be requested from the Institute for Information Management in Engineering at KIT.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -910,30 +831,19 @@
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>With the 'Training Tool', on which I have worked a little longer, is based on Python and
-                        QT
-                        a more comprehensive tool was developed, which allows several work processes within the MindSphere
-                        academy
-                        combined with each other and thus also automated. This saved me a lot of time.
-                        by
-                        about 80%. The tool, which can also filter Excel lists, automatically records all
-                        Information about participants, creates the corresponding material and certificate
-                        and
-                        opens in the last step a personalized e-mail, which is sent together with the files to the
-                        attendee
-                        after training. In addition, several persons can be sent at the same time
-                        work.
-                        As with all the other tools I have developed before, I am also interested in the
-                        full responsibility, so that at the beginning only the problem was briefly
-                        critiqued
-                        and a little later I presented a ready-made solution for it. The
-                        Training
-                        Tool' is also based on open source libraries and is therefore used by me under Github
-                        published. As in my other tools, I also prefer to use an
-                        object-oriented development approach, which makes it easy to add further functionalities to the tool.
-                        can be extended and, if necessary, adapted. For further information
-                        how
-                        Architecture etc. a discussion thread can be opened in Github. </p>
+                    <p>With the 'Training Tool', on which I worked a little longer, a more comprehensive tool based on
+                        Python and QT has been created, which combines several work processes within the MindSphere
+                        Academy and thus also automates them. This enabled me to save about 80% of my time. The tool,
+                        which can also filter Excel lists, automatically collects all information about participants,
+                        creates the corresponding material and certificate and finally opens a personalized e-mail,
+                        which is sent to the participants after the training, including the files. In addition, several
+                        people can work with it at the same time. As with all other tools that I developed before, I was
+                        given full responsibility for this, so that at the beginning only the problem was briefly
+                        discussed and a little later I presented a ready-made solution. The 'Training Tool' is also
+                        based on open source libraries and is therefore published by me under Github. As in my other
+                        tools, I prefer an object-oriented development approach, which allows the tool to be easily
+                        extended with additional functionalities and adapted if necessary. For further information like
+                        architecture etc. a discussion thread can be opened in Github.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -973,20 +883,12 @@
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>The 'Material Generator Tool' was one of the first smaller programming tasks, the
-                        me
-                        at MindSphere Academy. The aim of this small and simple, but nevertheless
-                        effective
-                        Tools, it was an individual watermark on the training materials after the training sessions.
-                        too
-                        to put the gun down. Previously, this activity had to be carried out manually, which means that from the use of the
-                        Tools, an enormous time saving could be determined. The tool is based on C# and
-                        was in
-                        the Visual Studio development environment with integration of open source libraries
-                        developed.
-                        Today the tool is no longer in use, because it was written by another
-                        program
-                        was replaced by the 'Training Tool'.</p>
+                    <p>The 'Material Generator Tool' was one of the first smaller programming tasks I had at MindSphere
+                        Academy. The goal of this small and simple but effective tool was to put an individual watermark
+                        on the training material after the training. Previously this had to be done manually, which
+                        saved a lot of time from the time the tool was used. The tool is based on C# and was developed
+                        in the Visual Studio development environment using open source libraries. Today the tool is no
+                        longer used because it was replaced by another program written by me, the 'Training Tool'.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -1026,12 +928,11 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>As well as the 'Material Generator Tool' I have within shortest time also the
-                        Certificate
-                        Generator Tool', with which a large number of individual certificates can be generated for the
-                        Participants can be generated after the courses. This tool is also based on C# and
-                        used Open Source libraries. Today this tool is also no longer used, since it
-                        has also been replaced by the larger and more comprehensive 'Training Tool'.</p>
+                    <p>Just like the 'Material Generator Tool', I developed the 'Certificate Generator Tool' within a
+                        very short time, which can be used to generate a large number of individual certificates for the
+                        participants after the training. This tool is also based on C# and Open Source libraries. Today
+                        this tool is also no longer used, as it has been replaced by the larger and more comprehensive
+                        'Training Tool'.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -1073,21 +974,13 @@
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
                     <p>The 'Password Manager' has the goal to change passwords for MindSphere accounts. The only thing
-                        what
-                        that can be saved in the Password Manager are the account names that I naturally use.
-                        not
-                        I'm going to publish in Github. The program is based on Python and uses
-                        PyQT and Selenium and automates the entire password change process.
-                        by
-                        over 100 accounts and then generates a corresponding Word file in a
-                        assign
-                        Format in which errors can also be extracted. Also here I insisted on a
-                        User-friendly GUI, so that the layman doesn't have to spend a lot of time in the scripts.
-                        incorporate
-                        must. The 'Password Manager' is still regularly used today and is a fixed component of the
-                        that
-                        password management, which is also part of my work at the MDSP Academy
-                        ...has.  </p>
+                        you can store in the Password Manager are the account names, which of course I will not publish
+                        in Github. The program is based on Python using PyQT and Selenium among others and automates the
+                        whole process for changing passwords for more than 100 accounts and then generates a Word file
+                        in a certain format where errors can be found. Also here I insisted on a user friendly GUI, so
+                        that a layman doesn't have to learn the scripts forever. The 'Password Manager' is still used
+                        regularly today and is an integral part of password management, which is also part of my work at
+                        the MDSP Academy.</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -1126,21 +1019,15 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>Only recently, I once again had the desire for a creative phase to, as I said.
-                        thus
-                        to replenish my reserves. This resulted in two films with different
-                        Recordings from Mexico, Kosovo and Crete. Since in the meantime now also my own homepage
-                        went online, I uploaded it to Vimeo for the first time, because Vimeo was the
-                        professional content is known. I will therefore continue to use all of my
-                        creations
-                        on Vimeo. One of the movies (the one about Mexico) is already available about this article about
-                        see.
-                        Although I have published further films, but these were by far the most
-                        shorter
-                        and in its scope also less costly. You can see them among other things on my
-                        Instagram account or under my passions.
+                    <p>Only recently, I once again had the desire for a creative phase to, as I like to say, fill up my
+                        reserves. This resulted in two films with different shots from Mexico, Kosovo and Crete. Since
+                        my own homepage has gone online in the meantime, I uploaded it to Vimeo for the first time,
+                        because Vimeo is known for its professional content. So I will continue to upload all my
+                        creations to Vimeo in the future. One of the movies (about Mexico) can already be seen above
+                        this article. I've published more movies, but they were much shorter and less extensive. You can
+                        watch them on my Instagram account or under my passions.
                         <br>
-                        I hope you enjoy them and that you will be captivated by spectacular voyages of discovery!</p>
+                        I hope you like them and that you will be captivated by spectacular voyages of discovery!</p>
                 </div>
             </div>
             <div class="row justify-content-end py-3 pr-5">
@@ -1176,28 +1063,18 @@
             </div>
             <div class="row justify-content-center text-justify pb-5">
                 <div class="col-10 col-sm-10 col-md-8  blocktext">
-                    <p>For more than 4 years now, I have gained a deep expertise in Apple's operating systems
-                        is set up.
-                        Today, this is sufficient to the extent that I still receive orders from time to time via various channels.
-                        where my customers have problems making upgrades, for example,
-                        because
-                        her Mac is too out of date. I support you wherever I can, be it remotely or before
-                        Location. I mainly make changes to the so-called boot loaders and manipulate the
-                        DSDT
-                        and SSDT files (BIOS files), which are simply the functionalities of a computer.
-                        and be read by the operating system. In my last order from August 2019
-                        have
-                        I made two Macs from 2009 and 2011 fully functional again, so that they are
-                        too
-                        continue to be able to install the latest macOS operating system. I had to
-                        also carry out some hardware repairs in order to ensure the compatibility of the
-                        to ensure the safety of the To date, I have successfully helped around 40 customers in this way
-                        and
-                        I'm earning some extra money while I'm studying. Nowadays I only take orders from
-                        old
-                        regular customers, as I simply don't have the time to scale this line of business.
-                        and
-                        I'd rather get absorbed in other areas as well.
+                    <p>For over 4 years now I have built up a deep expertise in Apple's operating systems. Today this is
+                        enough for me to be able to take on orders from time to time through various channels, where my
+                        customers have problems upgrading because their Mac is too outdated. I support them wherever I
+                        can, remotely or on-site. I mainly make changes to the so-called bootloaders and manipulate DSDT
+                        and SSDT files (BIOS files), which contain the functionalities of a computer and are read by the
+                        operating system. In my last order from August 2019 I made two Macs from 2009 and 2011 fully
+                        functional again, so that they can continue to install the latest macOS operating system in the
+                        future. I also had to do some hardware repairs to ensure compatibility. To date, I have been
+                        able to successfully help around 40 customers in this way and earn some money in addition to my
+                        studies. Nowadays I only accept orders from old regular customers, because I simply don't have
+                        the time for scaling this branch of business and I prefer to deepen my knowledge in other areas
+                        as well.
                     </p>
                 </div>
             </div>

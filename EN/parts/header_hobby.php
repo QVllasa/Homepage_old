@@ -18,7 +18,7 @@
 
         </div>
         <div class="row justify-content-center mt-4 section-title-white">
-          <h1 style="color:white">MEINE<span class="bg-me ml-2 p-2">LEIDENSCHAFTEN</span>
+          <h1 style="color:white">MY<span class="bg-me ml-2 p-2">PASSIONS</span>
           </h1>
         </div>
       </div>

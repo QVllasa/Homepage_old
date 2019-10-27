@@ -15,7 +15,7 @@
     </div>
     <div class="row justify-content-center mt-4 section-title-white"
     >
-      <h1 style="color: white">MEINE <span class="bg-me">STATIONEN</span></h1>
+      <h1 style="color: white">MY <span class="bg-me">STATIONS</span></h1>
     </div>
   </div>
   <!-- feedback -->
@@ -31,34 +31,32 @@
       <div class="carousel-inner feedback comments">
         <div class="carousel-item active">
           <i class="fas fa-quote-right"></i>
-          <h4>Er arbeitete stets sehr effizient, zielstrebig und sorgfältig und bewies ein herausragendes
-            Organisationsgeschick.</h4>
-          <h6>Claudia Kalde - Standortplanung- und Entwicklung - MAUS Seminare</h6>
+          <h4>He always worked very efficiently, purposefully and carefully and proved an outstanding
+              Organisational skills.</h4>
+          <h6>Claudia Kalde - Location planning and development - MAUS Seminare</h6>
         </div>
         <div class="carousel-item">
           <i class="fas fa-quote-right"></i>
-          <h4>Sehr schnell, kompetent und freundlich und sogar 3 Monate Support; vielen Dank!</h4>
-          <h6>Rainer Z. - Kunde - Apple macOS Support</h6>
+          <h4>Very fast, competent and friendly and even 3 months support; thank you very much!</h4>
+          <h6>Rainer Z. - Customer - Apple macOS Support</h6>
         </div>
         <div class="carousel-item">
           <i class="fas fa-quote-right"></i>
-          <h4>Er zeigte stets ein sehr hohes Maß an Engagement und erledigte seine Aufgaben stets zu
-            unserer vollsten
-            Zufriedenheit. Wir haben Herrn Vllasa als sehr kreativen und effizienten Mitarbeiter
-            kennengelernt.</h4>
-          <h6>Wolfgang Himmel - Geschäftsführer - translake GmbH</h6>
+          <h4>He always showed a very high level of commitment and always did his job well.
+              of our fullest
+              Satisfaction. We have Mr. Vllasa as a very creative and efficient employee
+              I met him.</h4>
+          <h6>Wolfgang Himmel - CEO - translake GmbH</h6>
         </div>
         <div class="carousel-item">
           <i class="fas fa-quote-right"></i>
-          <h4>Als Semi-Profi kann ich sagen: Sie können keinen Besseren finden! Absolut top!!!</h4>
-          <h6>Stefan F. - Kunde - Apple macOS Support</h6>
+          <h4>As a semi-professional I can say: You can't find a better one! Absolutely top!!</h4>
+          <h6>Stefan F. - Customer - Apple macOS Support</h6>
         </div>
         <div class="carousel-item">
           <i class="fas fa-quote-right"></i>
-          <h4>Hat Ihnen eigentlich schon einmal jemand gesagt dass Sie ein ausgesprochen gutes
-            Präsentationstalent
-            besitzen?</h4>
-          <h6>Prof. Dr. Dr.-Ing. Dr. h. c. Jivka Ovtcharova - Institutsleitung - IMI KIT</h6>
+          <h4>Has anyone ever told you that you have a very good presentation talent?</h4>
+          <h6>Prof. Dr. Dr.-Ing. Dr. h. c. Jivka Ovtcharova - Institute Management - IMI KIT</h6>
         </div>
       </div>
       <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button">

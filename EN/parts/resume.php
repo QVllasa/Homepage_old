@@ -30,12 +30,11 @@
                         <div>
                             <h4>Karlsruhe Institute of Technology</h4>
                             <h5>Masters in Economics Engineering</h5>
-                            <p>The Karlsruhe Institute of Technology is known for its close cooperation with
-                                industry and its research drive for innovative technologies. I too have
-                                and I am therefore particularly attracted to a concept that is important nowadays,
-                                Product Lifecycle Management as well as Industry 4.0, which is the most important
-                                All information along an entire product lifecycle is seamlessly integrated
-                                integrated. <a class="read-more">Learn more...</a></p>
+                            <p>The Karlsruhe Institute of Technology is known for its close cooperation with industry
+                                and its research drive for innovative technologies. I, too, have benefited from this and
+                                have specialized in a concept that is important today, Product Lifecycle Management and
+                                Industry 4.0, which seamlessly integrates all information along the entire product
+                                lifecycle. <a class="read-more">Learn more...</a></p>
                             <span>04/2016 - 03/2019</span>
                             <i class="bubble-arrow-left">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -57,12 +56,11 @@
                         <div>
                             <h4>University of Constance</h4>
                             <h5>Bachelor in Economics</h5>
-                            <p>During my studies of economics at the University of Konstanz
-                                I concentrated on psychoeconomics, since I was already aware at that time of what a
-                                important role of any form of data and market behavior in today's time
-                                will play. So one of the most important components was the statistics and the
-                                Econometrics, with which I am able to analyze large amounts of data and
-                                to draw conclusions. <a class="read-more">Learn more...</a></p>
+                            <p>During my studies of economics at the University of Konstanz, I focused on
+                                psychoeconomics, because even then I became aware of the important role that every form
+                                of data and market behavior will play in today's world. One of the most important
+                                components was statistics and econometrics, with which I am able to analyse large
+                                amounts of data and draw conclusions. <a class="read-more">Learn more...</a></p>
                             <span>10/2011 - 04/2015</span>
                             <i class="bubble-arrow-left">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -83,14 +81,13 @@
                     <li class="section-left-side left on-animate-left" id="left3" onclick="openNavLeft3()">
                         <div>
                             <h4>Zeppelin-Gewerbeschule Constance</h4>
-                            <h5>Technical College with specialization design and media technology</h5>
-                            <p>At the technical college school of the ZGK I have a solid knowledge in the areas of
-                                product and media design, through which I am always in a position to
-                                design, functionality and user-friendliness. Building on this
-                                high qualitative requirements in my working method, in order to meet both the
-                                requirements of the
-                                functional design as well as the user perspective to an optimum extent.
-                                will be. <a class="read-more">Learn more...</a></p>
+                            <h5>Technical high school with specialization design and media technology</h5>
+                            <p>At the technical high school of the ZGK I gained a solid knowledge in the fields of
+                                product and media design, through which I am always able to combine design,
+                                functionality and user friendliness. Building on this, I have developed high quality
+                                requirements in my working method in order to do justice to both the functional design
+                                and the user perspective to an optimum extent. <a class="read-more">Learn more...</a>
+                            </p>
                             <span>09/2008 - 07/2011</span>
                             <i class="bubble-arrow-left">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -117,12 +114,11 @@
                         <div>
                             <h4>Siemens PLM Software</h4>
                             <h5>Intern in the MindSphere Academy</h5>
-                            <p>In the Digital Industries Division I am currently a member of the global team of the
-                                MindSphere Academy, in which we are able to train other companies and external employees
-                                in the
-                                Training and enabling the use of the open IoT platform MindSphere from Siemens
-                                to connect machines to MindSphere. <a class="read-more">Learn more...</a></p>
-                            <span>10/2018 - 02/2020</span>
+                            <p>In the Digital Industries Division I am currently in the international and global team of
+                                MindSphere Academy, where we train other companies and external employees in the use of
+                                the open IoT platform MindSphere from Siemens and enable them to connect machines to
+                                MindSphere, develop apps and analyze data. <a class="read-more">Learn more...</a></p>
+                            <span>10/2018 - TODAY</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -143,12 +139,11 @@
                         <div>
                             <h4>Institut für Informationsmanagement im Ingenieurwesen</h4>
                             <h5>Core developer in a VR project</h5>
-                            <p>As part of the Core Developer Team, I was involved in the VR Factorio project within the
-                                framework of a
-                                Virtual Engineering Internship of the Institute for Information Management at the
-                                engineering. The goal was the computer game 'Factorio' in the
-                                Virtual Reality Environment 'PolyVR' in real time and playable to
-                                program.<a class="read-more">Learn more...</a></p>
+                            <p>As part of the Core Developer Team, I worked on the VR Factorio project as part of a
+                                virtual engineering internship at the Institute for Information Management in
+                                Engineering. The goal was to display the computer game 'Factorio' in the virtual reality
+                                environment 'PolyVR' in real-time and to program it playable.<a class="read-more">Learn
+                                    more...</a></p>
                             <span>04/2018 - 08/2018</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -170,12 +165,11 @@
                         <div>
                             <h4>Siemens AG</h4>
                             <h5>Intern in Power and Service Division</h5>
-                            <p>In the 'Power Generation and Service' division, which among other things produces gas
-                                turbines for
-                                power plants, I was responsible in the commercial sector for the
-                                Analysis of cost trends and maintenance of service contracts using SAP
-                                responsible. At the same time, this was my first step into a globally active and
-                                a well-known company.<a class="read-more">Learn more...</a></p>
+                            <p>In the 'Power Generation and Service' division, which supplies gas turbines for power
+                                plants, among other things, I was responsible in the commercial area for the analysis of
+                                cost trends and the maintenance of service contracts using SAP. At the same time, this
+                                was my first step into a globally active and well-known company.<a class="read-more">Learn
+                                    more...</a></p>
                             <span>09/2017 - 09/2018</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -198,10 +192,10 @@
                         <div>
                             <h4>M-A-U-S Seminare gGmbH</h4>
                             <h5>Intern location planning and development</h5>
-                            <p>Together with other students I helped MAUS gGmbH to a rapid expansion.
-                                in the entire German area within my five-month working time. There were
-                                at the beginning of the project, new training locations for the
-                                First aid courses should be developed. <a class="read-more">Learn more...</a></p>
+                            <p>Together with other students I helped MAUS gGmbH to a rapid expansion in the entire
+                                German area within my five-month working time. At the beginning, there were places in
+                                which new training locations for first aid courses were to be established. <a
+                                        class="read-more">Learn more...</a></p>
                             <span>06/2016 - 11/2016</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -223,11 +217,10 @@
                         <div>
                             <h4>translake GmbH</h4>
                             <h5>Intern in projectmanagement</h5>
-                            <p>At translake GmbH I spent six months at work as an intern and worked there as a
-                                a deep understanding of project management from project planning through to the
-                                coordination up to the operation, including a stay abroad in one of the following
-                                countries
-                                Hungary as part of a funded EU project.<a class="read-more">Erfahre
+                            <p>At translake GmbH I worked as an intern for six months and gained an in-depth
+                                understanding of project management from project planning and coordination to
+                                operations, including a stay abroad in Hungary as part of a funded EU project.<a
+                                        class="read-more">Erfahre
                                     mehr...</a></p>
                             <span>08/2014 - 02/2015</span>
                             <i class="bubble-arrow-right">
@@ -275,143 +268,63 @@
                             </div>
                             <div class="row px-5 text-center justify-content-start">
                                 <div class="col px-0">
-                                    <h1>Mein Studium am KIT</h1>
-                                    <h3 class="mb-3">Vom Bachelor zum Master</h3>
+                                    <h1>My studies at KIT</h1>
+                                    <h3 class="mb-3">From Bachelor to Master</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>The Karlsruhe Institute of Technology is known for its close cooperation with the
-                                        with
-                                        industry and its research drive for innovative technologies. Also
-                                        I have
-                                        and I am therefore especially looking forward to a new and important
-                                        Concept,
-                                        Product Lifecycle Management and Industry 4.0,
-                                        what
-                                        All information along an entire product lifecycle is seamlessly integrated
-                                        integrated.
+                                    <p>The Karlsruhe Institute of Technology is known for its close cooperation with
+                                        industry and its research drive for innovative technologies. I, too, have
+                                        benefited from this and have specialized in a concept that is important today,
+                                        Product Lifecycle Management and Industry 4.0, which seamlessly integrates all
+                                        information along the entire product lifecycle.
                                         <br>
                                         <br>
-                                        Based on my goal in Product Lifecycle Management and the
-                                        Industry 4.0
-                                        I have mainly attended technical subjects in order to specialize in
-                                        all
-                                        understand areas of a product life cycle. This urge does not have
-                                        only mine
-                                        technical affinity, but also helped me to get used to the
-                                        to deal with overarching issues. Even though the German name of the
-                                        course of studies
-                                        Technical economics' is my preference for the English.
-                                        Names, da
-                                        that better reflects my qualifications and expertise. In addition
-                                        persisted
-                                        90% of my master's degree is in subjects that have nothing to do with
-                                        Economics to
-                                        but much more technically and commercially oriented.
-                                        were. The
-                                        Enthusiasm for the engineering subjects was simply always greater. Therefore
-                                        I the
-                                        of my academic degree, also of our modern time, in which the
-                                        it
-                                        is usually an English job description for job advertisements.
-                                        to use.
-                                        However, this is certainly not the main reason. The Economics Engineer knows
-                                        oneself
-                                        in both engineering and business.
+                                        Based on my goal to specialize in product lifecycle management and industry 4.0,
+                                        I have mainly visited technical subjects to understand all areas of a product
+                                        lifecycle. This urge has not only reinforced my technical affinity, but has also
+                                        helped me to deal with overarching issues. Although the German name of the
+                                        program is 'Technical Economics', I prefer the English name because it better
+                                        reflects my qualifications and expertise. In addition, about 90% of my Master's
+                                        programme consisted of subjects that had nothing to do with economics, but were
+                                        much more technically business oriented. The enthusiasm for the engineering
+                                        subjects was simply always greater. That's why I adapt the designation of my
+                                        academic degree to our modern times, in which it is common to use an English job
+                                        designation for job advertisements. However, this is certainly not the main
+                                        reason. The Economics Engineer is well versed in both engineering and economics.
                                         <br>
                                         <br>
-                                        In my time at KIT.
-                                        were for me above all subjects like Virtual Engineering, Operations
-                                        Research, Web
-                                        Science as well as production planning and management are the most exciting
-                                        fans, since it's
-                                        on the one hand to solve real-world problems and on the other to
-                                        always a
-                                        of the future. These subjects have also promoted me
-                                        mine
-                                        to further expand our programming knowledge, as our future will depend strongly
-                                        on
-                                        programming skills. However, special attention is also paid to
-                                        that
-                                        economics, which I completed during my studies. How
-                                        received
-                                        I have a heightened sensitivity in the environmental economy, when it comes to a
-                                        sustainable
-                                        Production going. In another place I manage it thanks to the
-                                        macroeconomic
-                                        always keep an eye on the big picture and do not lose me in the
-                                        Detail.
-                                        Topics of all subjects I have attended at KIT are in the
-                                        Product Lifecycle Management again.
+                                        During my time at KIT, subjects such as Virtual Engineering, Operations
+                                        Research, Web Science and Production Planning and Management were the most
+                                        exciting for me, as they were all about solving real-world problems on the one
+                                        hand and looking to the future on the other. These subjects have also encouraged
+                                        me to develop my programming skills, as our future depends heavily on
+                                        programming skills. Nevertheless, special attention is also paid to the
+                                        economics subjects that I completed during my studies. This gave me a heightened
+                                        sensitivity in environmental economics when it came to sustainable production.
+                                        Elsewhere, thanks to economics subjects, I always manage to keep an eye on the
+                                        big picture and don't lose myself in detail. Topics from all subjects I have
+                                        attended at KIT can be found in Product Lifecycle Management.
                                         <br>
                                         <br>
-                                        The Karlsruhe Institute of Technology is known for its close cooperation with
-                                        the
-                                        with
-                                        industry and its research drive for innovative technologies. Also
-                                        I have
-                                        and I am therefore especially looking forward to a new and important
-                                        Concept,
-                                        Product Lifecycle Management and Industry 4.0,
-                                        what
-                                        All information along an entire product lifecycle is seamlessly integrated
-                                        integrated.
-                                        <br>
-                                        <br>
-                                        Based on my goal in Product Lifecycle Management and the
-                                        Industry 4.0
-                                        I have mainly attended technical subjects in order to specialize in
-                                        all
-                                        understand areas of a product life cycle. This urge does not have
-                                        only mine
-                                        technical affinity, but also helped me to get used to the
-                                        to deal with overarching issues. Even though the German name of the
-                                        course of studies
-                                        Technical economics' is my preference for the English.
-                                        Names, da
-                                        that better reflects my qualifications and expertise. In addition
-                                        persisted
-                                        90% of my master's degree is in subjects that have nothing to do with
-                                        Economics to
-                                        but much more technically and commercially oriented.
-                                        were. The
-                                        Enthusiasm for the engineering subjects was simply always greater. Therefore
-                                        I the
-                                        of my academic degree, also of our modern time, in which the
-                                        it
-                                        is usually an English job description for job advertisements.
-                                        to use.
-                                        However, this is certainly not the main reason. The Economics Engineer knows
-                                        oneself
-                                        in both engineering and business.
-                                        <br>
-                                        <br>
-                                        In my time at KIT.
-                                        were for me above all subjects like Virtual Engineering, Operations
-                                        Research, Web
-                                        Science as well as production planning and management are the most exciting
-                                        fans, since it's
-                                        on the one hand to solve real-world problems and on the other to
-                                        always a
-                                        of the future. These subjects have also promoted me
-                                        mine
-                                        to further expand our programming knowledge, as our future will depend strongly
-                                        on
-                                        programming skills. However, special attention is also paid to
-                                        that
-                                        economics, which I completed during my studies. How
-                                        received
-                                        I have a heightened sensitivity in the environmental economy, when it comes to a
-                                        sustainable
-                                        Production going. In another place I manage it thanks to the
-                                        macroeconomic
-                                        always keep an eye on the big picture and do not lose me in the
-                                        Detail.
-                                        Topics of all subjects I have attended at KIT are in the
-                                        Product Lifecycle Management again.
+                                        Product lifecycle management is particularly associated with terms such as
+                                        digital or virtual transformation and Industry 4.0. This is exactly where theory
+                                        and practice merge. In my master thesis I created a so-called virtual Twin,
+                                        which can be created generically in a virtual reality environment based on real
+                                        CAD data. With this I went one step further than the digital Twin and broadened
+                                        my horizons in a rather young field of research. More information about my
+                                        master thesis can be found under Projects. In summary, I can say that the KIT
+                                        not only trained me very well thanks to its high demands and the possibility to
+                                        realize myself, but also gave me the mindset with which I make strong changes to
+                                        my advantage. Now that I have completed my studies, I want to take a more
+                                        in-depth look at the technical side of things and continue to deal with
+                                        information technology topics such as digital transformation in order to play a
+                                        decisive role in shaping our future.
+
+
                                     </p>
                                 </div>
                             </div>
@@ -455,108 +368,63 @@
                             </div>
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
-                                    <h1>Studium an der Uni Konstanz</h1>
-                                    <h3 class="mb-3">Vom Abi zum Bachelor</h3>
+                                    <h1>Studies at University of Constance</h1>
+                                    <h3 class="mb-3">from high school diploma to bachelor's degree </h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>I studied economics at the University of Konstanz and
-                                        myself
-                                        I concentrated on psychoeconomics, since I was already aware then,
-                                        what a
-                                        important role of any form of data and market behavior in our
-                                        present time
-                                        will play. So one of the most important components was the statistics and
-                                        that
-                                        econometrics, with which I am able to handle large amounts of data.
-                                        analyze and
-                                        to draw conclusions.
+                                    <p>During my studies of economics at the University of Konstanz, I focused on
+                                        psychoeconomics, because even then I became aware of the important role that
+                                        every form of data and market behavior will play in today's world. One of the
+                                        most important components was statistics and econometrics, with which I am able
+                                        to analyse large amounts of data and draw conclusions.
                                         <br>
                                         <br>
-                                        Already in the second semester, subjects such as statistics and stochastics
-                                        in the
-                                        I was spellbound by the direct benefit that immediately caught my eye. Be it in
-                                        the
-                                        pharmacy, in the market economy or in the analysis of parameters.
-                                        one
-                                        machine in connection with its output. The statistics accompany us
-                                        everywhere and
-                                        is always needed. Therefore I saw knowledge in statistics and
-                                        Econometrics as
-                                        a so-called Hard-Skill, with which you can solve concrete problems in the
-                                        Solve the world
-                                        can. Other subjects, on the other hand, usually have only superficial knowledge.
-                                        mediated and
-                                        asked, which one in my opinion anyway sooner or later again
-                                        must be read. Building on this, in the fourth semester
-                                        for the
-                                        specialization in psychoeconomics, which aims to develop the economic
-                                        demeanor
-                                        of participants on the basis of psychological theories,
-                                        decided. Thereby
-                                        were fascinating insights into subjects such as cognitive and
-                                        perceptual psychology
-                                        a fundamental component of this specialization, which allows me to
-                                        things
-                                        I began to see from a different angle. You have not only
-                                        influence
-                                        my character, but also to my conceptional and
-                                        analytical thinking skills.
+                                        Already in the second semester I was fascinated by subjects like statistics and
+                                        stochastics, because I immediately noticed the direct benefit. Be it in
+                                        pharmacy, in the market economy or when analysing the parameters of a machine in
+                                        connection with its output. Statistics accompany us everywhere and are always
+                                        needed. Therefore, I saw knowledge in statistics and econometrics as a so-called
+                                        hard skill with which one can solve concrete problems in the world. Other
+                                        subjects, on the other hand, have usually only taught and queried superficial
+                                        knowledge, which in my opinion has to be read again sooner or later anyway. In
+                                        the fourth semester I then decided to specialise in psychoeconomics, which aims
+                                        to explain the economic behaviour of participants on the basis of psychological
+                                        theories. Fascinating insights into subjects such as cognitive and perceptual
+                                        psychology were a fundamental part of this specialization, which started me to
+                                        see many things from a different perspective. They not only influenced my
+                                        character, but also my conceptual and analytical thinking.
                                         <br>
                                         <br>
-                                        At the same time, I was able to combine both areas of expertise, both
-                                        to directly link economy and psychology with each other and to
-                                        better understand general market behaviour. In addition have also difficult
-                                        mathematically heavy
-                                        subjects such as econometrics. Proving mathematical formulas
-                                        was
-                                        without the ability to derive a formula,
-                                        could
-                                        you collect as much data as you want. In the end you wouldn't have anything to
-                                        do with it.
-                                        I knew that,
-                                        let alone draw significant conclusions. My
-                                        Bachelor thesis with the topic 'The influence of culture on the reputation and
-                                        that
-                                        Range of trustworthiness: online experiments in India and the
-                                        USA' has
-                                        both fields are very well combined with each other. The challenge was
-                                        therein
-                                        experiments to solve the problem by means of game theoretical experiments.
-                                        answer and
-                                        to form market-economy alternatives for action. As in the title
-                                        already
-                                        these found game-theoretical experiments, in which roughly
-                                        stated
-                                        a certain number of fictitious monetary units between two players in a
-                                        several
-                                        and were sent back and forth between rounds. Did the players play with each
-                                        other?
-                                        cooperated, was
-                                        the total output is always maximum, but one player has jumped off before,
-                                        because
-                                        thought the other player could bail on the next move, then his
-                                        output
-                                        bigger than that of the second player, but still not as high as the
-                                        when
-                                        both of them would have played to the end. Based on such a game,
-                                        what
-                                        implemented via Unipark and accessible on an online platform
-                                        made
-                                        a lot of data was generated, which can be exported using Microsoft Excel and
-                                        that
-                                        Statistics program R were analyzed. To be honest, the analysis was
-                                        of the data
-                                        the actually exciting part, because the implementation via Unipark (of which
-                                        I until
-                                        I'm not a fan today) was quite tedious and not very user-friendly.
-                                        Maybe
-                                        that's changed for the time being, but I'd be looking at such an
-                                        Project whole
-                                        I'd like to take a different approach.
+                                        At the same time, I was able to directly link both disciplines, economics and
+                                        psychology, and better understand general market behavior. Mathematical subjects
+                                        such as econometrics have also contributed to this. The proof of mathematical
+                                        formulas was a core component, because without the ability to derive a formula,
+                                        one could collect so much data. At the end of the day, you wouldn't have known
+                                        what to do with it, let alone draw significant conclusions from it. My bachelor
+                                        thesis with the topic 'The influence of culture on reputation and the range of
+                                        trustworthiness: online experiments in India and the USA' combined both
+                                        disciplines very well. The challenge was to use game theory experiments to
+                                        answer the problem and to develop market-economy alternatives for action. As
+                                        already described in the title, these found game theoretical experiments in
+                                        which a certain number of fictitious monetary units were roughly explained and
+                                        sent back and forth between two players in several rounds. If the players
+                                        cooperated with each other, the total output was always maximum, but if one
+                                        player had jumped before, because he thought the other player could jump in the
+                                        next turn, then his output was greater than that of the second player, but still
+                                        not as high as if both players had played to the end. Based on such a game,
+                                        which was implemented using Unipark and made available on an online platform, a
+                                        lot of data was generated, which was analyzed using Microsoft Excel and the
+                                        statistic program R. The data was then used for the analysis. To be honest, the
+                                        analysis of the data was the really exciting part, because the implementation
+                                        via Unipark (which I'm not a fan of yet) was quite laborious and not very
+                                        user-friendly. Maybe this has changed in the meantime, but today I would
+                                        approach such a project quite differently.
+
+
                                     </p>
                                 </div>
                             </div>
@@ -599,82 +467,51 @@
                             </div>
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
-                                    <h1>Technisches Gymnasium mit Kernkompetenz Gestaltungs- und Medientechnik</h1>
-                                    <h3 class="mb-3">Das Abi war schon ne sehr coole Zeit...</h3>
+                                    <h1>Technical high school with specialization in design and media technology</h1>
+                                    <h3 class="mb-3">The high school was a very cool time...</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>At the technical grammar school of the ZGK I have a solid knowledge in the areas
-                                        of
-                                        product and media design, through which I am always in a position to offer my
-                                        clients
-                                        I am
-                                        design, functionality and user-friendliness. On
-                                        having built up
-                                        I have developed high quality requirements in my working methods in order to
-                                        both the
-                                        functional design as well as the user perspective to an optimum extent.
-                                        fair to
-                                        will be.
+                                    <p>At the technical high school of the ZGK I gained a solid knowledge in the fields
+                                        of product and media design, through which I am always able to combine design,
+                                        functionality and user friendliness. Building on this, I have developed high
+                                        quality requirements in my working method in order to do justice to both the
+                                        functional design and the user perspective to an optimum extent.
                                         <br>
                                         <br>
-                                        Actually, during my school leaving exams at the ZGK there are generally
-                                        seen
-                                        not much content to say - Abi halt. Almost everyone had to go through the
-                                        and has
-                                        gets zero points here and there. Much rather I would like to
-                                        core competence subjects. The comprehensive subject of design and
-                                        Media technology has
-                                        opened my eyes not only in design-technical areas, no, it's not just in the
-                                        has mine
-                                        Horizon broadened. I am not a friend of it many hours before the
-                                        implementation
-                                        to draw endless sketches and hypothetical considerations. On
-                                        dearest
-                                        I sat myself down directly in front of the computer and started with some
-                                        lines
-                                        and circles, for example when it came to a logo or a poster. The
-                                        Sketches,
-                                        which were nevertheless required of the teacher as a part of the task, had been
-                                        me
-                                        simply scribbled in retrospect as an unattractive and unfinished version and
-                                        then with
-                                        was delivered. Of course I don't do that in my projects nowadays
-                                        more, because
-                                        the complexity and demands on the result require a well-considered
-                                        Procedure to avoid later errors and save time. After
-                                        three
-                                        years at the ZGK I was in a position to handle almost the entire
-                                        Adobe Create Suite (now Adobe CC) to work and implement projects
-                                        of which
-                                        future employers have profited from.
+                                        Actually there is not much to say about the content of my school leaving exams
+                                        at the ZGK - Abi halt. Nearly everybody had to go through it sometimes and here
+                                        and there also got zero points. I would much rather go into the core competence
+                                        subjects. The comprehensive subject of design and media technology has opened my
+                                        eyes not only in design areas, no, it has broadened my horizon. I am not a
+                                        friend of drawing endless sketches and hypothetical considerations many hours
+                                        before implementation. I preferred to sit in front of the computer and start
+                                        with some lines and circles, for example when it came to a logo or a poster. The
+                                        sketches, which were nevertheless required from the teacher as part of the task,
+                                        I simply scribbled afterwards as an unattractive and unfinished version and then
+                                        handed them in. Of course, I don't do that anymore in my projects nowadays,
+                                        because the complexity and requirements of the result require a well-considered
+                                        approach to avoid later mistakes and save time. After three years at ZGK, I was
+                                        able to work with almost the entire Adobe Create Suite (now Adobe CC) and
+                                        implement projects, which also benefited future employers.
                                         <br>
                                         <br>
-                                        At translake GmbH I have for example
-                                        created a complete brochure for the acquisition of the company. The subject
-                                        that
-                                        Design of media has brought me enormously forward and that not least of all
-                                        by reason of
-                                        the harsh criticism of the then teacher in this subject. One could
-                                        no matter how
-                                        and put in so much work, something always was.
-                                        At the same time
-                                        but he has also increased his own requirements in himself,
-                                        because
-                                        you knew if you'd notice it yourself, sooner or later.
-                                        on.
-                                        In summary, the ZGK has my affinity for design and media and the
-                                        works
-                                        further increased by the access to incredibly expensive programs
-                                        and me
-                                        the ability to familiarize myself with new programs in no time at all
-                                        the way
-                                        given. You have, so to speak, greatly expanded my program portfolio, because
-                                        the MS
+                                        At translake GmbH, for example, I created an entire brochure for the acquisition
+                                        of the company. The topic of media design has brought me enormously forward, not
+                                        least because of the harsh criticism from the then teacher in this subject. No
+                                        matter how hard you tried and how much work you put into it, there was always
+                                        something. At the same time, however, he also increased his own requirements in
+                                        himself, because you knew that if you notice it yourself, everyone will notice
+                                        it sooner or later. In summary, the ZGK has further increased my affinity for
+                                        design and media and working with them through access to incredibly expensive
+                                        programs and given me the ability to get into new programs in no time at all.
+                                        They have so to speak greatly expanded my program portfolio, because the MS
                                         Office Suite was nothing against it....
+
+
                                     </p>
                                 </div>
                             </div>
@@ -720,129 +557,70 @@
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
                                     <h1>Siemens Industry Software GmbH</h1>
-                                    <h3 class="mb-3">Der Allrounder in der MindSphere Academy</h3>
+                                    <h3 class="mb-3">The all-rounder at MindSphere Academy</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>In the Digital Industries Division, I am currently part of the international and
-                                        globally operating team
-                                        that
-                                        MindSphere Academy, in which we train other companies and external employees in
-                                        that
-                                        Use of the open IoT platform MindSphere from Siemens train and
-                                        empower
-                                        connect machines to MindSphere, develop apps, and store data on them.
-                                        analyze it.
+                                    <p>In the Digital Industries Division I am currently in the international and global
+                                        team of MindSphere Academy, where we train other companies and external
+                                        employees in the use of the open IoT platform MindSphere from Siemens and enable
+                                        them to connect machines to MindSphere, develop apps and analyze data.
                                         <br>
                                         <br>
-                                        One might think that the change from the Power Generation and
-                                        Service out
-                                        to the Digital Industries Division was a challenge for me.
-                                        but
-                                        the opposite was true. After the Virtual Engineering lecture and the
-                                        virtual
-                                        Reality Internship (also Virtual Engineering Internship) was once again
-                                        distinct
-                                        where my interests and abilities lie. With the admission into
-                                        that
-                                        MindSphere Academy has thus fulfilled a wish, as here I am
-                                        not only
-                                        my technical know-how directly, but also to bring this directly to the
-                                        with the
-                                        economic aspects of my current career. As
-                                        first
-                                        working student in the still relatively young MindSphere Academy there was
-                                        always one
-                                        Flair of
-                                        Start-up in the air and also the tasks were not accurate from the start
-                                        predefined, since you do not fully estimate the temporal capacities
-                                        could. Exactly
-                                        I was able to unfold in it, because I was very quickly a full-fledged
-                                        team member and I felt that too, in which I was able to find out opinions
-                                        in demand
-                                        and was allowed to implement my ideas. So after only a short time I was able to
-                                        Time
-                                        certification process by speeding up the simple, but
-                                        effective tools,
-                                        the 'Material Generator' and the 'Certificate Generator', with the
-                                        programming language
-                                        C#, which I've developed. This made it possible to use the
-                                        Trainings a lot
-                                        Time can be saved to take care of other construction sites. I am/was
-                                        that
-                                        support of the 'Technical Leads' and the 'Head of Operations' and I have been
-                                        that
-                                        Responsibility for training preparation and follow-up.
-                                        As soon as
-                                        that a process could be optimized, I was able to optimize myself and
-                                        even
-                                        to do the work after arrangement and automate this, as I
-                                        for example with the 'Password Manager'. This has been set in
-                                        twist of the wrist
-                                        the passwords of all training accounts changed and also much
-                                        Time and
-                                        Save work. Another large part, which is based on my experience and
-                                        capabilities
-                                        is the collaboration on the training content, in which the participants
-                                        it's about
-                                        both technical and layout topics. The experience I gained in the
-                                        my superiors came in handy,
-                                        since I
-                                        use my SAP knowledge for the invoicing of the training courses
-                                        was allowed to.
-                                        As you can see already now, I had a very broad
-                                        The range of tasks varied according to the work situation. I had with it
-                                        none
-                                        problems, because that's exactly what I needed - a
-                                        varied
-                                        Field of activity.
+                                        You might think that moving from the Power Generation and Service Division to
+                                        the Digital Industries Division was a challenge for me, but the opposite was
+                                        true. After the lecture Virtual Engineering and the Virtual Reality Internship
+                                        (also Virtual Engineering Internship) I once again realized where my interests
+                                        and abilities lie. With the admission to the MindSphere Academy a wish came
+                                        true, because I was not only able to directly contribute my technical know-how,
+                                        but also to combine it with the economic aspects of my current career. As the
+                                        first working student in the still relatively young MindSphere Academy there was
+                                        always a flair of start-up in the air and also the tasks were not exactly
+                                        pre-defined from the beginning, because one could not fully estimate the
+                                        temporal capacities. This was exactly where I was able to unfold, because I
+                                        quickly became a fully-fledged team member and was able to feel this by being
+                                        asked for opinions and by being allowed to implement my ideas. So after a short
+                                        time I accelerated the certification process by developing the simple but
+                                        effective tools, the 'Material Generator' and the 'Certificate Generator', with
+                                        the programming language C#. This saved a lot of time in the follow-up process
+                                        of the trainings to take care of other construction sites. I am/was the support
+                                        of the 'Technical Leads' and the 'Head of Operations' and was responsible for
+                                        the training preparation and follow-up. As soon as I noticed that a process
+                                        could be optimized, I was allowed to get to work and automate it immediately
+                                        after consultation, as I achieved with the 'Password Manager', for example. It
+                                        changed the passwords of all training accounts in no time at all and also saved
+                                        a lot of time and work. Another big part that appreciates and promotes my
+                                        experience and skills is the collaboration on the training content, which dealt
+                                        with both technical and layout topics. The experience I was able to gain in the
+                                        previous department came in handy for my superiors, as I was also able to use my
+                                        SAP knowledge to invoice the training courses. As you can already see now, I had
+                                        a very broad spectrum of tasks, which varied depending on the work situation. I
+                                        didn't have any problems with that, because that was exactly what I needed - a
+                                        varied field of work.
                                         <br>
                                         <br>
-                                        The team consists of young dynamic people who are always ready to help you.
-                                        and with which one laughs also very gladly, before it again
-                                        to the
-                                        achievement of the objectives. I particularly liked the MindSphere
-                                        Academy the
-                                        Integration and promotion. I wasn't just the working student,
-                                        no, i
-                                        I felt like a fully-fledged team member who regularly attends meetings
-                                        join
-                                        to stay up to date continuously. A special
-                                        Advantage
-                                        of my work at the MindSphere Academy I see the possibilities of the
-                                        Training.
-                                        I was able to participate in trainings and to develop myself and my interests
-                                        for the
-                                        Theme IoT
-                                        and industry 4.0, which I also focus on in my studies at the same time.
-                                        hollowed
-                                        the company had to expand. Elsewhere, however, the MindSphere Academy of
-                                        myself
-                                        and not only with regard to the processing of tasks. I
-                                        have
-                                        independently the so-called 'Training Tool' using Python and the framework
-                                        QT
-                                        which has accelerated work processes again. Thereby
-                                        I have
-                                        the creation of material for the participants, the generation of certificates,
-                                        and
-                                        that
-                                        Sending these in an individual e-mail in a comprehensive tool
-                                        programmed. You can find out more about this under Projects. Even if the time at
-                                        that
-                                        MindSphere Academy soon ends for me, I'll share the experiences I've gained
-                                        there
-                                        always in a positive memory with me and certainly I was able to collect my
-                                        also in
-                                        and can apply them in many areas.
-                                        All in
-                                        all the work was done at the
-                                        MindSpehre Academy exactly matches my vision of a dynamic, innovative
-                                        and
-                                        motivated teams that support you and challenge you in a variety of ways.
+                                        The team consists of young, dynamic people who you always meet at eye level and
+                                        with whom you also like to laugh before you get back to achieving your goals. I
+                                        particularly liked the integration and promotion at MindSphere Academy. I wasn't
+                                        just a working student, no, I felt like a full-fledged team member who could
+                                        regularly attend meetings to keep up to date. I see a particular advantage in my
+                                        work at MindSphere Academy in the opportunities for further training. I was able
+                                        to participate in trainings and to develop my interests for the topic IoT and
+                                        Industry 4.0, which I also deepened during my studies. Elsewhere, MindSphere
+                                        Academy has also benefited from me, and not only in terms of processing tasks. I
+                                        independently developed the so-called 'Training Tool' using Python and the QT
+                                        framework, which accelerated work processes again. I programmed the creation of
+                                        material for the participants, the generation of certificates and the sending of
+                                        these in an individual e-mail in a comprehensive tool. You can read more about
+                                        this under Projects. Even though my time at MindSphere Academy will soon end for
+                                        me, I will always have positive memories of the experiences I was able to gain
+                                        there and will certainly benefit from them in my future and be able to apply
+                                        them in many areas. All in all, the work at MindSpehre Academy corresponded
+                                        exactly to my idea of a dynamic, innovative and motivated team that promotes and
+                                        challenges you in a varied way.
                                     </p>
                                 </div>
                             </div>
@@ -892,79 +670,45 @@
                             </div>
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
-                                    <h1>Virtual Engineering Praktikum</h1>
-                                    <h3 class="mb-3">Core Developer im Projekt VR Factorio</h3>
+                                    <h1>Virtual Engineering Practical Course</h1>
+                                    <h3 class="mb-3">Core developer in the project 'VR Factorio'</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>As part of the Core Developer Team, I was involved in the VR Factorio project
-                                        within the framework of the
-                                        one
-                                        Virtual Engineering Internship of the Institute for Information Management at
-                                        the
-                                        engineering. The goal was the computer game 'Factorio' in
-                                        that
-                                        Virtual Reality Environment 'PolyVR' in real time and playable to
-                                        program.
+                                    <p>As part of the Core Developer Team, I worked on the VR Factorio project as part
+                                        of a virtual engineering internship at the Institute for Information Management
+                                        in Engineering. The goal was to display the computer game 'Factorio' in the
+                                        virtual reality environment 'PolyVR' in real-time and to program it playable.
                                         <br>
                                         <br>
-                                        After attending the Virtual Engineering lecture, the urge was to
-                                        also a little
-                                        to construct virtually or to apply the knowledge to a project. As
-                                        me
-                                        then still of the possibility in a VR (or VE) practical course of this knowledge
-                                        apply
-                                        I've made up my mind to be able to do that, that's what I want! Although we went
-                                        through here
-                                        due to the
-                                        a high rush for applications, but in the end I was able to win and
-                                        at the
-                                        I'd like to participate in an internship. What nobody had suspected at the
-                                        beginning was like
-                                        time-consuming
-                                        this internship would be. Due to my technical background
-                                        I was
-                                        into the Core Developer Team. The entire team consisted of eight
-                                        People,
-                                        four of which only for modeling the game figures and other assets such as
-                                        trees
-                                        and stones were in charge. The Core Developer Team on the other hand employed
-                                        clean
-                                        with the backend. So we developed the communication with Python.
-                                        between
-                                        Factorio' and the VR interface 'PolyVR'. Besides the communication
-                                        between
-                                        both programs my tasks also included the programming of the
-                                        Camera perspectives within 'PolyVR' and the player control, and
-                                        all
-                                        Input options, which were later necessary for the interaction. The
-                                        coolest thing about the
-                                        project was that we could measure our progress within a so-called CAVE
-                                        test
-                                        could. Simply explained, this was a large black room with three white
-                                        areas
-                                        in a corner of the room on which three beamers have projected a projection,
-                                        so that
-                                        you were in a virtual reality environment within this corner,
-                                        provided that
-                                        wearing 3D glasses. That was really an unbelievably fascinating
-                                        Experience and
-                                        has shaped me to this day! If you are standing there on a white surface and
-                                        all of a sudden
-                                        a realistic 3D model builds up in front of you. You walk around,
-                                        look at it
-                                        from different angles and can even be controlled via hardware, such as a
-                                        Pointer,
-                                        to operate - simply ingenious. Out of this project also my
-                                        Ran my
-                                        Master thesis at the same institute and even had the luck,
-                                        that to
-                                        that time also had a theme ready. You can see the result of our work
-                                        you gladly
-                                        on here on YouTube.
+                                        After attending the lecture Virtual Engineering the urge was to construct
+                                        something virtual or to apply the knowledge to a project. When I had the chance
+                                        to apply this knowledge in a VR (or VE) internship, I was certain, that's what I
+                                        want! Although we went through an application process here due to the high rush,
+                                        but in the end I could win and participate in the internship. What nobody had
+                                        suspected at the beginning was how time-consuming this internship would be. Due
+                                        to my technical background I was assigned to the Core Developer Team. The entire
+                                        team consisted of eight people, four of whom were only responsible for modeling
+                                        the game figures and other assets such as trees and stones. The Core Developer
+                                        Team, on the other hand, was purely concerned with the backend. Using Python, we
+                                        developed the communication between 'Factorio' and the VR interface 'PolyVR'. In
+                                        addition to the communication between both programs, my tasks also included
+                                        programming the camera perspectives within 'PolyVR' and the player control, as
+                                        well as all input options that were later necessary for the interaction. The
+                                        coolest thing about the project was that we were able to test our progress
+                                        within a so-called CAVE. Simply put, this was a large black room with three
+                                        white areas in a corner of the room, onto which three beamers projected a
+                                        projection, so that you were in a virtual reality environment within this
+                                        corner, if you wore 3D glasses. That was really an incredibly fascinating
+                                        experience and has shaped me to this day! When you stand there on a white
+                                        surface and suddenly a realistic 3D model builds up in front of you. You walk
+                                        around, look at it from different angles and can even operate it via hardware,
+                                        like a pointer - simply ingenious. This project also gave me the urge to write
+                                        my master thesis at the same institute and I was even lucky to have a topic
+                                        ready at that time. You can view the result of our work here on YouTube.
                                     </p>
                                 </div>
                             </div>
@@ -1006,89 +750,55 @@
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
                                     <h1>Siemens AG</h1>
-                                    <h3 class="mb-3">Werkstudent in der Division Power Generation and Service</h3>
+                                    <h3 class="mb-3">Intern in the division 'Power Generation and Service'</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>In the 'Power Generation and Service' division, which among other things
-                                        Gas turbines for
-                                        power plants, I was in the commercial area among other things
-                                        for the
-                                        Analysis of cost trends and maintenance of service contracts using SAP
-                                        responsible. At the same time, this was my first step towards a global
-                                        acting and
-                                        a well-known company.
+                                    <p>In the 'Power Generation and Service' division, which supplies gas turbines for
+                                        power plants, among other things, I was responsible in the commercial area for
+                                        the analysis of cost trends and the maintenance of service contracts using SAP.
+                                        At the same time, this was my first step into a globally active and well-known
+                                        company.
                                         <br>
                                         <br>
-                                        After my time at the MAUS I was initially very involved with exams and
-                                        other topics
-                                        which means I don't have much time for applications to the
-                                        part-time jobs
-                                        stayed. In the medium term, however, it was clear that here again, after a
-                                        intense
-                                        The search for a part-time job is pending. I learned in the
-                                        Circle of friends over
-                                        a working student position that is to become vacant, in which SAP and
-                                        Excel knowledge was valued. Although I couldn't get any practical
-                                        SAP knowledge
-                                        because the working environment in SAP is only shown to us in lectures.
-                                        but
-                                        I didn't see this as an obstructive problem, because in the end SAP is also just
-                                        a
-                                        Tool with which the actual work is to be simplified. After a
-                                        fast, but effective familiarization phase with SAP and all other SAP systems
-                                        work processes in the commercial team, was my main task,
-                                        large
-                                        Analyze service projects around the world in terms of cost
-                                        and to
-                                        so that the project objectives could be achieved. The
-                                        contact
-                                        of SAP and Excel are indispensable. Further activities were essentially the
-                                        Order settlement and cost assignment in SAP R/3 KSP and the support of
-                                        at
-                                        monthly project controlling. Although the team was very friendly, they always
-                                        obliging and helpful, but unfortunately the work wasn't quite the right one
-                                        think
-                                        Performances. As you can see from the task description,
-                                        acted
-                                        recursive work, which was already carried out before I joined the company.
-                                        solid
-                                        were defined. New challenges remained to be met throughout the entire
-                                        stretch
-                                        lie. My goal was originally to gain so much knowledge and experience
-                                        to take with you
-                                        as possible, but after only a few months I had to find out that
-                                        in return
-                                        there was no room for manoeuvre. For example, the urge had to be more over
-                                        all work processes are unfortunately reduced. This
-                                        was
-                                        which is also a reason why, when asked if I could spend another semester
-                                        in
-                                        in this department with a "no" because I wanted to work in this department.
-                                        sensation
-                                        had to stay on track. In my opinion, I had all the
-                                        experiences, which could have been gained here, and had to be
-                                        thus
-                                        to move on.
+                                        After my time at MAUS, I was initially very busy with examinations and other
+                                        topics, which left me little time for applications for part-time jobs. In the
+                                        medium term, however, it was clear that I would have to look for a part-time job
+                                        again after an intensive examination phase. In my circle of friends, I learned
+                                        about a working student position that was to become vacant, in which special
+                                        emphasis was placed on SAP and Excel knowledge. Although I could not demonstrate
+                                        any practical SAP knowledge, as the working environment in SAP was only shown to
+                                        us in lectures, I did not see this as an obstructive problem, because in the end
+                                        SAP is only a tool that is supposed to simplify the actual work. After a quick
+                                        but effective training phase in SAP and all other work processes in the
+                                        commercial team, my main task was to analyze and track large service projects
+                                        all over the world in terms of costs so that the project goals could be met. The
+                                        use of SAP and Excel was indispensable. Further activities were mainly the order
+                                        settlement and cost allocation in SAP R/3 KSP and the support with the monthly
+                                        project controlling. Although the team was very friendly, always courteous and
+                                        helpful, unfortunately the work did not quite meet my expectations. As can be
+                                        seen from the task description, the work was recursive on a monthly basis and
+                                        had already been defined before I started. New challenges remained along the
+                                        entire route. My original goal was to take as much knowledge and experience as
+                                        possible with me, but after only a few months I realized that there was no room
+                                        for manoeuvre. For example, the urge to learn more about all work processes
+                                        unfortunately had to be reduced. This was also a reason why I had to answer no
+                                        to the question whether I wanted to work in this department for another
+                                        semester, because I had the feeling to stay on the track. In my opinion, I had
+                                        exhausted all the experience that could have been gained here and had to move
+                                        on.
                                         <br>
                                         <br>
-                                        All in all, I can still say that it was a very exciting, yes
-                                        almost a proud feeling that inspired me when I saw the opportunity
-                                        got
-                                        to set foot in such a big business. Yet today I can
-                                        better
-                                        SAP HANA, Excel and PMTC knowledge and would like to refer me to the
-                                        unforgettable words of my guardian "See it as a nice
-                                        additional income
-                                        and don't expect too much." My decision from the department
-                                        resign
-                                        I have never regretted, because otherwise I probably would have the team, with
-                                        the
-                                        me today
-                                        I've never met before.
+                                        All in all, however, I can say that it was a very exciting, almost proud feeling
+                                        that gave me wings when I was given the opportunity to set foot in such a large
+                                        company. Nevertheless, today I can show better SAP HANA, Excel and PMTC
+                                        knowledge and like to refer to the unforgettable words of my supervisor "See it
+                                        as a nice extra income and don't expect too much...". I have never regretted my
+                                        decision to leave the department, otherwise I would probably never have met the
+                                        team I work with today.
                                     </p>
                                 </div>
                             </div>
@@ -1130,70 +840,43 @@
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
                                     <h1>M-A-U-S Seminare gGmbH</h1>
-                                    <h3 class="mb-3">Mitarbeiter im Team Standortplanung und -entwicklung</h3>
+                                    <h3 class="mb-3">Co-worker in the location planning and development team</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>Together with other students, I helped the MAUS gGmbH to a rapid
-                                        expansion
-                                        in the entire German area within my five-month working time. Thereby
-                                        were
-                                        at the beginning of the project, new training locations for the
-                                        First aid courses should be developed.
+                                    <p>Together with other students I helped MAUS gGmbH to a rapid expansion in the
+                                        entire German area within my five-month working time. At the beginning, there
+                                        were places in which new training locations for first aid courses were to be
+                                        established.
                                         <br>
                                         <br>
-                                        After my arrival in Karlsruhe and with the beginning of my studies at the KIT
-                                        I made
-                                        soon I will also be looking for a side job, not only of the
-                                        money
-                                        but also for the sake of my abilities and competencies.
-                                        to develop further. In general, I have always been interested in
-                                        I've been working for a long time,
-                                        but this time I wanted to take a different approach. There should be no
-                                        Gastronomy or
-                                        other. I wanted to be able to combine studies and a part-time job. The
-                                        Work at
-                                        the MAUS was very convenient for me, as I spent a lot of time on the weekends
-                                        between the
-                                        Constance and
-                                        Karlsruhe and I commuted to the one to two hour team meeting
-                                        weekly
-                                        I was allowed to do the rest of my work in the home office.
-                                        Start date
-                                        was communicated. I have nothing else but a phone, a laptop
-                                        and
-                                        Internet access used. The opening included the analysis of
-                                        urban areas, the
-                                        Telephoning with potential landlords and the quality assurance in
-                                        teamwork
-                                        with the instructor there. I mostly preferred the listener, because one can
-                                        quickly,
-                                        got in contact easily and uncomplicatedly, good with the landlords
-                                        bargain
-                                        and accelerated the entire process. Preference was given to
-                                        Districts in
-                                        which, however, brought with it a price challenge and the
-                                        severely limited room for manoeuvre. Here I also learned to negotiate hard.
-                                        because we only need one day a week for the trainings.
-                                        required and
-                                        Meeting rooms or halls were usually not needed at weekends. Also the
-                                        Quality assurance was an integral part of my work, because the
-                                        premises
-                                        had to meet the criteria of the MAUS, and so the number of
-                                        phone calls
-                                        with the landlords to clarify the framework conditions. I was allowed to work
-                                        with the
-                                        MOUSE
-                                        gGmbH experienced a new level of discipline, because for me it was the first
-                                        Mal,
-                                        that I (apart from my studies) worked from home. To
-                                        that of
-                                        the city of Hanau belonged to me among other things, whereupon I was able to
-                                        by the time
-                                        I'm proud of today.
+                                        After my arrival in Karlsruhe and with the beginning of my studies at KIT, I
+                                        soon started looking for a part-time job, not only for the sake of money, but
+                                        also to further develop my skills and competences. In general, I have always
+                                        worked alongside my studies, but this time I wanted to approach things
+                                        differently. It shouldn't be gastronomy or anything else. I wanted to be able to
+                                        combine studies and a part-time job. The work at the MAUS was very convenient
+                                        for me, because I commuted a lot on the weekends between Constance and Karlsruhe
+                                        and I was allowed to do the rest of my work in the home office every week except
+                                        for the one to two hour team meeting, which was communicated from the beginning.
+                                        All I needed was a telephone, a laptop and internet access. The opening included
+                                        the analysis of urban areas, telephoning with potential landlords and quality
+                                        assurance in cooperation with the local trainer. I usually preferred the
+                                        listener because it was so quick, easy and uncomplicated to make contacts, to
+                                        negotiate well with the landlords and to speed up the whole process. Preference
+                                        was given to districts in the city centre which, however, presented a price
+                                        challenge and severely restricted the scope for negotiation. I also learned to
+                                        negotiate hard, as we only needed one day a week for the training sessions and
+                                        conference rooms or halls were usually not needed on weekends. Also the quality
+                                        assurance was a firm component of my work, because the premises had to
+                                        correspond to the criteria of the MAUS and thus also the telephone calls with
+                                        the landlords increased, in order to clarify the basic conditions. I was able to
+                                        experience a new level of discipline at the MAUS gGmbH, because it was the first
+                                        time that I (apart from my studies) worked from home. Among the locations I
+                                        opened was the city of Hanau, of which I am still proud today.
                                     </p>
                                 </div>
                             </div>
@@ -1235,84 +918,49 @@
                             <div class="row px-5 text-center justify-content-center">
                                 <div class="col px-0">
                                     <h1>translake GmbH</h1>
-                                    <h3 class="mb-3">Mitarbeit an Projekten in Deutschland, Österreich, Schweiz und
-                                        Liechtenstein</h3>
+                                    <h3 class="mb-3">Collaboration on projects in Germany, Austria, Switzerland and Liechtenstein</h3>
                                 </div>
                             </div>
                         </div>
                         <div class=" col-lg-8 py-3">
                             <div class="row blocktext justify-content-center just px-5">
                                 <div class="col">
-                                    <p>At translake GmbH, I spent six months as an intern at work and
-                                        have there
-                                        a deep understanding of project management from the project planning stage
-                                        via the
-                                        coordination up to and including the operation, including a
-                                        Stay abroad in
-                                        Hungary as part of a funded EU project.
+                                    <p>
+                                        At translake GmbH I worked as an intern for six months and gained an in-depth
+                                        understanding of project management from project planning and coordination to
+                                        operations, including a stay abroad in Hungary as part of a funded EU project.
                                         <br>
                                         <br>
-                                        The internship at translake GmbH wasn't just my first internship, it was also my
-                                        first internship.
-                                        was
-                                        too
-                                        the first time I've been fully employed for six months. Of course I have
-                                        beforehand
-                                        already in the catering trade and in other ranges a little money besides
-                                        but the internship at translake should not only be more solid
-                                        constituent
-                                        of my bachelor's degree, as I quickly realized. I learned how to
-                                        cool,
-                                        know an open and equal team, in which I can be integrated quickly
-                                        and
-                                        where everyone could contribute their ideas. Such a way of working was very
-                                        think
-                                        previous jobs just not familiar. It was thus the first basic
-                                        Experience I gained at translake. In addition, the tasks were
-                                        all the time
-                                        diversified. Started with the redesign of presentations and
-                                        documentation, my area of responsibility included all supportive and
-                                        Tasks that
-                                        in all the projects. I especially liked the
-                                        joint
-                                        Project planning phase, in which I was also able to contribute my creativity.
-                                        After
-                                        a quite short familiarization phase it went also for me already with
-                                        projects that are comparatively small, but which nevertheless offer great
-                                        benefits for the
-                                        that
-                                        company had, let's go. I got to take responsibility for introducing and
-                                        Design of a
-                                        new newsletter system and have published the brochure 'Success stories
-                                        Citizen participation
-                                        designed. Click here for <a
+                                        The internship at translake GmbH was not only my first internship, it was also
+                                        the first time that I was fully employed for six months. Of course I had already
+                                        earned a little extra money in the catering trade and other areas before, but
+                                        the internship at translake should not only be an integral part of my bachelor's
+                                        degree, as I quickly realized. I got to know a cool, open and equal team in
+                                        which I was quickly integrated and where everyone could contribute their ideas.
+                                        I simply wasn't familiar with such a way of working in my previous jobs. It was
+                                        my first fundamental experience at translake. In addition, the tasks were always
+                                        varied. Starting with the redesign of presentations and documentations, my area
+                                        of responsibility included all supporting tasks that were currently pending in
+                                        all projects. I particularly liked the joint project planning phase, in which I
+                                        was also able to contribute my creativity. After a rather short familiarization
+                                        phase, I also started with comparatively small projects, which nevertheless had
+                                        a great benefit for the company. I was responsible for introducing and designing
+                                        a new newsletter system and designed the brochure 'Successful Citizen
+                                        Participation'. Click here for <a
                                                 style="color: #505664 !important; text-decoration-line: underline;"
                                                 target="_blank" rel="noopener"
                                                 href="http://cms.translake.org/tl_files/translake/000_allgemein/Wirken/Gelingende-Buergerbeteiligung-translake2014.pdf">the
-                                            brochure.</a> Also the maintenance of the homepage belonged to my tasks.
-                                        all the time
-                                        events and other more important things for your company.
-                                        alternation
-                                        in everyday life. Probably the most interesting project was the
-                                        2000-watt society', in which in a large campaign in cities about
-                                        around the
-                                        Three-country region (DACH) at Lake Constance and Liechtenstein, citizens
-                                        enlightened
-                                        were,
-                                        how they can save energy efficiently. I could do a lot more
-                                        more from
-                                        of my time at translake, but he doesn't want to send this blogpost to me either.
-                                        long
-                                        hold. With regard to my interests and goals, I can say that
-                                        I'll have a
-                                        the experience gained in project management,
-                                        that
-                                        thematic contents in the projects, however, do not completely mean my own.
-                                        conceptions
-                                        because it was more about the problem limitation than about the
-                                        Problem solving.
-
-
+                                            brochure.</a>. Also the maintenance of the
+                                        homepage belonged to my tasks, whereby always short-term events and other more
+                                        important things provided for alternation in the everyday life. Probably the
+                                        most interesting project was the '2000-watt society', in which citizens were
+                                        informed in a large campaign in cities around the three-country region (DACH) on
+                                        Lake Constance and Liechtenstein about how they can save energy efficiently. I
+                                        could tell you much more about my time at translake, but I don't want to keep
+                                        this blogpost too long. With regard to my interests and goals, I can say that I
+                                        have received a clear added value through my experience in project management,
+                                        but that the thematic content of the projects did not fully meet my
+                                        expectations, as it was more about problem definition than problem solving.
                                     </p>
                                 </div>
                             </div>

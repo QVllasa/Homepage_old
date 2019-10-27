@@ -13,7 +13,7 @@
     </div>
     <div class="row justify-content-center mt-4 section-title-dark"
     >
-      <h1 style="color: black">SPRICH <span class="bg-me">MICH</span> AN</h1>
+      <h1 style="color: black">GET IN <span class="bg-me">TOUCH</span></h1>
     </div>
   </div>
   <!-- social media -->
@@ -86,7 +86,7 @@
             <div class="form-group">
               <label for="name-input">
                 <input aria-label="name" class="form-control" id="name-input"
-                       placeholder="Dein Name oder Firma *" required type="text" name="name">
+                       placeholder="Your Name or Company*" required type="text" name="name">
               </label>
 
             </div>
@@ -95,7 +95,7 @@
             <div class="form-group">
               <label for="email-input">
                 <input aria-label="email" class="form-control" id="email-input"
-                       placeholder="Deine E-Mail *"
+                       placeholder="Your E-Mail *"
                        required type="email" name="email">
               </label>
 
@@ -105,7 +105,7 @@
             <div class="form-group">
               <label for="phone-input">
                 <input aria-label="phone" class="form-control" id="phone-input"
-                       placeholder="Telefon"
+                       placeholder="Phone"
                        type="text" name="phone">
               </label>
 
@@ -115,7 +115,7 @@
             <div class="form-group">
               <label for="subject-input">
                 <input aria-label="subject" class="form-control" id="subject-input"
-                       placeholder="Thema *"
+                       placeholder="Subject *"
                        required type="text" name="subject">
               </label>
 
@@ -126,7 +126,7 @@
               <label for="message-input">
                                      <textarea aria-label="message" class="form-control" cols="30" id="message-input"
                                                name="message"
-                                               placeholder="Deine Nachricht *" required rows="5"
+                                               placeholder="Your Message *" required rows="5"
                                                type="text"></textarea>
               </label>
 
@@ -135,7 +135,7 @@
           <div class="row justify-content-center pt-4 ">
             <div class="col-md-2  text-center px-0">
               <button class="submit-button" id="submitbutton" role="button" type="submit">
-                Los&nbsp;geht's!
+                Let's&nbsp;go!
               </button>
             </div>
           </div>
