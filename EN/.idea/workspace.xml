@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DE/parts/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/parts/resume.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/company.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/company.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/freelancer.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/freelancer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/header_hobby.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/header_hobby.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/hobby-container.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/hobby-container.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/resume.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/skills.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/skills.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DE/img/articles/hobbys/videoediting/thumbnail_videoediting.afdesign" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/img/articles/hobbys/videoediting/thumbnail_videoediting.afdesign" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +69,7 @@
       <workItem from="1572094393649" duration="233000" />
       <workItem from="1572097563473" duration="3604000" />
       <workItem from="1572196183026" duration="2003000" />
-      <workItem from="1572204144034" duration="4076000" />
+      <workItem from="1572204144034" duration="4303000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -136,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572205624275</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="translating texts">
+      <created>1572208861527</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572208861527</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
