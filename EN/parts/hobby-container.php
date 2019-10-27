@@ -86,8 +86,8 @@
             <div class="element-item" data-category="">
                 <div class="img-hover-zoom">
                     <img alt="" class="img-fluid"
-                         onerror='this.onerror = null; this.src="img/articles/projects/heatpower/thumbnail_heatpower.png"'
-                         src="img/articles/projects/heatpower/thumbnail_heatpower.webp">
+
+                         src="img/articles/hobbys/videoediting/thumbnail_videoediting.png">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
                        data-target="#videoediting-blogs"
                        data-toggle="collapse" href="#hobby-description">
