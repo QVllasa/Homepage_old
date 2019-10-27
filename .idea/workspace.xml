@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbde4a5a-2f8d-4a22-95ee-4555ffa6f42b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EN/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/EN/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EN/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/EN/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/PHPMailer/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/css/companyLogoStyle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/img/articles/projects/training_tool/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/img/backgrounds/business_background.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/img/backgrounds/business_background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/img/de.svg" beforeDir="false" afterPath="$PROJECT_DIR$/EN/img/de.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EN/img/en.svg" beforeDir="false" afterPath="$PROJECT_DIR$/EN/img/en.svg" afterDir="false" />
     </list>
     <list id="c7dc7dd3-65c1-447d-9789-219a99fcdfd1" name="Revert: working on scrolling" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +105,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EN" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -192,6 +198,7 @@
       <workItem from="1572091328708" duration="30000" />
       <workItem from="1572093265849" duration="25000" />
       <workItem from="1572094226822" duration="25000" />
+      <workItem from="1572203837012" duration="20000" />
     </task>
     <task id="LOCAL-00006" summary="changes on navigation">
       <created>1560897686786</created>

@@ -13,7 +13,7 @@
         </div>
         <div class="row justify-content-center mt-4 section-title-dark"
         >
-            <h1 style="color:black">MEINE<span class="bg-me ml-2 p-2">LAUFBAHN</span></h1>
+            <h1 style="color:black">MY<span class="bg-me ml-2 p-2">RESUME</span></h1>
         </div>
     </div>
     <!-- resume station list -->
@@ -21,15 +21,15 @@
         <div class="row  " id="resume-lists">
             <div class="container text-center my-5">
                 <div class="container my-present mb-4 on-animate" data-toggle="tooltip"
-                     title="Hier lernen wir uns kennen!" data-placement="right" id="actual">HEUTE
+                     title="Hier lernen wir uns kennen!" data-placement="right" id="actual">TODAY
                 </div>
             </div>
             <div class="col-lg-6 mx-auto text-center left-column overflow-hidden">
                 <ul class="resume-list-school px-0">
                     <li class="section-left-side left on-animate-left" id="left1" onclick="openNavLeft1()">
                         <div>
-                            <h4>Karlsruher Institut für Technologie</h4>
-                            <h5>Masterstudium in Economics Engineering</h5>
+                            <h4>Karlsruhe Institute of Technology</h4>
+                            <h5>Masters in Economics Engineering</h5>
                             <p>The Karlsruhe Institute of Technology is known for its close cooperation with
                                 industry and its research drive for innovative technologies. I too have
                                 and I am therefore particularly attracted to a concept that is important nowadays,
@@ -55,14 +55,14 @@
                     </li>
                     <li class="section-right-side left on-animate-left" id="left2" onclick="openNavLeft2()">
                         <div>
-                            <h4>Universität Konstanz</h4>
-                            <h5>Bachelorstudium in Economics</h5>
+                            <h4>University of Constance</h4>
+                            <h5>Bachelor in Economics</h5>
                             <p>During my studies of economics at the University of Konstanz
                                 I concentrated on psychoeconomics, since I was already aware at that time of what a
                                 important role of any form of data and market behavior in today's time
                                 will play. So one of the most important components was the statistics and the
                                 Econometrics, with which I am able to analyze large amounts of data and
-                                to draw conclusions. <a class="read-more">Erfahre mehr...</a></p>
+                                to draw conclusions. <a class="read-more">Learn more...</a></p>
                             <span>10/2011 - 04/2015</span>
                             <i class="bubble-arrow-left">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -82,15 +82,15 @@
                     </li>
                     <li class="section-left-side left on-animate-left" id="left3" onclick="openNavLeft3()">
                         <div>
-                            <h4>Zeppelin-Gewerbeschule Konstanz</h4>
-                            <h5>Technisches Gymnasium mit Profilfach Gestaltungs- und Medientechnik</h5>
-                            <p>At the technical grammar school of the ZGK I have a solid knowledge in the areas of
+                            <h4>Zeppelin-Gewerbeschule Constance</h4>
+                            <h5>Technical College with specialization design and media technology</h5>
+                            <p>At the technical college school of the ZGK I have a solid knowledge in the areas of
                                 product and media design, through which I am always in a position to
                                 design, functionality and user-friendliness. Building on this
                                 high qualitative requirements in my working method, in order to meet both the
                                 requirements of the
                                 functional design as well as the user perspective to an optimum extent.
-                                will be. <a class="read-more">Erfahre mehr...</a></p>
+                                will be. <a class="read-more">Learn more...</a></p>
                             <span>09/2008 - 07/2011</span>
                             <i class="bubble-arrow-left">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -116,12 +116,12 @@
                     <li class="section-left-side right on-animate-right" id="right1" onclick="openNavRight1()">
                         <div>
                             <h4>Siemens PLM Software</h4>
-                            <h5>Werkstudent in der MindSphere Academy</h5>
+                            <h5>Intern in the MindSphere Academy</h5>
                             <p>In the Digital Industries Division I am currently a member of the global team of the
                                 MindSphere Academy, in which we are able to train other companies and external employees
                                 in the
                                 Training and enabling the use of the open IoT platform MindSphere from Siemens
-                                to connect machines to MindSphere. <a class="read-more">Erfahre mehr...</a></p>
+                                to connect machines to MindSphere. <a class="read-more">Learn more...</a></p>
                             <span>10/2018 - 02/2020</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -142,13 +142,13 @@
                     <li class="section-right-side right on-animate-right" id="right2" onclick="openNavRight2()">
                         <div>
                             <h4>Institut für Informationsmanagement im Ingenieurwesen</h4>
-                            <h5>Core Developer im Rahmen eines VR Projekts</h5>
+                            <h5>Core developer in a VR project</h5>
                             <p>As part of the Core Developer Team, I was involved in the VR Factorio project within the
                                 framework of a
                                 Virtual Engineering Internship of the Institute for Information Management at the
                                 engineering. The goal was the computer game 'Factorio' in the
                                 Virtual Reality Environment 'PolyVR' in real time and playable to
-                                program.<a class="read-more">Erfahre mehr...</a></p>
+                                program.<a class="read-more">Learn more...</a></p>
                             <span>04/2018 - 08/2018</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -169,13 +169,13 @@
                     <li class="section-left-side mb-0 right on-animate-right" id="right3" onclick="openNavRight3()">
                         <div>
                             <h4>Siemens AG</h4>
-                            <h5>Werkstudent im Bereich Power and Service</h5>
+                            <h5>Intern in Power and Service Division</h5>
                             <p>In the 'Power Generation and Service' division, which among other things produces gas
                                 turbines for
                                 power plants, I was responsible in the commercial sector for the
                                 Analysis of cost trends and maintenance of service contracts using SAP
                                 responsible. At the same time, this was my first step into a globally active and
-                                a well-known company.<a class="read-more">Erfahre mehr...</a></p>
+                                a well-known company.<a class="read-more">Learn more...</a></p>
                             <span>09/2017 - 09/2018</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -197,11 +197,11 @@
                         onclick="openNavRight4()">
                         <div>
                             <h4>M-A-U-S Seminare gGmbH</h4>
-                            <h5>Werkstudent in der Standortplanung und -entwicklung</h5>
+                            <h5>Intern location planning and development</h5>
                             <p>Together with other students I helped MAUS gGmbH to a rapid expansion.
                                 in the entire German area within my five-month working time. There were
                                 at the beginning of the project, new training locations for the
-                                First aid courses should be developed. <a class="read-more">Erfahre mehr...</a></p>
+                                First aid courses should be developed. <a class="read-more">Learn more...</a></p>
                             <span>06/2016 - 11/2016</span>
                             <i class="bubble-arrow-right">
                                 <svg class="main-icon-md" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -222,7 +222,7 @@
                     <li class="section-left-side right on-animate-right" id="right5" onclick="openNavRight5()">
                         <div>
                             <h4>translake GmbH</h4>
-                            <h5>Praktikant im Projektmanagement</h5>
+                            <h5>Intern in projectmanagement</h5>
                             <p>At translake GmbH I spent six months at work as an intern and worked there as a
                                 a deep understanding of project management from project planning through to the
                                 coordination up to the operation, including a stay abroad in one of the following

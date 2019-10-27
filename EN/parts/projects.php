@@ -263,7 +263,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-10 col-md-6 text-center">
                     <h1>dronegraphy.de</h1>
-                    <h3>Ein Marktplatz für Drohnenaufnahmen und Drohnen-Serivces</h3>
+                    <h3>A marketplace for drone recordings and drone services</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
@@ -337,7 +337,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>IoT Forum</h1>
-                    <h3>IoT kann auch einfach sein mit genug Unterstützung!</h3>
+                    <h3>IoT can also be simple with enough support!</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
@@ -398,7 +398,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>DJI goes MindSphere</h1>
-                    <h3>Verknüpfe die Sensordaten einer Drohne mit MindSphere</h3>
+                    <h3>Link the sensor data of a drone to MindSphere</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
@@ -492,9 +492,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Heat & Power</h1>
-                    <h3>Entwicklung einer vollständigen Webpräsenz der Firma 'Heat & Power' samt marketingtechnischer
-                        und geschäftlicher
-                        Beratung</h3>
+                    <h3>Development of a complete website for the company 'Heat & Power' including marketing and business advice</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
@@ -563,7 +561,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Meine Homepage</h1>
-                    <h3>Verschaffe dir einen umfangreichen Überblick über mich!</h3>
+                    <h3>Get a comprehensive overview of me!</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 mt-2">
@@ -625,7 +623,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>VR Factorio</h1>
-                    <h3>Core Developer im Projekt 'VR-Factorio' im Rahmen eines Virtual Engineering Praktikum</h3>
+                    <h3>Core Developer in the project 'VR-Factorio' within a Virtual Engineering internship</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 mt-2">
@@ -775,7 +773,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Virtual Twin</h1>
-                    <h3>Methodik und Implemenetierung der automatisierten Virtualisierung von Anlagen</h3>
+                    <h3>Methodology and implementation of automated plant virtualization</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
@@ -907,7 +905,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Training Tool</h1>
-                    <h3>Wasserkennzeichnung, Zertifizierung und Versand in einem</h3>
+                    <h3>Water marking, certification and dispatch all in one</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
@@ -970,7 +968,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Material Generator</h1>
-                    <h3>Zur Generierung von wassergekennzeichneten PDF Dateien</h3>
+                    <h3>For the generation of water-labelled PDF files</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5 ">
@@ -1023,7 +1021,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Certificate Generator</h1>
-                    <h3>Zur Generierung von individuellen Anwesenheitszertifikaten</h3>
+                    <h3>For the generation of individual attendance certificates</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
@@ -1069,7 +1067,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 col-md-6 text-center">
                     <h1>Password Manager</h1>
-                    <h3>Zur Änderung von Passwörtern vieler Accounts gleichzeitig</h3>
+                    <h3>To change passwords of many accounts simultaneously</h3>
                 </div>
             </div>
             <div class="row justify-content-center text-justify pb-5">
