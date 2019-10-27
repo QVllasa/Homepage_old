@@ -1,78 +1,74 @@
 <?php
+
 $servername = "localhost";
 $username = "qendrimvllasa.com";
 $password = "Dominim123_!";
 $dbname = "qendrimvllasa_com";
 
 
-
-
-
-
 try {
-  $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-  // set the PDO error mode to exception
-  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    // set the PDO error mode to exception
+    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  // insert a row
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $phone=$_POST['phone'];
-  $subject=$_POST['subject'];
-  $text=$_POST['message'];
-  $timestamp = time();
-
-
-  $isFormSubmitted = (!empty($_POST['name']) &&
-      !empty($_POST['email']) &&
-      !empty($_POST['subject']) &&
-      !empty($_POST['message']));
-
-  if(empty($_POST['phone'])){
-    $phone=01;
-  }
+    // insert a row
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $subject = $_POST['subject'];
+    $text = $_POST['message'];
+    $timestamp = time();
 
 
-if($isFormSubmitted){
-  // prepare sql and bind parameters
-  $stmt = $conn->prepare("INSERT INTO `messages` (`name`, `email`, `phone`, `subject`, `text`, `timestamp`)
+    $isFormSubmitted = (!empty($_POST['name']) &&
+        !empty($_POST['email']) &&
+        !empty($_POST['subject']) &&
+        !empty($_POST['message']));
+
+    if (empty($_POST['phone'])) {
+        $phone = 01;
+    }
+
+
+    if ($isFormSubmitted) {
+        // prepare sql and bind parameters
+        $stmt = $conn->prepare("INSERT INTO `messages` (`name`, `email`, `phone`, `subject`, `text`, `timestamp`)
     VALUES (:name, :email, :phone, :subject, :text, :timestamp )");
-  $stmt->bindParam(':name', $name);
-  $stmt->bindParam(':email', $email);
-  $stmt->bindParam(':phone', $phone);
-  $stmt->bindParam(':subject', $subject);
-  $stmt->bindParam(':text', $text);
-  $stmt->bindParam(':timestamp', $timestamp);
+        $stmt->bindParam(':name', $name);
+        $stmt->bindParam(':email', $email);
+        $stmt->bindParam(':phone', $phone);
+        $stmt->bindParam(':subject', $subject);
+        $stmt->bindParam(':text', $text);
+        $stmt->bindParam(':timestamp', $timestamp);
 
-  if($stmt->execute()){
+        if ($stmt->execute()) {
 
 
+            require 'PHPMailer/PHPMailerAutoload.php';
 
-    require 'PHPMailer/PHPMailerAutoload.php';
-
-    $mail = new PHPMailer;
-    $notification = new PHPMailer;
+            $mail = new PHPMailer;
+            $notification = new PHPMailer;
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-    $mail->isSMTP();                                      // Set mailer to use SMTP
-    $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
-    $mail->CharSet = 'UTF-8';
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
-    $mail->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
-    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $mail->Port = 587;
+            $mail->isSMTP();                                      // Set mailer to use SMTP
+            $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
+            $mail->CharSet = 'UTF-8';
+            $mail->SMTPAuth = true;                               // Enable SMTP authentication
+            $mail->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
+            $mail->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
+            $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+            $mail->Port = 587;
 
-    $mail->setFrom('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
-    $mail->addAddress($email, $name);     // Add a recipient
-    $mail->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+            $mail->setFrom('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+            $mail->addAddress($email, $name);     // Add a recipient
+            $mail->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
 
 
-    $mail->isHTML(true);                                  // Set email format to HTML
+            $mail->isHTML(true);                                  // Set email format to HTML
 
-    $mail->Subject = 'Hi and thanks for reaching out!';
-    $mail->Body    = "
+            $mail->Subject = 'Lass uns loslegen!';
+            $mail->Body = "
     <!DOCTYPE html>
 <html lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" xmlns:v=\"urn:schemas-microsoft-com:vml\"
       xmlns:o=\"urn:schemas-microsoft-com:office:office\">
@@ -669,7 +665,7 @@ if($isFormSubmitted){
             <tr>
               <td>
                 <div class=\"text upper-text\">
-                  <h2>Nice! You did the first step.</h2>
+                  <h2>Klasse! Du hast den ersten Schritt getan.</h2>
                 </div>
               </td>
             </tr>
@@ -677,7 +673,7 @@ if($isFormSubmitted){
               <td>
                 <div class=\"text lower-text\">
                   <p style=\"    position: relative;
-     font-size: 16px;\">I will contact you within 24 hours.
+     font-size: 16px;\">Ich melde mich innerhalb von 24h bei dir.
                     <br>
                     <span style=\"font-size: 24px;\">-&nbsp;Qendrim</span></p>
 
@@ -702,7 +698,7 @@ if($isFormSubmitted){
                 <table role=\"presentation\" cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">
                   <tr>
                     <td style=\"text-align: left; padding-left: 5px; padding-right: 5px;\">
-                      <h3 class=\"heading\">Contact</h3>
+                      <h3 class=\"heading\">Kontakt</h3>
                       <ul>
                         <li><span class=\"text\">Saarlandstraße 125, Karlsruhe, Baden-Württemberg, Deutschland</span></li>
                         <li><a href=\"mailto:qendrim.vllasa@gmail.com\"><span class=\"text\">qendrim.vllasa@gmail.com</span></a></a>
@@ -719,11 +715,11 @@ if($isFormSubmitted){
                     <td style=\"text-align: left; padding-left: 10px;\">
                       <h3 class=\"heading\">Links</h3>
                       <ul>
-                        <li><a href=\"https://qendrimvllasa.com\" target=\"_blank\">Homepage</a></li>
-                        <li><a href=\"https://qendrimvllasa.com/index.php#my-skills-section\" target=\"_blank\">Skills</a>
+                        <li><a href=\"https://qendrimvllasa.de\" target=\"_blank\">Homepage</a></li>
+                        <li><a href=\"https://qendrimvllasa.de/index.php#my-skills-section\" target=\"_blank\">Skills</a>
                         </li>
-                        <li><a href=\"https://qendrimvllasa.com/index.php#my-portfolio-section\"
-                               target=\"_blank\">Projects</a></li>
+                        <li><a href=\"https://qendrimvllasa.de/index.php#my-portfolio-section\"
+                               target=\"_blank\">Projekte</a></li>
                       </ul>
                     </td>
                   </tr>
@@ -763,45 +759,40 @@ if($isFormSubmitted){
 ";
 
 
-    $mail->send();
+            $mail->send();
 
 
+            $notification->isSMTP();                                      // Set mailer to use SMTP
+            $notification->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
+            $notification->CharSet = 'UTF-8';
+            $notification->SMTPAuth = true;                               // Enable SMTP authentication
+            $notification->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
+            $notification->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
+            $notification->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+            $notification->Port = 587;    // TCP port to connect to
 
-    $notification->isSMTP();                                      // Set mailer to use SMTP
-    $notification->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers
-    $notification->CharSet = 'UTF-8';
-    $notification->SMTPAuth = true;                               // Enable SMTP authentication
-    $notification->Username = 'qendrim.vllasa@gmail.com';                 // SMTP username
-    $notification->Password = 'ztwlztfvrybdzyfx';                           // SMTP password
-    $notification->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-    $notification->Port = 587;    // TCP port to connect to
+            $notification->setFrom('qendrim.vllasa@gmail.com', $name);
+            $notification->addAddress('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');     // Add a recipient
+            $notification->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
 
-    $notification->setFrom('qendrim.vllasa@gmail.com', $name);
-    $notification->addAddress('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');     // Add a recipient
-    $notification->addReplyTo('qendrim.vllasa@gmail.com', 'Qendrim Vllasa');
+            $notification->isHTML(true);                                  // Set email format to HTML
 
-    $notification->isHTML(true);                                  // Set email format to HTML
+            $notification->Subject = $subject;
+            $notification->Body = '<pre>' . $text . '</pre><br><br>Phone: ' . $phone;
 
-    $notification->Subject = $subject;
-    $notification->Body    = '<pre>'.$text.'</pre><br><br>Phone: '.$phone;
-
-    $notification->send();
-
-
-      header("Location: index.php?contact=success#my-contact-section");
-  }
+            $notification->send();
 
 
+            header("Location: index.php?contact=success#my-contact-section");
+        }
 
-}
-else{
-    header("Location: index.php?contact=failed#my-contact-section");
-}
 
-}
-catch(PDOException $e)
-{
-  echo "Error: " . $e->getMessage();
+    } else {
+        header("Location: index.php?contact=failed#my-contact-section");
+    }
+
+} catch (PDOException $e) {
+    echo "Error: " . $e->getMessage();
 }
 $_POST = array();
 
