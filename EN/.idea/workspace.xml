@@ -69,17 +69,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/files/certificates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DE" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/certificates" />
+      <recent name="$PROJECT_DIR$/img/articles/hobbys/videoediting" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files/certificates" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img/articles/hobbys/videoediting" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -124,6 +126,7 @@
       <workItem from="1572204144034" duration="4605000" />
       <workItem from="1572211474276" duration="1140000" />
       <workItem from="1572216485106" duration="445000" />
+      <workItem from="1572299158320" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -223,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572216509021</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="clean up">
+      <created>1572299384027</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1572299384027</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -796,7 +796,7 @@
           </div>
           <div class="row justify-content-end px-5 py-3 bg-darkblue">
             <div class="col-md-2 text-center">
-              <button class="cv-download">
+              <button action="../files/certificates/MindSphere_Certificates.pdf" method="get" target="_blank" class="cv-download">
                 <i class="fas fa-download"></i>
                 Zertifikate
               </button>
