@@ -628,10 +628,13 @@
                     </div>
                     <div class="row justify-content-end px-5 py-3 bg-darkblue">
                         <div class="col-md-2 text-center">
-                            <button action="../files/certificates/MindSphere_Certificates.pdf" method="get" target="_blank" class="cv-download">
-                                <i class="fas fa-download"></i>
-                                Certificates
-                            </button>
+                            <form action="../files/certificates/MindSphere_Certificates.pdf" method="get" target="_blank">
+                                <button action="../files/certificates/MindSphere_Certificates.pdf" method="get" target="_blank" class="cv-download">
+                                    <i class="fas fa-download"></i>
+                                    Certificates
+                                </button>
+                            </form>
+
                         </div>
                         <div class="col-md-2 text-end px-0">
                             <a class="fas fa-arrow-circle-right fa-2x closebtn "
