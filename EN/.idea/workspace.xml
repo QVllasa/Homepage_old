@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,6 +133,7 @@
       <workItem from="1572309380834" duration="179000" />
       <workItem from="1572368578791" duration="24000" />
       <workItem from="1572369042377" duration="211000" />
+      <workItem from="1572369815586" duration="690000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -279,12 +281,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="redirect to https" />
     <MESSAGE value="adding english page" />
     <MESSAGE value="translating texts" />
     <MESSAGE value="video editing icon added" />
     <MESSAGE value="clean up" />
     <MESSAGE value="adding google analytics to englisch and german page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding google analytics to englisch and german page" />
+    <MESSAGE value="redirect to https" />
+    <option name="LAST_COMMIT_MESSAGE" value="redirect to https" />
   </component>
 </project>
