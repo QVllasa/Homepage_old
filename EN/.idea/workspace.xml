@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/freelancer.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/freelancer.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,14 +75,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/files/certificates" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/files/certificates" />
       <recent name="$PROJECT_DIR$/img/articles/hobbys/videoediting" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/files/certificates" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,7 +133,8 @@
       <workItem from="1572309380834" duration="179000" />
       <workItem from="1572368578791" duration="24000" />
       <workItem from="1572369042377" duration="211000" />
-      <workItem from="1572369815586" duration="1204000" />
+      <workItem from="1572369815586" duration="1249000" />
+      <workItem from="1572378232060" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -267,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572377016672</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="new sitemap">
+      <created>1572377715666</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1572377715666</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +302,7 @@
     <MESSAGE value="clean up" />
     <MESSAGE value="adding google analytics to englisch and german page" />
     <MESSAGE value="redirect to https" />
-    <option name="LAST_COMMIT_MESSAGE" value="redirect to https" />
+    <MESSAGE value="new sitemap" />
+    <option name="LAST_COMMIT_MESSAGE" value="new sitemap" />
   </component>
 </project>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row mb-3">
       <div class="col-md-12 mt-5">
-        <div class="freelancer-text bigger">Project in mind? Let's talk!</div>
+        <div class="freelancer-text bigger">Project in mind? Let's talk.</div>
         <div class="freelancer-text">
           <div class="row justify-content-center">
             <div class="col">
