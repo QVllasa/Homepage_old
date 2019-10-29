@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DE/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -130,7 +131,8 @@
       <workItem from="1572299158320" duration="278000" />
       <workItem from="1572299808549" duration="43000" />
       <workItem from="1572308791643" duration="25000" />
-      <workItem from="1572309380834" duration="17000" />
+      <workItem from="1572309380834" duration="179000" />
+      <workItem from="1572368578791" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -251,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572308814026</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="adding google analytics to englisch and german page">
+      <created>1572309415458</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1572309415458</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +285,7 @@
     <MESSAGE value="translating texts" />
     <MESSAGE value="video editing icon added" />
     <MESSAGE value="clean up" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean up" />
+    <MESSAGE value="adding google analytics to englisch and german page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding google analytics to englisch and german page" />
   </component>
 </project>

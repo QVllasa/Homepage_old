@@ -7,6 +7,8 @@
     <title>This is me. Qendrim Vllasa</title>
     <meta content="This is me. Qendrim Vllasa" name="description">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link rel="alternate" hreflang="en-US" href="https://www.qendrimvllasa.com/"/>
+    <link rel="alternate" hreflang="de-DE" href="https://www.qendrimvllasa.de/"/>
 
 <!--  <meta http-equiv="Cache-control: max-age=31557600" content="public">-->
 
