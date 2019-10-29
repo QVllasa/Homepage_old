@@ -669,7 +669,7 @@ if($isFormSubmitted){
             <tr>
               <td>
                 <div class=\"text upper-text\">
-                  <h2>Nice! You did the first step.</h2>
+                  <h2>Awesome! You did the first step.</h2>
                 </div>
               </td>
             </tr>

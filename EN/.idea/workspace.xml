@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +128,8 @@
       <workItem from="1572211474276" duration="1140000" />
       <workItem from="1572216485106" duration="445000" />
       <workItem from="1572299158320" duration="278000" />
+      <workItem from="1572299808549" duration="43000" />
+      <workItem from="1572308791643" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -233,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572299384027</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="clean up">
+      <created>1572299841039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1572299841039</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
