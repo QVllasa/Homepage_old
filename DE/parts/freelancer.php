@@ -14,8 +14,8 @@
 
 
               <span class="pt-2"
-                    style="font-weight:lighter">IAm</span><span
-                class="font-weight-bolder">Freelancer</span>
+                    style="font-weight:lighter">ICan</span><span
+                class="font-weight-bolder">Freelance</span>
 
 
             </div>
