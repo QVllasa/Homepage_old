@@ -2144,3 +2144,36 @@ display:none;
   }
 
 }
+
+
+.languagebox{
+  bottom: 5px;
+  position: fixed;
+  color: white;
+
+  width: auto;
+  border-radius: 4px;
+
+}
+
+.languagebox .main-icon{
+  height: 30px;
+  fill: #898c96;
+  cursor: pointer;
+}
+
+.languagebox a{
+  position: relative;
+  opacity: 0;
+  color: #898c96;language.php
+
+}
+
+.languagebox:hover .main-icon{
+  height: 50px;
+  transition: 0.5s;
+}
+.languagebox:hover a{
+  opacity: 1;
+  transition: 0.5s;
+}

@@ -2146,7 +2146,7 @@ display:none;
 }
 
 .languagebox{
-top: 150px;
+bottom: 5px;
   position: fixed;
   color: white;
 
@@ -2157,14 +2157,14 @@ top: 150px;
 
 .languagebox .main-icon{
   height: 30px;
-  fill: black;
+  fill: #898c96;
   cursor: pointer;
 }
 
 .languagebox a{
   position: relative;
   opacity: 0;
-  color: black;
+  color: #898c96;
 
 }
 
