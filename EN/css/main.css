@@ -2153,6 +2153,7 @@ display:none;
 
   width: auto;
   border-radius: 4px;
+  z-index: 2500;
 
 }
 
@@ -2165,7 +2166,7 @@ display:none;
 .languagebox a{
   position: relative;
   opacity: 0;
-  color: #898c96;language.php
+  color: #898c96;
 
 }
 

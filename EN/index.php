@@ -25,7 +25,7 @@
 <?php require("./parts/header.php"); ?>
 
 <main id="main-content">
-
+    <?php require("./parts/language.php"); ?>
     <?php require("./parts/infobox.php"); ?>
 
     <?php require("./parts/about.php"); ?>

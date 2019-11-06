@@ -2152,6 +2152,7 @@ bottom: 5px;
 
   width: auto;
   border-radius: 4px;
+  z-index: 2500;
 
 }
 
