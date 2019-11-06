@@ -129,7 +129,7 @@
                         </div>
                         <div class="col-8-sm">
                             <a href="https://github.com/QVllasa" class="link" data-toggle="tooltip"
-                               title="Erhalte auf Anfrage auch Zugang zu meinen privaten Repos." data-placement="right">QVllasa</a>
+                               title="Get access on my private repositories on request." data-placement="right">QVllasa</a>
                         </div>
 
                     </div>

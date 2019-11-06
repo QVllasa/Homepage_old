@@ -2144,3 +2144,24 @@ display:none;
   }
 
 }
+
+.languagebox{
+top: 150px;
+  position: fixed;
+  color: white;
+  background-color: black;
+  width: 25px;
+
+}
+
+.languagebox a{
+  position: relative;
+  display: none;
+}
+
+.languagebox:hover{
+  width: 50px;
+}
+.languagebox:hover a{
+  display: block;
+}
