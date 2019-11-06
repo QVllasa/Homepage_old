@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="" />
+    <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/isotopestyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/isotopestyle.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +70,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,6 +136,7 @@
       <workItem from="1572369815586" duration="1249000" />
       <workItem from="1572378232060" duration="44000" />
       <workItem from="1572524961397" duration="51000" />
+      <workItem from="1573041596581" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
