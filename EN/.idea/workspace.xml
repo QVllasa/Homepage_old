@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../DE/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DE/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/resume.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/resume.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +138,7 @@
       <workItem from="1573041596581" duration="75000" />
       <workItem from="1573043160114" duration="89000" />
       <workItem from="1573044282908" duration="150000" />
-      <workItem from="1573044742352" duration="73000" />
+      <workItem from="1573044742352" duration="179000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -312,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573043240059</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add language icon">
+      <created>1573044820470</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1573044820470</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

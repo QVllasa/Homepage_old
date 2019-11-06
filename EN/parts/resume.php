@@ -106,7 +106,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="container text-center my-education">Ausbildung</div>
+                <div class="container text-center my-education">Education</div>
             </div>
             <div class="col-lg-6 mx-auto  text-center right-column overflow-hidden">
                 <ul class="resume-list-work px-0">
@@ -240,7 +240,7 @@
                         </div>
                     </li>
                 </ul>
-                <div class="container  text-center my-work mt-5">Praxis</div>
+                <div class="container  text-center my-work mt-5">Experience</div>
             </div>
             <!-- SIDEPANELS LEFT -->
 
