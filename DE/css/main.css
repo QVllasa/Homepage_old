@@ -2149,19 +2149,31 @@ display:none;
 top: 150px;
   position: fixed;
   color: white;
-  background-color: black;
-  width: 25px;
 
+  width: auto;
+  border-radius: 4px;
+
+}
+
+.languagebox .main-icon{
+  height: 30px;
+  fill: black;
+  cursor: pointer;
 }
 
 .languagebox a{
   position: relative;
-  display: none;
+  opacity: 0;
+  color: black;
+
 }
 
-.languagebox:hover{
-  width: 50px;
+.languagebox:hover .main-icon{
+  height: 50px;
+  transition: 0.5s;
 }
 .languagebox:hover a{
-  display: block;
+  opacity: 1;
+  transition: 0.5s;
 }
+
