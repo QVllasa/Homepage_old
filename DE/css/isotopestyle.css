@@ -145,6 +145,7 @@ body {
   display: block;
   margin: auto;
   transform: scale(1);
+  filter:grayscale(0.9);
 
 
 }
