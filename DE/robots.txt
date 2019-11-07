@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /datenschutz.php
+Disallow: /impressum.php
+Disallow: /_maintenance.php
+Disallow: /email_template.php
+Disallow: /hobbys.php
+Disallow: /contact.php
+
