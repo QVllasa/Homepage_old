@@ -9,6 +9,9 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.qendrimvllasa.de$
+RewriteRule ^(.*)$ http://www.qendrimvllasa.de/$1 [R=301,L]
 
 #CACHING VIA CLOUDFLARE ##########################
 

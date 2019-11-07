@@ -1,14 +1,19 @@
 <!doctype html>
 <!--suppress ALL -->
-<html class="js" lang="de">
+<html class="js" lang="en">
 <head>
     <meta charset="utf-8">
 
-    <title>This is me. Qendrim Vllasa</title>
-    <meta content="This is me. Qendrim Vllasa" name="description">
+    <title>Qendrim Vllasa - This is me</title>
+    <meta
+            content="Economics Engineer, Webdesigner, Software Developer and Media/Content Designer. Learn more about me and my services on my official homepage.
+     "
+            name="description">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <link rel="alternate" hreflang="en-US" href="https://www.qendrimvllasa.com/"/>
+
     <link rel="alternate" hreflang="de-DE" href="https://www.qendrimvllasa.de/"/>
+    <link rel="alternate" hreflang="en-US" href="https://www.qendrimvllasa.com/"/>
+
 
 <!--  <meta http-equiv="Cache-control: max-age=31557600" content="public">-->
 

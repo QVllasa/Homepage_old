@@ -48,7 +48,7 @@
             <div class="element-item planning" data-category="planning">
                 <div class="img-hover-zoom">
                     <img
-                            alt=""
+                            alt="dronegraphy"
                             class="img-fluid "
                             onerror='this.onerror = null; this.src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.png"'
                             src="img/articles/projects/dronegraphy/thumbnail_dronegraphy.webp">
@@ -63,7 +63,7 @@
             </div>
             <div class="element-item planning" data-category="planning">
                 <div class="img-hover-zoom ">
-                    <img alt=""
+                    <img alt="iotforum"
                          class="img-fluid "
                          onerror='this.onerror = null; this.src="img/articles/projects/iotforum/thumbnail_iotforum.png"'
                          src="img/articles/projects/iotforum/thumbnail_iotforum.webp">
@@ -77,7 +77,7 @@
             </div>
             <div class="element-item current " data-category="current">
                 <div class="img-hover-zoom">
-                    <img alt=""
+                    <img alt="djigoesmindsphere"
                          class="img-fluid "
                          onerror='this.onerror = null; this.src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.png"'
                          src="img/articles/projects/djigoesmindsphere/thumbnail_djimind.webp">
@@ -93,7 +93,7 @@
             </div>
             <div class="element-item current" data-category="current">
                 <div class="img-hover-zoom">
-                    <img alt="" class="img-fluid"
+                    <img alt="heatandpower" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/heatpower/thumbnail_heatpower.png"'
                          src="img/articles/projects/heatpower/thumbnail_heatpower.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
@@ -106,7 +106,7 @@
             </div>
             <div class="element-item current " data-category="current">
                 <div class="img-hover-zoom">
-                    <img alt="" class="img-fluid"
+                    <img alt="myhomepage" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/homepage/thumbnail_homepage.png"'
                          src="img/articles/projects/homepage/thumbnail_homepage.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true" class="overlay"
@@ -119,7 +119,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt=""
+                    <img alt="vffactorio"
                          class=" img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/vrfactorio/thumbnail_vrfactorio.png"'
                          src="img/articles/projects/vrfactorio/thumbnail_vrfactorio.webp">
@@ -134,7 +134,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt=""
+                    <img alt="virtualtwin"
                          class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/virtual_twin/thumbnail_virtualtwin.png"'
                          src="img/articles/projects/virtual_twin/thumbnail_virtualtwin.webp">
@@ -148,7 +148,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt="" class="img-fluid"
+                    <img alt="trainingtool" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/training_tool/thumbnail_tt.png"'
                          src="img/articles/projects/training_tool/thumbnail_tt.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
@@ -162,7 +162,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt=""
+                    <img alt="materialgenerator"
                          class=" img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/material_generator/thumbnail_mg.png"'
                          src="img/articles/projects/material_generator/thumbnail_mg.webp">
@@ -177,7 +177,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt=""
+                    <img alt="certificategenerator"
                          class=" img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/certificate_generator/thumbnail_cf.png"'
                          src="img/articles/projects/certificate_generator/thumbnail_cf.webp">
@@ -192,7 +192,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom text-center">
-                    <img alt="" class="img-fluid"
+                    <img alt="passwordgenerator" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/password_manager/thumbnail_pm.png"'
                          src="img/articles/projects/password_manager/thumbnail_pm.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
@@ -206,7 +206,7 @@
             </div>
             <div class="element-item done" data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt="" class="img-fluid"
+                    <img alt="moviemaking" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/crete/thumbnail_crete.png"'
                          src="img/articles/projects/crete/thumbnail_crete.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
@@ -220,7 +220,7 @@
             </div>
             <div class="element-item done " data-category="done">
                 <div class="img-hover-zoom">
-                    <img alt="" class="img-fluid"
+                    <img alt="macossupport" class="img-fluid"
                          onerror='this.onerror = null; this.src="img/articles/projects/macos/thumbnail_macos.png"'
                          src="img/articles/projects/macos/thumbnail_macos.webp">
                     <a aria-controls="collapseExample" aria-expanded="false" aria-hidden="true"
