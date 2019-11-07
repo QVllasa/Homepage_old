@@ -6,20 +6,21 @@
 
 
 RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 
 #CACHING VIA CLOUDFLARE ##########################
 
 
 #Manual Caching#########
-#<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
-#Header set Cache-Control "max-age=31557600, public"
-#</FilesMatch>
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
+Header set Cache-Control "max-age=31557600, public"
+</FilesMatch>
 
 #CACHING VIA CLOUDFLARE ##########################
 
+Options All -Indexes
 
 # Video
 AddType video/webm                     webm

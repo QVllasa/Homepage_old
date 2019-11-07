@@ -81,7 +81,7 @@
 
           <?php endif; ?>
         <!-- form -->
-        <form action="../contact.php" id="contact-form" method="POST">
+        <form action="../_contact.php" id="contact-form" method="POST">
 
             <div class="form-group">
               <label for="name-input">

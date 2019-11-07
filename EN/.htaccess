@@ -9,6 +9,7 @@ RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
+
 #CACHING VIA CLOUDFLARE ##########################
 
 
@@ -19,6 +20,7 @@ Header set Cache-Control "max-age=31557600, public"
 
 #CACHING VIA CLOUDFLARE ##########################
 
+Options All -Indexes
 
 # Video
 AddType video/webm                     webm
