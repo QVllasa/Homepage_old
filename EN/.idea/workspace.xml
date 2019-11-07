@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DE/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -143,7 +144,7 @@
       <workItem from="1573044282908" duration="150000" />
       <workItem from="1573044742352" duration="208000" />
       <workItem from="1573161365759" duration="1574000" />
-      <workItem from="1573163084549" duration="12000" />
+      <workItem from="1573163084549" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
