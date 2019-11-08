@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28721341-53c2-4267-b599-c975368a1779" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/cli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/config/config-yargs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/convert-argv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/errorHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/prepareOptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/prompt-command.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/bin/utils/validate-options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/node_modules/webpack-cli/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DE/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DE/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DE/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DE/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/parts/projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DE/parts/js_imports.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DE/parts/js_imports.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parts/projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/projects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parts/js_imports.php" beforeDir="false" afterPath="$PROJECT_DIR$/parts/js_imports.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +159,7 @@
       <workItem from="1573044282908" duration="150000" />
       <workItem from="1573044742352" duration="208000" />
       <workItem from="1573161365759" duration="1574000" />
-      <workItem from="1573163084549" duration="2680000" />
+      <workItem from="1573163084549" duration="3688000" />
     </task>
     <task id="LOCAL-00001" summary="redirect to https">
       <created>1572093338401</created>
@@ -378,6 +389,7 @@
     <MESSAGE value="get private access to my repos on request" />
     <MESSAGE value="add language icon" />
     <MESSAGE value="changes on htaccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes on htaccess" />
+    <MESSAGE value="seo" />
+    <option name="LAST_COMMIT_MESSAGE" value="seo" />
   </component>
 </project>

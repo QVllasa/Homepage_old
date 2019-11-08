@@ -17,7 +17,7 @@ RewriteRule ^(.*)$ http://www.qendrimvllasa.de/$1 [R=301,L]
 
 
 #Manual Caching#########
-<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp)$">
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|webm|webp|mp4)$">
 Header set Cache-Control "max-age=31557600, public"
 </FilesMatch>
 

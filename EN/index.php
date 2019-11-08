@@ -49,7 +49,7 @@
 <!--<script>-->
 
 <?php require("./parts/js_imports.php"); ?>
-<script src="js/progressbars.js"></script>
+<script defer src="js/progressbars.js"></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150811390-2"></script>
 <script>
