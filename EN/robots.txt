@@ -1,4 +1,4 @@
-User-agent: *
+User-agent: Googlebot
 Disallow: /datenschutz.php
 Disallow: /impressum.php
 Disallow: /_maintenance.php

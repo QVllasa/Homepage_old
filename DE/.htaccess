@@ -3,15 +3,15 @@
 #RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
 #RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 #RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.qendrimvllasa.de$
+RewriteRule ^(.*)$ http://www.qendrimvllasa.de/$1 [R=301,L]
 
 RewriteEngine On
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^www.qendrimvllasa.de$
-RewriteRule ^(.*)$ http://www.qendrimvllasa.de/$1 [R=301,L]
+
 
 #CACHING VIA CLOUDFLARE ##########################
 
